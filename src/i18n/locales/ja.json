@@ -51,7 +51,20 @@
     "learn": "まなぶことば 🚀",
     "sameLanguage": "💡 あそぶには、ちがうことばを２つえらんでね。",
     "sound": "おと 🔊",
-    "soundHint": "バッジをもらったときに、ちいさなおとをならすよ。"
+    "soundHint": "バッジをもらったときに、ちいさなおとをならすよ。",
+    "voice": "ロボットのこえ 🤖",
+    "voiceHint": "ことばをこえでよむよ。すべてのきかいでうごくとはかぎらないよ。",
+    "voiceTest": "こえをためす",
+    "voiceTestSentence": "こんにちは！きこえますか？いっしょにべんきょうしよう！",
+    "voiceHeard": "こえがはっきりきこえたかな？",
+    "voiceKeep": "はい、つかう 👍",
+    "voiceDisable": "いいえ、けす 🔇",
+    "voiceOffNote": "🔇 ロボットのこえはオフだよ。きくゲームはかくれて、ことばもよみあげないよ。"
+  },
+  "voice": {
+    "requiredTitle": "このゲームにはロボットのこえがひつようだよ 🔊",
+    "requiredHint": "このゲームであそぶには、せっていでロボットのこえをオンにしてね。",
+    "goToSettings": "せっていへいく ⚙️"
   },
   "welcome": {
     "title": "ようこそ！🌸",
@@ -76,7 +89,11 @@
     "presetEndless": "エンドレス ♾️",
     "presetEndlessDesc": "まちがえるまでつづけよう！",
     "imageCount": "え {{count}}まい",
-    "field": "えのかず"
+    "field": "えのかず",
+    "promptTitle": "どうやってあそぶ？",
+    "promptVoice": "きく",
+    "promptRead": "よむ",
+    "voiceOffNote": "🔇 ロボットのこえはオフだよ。よむバージョンだけあそべるよ。"
   },
   "quizSetup": {
     "title": "クイズ ❓",
@@ -96,9 +113,11 @@
   "imagier": {
     "title": "えあわせ 🖼️",
     "intro": "ことばをきいて 🔊 ただしいえをクリックしよう！",
+    "introText": "ことばをよんで 📖 ただしいえをクリックしよう！",
     "start": "はじめる",
     "needTwoLanguages": "💡 あそぶには、せっていでちがうことばを２つえらんでね。",
     "prompt": "これはなんのことば？",
+    "promptText": "このことばのえをさがそう：",
     "listenAgain": "もういちどきく",
     "listenAgainAria": "ことばをもういちどきく",
     "mistakes_other": "まちがい {{count}}かい"

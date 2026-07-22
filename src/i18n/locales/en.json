@@ -51,7 +51,20 @@
     "learn": "I'm learning 🚀",
     "sameLanguage": "💡 Pick two different languages to play.",
     "sound": "Sound 🔊",
-    "soundHint": "Play a little chime when you earn a badge."
+    "soundHint": "Play a little chime when you earn a badge.",
+    "voice": "Robot voice 🤖",
+    "voiceHint": "Reads the words out loud. It may not work on every device.",
+    "voiceTest": "Test the voice",
+    "voiceTestSentence": "Hello! Can you hear me? Let's learn together!",
+    "voiceHeard": "Did you hear the voice clearly?",
+    "voiceKeep": "Yes, keep it 👍",
+    "voiceDisable": "No, turn it off 🔇",
+    "voiceOffNote": "🔇 The robot voice is off. Listening games are hidden and words won't be read aloud."
+  },
+  "voice": {
+    "requiredTitle": "This game needs the robot voice 🔊",
+    "requiredHint": "Turn the robot voice back on in Settings to play this game.",
+    "goToSettings": "Go to Settings ⚙️"
   },
   "welcome": {
     "title": "Welcome! 🌸",
@@ -76,7 +89,11 @@
     "presetEndless": "Endless ♾️",
     "presetEndlessDesc": "Keep going until you miss one!",
     "imageCount": "{{count}} pictures",
-    "field": "Number of pictures"
+    "field": "Number of pictures",
+    "promptTitle": "How do you want to play?",
+    "promptVoice": "Listen",
+    "promptRead": "Read",
+    "voiceOffNote": "🔇 The robot voice is off, so only the reading version is available."
   },
   "quizSetup": {
     "title": "Quiz ❓",
@@ -96,9 +113,11 @@
   "imagier": {
     "title": "Picture game 🖼️",
     "intro": "Listen to the word 🔊 then click the right picture!",
+    "introText": "Read the word 📖 then click the right picture!",
     "start": "Start",
     "needTwoLanguages": "💡 Pick two different languages in Settings to play.",
     "prompt": "What is this word?",
+    "promptText": "Find the picture for this word:",
     "listenAgain": "Listen again",
     "listenAgainAria": "Listen to the word again",
     "mistakes_one": "{{count}} mistake",

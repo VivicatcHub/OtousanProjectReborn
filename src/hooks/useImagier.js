@@ -11,6 +11,7 @@ export function useImagier({
   gridSize = DEFAULT_GRID,
   category = "all",
   infinite = false,
+  prompt = "voice", // "voice" = hear the word · "text" = read it in the learned language
 } = {}) {
   const { words, languages, loading } = useData();
   const { known, learn } = useSettings();
@@ -41,13 +42,14 @@ export function useImagier({
 
   useEffect(() => {
     setPhase("intro");
-  }, [known, learn, gridSize, category, infinite]);
+  }, [known, learn, gridSize, category, infinite, prompt]);
 
   const say = useCallback(
     (word) => {
-      if (word) playWord(word, learn, learnLang?.speechCode);
+      if (word && prompt === "voice")
+        playWord(word, learn, learnLang?.speechCode);
     },
-    [learn, learnLang],
+    [prompt, learn, learnLang],
   );
 
   const targetWord = useMemo(
@@ -168,6 +170,7 @@ export function useImagier({
     loading,
     phase,
     infinite,
+    prompt,
     slots,
     targetWord,
     mistakes,

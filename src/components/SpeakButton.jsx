@@ -1,8 +1,12 @@
 import { Volume2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useSettings } from "@/context/SettingsContext";
 import { playWord } from "@/lib/audio";
 
 export function SpeakButton({ word, langCode, speechCode, className }) {
+  const { voice } = useSettings();
+  if (!voice) return null; // robot voice off: hide the bonus listen button
+
   return (
     <Button
       type="button"

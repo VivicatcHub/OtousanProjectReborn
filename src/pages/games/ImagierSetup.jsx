@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Play } from "lucide-react";
+import { Play, Volume2, BookOpen } from "lucide-react";
 import { useSettings } from "@/context/SettingsContext";
 import { dataProvider } from "@/services/dataProvider";
 import { PresetCard } from "@/components/PresetCard";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { cn } from "@/lib/utils";
 
 const PRESETS = [
   {
@@ -53,19 +54,26 @@ const GRID_OPTIONS = [
 export default function ImagierSetup() {
   const { t: translate } = useTranslation();
   const navigate = useNavigate();
-  const { learn } = useSettings();
+  const { learn, voice } = useSettings();
   const [categories, setCategories] = useState([]);
   const [grid, setGrid] = useState(12);
   const [category, setCategory] = useState("all");
   const [mode, setMode] = useState("classic");
+  const [prompt, setPrompt] = useState(voice ? "voice" : "text"); // hear it vs. read it
 
   useEffect(() => {
     dataProvider.getCategories(learn).then(setCategories);
     setCategory("all");
   }, [learn]);
 
+  useEffect(() => {
+    if (!voice) setPrompt("text"); // no robot voice → only the reading version works
+  }, [voice]);
+
   const play = (params) =>
-    navigate(`/games/imagier/play?${new URLSearchParams(params)}`);
+    navigate(
+      `/games/imagier/play?${new URLSearchParams({ ...params, prompt })}`,
+    );
 
   return (
     <div className="space-y-6">
@@ -74,6 +82,33 @@ export default function ImagierSetup() {
           {translate("imagierSetup.title")}
         </h1>
         <p className="text-muted-foreground">{translate("games.chooseHow")}</p>
+      </div>
+
+      {/* Which version: hear the word (voice) or read it in the learned language. */}
+      <div>
+        <p className="mb-2 text-sm font-bold text-muted-foreground">
+          {translate("imagierSetup.promptTitle")}
+        </p>
+        <div className="grid grid-cols-2 gap-3">
+          <ModeButton
+            active={prompt === "voice"}
+            disabled={!voice}
+            icon={<Volume2 className="h-6 w-6" />}
+            label={translate("imagierSetup.promptVoice")}
+            onClick={() => setPrompt("voice")}
+          />
+          <ModeButton
+            active={prompt === "text"}
+            icon={<BookOpen className="h-6 w-6" />}
+            label={translate("imagierSetup.promptRead")}
+            onClick={() => setPrompt("text")}
+          />
+        </div>
+        {!voice && (
+          <p className="mt-2 rounded-xl bg-sun/40 p-3 text-sm font-semibold">
+            {translate("imagierSetup.voiceOffNote")}
+          </p>
+        )}
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -151,6 +186,25 @@ export default function ImagierSetup() {
         </Card>
       </div>
     </div>
+  );
+}
+
+function ModeButton({ active, disabled, icon, label, onClick }) {
+  return (
+    <button
+      type="button"
+      disabled={disabled}
+      onClick={onClick}
+      className={cn(
+        "flex items-center justify-center gap-2 rounded-2xl border-2 p-4 text-lg font-black transition-transform active:scale-95",
+        active
+          ? "border-brand bg-brand text-white"
+          : "border-border bg-card hover:bg-muted",
+        disabled && "cursor-not-allowed opacity-40 hover:bg-card",
+      )}
+    >
+      {icon} {label}
+    </button>
   );
 }
 

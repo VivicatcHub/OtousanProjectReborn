@@ -2,6 +2,9 @@ import { Link, useSearchParams } from "react-router-dom";
 import { Volume2, RotateCcw, Play } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useImagier } from "@/hooks/useImagier";
+import { useSettings } from "@/context/SettingsContext";
+import { getText } from "@/hooks/useData";
+import { VoiceRequired } from "@/components/VoiceRequired";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
@@ -23,13 +26,16 @@ function findFactorClosestToRoot(z) {
 
 export default function Imagier() {
   const { t: translate } = useTranslation();
+  const { voice, learn } = useSettings();
   const [params] = useSearchParams();
   const gridSize = Number(params.get("grid")) || 12;
   const infinite = params.get("inf") === "1";
+  const prompt = params.get("prompt") === "text" ? "text" : "voice";
   const game = useImagier({
     gridSize: gridSize,
     category: params.get("category") || "all",
     infinite,
+    prompt,
   });
 
   useHotkeys("r", game.repeat);
@@ -41,6 +47,8 @@ export default function Imagier() {
     correct: game.score,
   }));
 
+  if (prompt === "voice" && !voice) return <VoiceRequired />; // voice mode needs the robot voice
+
   if (game.loading) return <p>{translate("common.loading")}</p>;
 
   if (game.phase === "intro") {
@@ -48,7 +56,9 @@ export default function Imagier() {
       <div className="space-y-6 text-center">
         <h1 className="text-3xl font-black">{translate("imagier.title")}</h1>
         <p className="text-lg text-muted-foreground">
-          {translate("imagier.intro")}
+          {prompt === "text"
+            ? translate("imagier.introText")
+            : translate("imagier.intro")}
         </p>
         {game.canPlay ? (
           <Button size="lg" variant="grass" onClick={game.start}>
@@ -128,16 +138,24 @@ export default function Imagier() {
       <Card>
         <CardContent className="flex flex-col items-center gap-3 p-6">
           <p className="font-semibold text-muted-foreground">
-            {translate("imagier.prompt")}
+            {prompt === "text"
+              ? translate("imagier.promptText")
+              : translate("imagier.prompt")}
           </p>
-          <Button
-            size="lg"
-            variant="sky"
-            onClick={game.repeat}
-            aria-label={translate("imagier.listenAgainAria")}
-          >
-            <Volume2 className="h-7 w-7" /> {translate("imagier.listenAgain")}
-          </Button>
+          {prompt === "text" ? (
+            <p className="text-center text-4xl font-black">
+              {getText(game.targetWord, learn)}
+            </p>
+          ) : (
+            <Button
+              size="lg"
+              variant="sky"
+              onClick={game.repeat}
+              aria-label={translate("imagier.listenAgainAria")}
+            >
+              <Volume2 className="h-7 w-7" /> {translate("imagier.listenAgain")}
+            </Button>
+          )}
         </CardContent>
       </Card>
 

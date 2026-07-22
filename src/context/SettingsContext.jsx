@@ -1,8 +1,15 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import { syncUiLanguage } from "@/i18n";
+import { setVoiceEnabled } from "@/lib/audio";
 
 const STORAGE_KEY = "otousan.settings";
-const DEFAULTS = { known: "fr", learn: "ja", configured: false, sound: true };
+const DEFAULTS = {
+  known: "fr",
+  learn: "ja",
+  configured: false,
+  sound: true,
+  voice: true, // robot voice (text-to-speech); off blocks voice-only games
+};
 
 const SettingsContext = createContext(null);
 
@@ -26,15 +33,21 @@ export function SettingsProvider({ children }) {
     syncUiLanguage(settings.known);
   }, [settings.known]);
 
+  useEffect(() => {
+    setVoiceEnabled(settings.voice); // keep the audio module in sync with the setting
+  }, [settings.voice]);
+
   const value = useMemo(
     () => ({
       known: settings.known,
       learn: settings.learn,
       configured: settings.configured,
       sound: settings.sound,
+      voice: settings.voice,
       setKnown: (code) => setSettings((s) => ({ ...s, known: code })),
       setLearn: (code) => setSettings((s) => ({ ...s, learn: code })),
       setSound: (on) => setSettings((s) => ({ ...s, sound: on })),
+      setVoice: (on) => setSettings((s) => ({ ...s, voice: on })),
       confirmSettings: () => setSettings((s) => ({ ...s, configured: true })),
     }),
     [settings],

@@ -51,7 +51,20 @@
     "learn": "J'apprends 🚀",
     "sameLanguage": "💡 Choisis deux langues différentes pour jouer.",
     "sound": "Son 🔊",
-    "soundHint": "Joue un petit son quand tu gagnes un badge."
+    "soundHint": "Joue un petit son quand tu gagnes un badge.",
+    "voice": "Voix du robot 🤖",
+    "voiceHint": "Lit les mots à voix haute. Ça ne marche pas sur tous les appareils.",
+    "voiceTest": "Tester la voix",
+    "voiceTestSentence": "Bonjour ! Est-ce que tu m'entends ? Apprenons ensemble !",
+    "voiceHeard": "Tu as bien entendu la voix ?",
+    "voiceKeep": "Oui, je la garde 👍",
+    "voiceDisable": "Non, je la coupe 🔇",
+    "voiceOffNote": "🔇 La voix du robot est coupée. Les jeux d'écoute sont cachés et les mots ne seront pas lus."
+  },
+  "voice": {
+    "requiredTitle": "Ce jeu a besoin de la voix du robot 🔊",
+    "requiredHint": "Réactive la voix du robot dans les Réglages pour jouer à ce jeu.",
+    "goToSettings": "Aller aux Réglages ⚙️"
   },
   "welcome": {
     "title": "Bienvenue ! 🌸",
@@ -76,7 +89,11 @@
     "presetEndless": "Sans fin ♾️",
     "presetEndlessDesc": "Continue jusqu'à la première erreur !",
     "imageCount": "{{count}} images",
-    "field": "Nombre d'images"
+    "field": "Nombre d'images",
+    "promptTitle": "Comment veux-tu jouer ?",
+    "promptVoice": "Écouter",
+    "promptRead": "Lire",
+    "voiceOffNote": "🔇 La voix du robot est coupée : seule la version à lire est disponible."
   },
   "quizSetup": {
     "title": "Quiz ❓",
@@ -96,9 +113,11 @@
   "imagier": {
     "title": "Imagier 🖼️",
     "intro": "Écoute le mot 🔊 puis clique sur la bonne image !",
+    "introText": "Lis le mot 📖 puis clique sur la bonne image !",
     "start": "Commencer",
     "needTwoLanguages": "💡 Choisis deux langues différentes dans les Réglages pour jouer.",
     "prompt": "Quel est ce mot ?",
+    "promptText": "Trouve l'image de ce mot :",
     "listenAgain": "Réécouter",
     "listenAgainAria": "Réécouter le mot",
     "mistakes_one": "{{count}} erreur",
