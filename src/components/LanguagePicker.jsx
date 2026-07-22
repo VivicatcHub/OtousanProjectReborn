@@ -1,7 +1,14 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
-export function LanguagePicker({ title, languages, value, onChange }) {
+function getLanguages(languages, learn) {
+  if (learn) return languages;
+  return languages.filter(
+    (lang) => lang.code !== "it" && !lang.code.includes("-"),
+  );
+}
+
+export function LanguagePicker({ title, languages, value, onChange, learn }) {
   return (
     <Card>
       <CardHeader>
@@ -9,7 +16,7 @@ export function LanguagePicker({ title, languages, value, onChange }) {
       </CardHeader>
       <CardContent>
         <div className="flex flex-wrap gap-3">
-          {languages.map((lang) => {
+          {getLanguages(languages, learn).map((lang) => {
             const selected = lang.code === value;
             return (
               <button

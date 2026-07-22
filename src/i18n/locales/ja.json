@@ -1,177 +1,177 @@
 {
   "common": {
     "loading": "読み込み中…",
-    "play": "あそぶ",
-    "replay": "もういちど",
-    "backToGames": "ゲームにもどる",
-    "next": "つぎへ →",
+    "play": "遊ぶ",
+    "replay": "もう一度",
+    "backToGames": "ゲームに戻る",
+    "next": "次へ →",
     "all": "すべて",
     "custom": "カスタム",
     "category": "カテゴリー",
     "mode": "モード",
     "modeClassic": "クラシック",
     "modeEndless": "エンドレス",
-    "check": "こたえあわせ"
+    "check": "答え合わせ"
   },
   "nav": {
     "home": "ホーム",
-    "settings": "せってい"
+    "settings": "設定"
   },
   "home": {
-    "title": "あそんでまなぼう！🌟",
-    "subtitle": "あそびをえらんでね。",
+    "title": "遊んで学ぼう！🌟",
+    "subtitle": "遊びを選んでね。",
     "games": "ゲーム",
-    "dictionary": "じしょ",
-    "achievements": "じっせき",
-    "settings": "せってい"
+    "dictionary": "辞書",
+    "achievements": "実績",
+    "settings": "設定"
   },
   "games": {
     "title": "ゲーム 🎮",
-    "chooseHow": "あそびかたをえらんでね。",
+    "chooseHow": "遊び方を選んでね。",
     "imagier": {
-      "title": "えあわせ",
-      "description": "ことばをきいて、ただしいえをクリックしよう。"
+      "title": "絵合わせ",
+      "description": "言葉を聞いて、正しい絵をクリックしよう。"
     },
     "quiz": {
       "title": "クイズ",
-      "description": "ただしいほんやくをえらぼう。"
+      "description": "正しい翻訳を選ぼう。"
     },
     "writing": {
-      "title": "かきとり",
-      "description": "ことばのつづりをおぼえよう。"
+      "title": "書き取り",
+      "description": "言葉のつづりを覚えよう。"
     },
     "memory": {
-      "title": "しんけいすいじゃく",
-      "description": "カードをめくって、おなじペアをさがそう。"
+      "title": "神経衰弱",
+      "description": "カードをめくって、同じペアを探そう。"
     }
   },
   "settings": {
-    "title": "せってい ⚙️",
-    "known": "わかることば 👶",
-    "learn": "まなぶことば 🚀",
-    "sameLanguage": "💡 あそぶには、ちがうことばを２つえらんでね。",
-    "sound": "おと 🔊",
-    "soundHint": "バッジをもらったときに、ちいさなおとをならすよ。",
-    "voice": "ロボットのこえ 🤖",
-    "voiceHint": "ことばをこえでよむよ。すべてのきかいでうごくとはかぎらないよ。",
-    "voiceTest": "こえをためす",
-    "voiceTestSentence": "こんにちは！きこえますか？いっしょにべんきょうしよう！",
-    "voiceHeard": "こえがはっきりきこえたかな？",
-    "voiceKeep": "はい、つかう 👍",
-    "voiceDisable": "いいえ、けす 🔇",
-    "voiceOffNote": "🔇 ロボットのこえはオフだよ。きくゲームはかくれて、ことばもよみあげないよ。"
+    "title": "設定 ⚙️",
+    "known": "わかる言葉 👶",
+    "learn": "学ぶ言葉 🚀",
+    "sameLanguage": "💡 遊ぶには、違う言葉を２つ選んでね。",
+    "sound": "音 🔊",
+    "soundHint": "バッジをもらったときに、小さな音を鳴らすよ。",
+    "voice": "ロボットの声 🤖",
+    "voiceHint": "text-to-speech（読み上げ）はすべての機械で動くわけではありません。あなたの機械で動かないときは、オフにすることをおすすめします。",
+    "voiceTest": "声を試す",
+    "voiceTestSentence": "こんにちは！私は自動の声です！",
+    "voiceHeard": "声がはっきり聞こえたかな？",
+    "voiceKeep": "はい、使う 👍",
+    "voiceDisable": "いいえ、消す 🔇",
+    "voiceOffNote": "🔇 ロボットの声はオフだよ。聞くゲームは隠れて、言葉も読み上げないよ。"
   },
   "voice": {
-    "requiredTitle": "このゲームにはロボットのこえがひつようだよ 🔊",
-    "requiredHint": "このゲームであそぶには、せっていでロボットのこえをオンにしてね。",
-    "goToSettings": "せっていへいく ⚙️"
+    "requiredTitle": "このゲームにはロボットの声が必要だよ 🔊",
+    "requiredHint": "このゲームで遊ぶには、設定でロボットの声をオンにしてね。",
+    "goToSettings": "設定へ行く ⚙️"
   },
   "welcome": {
     "title": "ようこそ！🌸",
-    "subtitle": "はじめることばをえらんでね。",
-    "confirm": "はじめよう！🚀"
+    "subtitle": "始める言葉を選んでね。",
+    "confirm": "始めよう！🚀"
   },
   "dictionary": {
-    "title": "じしょ 📖",
-    "empty": "このカテゴリーにはことばがありません。",
+    "title": "辞書 📖",
+    "empty": "このカテゴリーには言葉がありません。",
     "mastery": {
-      "new": "はじめて",
-      "errors": "まちがい {{pct}}%",
-      "perfect": "かんぺき"
+      "new": "初めて",
+      "errors": "間違い {{pct}}%",
+      "perfect": "完璧"
     }
   },
   "imagierSetup": {
-    "title": "えあわせ 🖼️",
-    "presetEasy": "かんたん",
-    "presetNormal": "ふつう",
-    "presetHard": "むずかしい",
-    "presetVeryHard": "とてもむずかしい",
+    "title": "絵合わせ 🖼️",
+    "presetEasy": "簡単",
+    "presetNormal": "普通",
+    "presetHard": "難しい",
+    "presetVeryHard": "とても難しい",
     "presetEndless": "エンドレス ♾️",
-    "presetEndlessDesc": "まちがえるまでつづけよう！",
-    "imageCount": "え {{count}}まい",
-    "field": "えのかず",
-    "promptTitle": "どうやってあそぶ？",
-    "promptVoice": "きく",
-    "promptRead": "よむ",
-    "voiceOffNote": "🔇 ロボットのこえはオフだよ。よむバージョンだけあそべるよ。"
+    "presetEndlessDesc": "間違えるまで続けよう！",
+    "imageCount": "絵 {{count}}枚",
+    "field": "絵の数",
+    "promptTitle": "どうやって遊ぶ？",
+    "promptVoice": "聞く",
+    "promptRead": "読む",
+    "voiceOffNote": "🔇 ロボットの声はオフだよ。読むバージョンだけ遊べるよ。"
   },
   "quizSetup": {
     "title": "クイズ ❓",
     "presetClassicTitle": "クラシック",
-    "presetClassicDesc": "えあり・わかる → まなぶ",
-    "presetNoImageTitle": "えなし",
-    "presetNoImageDesc": "ことばだけ、むずかしい",
-    "presetReverseTitle": "ぎゃく",
-    "presetReverseDesc": "まなぶ → わかる",
+    "presetClassicDesc": "絵あり・わかる → 学ぶ",
+    "presetNoImageTitle": "絵なし",
+    "presetNoImageDesc": "言葉だけ、難しい",
+    "presetReverseTitle": "逆",
+    "presetReverseDesc": "学ぶ → わかる",
     "presetEndlessTitle": "エンドレス ♾️",
-    "presetEndlessDesc": "まちがえるまでつづけよう！",
-    "direction": "むき",
-    "image": "え",
-    "withImage": "🖼️ えあり",
-    "withoutImage": "🚫 えなし"
+    "presetEndlessDesc": "間違えるまで続けよう！",
+    "direction": "向き",
+    "image": "絵",
+    "withImage": "🖼️ 絵あり",
+    "withoutImage": "🚫 絵なし"
   },
   "imagier": {
-    "title": "えあわせ 🖼️",
-    "intro": "ことばをきいて 🔊 ただしいえをクリックしよう！",
-    "introText": "ことばをよんで 📖 ただしいえをクリックしよう！",
-    "start": "はじめる",
-    "needTwoLanguages": "💡 あそぶには、せっていでちがうことばを２つえらんでね。",
-    "prompt": "これはなんのことば？",
-    "promptText": "このことばのえをさがそう：",
-    "listenAgain": "もういちどきく",
-    "listenAgainAria": "ことばをもういちどきく",
-    "mistakes_other": "まちがい {{count}}かい"
+    "title": "絵合わせ 🖼️",
+    "intro": "言葉を聞いて 🔊 正しい絵をクリックしよう！",
+    "introText": "言葉を読んで 📖 正しい絵をクリックしよう！",
+    "start": "始める",
+    "needTwoLanguages": "💡 遊ぶには、設定で違う言葉を２つ選んでね。",
+    "prompt": "これは何の言葉？",
+    "promptText": "この言葉の絵を探そう：",
+    "listenAgain": "もう一度聞く",
+    "listenAgainAria": "言葉をもう一度聞く",
+    "mistakes_other": "間違い {{count}}回"
   },
   "quiz": {
-    "title": "クイズ ❓ — ほんやくをえらぼう"
+    "title": "クイズ ❓ — 翻訳を選ぼう"
   },
   "writingSetup": {
-    "title": "かきとり 🖊",
-    "presetBeginnerTitle": "しょきゅう",
-    "presetBeginnerDesc": "ますあり・もういちどチャンス",
+    "title": "書き取り 🖊",
+    "presetBeginnerTitle": "初級",
+    "presetBeginnerDesc": "マスあり・もう一度チャンス",
     "presetNoHintTitle": "ヒントなし",
-    "presetNoHintDesc": "ますなし・もういちどチャンス",
-    "presetStrictTitle": "きびしい",
-    "presetStrictDesc": "ますなし・いっかいでアウト",
+    "presetNoHintDesc": "マスなし・もう一度チャンス",
+    "presetStrictTitle": "厳しい",
+    "presetStrictDesc": "マスなし・一回でアウト",
     "presetEndlessTitle": "エンドレス ♾️",
-    "presetEndlessDesc": "まちがえるまでつづけよう！",
+    "presetEndlessDesc": "間違えるまで続けよう！",
     "hint": "ヒント",
-    "hintUnderscores": "もじのますをみせる",
-    "hintHidden": "ますなし",
-    "difficulty": "むずかしさ",
-    "easy": "やさしい（もういちどチャンス）",
-    "hard": "きびしい（いっかいでアウト）"
+    "hintUnderscores": "文字のマスを見せる",
+    "hintHidden": "マスなし",
+    "difficulty": "難しさ",
+    "easy": "やさしい（もう一度チャンス）",
+    "hard": "厳しい（一回でアウト）"
   },
   "writing": {
-    "title": "かきとり 🖊",
-    "prompt": "{{lang}}でかいてね",
-    "placeholder": "ここにかいてね…",
-    "tryAgain": "おしい！あかいもじをなおそう 🤔",
-    "correct": "せいかい！✅",
-    "wrong": "こたえは："
+    "title": "書き取り 🖊",
+    "prompt": "{{lang}}で書いてね",
+    "placeholder": "ここに書いてね…",
+    "tryAgain": "おしい！赤い文字を直そう 🤔",
+    "correct": "正解！✅",
+    "wrong": "答えは："
   },
   "memorySetup": {
-    "title": "しんけいすいじゃく 🧩",
-    "presetEasyTitle": "かんたん",
-    "presetEasyDesc": "え ↔ ことば・4ペア",
-    "presetNormalTitle": "ふつう",
-    "presetNormalDesc": "え ↔ ことば・6ペア",
-    "presetHardTitle": "むずかしい",
-    "presetHardDesc": "え ↔ ことば・8ペア",
-    "presetWordsTitle": "２つのことば",
-    "presetWordsDesc": "２つのことばのおなじいみをあわせよう",
-    "mode": "あわせかた",
-    "modeImage": "え ↔ ことば",
-    "modeWords": "ことば ↔ ことば",
-    "pairs": "ペアのかず",
+    "title": "神経衰弱 🧩",
+    "presetEasyTitle": "簡単",
+    "presetEasyDesc": "絵 ↔ 言葉・4ペア",
+    "presetNormalTitle": "普通",
+    "presetNormalDesc": "絵 ↔ 言葉・6ペア",
+    "presetHardTitle": "難しい",
+    "presetHardDesc": "絵 ↔ 言葉・8ペア",
+    "presetWordsTitle": "２つの言葉",
+    "presetWordsDesc": "２つの言葉の同じ意味を合わせよう",
+    "mode": "合わせ方",
+    "modeImage": "絵 ↔ 言葉",
+    "modeWords": "言葉 ↔ 言葉",
+    "pairs": "ペアの数",
     "pairCount": "{{count}}ペア"
   },
   "memory": {
-    "title": "しんけいすいじゃく 🧩",
-    "prompt": "カードを２まいめくって、おなじペアをさがそう！",
-    "needTwoLanguages": "💡 あそぶには、せっていでちがうことばを２つえらんでね。",
+    "title": "神経衰弱 🧩",
+    "prompt": "カードを２枚めくって、同じペアを探そう！",
+    "needTwoLanguages": "💡 遊ぶには、設定で違う言葉を２つ選んでね。",
     "cardAria": "カード",
-    "mistakes_other": "まちがい {{count}}かい"
+    "mistakes_other": "間違い {{count}}回"
   },
   "result": {
     "perfect": "パーフェクト！🏆",
@@ -179,77 +179,77 @@
     "wonImagier": "クリア！🎉",
     "score": "スコア：{{score}} / {{total}}",
     "endlessOver": "ゲームオーバー！🏁",
-    "streak_other": "れんぞく {{count}}かい！"
+    "streak_other": "連続 {{count}}回！"
   },
   "scoreBar": {
-    "question": "もんだい {{current}} / {{total}}",
-    "endless": "もんだい {{current}} ♾️"
+    "question": "問題 {{current}} / {{total}}",
+    "endless": "問題 {{current}} ♾️"
   },
   "achievements": {
-    "title": "じっせき 🏆",
-    "subtitle": "きろく・しんちょく・バッジ",
-    "unlocked": "じっせきをゲット！",
+    "title": "実績 🏆",
+    "subtitle": "記録・進捗・バッジ",
+    "unlocked": "実績をゲット！",
     "badgesTitle": "バッジ",
-    "gamesChart": "あそびごとのかいすう",
-    "weekChart": "こんしゅう",
-    "empty": "ゲームであそんで、きろくとバッジをあつめよう！",
+    "gamesChart": "遊びごとの回数",
+    "weekChart": "今週",
+    "empty": "ゲームで遊んで、記録とバッジを集めよう！",
     "earnedOn": "{{date}} にゲット",
-    "reset": "きろくをけす",
-    "resetConfirm": "すべてのきろくとバッジをけす？",
-    "resetYes": "はい、けす",
+    "reset": "記録を消す",
+    "resetConfirm": "すべての記録とバッジを消す？",
+    "resetYes": "はい、消す",
     "resetNo": "やめる",
     "stats": {
-      "totalPlays": "あそんだかいすう",
-      "totalCorrect": "せいかいのかず",
-      "bestStreak": "さいこうれんぞく",
+      "totalPlays": "遊んだ回数",
+      "totalCorrect": "正解の数",
+      "bestStreak": "最高連続",
       "perfectCount": "パーフェクト",
-      "daysPlayed": "あそんだひ",
+      "daysPlayed": "遊んだ日",
       "badges": "バッジ"
     },
     "items": {
       "firstGame": {
-        "title": "はじめのいっぽ",
-        "desc": "はじめてのゲームであそぼう。"
+        "title": "はじめの一歩",
+        "desc": "初めてのゲームで遊ぼう。"
       },
-      "tenGames": { "title": "ウォームアップ", "desc": "10かいあそぼう。" },
-      "fiftyGames": { "title": "たいせんしゃ", "desc": "50かいあそぼう。" },
+      "tenGames": { "title": "ウォームアップ", "desc": "10回遊ぼう。" },
+      "fiftyGames": { "title": "対戦者", "desc": "50回遊ぼう。" },
       "explorer": {
-        "title": "たんけんか",
-        "desc": "みっつのゲームぜんぶであそぼう。"
+        "title": "探検家",
+        "desc": "三つのゲーム全部で遊ぼう。"
       },
       "perfectQuiz": {
-        "title": "クイズめいじん",
+        "title": "クイズ名人",
         "desc": "クイズをノーミスでクリアしよう。"
       },
       "perfectImagier": {
-        "title": "するどいめ",
-        "desc": "えあわせをノーミスでクリアしよう。"
+        "title": "鋭い目",
+        "desc": "絵合わせをノーミスでクリアしよう。"
       },
       "perfectWriting": {
-        "title": "つづりのたつじん",
-        "desc": "かきとりをノーミスでクリアしよう。"
+        "title": "つづりの達人",
+        "desc": "書き取りをノーミスでクリアしよう。"
       },
       "perfectMemory": {
-        "title": "きおくマスター",
-        "desc": "しんけいすいじゃくをノーミスでクリアしよう。"
+        "title": "記憶マスター",
+        "desc": "神経衰弱をノーミスでクリアしよう。"
       },
       "streak10": {
-        "title": "もえている",
-        "desc": "エンドレスで10れんぞくしよう。"
+        "title": "燃えている",
+        "desc": "エンドレスで10連続しよう。"
       },
       "streak25": {
-        "title": "とまらない",
-        "desc": "エンドレスで25れんぞくしよう。"
+        "title": "止まらない",
+        "desc": "エンドレスで25連続しよう。"
       },
       "hundredCorrect": {
-        "title": "100せいかい",
-        "desc": "100このことばをせいかいしよう。"
+        "title": "100正解",
+        "desc": "100個の言葉を正解しよう。"
       },
       "perfectionist": {
         "title": "パーフェクトマスター",
-        "desc": "パーフェクトを10かいだそう。"
+        "desc": "パーフェクトを10回出そう。"
       },
-      "dedicated": { "title": "まいにちがんばる", "desc": "3にちあそぼう。" }
+      "dedicated": { "title": "毎日がんばる", "desc": "3日遊ぼう。" }
     }
   }
 }

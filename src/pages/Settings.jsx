@@ -31,12 +31,14 @@ export default function SettingsPage() {
         languages={languages}
         value={known}
         onChange={setKnown}
+        learn={false}
       />
       <LanguagePicker
         title={translate("settings.learn")}
         languages={languages}
         value={learn}
         onChange={setLearn}
+        learn={true}
       />
       {known === learn && (
         <p className="rounded-xl bg-sun/40 p-3 font-semibold">
