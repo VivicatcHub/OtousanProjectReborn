@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Baloo 2", "Nunito", ui-rounded, system-ui, sans-serif;
+
+  --color-brand: oklch(0.72 0.18 25); /* warm coral/red */
+  --color-brand-foreground: oklch(0.98 0.02 25);
+  --color-sky: oklch(0.75 0.14 230); /* blue */
+  --color-grass: oklch(0.78 0.16 145); /* green */
+  --color-sun: oklch(0.86 0.16 90); /* yellow */
+  --color-grape: oklch(0.7 0.16 300); /* purple */
+
+  --color-background: oklch(0.99 0.01 95);
+  --color-foreground: oklch(0.29 0.03 260);
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.29 0.03 260);
+  --color-muted: oklch(0.95 0.01 260);
+  --color-muted-foreground: oklch(0.5 0.02 260);
+  --color-border: oklch(0.9 0.01 260);
+  --color-ring: oklch(0.72 0.18 25);
+
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20%,
+  60% {
+    transform: translateX(-8px);
+  }
+  40%,
+  80% {
+    transform: translateX(8px);
+  }
+}
+@keyframes pop {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.animate-shake {
+  animation: shake 0.4s ease-in-out;
+}
+.animate-pop {
+  animation: pop 0.35s ease-out;
+}
+
+@keyframes achievement {
+  0% {
+    transform: translateY(-140%);
+    opacity: 0;
+  }
+  10%,
+  85% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-140%);
+    opacity: 0;
+  }
+}
+.animate-achievement {
+  animation: achievement 4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes badge-wiggle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-12deg) scale(1.1);
+  }
+  75% {
+    transform: rotate(12deg) scale(1.1);
+  }
+}
+.animate-badge-wiggle {
+  animation: badge-wiggle 0.7s ease-in-out 0.2s;
+}

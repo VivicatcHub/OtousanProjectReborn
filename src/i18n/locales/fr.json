@@ -1,0 +1,239 @@
+{
+  "common": {
+    "loading": "Chargement…",
+    "play": "Jouer",
+    "replay": "Rejouer",
+    "backToGames": "Retour aux jeux",
+    "next": "Suivant →",
+    "all": "Tout",
+    "custom": "Sur mesure",
+    "category": "Catégorie",
+    "mode": "Mode",
+    "modeClassic": "Classique",
+    "modeEndless": "Sans fin",
+    "check": "Vérifier"
+  },
+  "nav": {
+    "home": "Accueil",
+    "settings": "Réglages"
+  },
+  "home": {
+    "title": "Apprends en jouant ! 🌟",
+    "subtitle": "Choisis une activité pour commencer.",
+    "games": "Jeux",
+    "dictionary": "Dictionnaire",
+    "achievements": "Succès",
+    "settings": "Réglages"
+  },
+  "games": {
+    "title": "Jeux 🎮",
+    "chooseHow": "Choisis une façon de jouer.",
+    "imagier": {
+      "title": "Imagier",
+      "description": "Écoute le mot et clique sur la bonne image."
+    },
+    "quiz": {
+      "title": "Quiz",
+      "description": "Choisis la bonne traduction."
+    },
+    "writing": {
+      "title": "Écriture",
+      "description": "Apprends la bonne orthographe des mots."
+    },
+    "memory": {
+      "title": "Memory",
+      "description": "Retourne les cartes et trouve les paires."
+    }
+  },
+  "settings": {
+    "title": "Réglages ⚙️",
+    "known": "Je connais 👶",
+    "learn": "J'apprends 🚀",
+    "sameLanguage": "💡 Choisis deux langues différentes pour jouer.",
+    "sound": "Son 🔊",
+    "soundHint": "Joue un petit son quand tu gagnes un badge."
+  },
+  "welcome": {
+    "title": "Bienvenue ! 🌸",
+    "subtitle": "Choisis tes langues pour commencer.",
+    "confirm": "C'est parti ! 🚀"
+  },
+  "dictionary": {
+    "title": "Dictionnaire 📖",
+    "empty": "Aucun mot dans cette catégorie.",
+    "mastery": {
+      "new": "Nouveau",
+      "errors": "{{pct}} % d'erreurs",
+      "perfect": "Maîtrisé"
+    }
+  },
+  "imagierSetup": {
+    "title": "Imagier 🖼️",
+    "presetEasy": "Facile",
+    "presetNormal": "Normal",
+    "presetHard": "Difficile",
+    "presetVeryHard": "Très difficile",
+    "presetEndless": "Sans fin ♾️",
+    "presetEndlessDesc": "Continue jusqu'à la première erreur !",
+    "imageCount": "{{count}} images",
+    "field": "Nombre d'images"
+  },
+  "quizSetup": {
+    "title": "Quiz ❓",
+    "presetClassicTitle": "Classique",
+    "presetClassicDesc": "Avec image · tu connais → tu apprends",
+    "presetNoImageTitle": "Sans image",
+    "presetNoImageDesc": "Juste le mot, plus difficile",
+    "presetReverseTitle": "Inversé",
+    "presetReverseDesc": "Tu apprends → tu connais",
+    "presetEndlessTitle": "Sans fin ♾️",
+    "presetEndlessDesc": "Continue jusqu'à la première erreur !",
+    "direction": "Sens",
+    "image": "Image",
+    "withImage": "🖼️ Avec image",
+    "withoutImage": "🚫 Sans image"
+  },
+  "imagier": {
+    "title": "Imagier 🖼️",
+    "intro": "Écoute le mot 🔊 puis clique sur la bonne image !",
+    "start": "Commencer",
+    "needTwoLanguages": "💡 Choisis deux langues différentes dans les Réglages pour jouer.",
+    "prompt": "Quel est ce mot ?",
+    "listenAgain": "Réécouter",
+    "listenAgainAria": "Réécouter le mot",
+    "mistakes_one": "{{count}} erreur",
+    "mistakes_other": "{{count}} erreurs"
+  },
+  "quiz": {
+    "title": "Quiz ❓ — Choisis la traduction"
+  },
+  "writingSetup": {
+    "title": "Écriture 🖊",
+    "presetBeginnerTitle": "Débutant",
+    "presetBeginnerDesc": "Cases des lettres · une 2e chance",
+    "presetNoHintTitle": "Sans indice",
+    "presetNoHintDesc": "Sans cases · une 2e chance",
+    "presetStrictTitle": "Strict",
+    "presetStrictDesc": "Sans cases · une faute compte",
+    "presetEndlessTitle": "Sans fin ♾️",
+    "presetEndlessDesc": "Continue jusqu'à la première erreur !",
+    "hint": "Indice",
+    "hintUnderscores": "Montrer les cases des lettres",
+    "hintHidden": "Sans cases",
+    "difficulty": "Difficulté",
+    "easy": "Doux (une 2e chance)",
+    "hard": "Strict (une faute compte)"
+  },
+  "writing": {
+    "title": "Écriture 🖊",
+    "prompt": "Écris-le en {{lang}}",
+    "placeholder": "Écris ici…",
+    "tryAgain": "Presque ! Corrige les lettres rouges 🤔",
+    "correct": "Correct ! ✅",
+    "wrong": "La réponse est :"
+  },
+  "memorySetup": {
+    "title": "Memory 🧩",
+    "presetEasyTitle": "Facile",
+    "presetEasyDesc": "Image ↔ mot · 4 paires",
+    "presetNormalTitle": "Normal",
+    "presetNormalDesc": "Image ↔ mot · 6 paires",
+    "presetHardTitle": "Difficile",
+    "presetHardDesc": "Image ↔ mot · 8 paires",
+    "presetWordsTitle": "Deux langues",
+    "presetWordsDesc": "Associe le mot dans les deux langues",
+    "mode": "Associer",
+    "modeImage": "Image ↔ mot",
+    "modeWords": "Mot ↔ mot",
+    "pairs": "Nombre de paires",
+    "pairCount": "{{count}} paires"
+  },
+  "memory": {
+    "title": "Memory 🧩",
+    "prompt": "Retourne deux cartes et trouve les paires !",
+    "needTwoLanguages": "💡 Choisis deux langues différentes dans les Réglages pour jouer.",
+    "cardAria": "carte",
+    "mistakes_one": "{{count}} erreur",
+    "mistakes_other": "{{count}} erreurs"
+  },
+  "result": {
+    "perfect": "Parfait ! 🏆",
+    "wonQuiz": "Bien joué ! 🎉",
+    "wonImagier": "Gagné ! 🎉",
+    "score": "Score : {{score}} / {{total}}",
+    "endlessOver": "Perdu ! 🏁",
+    "streak_one": "Série : {{count}} de suite !",
+    "streak_other": "Série : {{count}} de suite !"
+  },
+  "scoreBar": {
+    "question": "Question {{current}} / {{total}}",
+    "endless": "Question {{current}} ♾️"
+  },
+  "achievements": {
+    "title": "Succès 🏆",
+    "subtitle": "Tes records, ta progression et tes badges.",
+    "unlocked": "Succès débloqué !",
+    "badgesTitle": "Badges",
+    "gamesChart": "Parties jouées par activité",
+    "weekChart": "Cette semaine",
+    "empty": "Joue à un jeu pour gagner des records et des badges !",
+    "earnedOn": "Obtenu le {{date}}",
+    "reset": "Effacer mes records",
+    "resetConfirm": "Effacer tous les records et badges ?",
+    "resetYes": "Oui, effacer",
+    "resetNo": "Annuler",
+    "stats": {
+      "totalPlays": "Parties jouées",
+      "totalCorrect": "Bonnes réponses",
+      "bestStreak": "Meilleure série",
+      "perfectCount": "Parties parfaites",
+      "daysPlayed": "Jours joués",
+      "badges": "Badges"
+    },
+    "items": {
+      "firstGame": {
+        "title": "Premiers pas",
+        "desc": "Joue à ton premier jeu."
+      },
+      "tenGames": { "title": "Échauffement", "desc": "Joue 10 parties." },
+      "fiftyGames": { "title": "Grand joueur", "desc": "Joue 50 parties." },
+      "explorer": { "title": "Explorateur", "desc": "Joue aux trois jeux." },
+      "perfectQuiz": {
+        "title": "As du quiz",
+        "desc": "Termine un quiz sans faute."
+      },
+      "perfectImagier": {
+        "title": "Œil de lynx",
+        "desc": "Termine un imagier sans faute."
+      },
+      "perfectWriting": {
+        "title": "Champion d'orthographe",
+        "desc": "Termine une écriture sans faute."
+      },
+      "perfectMemory": {
+        "title": "Maître de la mémoire",
+        "desc": "Termine un memory sans faute."
+      },
+      "streak10": {
+        "title": "En feu",
+        "desc": "Atteins une série de 10 en mode sans fin."
+      },
+      "streak25": {
+        "title": "Inarrêtable",
+        "desc": "Atteins une série de 25 en mode sans fin."
+      },
+      "hundredCorrect": {
+        "title": "Centaine",
+        "desc": "Réponds correctement à 100 mots."
+      },
+      "perfectionist": {
+        "title": "Perfectionniste",
+        "desc": "Gagne 10 parties parfaites."
+      },
+      "dedicated": {
+        "title": "Assidu",
+        "desc": "Joue pendant 3 jours différents."
+      }
+    }
+  }
+}

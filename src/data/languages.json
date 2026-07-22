@@ -1,0 +1,38 @@
+[
+  {
+    "code": "fr",
+    "label": "Français",
+    "flag": "🇫🇷",
+    "speechCode": "fr-FR"
+  },
+  {
+    "code": "en",
+    "label": "English",
+    "flag": "🇬🇧",
+    "speechCode": "en-US"
+  },
+  {
+    "code": "it",
+    "label": "Italiano",
+    "flag": "🇮🇹",
+    "speechCode": "it-IT"
+  },
+  {
+    "code": "ja",
+    "label": "日本語 (漢字)",
+    "flag": "🇯🇵",
+    "speechCode": "ja-JP"
+  },
+  {
+    "code": "ja-kana",
+    "label": "日本語 (かな)",
+    "flag": "🇯🇵",
+    "speechCode": "ja-JP"
+  },
+  {
+    "code": "ja-romaji",
+    "label": "Rōmaji",
+    "flag": "🇯🇵",
+    "speechCode": "ja-JP"
+  }
+]

@@ -1,0 +1,236 @@
+{
+  "common": {
+    "loading": "読み込み中…",
+    "play": "あそぶ",
+    "replay": "もういちど",
+    "backToGames": "ゲームにもどる",
+    "next": "つぎへ →",
+    "all": "すべて",
+    "custom": "カスタム",
+    "category": "カテゴリー",
+    "mode": "モード",
+    "modeClassic": "クラシック",
+    "modeEndless": "エンドレス",
+    "check": "こたえあわせ"
+  },
+  "nav": {
+    "home": "ホーム",
+    "settings": "せってい"
+  },
+  "home": {
+    "title": "あそんでまなぼう！🌟",
+    "subtitle": "あそびをえらんでね。",
+    "games": "ゲーム",
+    "dictionary": "じしょ",
+    "achievements": "じっせき",
+    "settings": "せってい"
+  },
+  "games": {
+    "title": "ゲーム 🎮",
+    "chooseHow": "あそびかたをえらんでね。",
+    "imagier": {
+      "title": "えあわせ",
+      "description": "ことばをきいて、ただしいえをクリックしよう。"
+    },
+    "quiz": {
+      "title": "クイズ",
+      "description": "ただしいほんやくをえらぼう。"
+    },
+    "writing": {
+      "title": "かきとり",
+      "description": "ことばのつづりをおぼえよう。"
+    },
+    "memory": {
+      "title": "しんけいすいじゃく",
+      "description": "カードをめくって、おなじペアをさがそう。"
+    }
+  },
+  "settings": {
+    "title": "せってい ⚙️",
+    "known": "わかることば 👶",
+    "learn": "まなぶことば 🚀",
+    "sameLanguage": "💡 あそぶには、ちがうことばを２つえらんでね。",
+    "sound": "おと 🔊",
+    "soundHint": "バッジをもらったときに、ちいさなおとをならすよ。"
+  },
+  "welcome": {
+    "title": "ようこそ！🌸",
+    "subtitle": "はじめることばをえらんでね。",
+    "confirm": "はじめよう！🚀"
+  },
+  "dictionary": {
+    "title": "じしょ 📖",
+    "empty": "このカテゴリーにはことばがありません。",
+    "mastery": {
+      "new": "はじめて",
+      "errors": "まちがい {{pct}}%",
+      "perfect": "かんぺき"
+    }
+  },
+  "imagierSetup": {
+    "title": "えあわせ 🖼️",
+    "presetEasy": "かんたん",
+    "presetNormal": "ふつう",
+    "presetHard": "むずかしい",
+    "presetVeryHard": "とてもむずかしい",
+    "presetEndless": "エンドレス ♾️",
+    "presetEndlessDesc": "まちがえるまでつづけよう！",
+    "imageCount": "え {{count}}まい",
+    "field": "えのかず"
+  },
+  "quizSetup": {
+    "title": "クイズ ❓",
+    "presetClassicTitle": "クラシック",
+    "presetClassicDesc": "えあり・わかる → まなぶ",
+    "presetNoImageTitle": "えなし",
+    "presetNoImageDesc": "ことばだけ、むずかしい",
+    "presetReverseTitle": "ぎゃく",
+    "presetReverseDesc": "まなぶ → わかる",
+    "presetEndlessTitle": "エンドレス ♾️",
+    "presetEndlessDesc": "まちがえるまでつづけよう！",
+    "direction": "むき",
+    "image": "え",
+    "withImage": "🖼️ えあり",
+    "withoutImage": "🚫 えなし"
+  },
+  "imagier": {
+    "title": "えあわせ 🖼️",
+    "intro": "ことばをきいて 🔊 ただしいえをクリックしよう！",
+    "start": "はじめる",
+    "needTwoLanguages": "💡 あそぶには、せっていでちがうことばを２つえらんでね。",
+    "prompt": "これはなんのことば？",
+    "listenAgain": "もういちどきく",
+    "listenAgainAria": "ことばをもういちどきく",
+    "mistakes_other": "まちがい {{count}}かい"
+  },
+  "quiz": {
+    "title": "クイズ ❓ — ほんやくをえらぼう"
+  },
+  "writingSetup": {
+    "title": "かきとり 🖊",
+    "presetBeginnerTitle": "しょきゅう",
+    "presetBeginnerDesc": "ますあり・もういちどチャンス",
+    "presetNoHintTitle": "ヒントなし",
+    "presetNoHintDesc": "ますなし・もういちどチャンス",
+    "presetStrictTitle": "きびしい",
+    "presetStrictDesc": "ますなし・いっかいでアウト",
+    "presetEndlessTitle": "エンドレス ♾️",
+    "presetEndlessDesc": "まちがえるまでつづけよう！",
+    "hint": "ヒント",
+    "hintUnderscores": "もじのますをみせる",
+    "hintHidden": "ますなし",
+    "difficulty": "むずかしさ",
+    "easy": "やさしい（もういちどチャンス）",
+    "hard": "きびしい（いっかいでアウト）"
+  },
+  "writing": {
+    "title": "かきとり 🖊",
+    "prompt": "{{lang}}でかいてね",
+    "placeholder": "ここにかいてね…",
+    "tryAgain": "おしい！あかいもじをなおそう 🤔",
+    "correct": "せいかい！✅",
+    "wrong": "こたえは："
+  },
+  "memorySetup": {
+    "title": "しんけいすいじゃく 🧩",
+    "presetEasyTitle": "かんたん",
+    "presetEasyDesc": "え ↔ ことば・4ペア",
+    "presetNormalTitle": "ふつう",
+    "presetNormalDesc": "え ↔ ことば・6ペア",
+    "presetHardTitle": "むずかしい",
+    "presetHardDesc": "え ↔ ことば・8ペア",
+    "presetWordsTitle": "２つのことば",
+    "presetWordsDesc": "２つのことばのおなじいみをあわせよう",
+    "mode": "あわせかた",
+    "modeImage": "え ↔ ことば",
+    "modeWords": "ことば ↔ ことば",
+    "pairs": "ペアのかず",
+    "pairCount": "{{count}}ペア"
+  },
+  "memory": {
+    "title": "しんけいすいじゃく 🧩",
+    "prompt": "カードを２まいめくって、おなじペアをさがそう！",
+    "needTwoLanguages": "💡 あそぶには、せっていでちがうことばを２つえらんでね。",
+    "cardAria": "カード",
+    "mistakes_other": "まちがい {{count}}かい"
+  },
+  "result": {
+    "perfect": "パーフェクト！🏆",
+    "wonQuiz": "よくできました！🎉",
+    "wonImagier": "クリア！🎉",
+    "score": "スコア：{{score}} / {{total}}",
+    "endlessOver": "ゲームオーバー！🏁",
+    "streak_other": "れんぞく {{count}}かい！"
+  },
+  "scoreBar": {
+    "question": "もんだい {{current}} / {{total}}",
+    "endless": "もんだい {{current}} ♾️"
+  },
+  "achievements": {
+    "title": "じっせき 🏆",
+    "subtitle": "きろく・しんちょく・バッジ",
+    "unlocked": "じっせきをゲット！",
+    "badgesTitle": "バッジ",
+    "gamesChart": "あそびごとのかいすう",
+    "weekChart": "こんしゅう",
+    "empty": "ゲームであそんで、きろくとバッジをあつめよう！",
+    "earnedOn": "{{date}} にゲット",
+    "reset": "きろくをけす",
+    "resetConfirm": "すべてのきろくとバッジをけす？",
+    "resetYes": "はい、けす",
+    "resetNo": "やめる",
+    "stats": {
+      "totalPlays": "あそんだかいすう",
+      "totalCorrect": "せいかいのかず",
+      "bestStreak": "さいこうれんぞく",
+      "perfectCount": "パーフェクト",
+      "daysPlayed": "あそんだひ",
+      "badges": "バッジ"
+    },
+    "items": {
+      "firstGame": {
+        "title": "はじめのいっぽ",
+        "desc": "はじめてのゲームであそぼう。"
+      },
+      "tenGames": { "title": "ウォームアップ", "desc": "10かいあそぼう。" },
+      "fiftyGames": { "title": "たいせんしゃ", "desc": "50かいあそぼう。" },
+      "explorer": {
+        "title": "たんけんか",
+        "desc": "みっつのゲームぜんぶであそぼう。"
+      },
+      "perfectQuiz": {
+        "title": "クイズめいじん",
+        "desc": "クイズをノーミスでクリアしよう。"
+      },
+      "perfectImagier": {
+        "title": "するどいめ",
+        "desc": "えあわせをノーミスでクリアしよう。"
+      },
+      "perfectWriting": {
+        "title": "つづりのたつじん",
+        "desc": "かきとりをノーミスでクリアしよう。"
+      },
+      "perfectMemory": {
+        "title": "きおくマスター",
+        "desc": "しんけいすいじゃくをノーミスでクリアしよう。"
+      },
+      "streak10": {
+        "title": "もえている",
+        "desc": "エンドレスで10れんぞくしよう。"
+      },
+      "streak25": {
+        "title": "とまらない",
+        "desc": "エンドレスで25れんぞくしよう。"
+      },
+      "hundredCorrect": {
+        "title": "100せいかい",
+        "desc": "100このことばをせいかいしよう。"
+      },
+      "perfectionist": {
+        "title": "パーフェクトマスター",
+        "desc": "パーフェクトを10かいだそう。"
+      },
+      "dedicated": { "title": "まいにちがんばる", "desc": "3にちあそぼう。" }
+    }
+  }
+}

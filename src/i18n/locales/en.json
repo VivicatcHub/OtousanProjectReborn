@@ -1,0 +1,233 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "play": "Play",
+    "replay": "Play again",
+    "backToGames": "Back to games",
+    "next": "Next →",
+    "all": "All",
+    "custom": "Custom",
+    "category": "Category",
+    "mode": "Mode",
+    "modeClassic": "Classic",
+    "modeEndless": "Endless",
+    "check": "Check"
+  },
+  "nav": {
+    "home": "Home",
+    "settings": "Settings"
+  },
+  "home": {
+    "title": "Learn by playing! 🌟",
+    "subtitle": "Pick an activity to get started.",
+    "games": "Games",
+    "dictionary": "Dictionary",
+    "achievements": "Achievements",
+    "settings": "Settings"
+  },
+  "games": {
+    "title": "Games 🎮",
+    "chooseHow": "Choose how to play.",
+    "imagier": {
+      "title": "Picture game",
+      "description": "Listen to the word and click the right picture."
+    },
+    "quiz": {
+      "title": "Quiz",
+      "description": "Pick the right translation."
+    },
+    "writing": {
+      "title": "Writing",
+      "description": "Learn how to spell the words."
+    },
+    "memory": {
+      "title": "Memory",
+      "description": "Flip the cards and find the matching pairs."
+    }
+  },
+  "settings": {
+    "title": "Settings ⚙️",
+    "known": "I know 👶",
+    "learn": "I'm learning 🚀",
+    "sameLanguage": "💡 Pick two different languages to play.",
+    "sound": "Sound 🔊",
+    "soundHint": "Play a little chime when you earn a badge."
+  },
+  "welcome": {
+    "title": "Welcome! 🌸",
+    "subtitle": "Pick your languages to get started.",
+    "confirm": "Let's go! 🚀"
+  },
+  "dictionary": {
+    "title": "Dictionary 📖",
+    "empty": "No words in this category.",
+    "mastery": {
+      "new": "New",
+      "errors": "{{pct}}% errors",
+      "perfect": "Mastered"
+    }
+  },
+  "imagierSetup": {
+    "title": "Picture game 🖼️",
+    "presetEasy": "Easy",
+    "presetNormal": "Normal",
+    "presetHard": "Hard",
+    "presetVeryHard": "Very hard",
+    "presetEndless": "Endless ♾️",
+    "presetEndlessDesc": "Keep going until you miss one!",
+    "imageCount": "{{count}} pictures",
+    "field": "Number of pictures"
+  },
+  "quizSetup": {
+    "title": "Quiz ❓",
+    "presetClassicTitle": "Classic",
+    "presetClassicDesc": "With picture · you know → you learn",
+    "presetNoImageTitle": "No picture",
+    "presetNoImageDesc": "Just the word, harder",
+    "presetReverseTitle": "Reversed",
+    "presetReverseDesc": "You learn → you know",
+    "presetEndlessTitle": "Endless ♾️",
+    "presetEndlessDesc": "Keep going until you miss one!",
+    "direction": "Direction",
+    "image": "Picture",
+    "withImage": "🖼️ With picture",
+    "withoutImage": "🚫 No picture"
+  },
+  "imagier": {
+    "title": "Picture game 🖼️",
+    "intro": "Listen to the word 🔊 then click the right picture!",
+    "start": "Start",
+    "needTwoLanguages": "💡 Pick two different languages in Settings to play.",
+    "prompt": "What is this word?",
+    "listenAgain": "Listen again",
+    "listenAgainAria": "Listen to the word again",
+    "mistakes_one": "{{count}} mistake",
+    "mistakes_other": "{{count}} mistakes"
+  },
+  "quiz": {
+    "title": "Quiz ❓ — Pick the translation"
+  },
+  "writingSetup": {
+    "title": "Writing 🖊",
+    "presetBeginnerTitle": "Beginner",
+    "presetBeginnerDesc": "Letter slots · a second chance",
+    "presetNoHintTitle": "No hint",
+    "presetNoHintDesc": "No slots · a second chance",
+    "presetStrictTitle": "Strict",
+    "presetStrictDesc": "No slots · one mistake counts",
+    "presetEndlessTitle": "Endless ♾️",
+    "presetEndlessDesc": "Keep going until you miss one!",
+    "hint": "Hint",
+    "hintUnderscores": "Show letter slots",
+    "hintHidden": "No slots",
+    "difficulty": "Difficulty",
+    "easy": "Gentle (a second chance)",
+    "hard": "Strict (one mistake counts)"
+  },
+  "writing": {
+    "title": "Writing 🖊",
+    "prompt": "Write it in {{lang}}",
+    "placeholder": "Type here…",
+    "tryAgain": "Almost! Fix the red letters 🤔",
+    "correct": "Correct! ✅",
+    "wrong": "The answer is:"
+  },
+  "memorySetup": {
+    "title": "Memory 🧩",
+    "presetEasyTitle": "Easy",
+    "presetEasyDesc": "Picture ↔ word · 4 pairs",
+    "presetNormalTitle": "Normal",
+    "presetNormalDesc": "Picture ↔ word · 6 pairs",
+    "presetHardTitle": "Hard",
+    "presetHardDesc": "Picture ↔ word · 8 pairs",
+    "presetWordsTitle": "Two languages",
+    "presetWordsDesc": "Match the word in both languages",
+    "mode": "Match",
+    "modeImage": "Picture ↔ word",
+    "modeWords": "Word ↔ word",
+    "pairs": "Number of pairs",
+    "pairCount": "{{count}} pairs"
+  },
+  "memory": {
+    "title": "Memory 🧩",
+    "prompt": "Flip two cards and find the matching pairs!",
+    "needTwoLanguages": "💡 Pick two different languages in Settings to play.",
+    "cardAria": "card",
+    "mistakes_one": "{{count}} mistake",
+    "mistakes_other": "{{count}} mistakes"
+  },
+  "result": {
+    "perfect": "Perfect! 🏆",
+    "wonQuiz": "Well done! 🎉",
+    "wonImagier": "You won! 🎉",
+    "score": "Score: {{score}} / {{total}}",
+    "endlessOver": "Game over! 🏁",
+    "streak_one": "Streak: {{count}} in a row!",
+    "streak_other": "Streak: {{count}} in a row!"
+  },
+  "scoreBar": {
+    "question": "Question {{current}} / {{total}}",
+    "endless": "Question {{current}} ♾️"
+  },
+  "achievements": {
+    "title": "Achievements 🏆",
+    "subtitle": "Your records, progress and badges.",
+    "unlocked": "Achievement unlocked!",
+    "badgesTitle": "Badges",
+    "gamesChart": "Games played per activity",
+    "weekChart": "This week",
+    "empty": "Play a game to start earning records and badges!",
+    "earnedOn": "Earned {{date}}",
+    "reset": "Reset my records",
+    "resetConfirm": "Erase all records and badges?",
+    "resetYes": "Yes, erase",
+    "resetNo": "Cancel",
+    "stats": {
+      "totalPlays": "Games played",
+      "totalCorrect": "Correct answers",
+      "bestStreak": "Best streak",
+      "perfectCount": "Perfect games",
+      "daysPlayed": "Days played",
+      "badges": "Badges"
+    },
+    "items": {
+      "firstGame": { "title": "First Steps", "desc": "Play your first game." },
+      "tenGames": { "title": "Getting Warmed Up", "desc": "Play 10 games." },
+      "fiftyGames": { "title": "Big Player", "desc": "Play 50 games." },
+      "explorer": { "title": "Explorer", "desc": "Play all three games." },
+      "perfectQuiz": {
+        "title": "Quiz Whiz",
+        "desc": "Finish a quiz with no mistakes."
+      },
+      "perfectImagier": {
+        "title": "Sharp Eyes",
+        "desc": "Clear a picture game with no mistakes."
+      },
+      "perfectWriting": {
+        "title": "Perfect Speller",
+        "desc": "Finish a writing game with no mistakes."
+      },
+      "perfectMemory": {
+        "title": "Memory Master",
+        "desc": "Clear a memory game with no mistakes."
+      },
+      "streak10": {
+        "title": "On Fire",
+        "desc": "Reach a streak of 10 in endless mode."
+      },
+      "streak25": {
+        "title": "Unstoppable",
+        "desc": "Reach a streak of 25 in endless mode."
+      },
+      "hundredCorrect": {
+        "title": "Century",
+        "desc": "Answer 100 words correctly."
+      },
+      "perfectionist": {
+        "title": "Perfectionist",
+        "desc": "Win 10 perfect games."
+      },
+      "dedicated": { "title": "Dedicated", "desc": "Play on 3 different days." }
+    }
+  }
+}

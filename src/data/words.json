@@ -1,0 +1,2264 @@
+[
+  {
+    "id": "cat",
+    "emoji": "🐱",
+    "translations": {
+      "fr": {
+        "text": "chat"
+      },
+      "en": {
+        "text": "cat"
+      },
+      "it": {
+        "text": "gatto"
+      },
+      "ja": {
+        "text": "ねこ",
+        "kanji": "猫",
+        "romaji": "neko"
+      },
+      "ja-kana": {
+        "text": "ねこ"
+      },
+      "ja-romaji": {
+        "text": "neko",
+        "speech": "ねこ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "animals"
+      ],
+      "en": [
+        "animals"
+      ],
+      "it": [
+        "animals"
+      ],
+      "ja": [
+        "animals",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "animals",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "animals",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "dog",
+    "emoji": "🐶",
+    "translations": {
+      "fr": {
+        "text": "chien"
+      },
+      "en": {
+        "text": "dog"
+      },
+      "it": {
+        "text": "cane"
+      },
+      "ja": {
+        "text": "いぬ",
+        "kanji": "犬",
+        "romaji": "inu"
+      },
+      "ja-kana": {
+        "text": "いぬ"
+      },
+      "ja-romaji": {
+        "text": "inu",
+        "speech": "いぬ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "animals"
+      ],
+      "en": [
+        "animals"
+      ],
+      "it": [
+        "animals"
+      ],
+      "ja": [
+        "animals",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "animals",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "animals",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "bird",
+    "emoji": "🐦",
+    "translations": {
+      "fr": {
+        "text": "oiseau"
+      },
+      "en": {
+        "text": "bird"
+      },
+      "it": {
+        "text": "uccello"
+      },
+      "ja": {
+        "text": "とり",
+        "kanji": "鳥",
+        "romaji": "tori"
+      },
+      "ja-kana": {
+        "text": "とり"
+      },
+      "ja-romaji": {
+        "text": "tori",
+        "speech": "とり"
+      }
+    },
+    "categories": {
+      "fr": [
+        "animals"
+      ],
+      "en": [
+        "animals"
+      ],
+      "it": [
+        "animals"
+      ],
+      "ja": [
+        "animals",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "animals",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "animals",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "fish",
+    "emoji": "🐟",
+    "translations": {
+      "fr": {
+        "text": "poisson"
+      },
+      "en": {
+        "text": "fish"
+      },
+      "it": {
+        "text": "pesce"
+      },
+      "ja": {
+        "text": "さかな",
+        "kanji": "魚",
+        "romaji": "sakana"
+      },
+      "ja-kana": {
+        "text": "さかな"
+      },
+      "ja-romaji": {
+        "text": "sakana",
+        "speech": "さかな"
+      }
+    },
+    "categories": {
+      "fr": [
+        "animals"
+      ],
+      "en": [
+        "animals"
+      ],
+      "it": [
+        "animals"
+      ],
+      "ja": [
+        "animals",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "animals",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "animals",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "rabbit",
+    "emoji": "🐰",
+    "translations": {
+      "fr": {
+        "text": "lapin"
+      },
+      "en": {
+        "text": "rabbit"
+      },
+      "it": {
+        "text": "coniglio"
+      },
+      "ja": {
+        "text": "うさぎ",
+        "kanji": "兎",
+        "romaji": "usagi"
+      },
+      "ja-kana": {
+        "text": "うさぎ"
+      },
+      "ja-romaji": {
+        "text": "usagi",
+        "speech": "うさぎ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "animals"
+      ],
+      "en": [
+        "animals"
+      ],
+      "it": [
+        "animals"
+      ],
+      "ja": [
+        "animals"
+      ],
+      "ja-kana": [
+        "animals"
+      ],
+      "ja-romaji": [
+        "animals"
+      ]
+    }
+  },
+  {
+    "id": "horse",
+    "emoji": "🐴",
+    "translations": {
+      "fr": {
+        "text": "cheval"
+      },
+      "en": {
+        "text": "horse"
+      },
+      "it": {
+        "text": "cavallo"
+      },
+      "ja": {
+        "text": "うま",
+        "kanji": "馬",
+        "romaji": "uma"
+      },
+      "ja-kana": {
+        "text": "うま"
+      },
+      "ja-romaji": {
+        "text": "uma",
+        "speech": "うま"
+      }
+    },
+    "categories": {
+      "fr": [
+        "animals"
+      ],
+      "en": [
+        "animals"
+      ],
+      "it": [
+        "animals"
+      ],
+      "ja": [
+        "animals",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "animals",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "animals",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "apple",
+    "emoji": "🍎",
+    "translations": {
+      "fr": {
+        "text": "pomme"
+      },
+      "en": {
+        "text": "apple"
+      },
+      "it": {
+        "text": "mela"
+      },
+      "ja": {
+        "text": "りんご",
+        "kanji": "林檎",
+        "romaji": "ringo"
+      },
+      "ja-kana": {
+        "text": "りんご"
+      },
+      "ja-romaji": {
+        "text": "ringo",
+        "speech": "りんご"
+      }
+    },
+    "categories": {
+      "fr": [
+        "food"
+      ],
+      "en": [
+        "food"
+      ],
+      "it": [
+        "food"
+      ],
+      "ja": [
+        "food"
+      ],
+      "ja-kana": [
+        "food"
+      ],
+      "ja-romaji": [
+        "food"
+      ]
+    }
+  },
+  {
+    "id": "bread",
+    "emoji": "🍞",
+    "translations": {
+      "fr": {
+        "text": "pain"
+      },
+      "en": {
+        "text": "bread"
+      },
+      "it": {
+        "text": "pane"
+      },
+      "ja": {
+        "text": "パン",
+        "romaji": "pan"
+      },
+      "ja-kana": {
+        "text": "パン"
+      },
+      "ja-romaji": {
+        "text": "pan",
+        "speech": "パン"
+      }
+    },
+    "categories": {
+      "fr": [
+        "food"
+      ],
+      "en": [
+        "food"
+      ],
+      "it": [
+        "food"
+      ],
+      "ja": [
+        "food",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "food",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "food",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "water",
+    "emoji": "💧",
+    "translations": {
+      "fr": {
+        "text": "eau"
+      },
+      "en": {
+        "text": "water"
+      },
+      "it": {
+        "text": "acqua"
+      },
+      "ja": {
+        "text": "みず",
+        "kanji": "水",
+        "romaji": "mizu"
+      },
+      "ja-kana": {
+        "text": "みず"
+      },
+      "ja-romaji": {
+        "text": "mizu",
+        "speech": "みず"
+      }
+    },
+    "categories": {
+      "fr": [
+        "food"
+      ],
+      "en": [
+        "food"
+      ],
+      "it": [
+        "food"
+      ],
+      "ja": [
+        "food",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "food",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "food",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "rice",
+    "emoji": "🍚",
+    "translations": {
+      "fr": {
+        "text": "riz"
+      },
+      "en": {
+        "text": "rice"
+      },
+      "it": {
+        "text": "riso"
+      },
+      "ja": {
+        "text": "ごはん",
+        "kanji": "ご飯",
+        "romaji": "gohan"
+      },
+      "ja-kana": {
+        "text": "ごはん"
+      },
+      "ja-romaji": {
+        "text": "gohan",
+        "speech": "ごはん"
+      }
+    },
+    "categories": {
+      "fr": [
+        "food"
+      ],
+      "en": [
+        "food"
+      ],
+      "it": [
+        "food"
+      ],
+      "ja": [
+        "food",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "food",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "food",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "egg",
+    "emoji": "🥚",
+    "translations": {
+      "fr": {
+        "text": "œuf"
+      },
+      "en": {
+        "text": "egg"
+      },
+      "it": {
+        "text": "uovo"
+      },
+      "ja": {
+        "text": "たまご",
+        "kanji": "卵",
+        "romaji": "tamago"
+      },
+      "ja-kana": {
+        "text": "たまご"
+      },
+      "ja-romaji": {
+        "text": "tamago",
+        "speech": "たまご"
+      }
+    },
+    "categories": {
+      "fr": [
+        "food"
+      ],
+      "en": [
+        "food"
+      ],
+      "it": [
+        "food"
+      ],
+      "ja": [
+        "food",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "food",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "food",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "milk",
+    "emoji": "🥛",
+    "translations": {
+      "fr": {
+        "text": "lait"
+      },
+      "en": {
+        "text": "milk"
+      },
+      "it": {
+        "text": "latte"
+      },
+      "ja": {
+        "text": "ぎゅうにゅう",
+        "kanji": "牛乳",
+        "romaji": "gyuunyuu"
+      },
+      "ja-kana": {
+        "text": "ぎゅうにゅう"
+      },
+      "ja-romaji": {
+        "text": "gyuunyuu",
+        "speech": "ぎゅうにゅう"
+      }
+    },
+    "categories": {
+      "fr": [
+        "food"
+      ],
+      "en": [
+        "food"
+      ],
+      "it": [
+        "food"
+      ],
+      "ja": [
+        "food",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "food",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "food",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "red",
+    "emoji": "🔴",
+    "translations": {
+      "fr": {
+        "text": "rouge"
+      },
+      "en": {
+        "text": "red"
+      },
+      "it": {
+        "text": "rosso"
+      },
+      "ja": {
+        "text": "あか",
+        "kanji": "赤",
+        "romaji": "aka"
+      },
+      "ja-kana": {
+        "text": "あか"
+      },
+      "ja-romaji": {
+        "text": "aka",
+        "speech": "あか"
+      }
+    },
+    "categories": {
+      "fr": [
+        "colors"
+      ],
+      "en": [
+        "colors"
+      ],
+      "it": [
+        "colors"
+      ],
+      "ja": [
+        "colors",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "colors",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "colors",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "blue",
+    "emoji": "🔵",
+    "translations": {
+      "fr": {
+        "text": "bleu"
+      },
+      "en": {
+        "text": "blue"
+      },
+      "it": {
+        "text": "blu"
+      },
+      "ja": {
+        "text": "あお",
+        "kanji": "青",
+        "romaji": "ao"
+      },
+      "ja-kana": {
+        "text": "あお"
+      },
+      "ja-romaji": {
+        "text": "ao",
+        "speech": "あお"
+      }
+    },
+    "categories": {
+      "fr": [
+        "colors"
+      ],
+      "en": [
+        "colors"
+      ],
+      "it": [
+        "colors"
+      ],
+      "ja": [
+        "colors",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "colors",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "colors",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "green",
+    "emoji": "🟢",
+    "translations": {
+      "fr": {
+        "text": "vert"
+      },
+      "en": {
+        "text": "green"
+      },
+      "it": {
+        "text": "verde"
+      },
+      "ja": {
+        "text": "みどり",
+        "kanji": "緑",
+        "romaji": "midori"
+      },
+      "ja-kana": {
+        "text": "みどり"
+      },
+      "ja-romaji": {
+        "text": "midori",
+        "speech": "みどり"
+      }
+    },
+    "categories": {
+      "fr": [
+        "colors"
+      ],
+      "en": [
+        "colors"
+      ],
+      "it": [
+        "colors"
+      ],
+      "ja": [
+        "colors",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "colors",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "colors",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "yellow",
+    "emoji": "🟡",
+    "translations": {
+      "fr": {
+        "text": "jaune"
+      },
+      "en": {
+        "text": "yellow"
+      },
+      "it": {
+        "text": "giallo"
+      },
+      "ja": {
+        "text": "きいろ",
+        "kanji": "黄色",
+        "romaji": "kiiro"
+      },
+      "ja-kana": {
+        "text": "きいろ"
+      },
+      "ja-romaji": {
+        "text": "kiiro",
+        "speech": "きいろ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "colors"
+      ],
+      "en": [
+        "colors"
+      ],
+      "it": [
+        "colors"
+      ],
+      "ja": [
+        "colors",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "colors",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "colors",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "one",
+    "emoji": "1️⃣",
+    "translations": {
+      "fr": {
+        "text": "un"
+      },
+      "en": {
+        "text": "one"
+      },
+      "it": {
+        "text": "uno"
+      },
+      "ja": {
+        "text": "いち",
+        "kanji": "一",
+        "romaji": "ichi"
+      },
+      "ja-kana": {
+        "text": "いち"
+      },
+      "ja-romaji": {
+        "text": "ichi",
+        "speech": "いち"
+      }
+    },
+    "categories": {
+      "fr": [
+        "numbers"
+      ],
+      "en": [
+        "numbers"
+      ],
+      "it": [
+        "numbers"
+      ],
+      "ja": [
+        "numbers",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "numbers",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "numbers",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "two",
+    "emoji": "2️⃣",
+    "translations": {
+      "fr": {
+        "text": "deux"
+      },
+      "en": {
+        "text": "two"
+      },
+      "it": {
+        "text": "due"
+      },
+      "ja": {
+        "text": "に",
+        "kanji": "二",
+        "romaji": "ni"
+      },
+      "ja-kana": {
+        "text": "に"
+      },
+      "ja-romaji": {
+        "text": "ni",
+        "speech": "に"
+      }
+    },
+    "categories": {
+      "fr": [
+        "numbers"
+      ],
+      "en": [
+        "numbers"
+      ],
+      "it": [
+        "numbers"
+      ],
+      "ja": [
+        "numbers",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "numbers",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "numbers",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "three",
+    "emoji": "3️⃣",
+    "translations": {
+      "fr": {
+        "text": "trois"
+      },
+      "en": {
+        "text": "three"
+      },
+      "ja": {
+        "text": "さん",
+        "kanji": "三",
+        "romaji": "san"
+      },
+      "ja-kana": {
+        "text": "さん"
+      },
+      "ja-romaji": {
+        "text": "san",
+        "speech": "さん"
+      }
+    },
+    "categories": {
+      "fr": [
+        "numbers"
+      ],
+      "en": [
+        "numbers"
+      ],
+      "ja": [
+        "numbers",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "numbers",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "numbers",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "mother",
+    "emoji": "👩",
+    "translations": {
+      "fr": {
+        "text": "maman"
+      },
+      "en": {
+        "text": "mother"
+      },
+      "it": {
+        "text": "mamma"
+      },
+      "ja": {
+        "text": "おかあさん",
+        "kanji": "お母さん",
+        "romaji": "okaasan"
+      },
+      "ja-kana": {
+        "text": "おかあさん"
+      },
+      "ja-romaji": {
+        "text": "okaasan",
+        "speech": "おかあさん"
+      }
+    },
+    "categories": {
+      "fr": [
+        "family"
+      ],
+      "en": [
+        "family"
+      ],
+      "it": [
+        "family"
+      ],
+      "ja": [
+        "family",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "family",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "family",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "father",
+    "emoji": "👨",
+    "translations": {
+      "fr": {
+        "text": "papa"
+      },
+      "en": {
+        "text": "father"
+      },
+      "it": {
+        "text": "papà"
+      },
+      "ja": {
+        "text": "おとうさん",
+        "kanji": "お父さん",
+        "romaji": "otousan"
+      },
+      "ja-kana": {
+        "text": "おとうさん"
+      },
+      "ja-romaji": {
+        "text": "otousan",
+        "speech": "おとうさん"
+      }
+    },
+    "categories": {
+      "fr": [
+        "family"
+      ],
+      "en": [
+        "family"
+      ],
+      "it": [
+        "family"
+      ],
+      "ja": [
+        "family",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "family",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "family",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "child",
+    "emoji": "🧒",
+    "translations": {
+      "fr": {
+        "text": "enfant"
+      },
+      "en": {
+        "text": "child"
+      },
+      "it": {
+        "text": "bambino"
+      },
+      "ja": {
+        "text": "こども",
+        "kanji": "子供",
+        "romaji": "kodomo"
+      },
+      "ja-kana": {
+        "text": "こども"
+      },
+      "ja-romaji": {
+        "text": "kodomo",
+        "speech": "こども"
+      }
+    },
+    "categories": {
+      "fr": [
+        "family"
+      ],
+      "en": [
+        "family"
+      ],
+      "it": [
+        "family"
+      ],
+      "ja": [
+        "family",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "family",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "family",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "hand",
+    "emoji": "✋",
+    "translations": {
+      "fr": {
+        "text": "main"
+      },
+      "en": {
+        "text": "hand"
+      },
+      "it": {
+        "text": "mano"
+      },
+      "ja": {
+        "text": "て",
+        "kanji": "手",
+        "romaji": "te"
+      },
+      "ja-kana": {
+        "text": "て"
+      },
+      "ja-romaji": {
+        "text": "te",
+        "speech": "て"
+      }
+    },
+    "categories": {
+      "fr": [
+        "body"
+      ],
+      "en": [
+        "body"
+      ],
+      "it": [
+        "body"
+      ],
+      "ja": [
+        "body",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "body",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "body",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "eye",
+    "emoji": "👁️",
+    "translations": {
+      "fr": {
+        "text": "œil"
+      },
+      "en": {
+        "text": "eye"
+      },
+      "it": {
+        "text": "occhio"
+      },
+      "ja": {
+        "text": "め",
+        "kanji": "目",
+        "romaji": "me"
+      },
+      "ja-kana": {
+        "text": "め"
+      },
+      "ja-romaji": {
+        "text": "me",
+        "speech": "め"
+      }
+    },
+    "categories": {
+      "fr": [
+        "body"
+      ],
+      "en": [
+        "body"
+      ],
+      "it": [
+        "body"
+      ],
+      "ja": [
+        "body",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "body",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "body",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "ear",
+    "emoji": "👂",
+    "translations": {
+      "fr": {
+        "text": "oreille"
+      },
+      "en": {
+        "text": "ear"
+      },
+      "it": {
+        "text": "orecchio"
+      },
+      "ja": {
+        "text": "みみ",
+        "kanji": "耳",
+        "romaji": "mimi"
+      },
+      "ja-kana": {
+        "text": "みみ"
+      },
+      "ja-romaji": {
+        "text": "mimi",
+        "speech": "みみ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "body"
+      ],
+      "en": [
+        "body"
+      ],
+      "it": [
+        "body"
+      ],
+      "ja": [
+        "body",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "body",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "body",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "nose",
+    "emoji": "👃",
+    "translations": {
+      "fr": {
+        "text": "nez"
+      },
+      "en": {
+        "text": "nose"
+      },
+      "it": {
+        "text": "naso"
+      },
+      "ja": {
+        "text": "はな",
+        "kanji": "鼻",
+        "romaji": "hana"
+      },
+      "ja-kana": {
+        "text": "はな"
+      },
+      "ja-romaji": {
+        "text": "hana",
+        "speech": "はな"
+      }
+    },
+    "categories": {
+      "fr": [
+        "body"
+      ],
+      "en": [
+        "body"
+      ],
+      "it": [
+        "body"
+      ],
+      "ja": [
+        "body"
+      ],
+      "ja-kana": [
+        "body"
+      ],
+      "ja-romaji": [
+        "body"
+      ]
+    }
+  },
+  {
+    "id": "mouth",
+    "emoji": "👄",
+    "translations": {
+      "fr": {
+        "text": "bouche"
+      },
+      "en": {
+        "text": "mouth"
+      },
+      "it": {
+        "text": "bocca"
+      },
+      "ja": {
+        "text": "くち",
+        "kanji": "口",
+        "romaji": "kuchi"
+      },
+      "ja-kana": {
+        "text": "くち"
+      },
+      "ja-romaji": {
+        "text": "kuchi",
+        "speech": "くち"
+      }
+    },
+    "categories": {
+      "fr": [
+        "body"
+      ],
+      "en": [
+        "body"
+      ],
+      "it": [
+        "body"
+      ],
+      "ja": [
+        "body",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "body",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "body",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "foot",
+    "emoji": "🦶",
+    "translations": {
+      "fr": {
+        "text": "pied"
+      },
+      "en": {
+        "text": "foot"
+      },
+      "it": {
+        "text": "piede"
+      },
+      "ja": {
+        "text": "あし",
+        "kanji": "足",
+        "romaji": "ashi"
+      },
+      "ja-kana": {
+        "text": "あし"
+      },
+      "ja-romaji": {
+        "text": "ashi",
+        "speech": "あし"
+      }
+    },
+    "categories": {
+      "fr": [
+        "body"
+      ],
+      "en": [
+        "body"
+      ],
+      "it": [
+        "body"
+      ],
+      "ja": [
+        "body",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "body",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "body",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "sun",
+    "emoji": "☀️",
+    "translations": {
+      "fr": {
+        "text": "soleil"
+      },
+      "en": {
+        "text": "sun"
+      },
+      "it": {
+        "text": "sole"
+      },
+      "ja": {
+        "text": "たいよう",
+        "kanji": "太陽",
+        "romaji": "taiyou"
+      },
+      "ja-kana": {
+        "text": "たいよう"
+      },
+      "ja-romaji": {
+        "text": "taiyou",
+        "speech": "たいよう"
+      }
+    },
+    "categories": {
+      "fr": [
+        "weather"
+      ],
+      "en": [
+        "weather"
+      ],
+      "it": [
+        "weather"
+      ],
+      "ja": [
+        "weather"
+      ],
+      "ja-kana": [
+        "weather"
+      ],
+      "ja-romaji": [
+        "weather"
+      ]
+    }
+  },
+  {
+    "id": "rain",
+    "emoji": "🌧️",
+    "translations": {
+      "fr": {
+        "text": "pluie"
+      },
+      "en": {
+        "text": "rain"
+      },
+      "it": {
+        "text": "pioggia"
+      },
+      "ja": {
+        "text": "あめ",
+        "kanji": "雨",
+        "romaji": "ame"
+      },
+      "ja-kana": {
+        "text": "あめ"
+      },
+      "ja-romaji": {
+        "text": "ame",
+        "speech": "あめ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "weather"
+      ],
+      "en": [
+        "weather"
+      ],
+      "it": [
+        "weather"
+      ],
+      "ja": [
+        "weather",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "weather",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "weather",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "snow",
+    "emoji": "❄️",
+    "translations": {
+      "fr": {
+        "text": "neige"
+      },
+      "en": {
+        "text": "snow"
+      },
+      "it": {
+        "text": "neve"
+      },
+      "ja": {
+        "text": "ゆき",
+        "kanji": "雪",
+        "romaji": "yuki"
+      },
+      "ja-kana": {
+        "text": "ゆき"
+      },
+      "ja-romaji": {
+        "text": "yuki",
+        "speech": "ゆき"
+      }
+    },
+    "categories": {
+      "fr": [
+        "weather"
+      ],
+      "en": [
+        "weather"
+      ],
+      "it": [
+        "weather"
+      ],
+      "ja": [
+        "weather",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "weather",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "weather",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "cloud",
+    "emoji": "☁️",
+    "translations": {
+      "fr": {
+        "text": "nuage"
+      },
+      "en": {
+        "text": "cloud"
+      },
+      "it": {
+        "text": "nuvola"
+      },
+      "ja": {
+        "text": "くも",
+        "kanji": "雲",
+        "romaji": "kumo"
+      },
+      "ja-kana": {
+        "text": "くも"
+      },
+      "ja-romaji": {
+        "text": "kumo",
+        "speech": "くも"
+      }
+    },
+    "categories": {
+      "fr": [
+        "weather"
+      ],
+      "en": [
+        "weather"
+      ],
+      "it": [
+        "weather"
+      ],
+      "ja": [
+        "weather"
+      ],
+      "ja-kana": [
+        "weather"
+      ],
+      "ja-romaji": [
+        "weather"
+      ]
+    }
+  },
+  {
+    "id": "wind",
+    "emoji": "🌬️",
+    "translations": {
+      "fr": {
+        "text": "vent"
+      },
+      "en": {
+        "text": "wind"
+      },
+      "it": {
+        "text": "vento"
+      },
+      "ja": {
+        "text": "かぜ",
+        "kanji": "風",
+        "romaji": "kaze"
+      },
+      "ja-kana": {
+        "text": "かぜ"
+      },
+      "ja-romaji": {
+        "text": "kaze",
+        "speech": "かぜ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "weather"
+      ],
+      "en": [
+        "weather"
+      ],
+      "it": [
+        "weather"
+      ],
+      "ja": [
+        "weather",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "weather",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "weather",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "rainbow",
+    "emoji": "🌈",
+    "translations": {
+      "fr": {
+        "text": "arc-en-ciel"
+      },
+      "en": {
+        "text": "rainbow"
+      },
+      "it": {
+        "text": "arcobaleno"
+      },
+      "ja": {
+        "text": "にじ",
+        "kanji": "虹",
+        "romaji": "niji"
+      },
+      "ja-kana": {
+        "text": "にじ"
+      },
+      "ja-romaji": {
+        "text": "niji",
+        "speech": "にじ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "weather"
+      ],
+      "en": [
+        "weather"
+      ],
+      "it": [
+        "weather"
+      ],
+      "ja": [
+        "weather"
+      ],
+      "ja-kana": [
+        "weather"
+      ],
+      "ja-romaji": [
+        "weather"
+      ]
+    }
+  },
+  {
+    "id": "shirt",
+    "emoji": "👕",
+    "translations": {
+      "fr": {
+        "text": "chemise"
+      },
+      "en": {
+        "text": "shirt"
+      },
+      "it": {
+        "text": "camicia"
+      },
+      "ja": {
+        "text": "シャツ",
+        "romaji": "shatsu"
+      },
+      "ja-kana": {
+        "text": "シャツ"
+      },
+      "ja-romaji": {
+        "text": "shatsu",
+        "speech": "シャツ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "clothes"
+      ],
+      "en": [
+        "clothes"
+      ],
+      "it": [
+        "clothes"
+      ],
+      "ja": [
+        "clothes",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "clothes",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "clothes",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "hat",
+    "emoji": "🧢",
+    "translations": {
+      "fr": {
+        "text": "chapeau"
+      },
+      "en": {
+        "text": "hat"
+      },
+      "it": {
+        "text": "cappello"
+      },
+      "ja": {
+        "text": "ぼうし",
+        "kanji": "帽子",
+        "romaji": "boushi"
+      },
+      "ja-kana": {
+        "text": "ぼうし"
+      },
+      "ja-romaji": {
+        "text": "boushi",
+        "speech": "ぼうし"
+      }
+    },
+    "categories": {
+      "fr": [
+        "clothes"
+      ],
+      "en": [
+        "clothes"
+      ],
+      "it": [
+        "clothes"
+      ],
+      "ja": [
+        "clothes",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "clothes",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "clothes",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "shoes",
+    "emoji": "👟",
+    "translations": {
+      "fr": {
+        "text": "chaussures"
+      },
+      "en": {
+        "text": "shoes"
+      },
+      "it": {
+        "text": "scarpe"
+      },
+      "ja": {
+        "text": "くつ",
+        "kanji": "靴",
+        "romaji": "kutsu"
+      },
+      "ja-kana": {
+        "text": "くつ"
+      },
+      "ja-romaji": {
+        "text": "kutsu",
+        "speech": "くつ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "clothes"
+      ],
+      "en": [
+        "clothes"
+      ],
+      "it": [
+        "clothes"
+      ],
+      "ja": [
+        "clothes",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "clothes",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "clothes",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "socks",
+    "emoji": "🧦",
+    "translations": {
+      "fr": {
+        "text": "chaussettes"
+      },
+      "en": {
+        "text": "socks"
+      },
+      "it": {
+        "text": "calzini"
+      },
+      "ja": {
+        "text": "くつした",
+        "kanji": "靴下",
+        "romaji": "kutsushita"
+      },
+      "ja-kana": {
+        "text": "くつした"
+      },
+      "ja-romaji": {
+        "text": "kutsushita",
+        "speech": "くつした"
+      }
+    },
+    "categories": {
+      "fr": [
+        "clothes"
+      ],
+      "en": [
+        "clothes"
+      ],
+      "it": [
+        "clothes"
+      ],
+      "ja": [
+        "clothes"
+      ],
+      "ja-kana": [
+        "clothes"
+      ],
+      "ja-romaji": [
+        "clothes"
+      ]
+    }
+  },
+  {
+    "id": "dress",
+    "emoji": "👗",
+    "translations": {
+      "fr": {
+        "text": "robe"
+      },
+      "en": {
+        "text": "dress"
+      },
+      "it": {
+        "text": "vestito"
+      },
+      "ja": {
+        "text": "ワンピース",
+        "romaji": "wanpiisu"
+      },
+      "ja-kana": {
+        "text": "ワンピース"
+      },
+      "ja-romaji": {
+        "text": "wanpiisu",
+        "speech": "ワンピース"
+      }
+    },
+    "categories": {
+      "fr": [
+        "clothes"
+      ],
+      "en": [
+        "clothes"
+      ],
+      "it": [
+        "clothes"
+      ],
+      "ja": [
+        "clothes"
+      ],
+      "ja-kana": [
+        "clothes"
+      ],
+      "ja-romaji": [
+        "clothes"
+      ]
+    }
+  },
+  {
+    "id": "coat",
+    "emoji": "🧥",
+    "translations": {
+      "fr": {
+        "text": "manteau"
+      },
+      "en": {
+        "text": "coat"
+      },
+      "it": {
+        "text": "cappotto"
+      },
+      "ja": {
+        "text": "コート",
+        "romaji": "kooto"
+      },
+      "ja-kana": {
+        "text": "コート"
+      },
+      "ja-romaji": {
+        "text": "kooto",
+        "speech": "コート"
+      }
+    },
+    "categories": {
+      "fr": [
+        "clothes"
+      ],
+      "en": [
+        "clothes"
+      ],
+      "it": [
+        "clothes"
+      ],
+      "ja": [
+        "clothes"
+      ],
+      "ja-kana": [
+        "clothes"
+      ],
+      "ja-romaji": [
+        "clothes"
+      ]
+    }
+  },
+  {
+    "id": "car",
+    "emoji": "🚗",
+    "translations": {
+      "fr": {
+        "text": "voiture"
+      },
+      "en": {
+        "text": "car"
+      },
+      "it": {
+        "text": "macchina"
+      },
+      "ja": {
+        "text": "くるま",
+        "kanji": "車",
+        "romaji": "kuruma"
+      },
+      "ja-kana": {
+        "text": "くるま"
+      },
+      "ja-romaji": {
+        "text": "kuruma",
+        "speech": "くるま"
+      }
+    },
+    "categories": {
+      "fr": [
+        "vehicles"
+      ],
+      "en": [
+        "vehicles"
+      ],
+      "it": [
+        "vehicles"
+      ],
+      "ja": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "vehicles",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "train",
+    "emoji": "🚆",
+    "translations": {
+      "fr": {
+        "text": "train"
+      },
+      "en": {
+        "text": "train"
+      },
+      "it": {
+        "text": "treno"
+      },
+      "ja": {
+        "text": "でんしゃ",
+        "kanji": "電車",
+        "romaji": "densha"
+      },
+      "ja-kana": {
+        "text": "でんしゃ"
+      },
+      "ja-romaji": {
+        "text": "densha",
+        "speech": "でんしゃ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "vehicles"
+      ],
+      "en": [
+        "vehicles"
+      ],
+      "it": [
+        "vehicles"
+      ],
+      "ja": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "vehicles",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "airplane",
+    "emoji": "✈️",
+    "translations": {
+      "fr": {
+        "text": "avion"
+      },
+      "en": {
+        "text": "airplane"
+      },
+      "it": {
+        "text": "aereo"
+      },
+      "ja": {
+        "text": "ひこうき",
+        "kanji": "飛行機",
+        "romaji": "hikouki"
+      },
+      "ja-kana": {
+        "text": "ひこうき"
+      },
+      "ja-romaji": {
+        "text": "hikouki",
+        "speech": "ひこうき"
+      }
+    },
+    "categories": {
+      "fr": [
+        "vehicles"
+      ],
+      "en": [
+        "vehicles"
+      ],
+      "it": [
+        "vehicles"
+      ],
+      "ja": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "vehicles",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "boat",
+    "emoji": "🚢",
+    "translations": {
+      "fr": {
+        "text": "bateau"
+      },
+      "en": {
+        "text": "boat"
+      },
+      "it": {
+        "text": "barca"
+      },
+      "ja": {
+        "text": "ふね",
+        "kanji": "船",
+        "romaji": "fune"
+      },
+      "ja-kana": {
+        "text": "ふね"
+      },
+      "ja-romaji": {
+        "text": "fune",
+        "speech": "ふね"
+      }
+    },
+    "categories": {
+      "fr": [
+        "vehicles"
+      ],
+      "en": [
+        "vehicles"
+      ],
+      "it": [
+        "vehicles"
+      ],
+      "ja": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "vehicles",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "bicycle",
+    "emoji": "🚲",
+    "translations": {
+      "fr": {
+        "text": "vélo"
+      },
+      "en": {
+        "text": "bicycle"
+      },
+      "it": {
+        "text": "bicicletta"
+      },
+      "ja": {
+        "text": "じてんしゃ",
+        "kanji": "自転車",
+        "romaji": "jitensha"
+      },
+      "ja-kana": {
+        "text": "じてんしゃ"
+      },
+      "ja-romaji": {
+        "text": "jitensha",
+        "speech": "じてんしゃ"
+      }
+    },
+    "categories": {
+      "fr": [
+        "vehicles"
+      ],
+      "en": [
+        "vehicles"
+      ],
+      "it": [
+        "vehicles"
+      ],
+      "ja": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "vehicles",
+        "jlpt5"
+      ]
+    }
+  },
+  {
+    "id": "bus",
+    "emoji": "🚌",
+    "translations": {
+      "fr": {
+        "text": "bus"
+      },
+      "en": {
+        "text": "bus"
+      },
+      "it": {
+        "text": "autobus"
+      },
+      "ja": {
+        "text": "バス",
+        "romaji": "basu"
+      },
+      "ja-kana": {
+        "text": "バス"
+      },
+      "ja-romaji": {
+        "text": "basu",
+        "speech": "バス"
+      }
+    },
+    "categories": {
+      "fr": [
+        "vehicles"
+      ],
+      "en": [
+        "vehicles"
+      ],
+      "it": [
+        "vehicles"
+      ],
+      "ja": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-kana": [
+        "vehicles",
+        "jlpt5"
+      ],
+      "ja-romaji": [
+        "vehicles",
+        "jlpt5"
+      ]
+    }
+  }
+]
