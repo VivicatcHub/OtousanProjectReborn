@@ -113,10 +113,8 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
           return (
             <button
               key={option.id}
-              disabled={answered}
               onClick={() => {
-                round.answer(option);
-                playWord(option, answerLang, answerSpeech); // read the choice aloud
+                pickOption(i);
               }}
               className={cn(
                 "flex items-center justify-between rounded-2xl border-2 px-5 py-4 text-left text-xl font-bold transition-transform active:scale-95",

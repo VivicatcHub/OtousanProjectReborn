@@ -70,14 +70,14 @@ export function useWritingRound({
   const finished = infinite
     ? gameOver
     : questions.length > 0 && index >= questions.length;
-  const revealed = status === "correct" || status === "wrong";
+  const revealed = status === "wrong"; // only wrong answers pause to reveal
 
   function check() {
     if (!word || revealed) return;
     if (normalizeAnswer(typed) === normalizeAnswer(target)) {
       setScore((s) => s + 1);
       recordWord(learn, word.id, true); // update this word's error rate
-      setStatus("correct");
+      next(); // correct: no feedback, straight to the next word
       return;
     }
     if (forgiving && attempts === 0) {

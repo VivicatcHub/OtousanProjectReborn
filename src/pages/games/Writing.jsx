@@ -149,19 +149,10 @@ export default function Writing() {
         </p>
       )}
 
-      {/* Feedback + reveal once the word is decided. */}
+      {/* Wrong answer: reveal the correct word (correct answers just advance). */}
       {revealed && (
-        <div
-          className={cn(
-            "flex flex-col items-center gap-3 rounded-2xl p-4 text-center",
-            status === "correct" ? "bg-grass/15" : "bg-brand/15",
-          )}
-        >
-          <p className="text-xl font-black">
-            {status === "correct"
-              ? translate("writing.correct")
-              : translate("writing.wrong")}
-          </p>
+        <div className="flex flex-col items-center gap-3 rounded-2xl bg-brand/15 p-4 text-center">
+          <p className="text-xl font-black">{translate("writing.wrong")}</p>
           <div className="flex items-center gap-2 text-2xl font-black">
             <SpeakButton
               word={word}
@@ -194,7 +185,7 @@ export default function Writing() {
 }
 
 function AnswerSlots({ typed, target, hint, status, checkedValue }) {
-  const reveal = status === "correct" || status === "wrong";
+  const reveal = status === "wrong";
   const retryFeedback = status === "retry" && typed === checkedValue;
   const showCount = hint === "underscores";
   const targetChars = [...target];
