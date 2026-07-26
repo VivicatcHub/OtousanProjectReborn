@@ -18,6 +18,24 @@
     "speechCode": "it-IT"
   },
   {
+    "code": "es",
+    "label": "Español",
+    "flag": "🇪🇸",
+    "speechCode": "es-ES"
+  },
+  {
+    "code": "de",
+    "label": "Deutsch",
+    "flag": "🇩🇪",
+    "speechCode": "de-DE"
+  },
+  {
+    "code": "pt",
+    "label": "Português",
+    "flag": "🇵🇹",
+    "speechCode": "pt-PT"
+  },
+  {
     "code": "ja",
     "label": "日本語",
     "flag": "🇯🇵",

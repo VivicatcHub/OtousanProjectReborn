@@ -4,7 +4,12 @@ import { cn } from "@/lib/utils";
 function getLanguages(languages, learn) {
   if (learn) return languages;
   return languages.filter(
-    (lang) => lang.code !== "it" && !lang.code.includes("-"),
+    (lang) =>
+      lang.code !== "it" &&
+      lang.code !== "de" &&
+      lang.code !== "pt" &&
+      lang.code !== "es" &&
+      !lang.code.includes("-"),
   );
 }
 
