@@ -6,12 +6,18 @@
     "backToGames": "Retour aux jeux",
     "next": "Suivant →",
     "all": "Tout",
+    "back": "Retour",
     "custom": "Sur mesure",
+    "customDesc": "Choisis toutes les options",
     "category": "Catégorie",
     "mode": "Mode",
     "modeClassic": "Classique",
     "modeEndless": "Sans fin",
-    "check": "Vérifier"
+    "check": "Vérifier",
+    "pictures": "Mots",
+    "picBoth": "🎭 Images et mots",
+    "picEmoji": "🖼️ Images seulement",
+    "picText": "🔤 Mots seulement"
   },
   "nav": {
     "home": "Accueil",
@@ -52,6 +58,8 @@
     "sameLanguage": "💡 Choisis deux langues différentes pour jouer.",
     "sound": "Son 🔊",
     "soundHint": "Joue un petit son quand tu gagnes un badge.",
+    "articles": "Articles 🏷️",
+    "articlesHint": "Apprends les mots avec leur article (un chat, une voiture). En japonais, rien ne change.",
     "voice": "Voix du robot 🤖",
     "voiceHint": "Le système de text-to-speech ne fonctionne pas sur tous les appareils, nous vous conseillons de le désactiver s'il ne fonctionne pas sur le vôtre.",
     "voiceTest": "Tester la voix",
@@ -73,11 +81,17 @@
   },
   "dictionary": {
     "title": "Dictionnaire 📖",
+    "search": "🔍 Chercher un mot…",
     "empty": "Aucun mot dans cette catégorie.",
     "mastery": {
       "new": "Nouveau",
       "errors": "{{pct}} % d'erreurs",
       "perfect": "Maîtrisé"
+    },
+    "pagination": {
+      "prev": "◀ Précédent",
+      "next": "Suivant ▶",
+      "page": "Page {{current}} / {{total}}"
     }
   },
   "imagierSetup": {

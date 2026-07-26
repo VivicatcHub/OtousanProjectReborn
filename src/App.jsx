@@ -8,12 +8,16 @@ import Dictionary from "@/pages/Dictionary";
 import Achievements from "@/pages/Achievements";
 import SettingsPage from "@/pages/Settings";
 import ImagierSetup from "@/pages/games/ImagierSetup";
+import ImagierCustom from "@/pages/games/ImagierCustom";
 import Imagier from "@/pages/games/Imagier";
 import QuizSetup from "@/pages/games/QuizSetup";
+import QuizCustom from "@/pages/games/QuizCustom";
 import Quiz from "@/pages/games/Quiz";
 import WritingSetup from "@/pages/games/WritingSetup";
+import WritingCustom from "@/pages/games/WritingCustom";
 import Writing from "@/pages/games/Writing";
 import MemorySetup from "@/pages/games/MemorySetup";
+import MemoryCustom from "@/pages/games/MemoryCustom";
 import Memory from "@/pages/games/Memory";
 
 export default function App() {
@@ -27,12 +31,16 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/games" element={<Games />} />
         <Route path="/games/imagier" element={<ImagierSetup />} />
+        <Route path="/games/imagier/custom" element={<ImagierCustom />} />
         <Route path="/games/imagier/play" element={<Imagier />} />
         <Route path="/games/quiz" element={<QuizSetup />} />
+        <Route path="/games/quiz/custom" element={<QuizCustom />} />
         <Route path="/games/quiz/play" element={<Quiz />} />
         <Route path="/games/writing" element={<WritingSetup />} />
+        <Route path="/games/writing/custom" element={<WritingCustom />} />
         <Route path="/games/writing/play" element={<Writing />} />
         <Route path="/games/memory" element={<MemorySetup />} />
+        <Route path="/games/memory/custom" element={<MemoryCustom />} />
         <Route path="/games/memory/play" element={<Memory />} />
         <Route path="/dictionary" element={<Dictionary />} />
         <Route path="/achievements" element={<Achievements />} />

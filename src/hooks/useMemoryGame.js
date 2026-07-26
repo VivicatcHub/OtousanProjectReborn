@@ -12,6 +12,7 @@ export function useMemoryGame({
   pairs = DEFAULT_PAIRS,
   mode = "image",
   category = "all",
+  pictures = "both", // "both" | "emoji" | "text" — which words to include
 } = {}) {
   const { words, languages, loading } = useData();
   const { known, learn } = useSettings();
@@ -28,8 +29,8 @@ export function useMemoryGame({
   );
 
   const pool = useMemo(
-    () => wordsFor(words, known, learn, category),
-    [words, known, learn, category],
+    () => wordsFor(words, known, learn, category, pictures),
+    [words, known, learn, category, pictures],
   );
 
   const [cards, setCards] = useState([]); // [{ id, wordId, word, type, lang, matched }]
@@ -60,7 +61,10 @@ export function useMemoryGame({
               { type: "text", lang: known },
               { type: "text", lang: learn },
             ]
-          : [{ type: "image" }, { type: "text", lang: learn }];
+          : [
+              { type: "image", lang: known },
+              { type: "text", lang: learn },
+            ]; // lang = fallback text when the word has no picture
       return faces.map((face, f) => ({
         id: `${i}-${f}`,
         wordId: word.id,

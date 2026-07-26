@@ -1,12 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Play, Volume2, BookOpen } from "lucide-react";
+import { Volume2, BookOpen } from "lucide-react";
 import { useSettings } from "@/context/SettingsContext";
-import { dataProvider } from "@/services/dataProvider";
 import { PresetCard } from "@/components/PresetCard";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
 const PRESETS = [
@@ -47,24 +44,15 @@ const PRESETS = [
   },
 ];
 
-const GRID_OPTIONS = [
+export const GRID_OPTIONS = [
   4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 27, 28, 30, 32,
 ];
 
 export default function ImagierSetup() {
   const { t: translate } = useTranslation();
   const navigate = useNavigate();
-  const { learn, voice } = useSettings();
-  const [categories, setCategories] = useState([]);
-  const [grid, setGrid] = useState(12);
-  const [category, setCategory] = useState("all");
-  const [mode, setMode] = useState("classic");
+  const { voice } = useSettings();
   const [prompt, setPrompt] = useState(voice ? "voice" : "text"); // hear it vs. read it
-
-  useEffect(() => {
-    dataProvider.getCategories(learn).then(setCategories);
-    setCategory("all");
-  }, [learn]);
 
   useEffect(() => {
     if (!voice) setPrompt("text"); // no robot voice → only the reading version works
@@ -127,63 +115,12 @@ export default function ImagierSetup() {
           />
         ))}
 
-        <Card className="sm:col-span-2">
-          <CardContent className="space-y-4 p-5">
-            <p className="text-xl font-black">
-              🎛️ {translate("common.custom")}
-            </p>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-              <Field label={translate("common.mode")}>
-                <Select value={mode} onChange={(e) => setMode(e.target.value)}>
-                  <option value="classic">
-                    🎯 {translate("common.modeClassic")}
-                  </option>
-                  <option value="endless">
-                    ♾️ {translate("common.modeEndless")}
-                  </option>
-                </Select>
-              </Field>
-              <Field label={translate("imagierSetup.field")}>
-                <Select
-                  value={grid}
-                  onChange={(e) => setGrid(Number(e.target.value))}
-                >
-                  {GRID_OPTIONS.map((n) => (
-                    <option key={n} value={n}>
-                      {translate("imagierSetup.imageCount", { count: n })}
-                    </option>
-                  ))}
-                </Select>
-              </Field>
-              <Field label={translate("common.category")}>
-                <Select
-                  value={category}
-                  onChange={(e) => setCategory(e.target.value)}
-                >
-                  <option value="all">🌈 {translate("common.all")}</option>
-                  {categories.map((c) => (
-                    <option key={c.id} value={c.id}>
-                      {c.emoji} {c.label}
-                    </option>
-                  ))}
-                </Select>
-              </Field>
-            </div>
-            <Button
-              size="lg"
-              variant="grass"
-              onClick={() =>
-                play({
-                  grid,
-                  category,
-                  ...(mode === "endless" ? { inf: 1 } : {}),
-                })
-              }
-            >
-              <Play className="h-5 w-5" /> {translate("common.play")}
-            </Button>
-          </CardContent>
-        </Card>
+        <PresetCard
+          emoji="🎛️"
+          title={translate("common.custom")}
+          description={translate("common.customDesc")}
+          onClick={() => navigate("/games/imagier/custom")}
+        />
       </div>
     </div>
   );
@@ -225,5 +162,18 @@ export function Select({ children, ...props }) {
     >
       {children}
     </select>
+  );
+}
+
+export function PictureFilter({ value, onChange }) {
+  const { t: translate } = useTranslation();
+  return (
+    <Field label={translate("common.pictures")}>
+      <Select value={value} onChange={onChange}>
+        <option value="both">{translate("common.picBoth")}</option>
+        <option value="emoji">{translate("common.picEmoji")}</option>
+        <option value="text">{translate("common.picText")}</option>
+      </Select>
+    </Field>
   );
 }

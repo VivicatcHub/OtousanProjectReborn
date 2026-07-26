@@ -27,6 +27,7 @@ export default function Memory() {
     pairs: Number(params.get("pairs")) || 6,
     mode: params.get("mode") === "translation" ? "translation" : "image",
     category: params.get("category") || "all",
+    pictures: params.get("pics") || "both",
   });
 
   useRecordResult(game.phase === "won", () => ({
@@ -117,7 +118,7 @@ export default function Memory() {
               )}
             >
               {faceUp ? (
-                card.type === "image" ? (
+                card.type === "image" && card.word.emoji ? (
                   <span role="img" className="text-4xl sm:text-5xl">
                     {card.word.emoji}
                   </span>

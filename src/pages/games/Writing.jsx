@@ -17,6 +17,7 @@ export default function Writing() {
   const round = useWritingRound({
     direction: params.get("dir") || "known-learn",
     category: params.get("category") || "all",
+    pictures: params.get("pics") || "both",
     hint: params.get("hint") || "underscores",
     forgiving: params.get("forgiving") !== "0",
     infinite: params.get("inf") === "1",
@@ -110,7 +111,9 @@ export default function Writing() {
 
       {/* Prompt: the word to translate, in the language the child knows. */}
       <div className="flex flex-col items-center gap-2 py-2 text-center">
-        {showImage && <div className="text-6xl">{word.emoji}</div>}
+        {showImage && word.emoji && (
+          <div className="text-6xl">{word.emoji}</div>
+        )}
         <div className="text-3xl font-black">{getText(word, questionLang)}</div>
         <span className="text-sm font-bold text-muted-foreground">
           {translate("writing.prompt", {

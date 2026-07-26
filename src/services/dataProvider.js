@@ -8,7 +8,13 @@ export class JsonDataProvider {
   }
 
   async getCategories(langCode) {
-    return categoriesData[langCode] ?? [];
+    return categoriesData
+      .filter((c) => !c.languages || c.languages.includes(langCode))
+      .map((c) => ({
+        id: c.id,
+        emoji: c.emoji,
+        label: c.labels?.[langCode] ?? c.id,
+      }));
   }
 
   async getLanguages() {

@@ -19,13 +19,7 @@
   },
   {
     "code": "ja",
-    "label": "日本語 (漢字)",
-    "flag": "🇯🇵",
-    "speechCode": "ja-JP"
-  },
-  {
-    "code": "ja-kana",
-    "label": "日本語 (かな)",
+    "label": "日本語",
     "flag": "🇯🇵",
     "speechCode": "ja-JP"
   },

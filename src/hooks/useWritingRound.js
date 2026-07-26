@@ -1,5 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
-import { useData, wordsFor, getText } from "@/hooks/useData";
+import {
+  useData,
+  wordsFor,
+  getText,
+  typingTarget,
+  acceptedAnswers,
+} from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
 import { useWordStats } from "@/context/WordStatsContext";
 import { sample, weightedSample } from "@/lib/utils";
@@ -13,6 +19,7 @@ export function normalizeAnswer(s) {
 export function useWritingRound({
   category = "all",
   direction = "known-learn",
+  pictures = "both", // "both" | "emoji" | "text" — which words to include
   hint = "underscores",
   forgiving = true,
   infinite = false,
@@ -61,12 +68,12 @@ export function useWritingRound({
 
   useEffect(() => {
     if (loading) return;
-    build(wordsFor(words, known, learn, category));
+    build(wordsFor(words, known, learn, category, pictures));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [loading, words, known, learn, category, direction, infinite]);
+  }, [loading, words, known, learn, category, pictures, direction, infinite]);
 
   const word = questions[index] ?? null;
-  const target = word ? getText(word, answerLang) : "";
+  const target = word ? typingTarget(word, answerLang) : ""; // typeable form (kana, not kanji)
   const finished = infinite
     ? gameOver
     : questions.length > 0 && index >= questions.length;
@@ -74,7 +81,11 @@ export function useWritingRound({
 
   function check() {
     if (!word || revealed) return;
-    if (normalizeAnswer(typed) === normalizeAnswer(target)) {
+    const guess = normalizeAnswer(typed);
+    const correct = acceptedAnswers(word, answerLang).some(
+      (a) => normalizeAnswer(a) === guess,
+    );
+    if (correct) {
       setScore((s) => s + 1);
       recordWord(learn, word.id, true); // update this word's error rate
       next(); // correct: no feedback, straight to the next word
@@ -102,7 +113,7 @@ export function useWritingRound({
   }
 
   function restart() {
-    build(wordsFor(words, known, learn, category));
+    build(wordsFor(words, known, learn, category, pictures));
   }
 
   return {

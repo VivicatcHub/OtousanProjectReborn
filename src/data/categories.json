@@ -1,71 +1,32 @@
-{
-  "fr": [
-    { "id": "animals", "label": "Animaux", "emoji": "🐾" },
-    { "id": "food", "label": "Nourriture", "emoji": "🍎" },
-    { "id": "colors", "label": "Couleurs", "emoji": "🎨" },
-    { "id": "numbers", "label": "Nombres", "emoji": "🔢" },
-    { "id": "family", "label": "Famille", "emoji": "👪" },
-    { "id": "body", "label": "Corps", "emoji": "🧍" },
-    { "id": "weather", "label": "Météo", "emoji": "🌤️" },
-    { "id": "clothes", "label": "Vêtements", "emoji": "👕" },
-    { "id": "vehicles", "label": "Véhicules", "emoji": "🚗" }
-  ],
-  "en": [
-    { "id": "animals", "label": "Animals", "emoji": "🐾" },
-    { "id": "food", "label": "Food", "emoji": "🍎" },
-    { "id": "colors", "label": "Colors", "emoji": "🎨" },
-    { "id": "numbers", "label": "Numbers", "emoji": "🔢" },
-    { "id": "family", "label": "Family", "emoji": "👪" },
-    { "id": "body", "label": "Body", "emoji": "🧍" },
-    { "id": "weather", "label": "Weather", "emoji": "🌤️" },
-    { "id": "clothes", "label": "Clothes", "emoji": "👕" },
-    { "id": "vehicles", "label": "Vehicles", "emoji": "🚗" }
-  ],
-  "it": [
-    { "id": "animals", "label": "Animali", "emoji": "🐾" },
-    { "id": "food", "label": "Cibo", "emoji": "🍎" },
-    { "id": "colors", "label": "Colori", "emoji": "🎨" },
-    { "id": "numbers", "label": "Numeri", "emoji": "🔢" },
-    { "id": "family", "label": "Famiglia", "emoji": "👪" },
-    { "id": "body", "label": "Corpo", "emoji": "🧍" },
-    { "id": "weather", "label": "Meteo", "emoji": "🌤️" },
-    { "id": "clothes", "label": "Vestiti", "emoji": "👕" },
-    { "id": "vehicles", "label": "Veicoli", "emoji": "🚗" }
-  ],
-  "ja": [
-    { "id": "animals", "label": "動物", "emoji": "🐾" },
-    { "id": "food", "label": "食べ物", "emoji": "🍎" },
-    { "id": "colors", "label": "色", "emoji": "🎨" },
-    { "id": "numbers", "label": "数字", "emoji": "🔢" },
-    { "id": "family", "label": "家族", "emoji": "👪" },
-    { "id": "body", "label": "体", "emoji": "🧍" },
-    { "id": "weather", "label": "天気", "emoji": "🌤️" },
-    { "id": "clothes", "label": "服", "emoji": "👕" },
-    { "id": "vehicles", "label": "乗り物", "emoji": "🚗" },
-    { "id": "jlpt5", "label": "JLPT N5", "emoji": "🔰" }
-  ],
-  "ja-kana": [
-    { "id": "animals", "label": "どうぶつ", "emoji": "🐾" },
-    { "id": "food", "label": "たべもの", "emoji": "🍎" },
-    { "id": "colors", "label": "いろ", "emoji": "🎨" },
-    { "id": "numbers", "label": "すうじ", "emoji": "🔢" },
-    { "id": "family", "label": "かぞく", "emoji": "👪" },
-    { "id": "body", "label": "からだ", "emoji": "🧍" },
-    { "id": "weather", "label": "てんき", "emoji": "🌤️" },
-    { "id": "clothes", "label": "ふく", "emoji": "👕" },
-    { "id": "vehicles", "label": "のりもの", "emoji": "🚗" },
-    { "id": "jlpt5", "label": "JLPT N5", "emoji": "🔰" }
-  ],
-  "ja-romaji": [
-    { "id": "animals", "label": "doubutsu", "emoji": "🐾" },
-    { "id": "food", "label": "tabemono", "emoji": "🍎" },
-    { "id": "colors", "label": "iro", "emoji": "🎨" },
-    { "id": "numbers", "label": "suuji", "emoji": "🔢" },
-    { "id": "family", "label": "kazoku", "emoji": "👪" },
-    { "id": "body", "label": "karada", "emoji": "🧍" },
-    { "id": "weather", "label": "tenki", "emoji": "🌤️" },
-    { "id": "clothes", "label": "fuku", "emoji": "👕" },
-    { "id": "vehicles", "label": "norimono", "emoji": "🚗" },
-    { "id": "jlpt5", "label": "JLPT N5", "emoji": "🔰" }
-  ]
-}
+[
+  {
+    "id": "animals",
+    "emoji": "🐾",
+    "labels": {
+      "fr": "Animaux",
+      "en": "Animals",
+      "it": "Animali",
+      "ja": "動物",
+      "ja-romaji": "doubutsu"
+    }
+  },
+  {
+    "id": "plants",
+    "emoji": "🌸",
+    "labels": {
+      "fr": "Plantes",
+      "en": "Plants"
+    }
+  },
+  {
+    "id": "food",
+    "emoji": "🍎",
+    "labels": {
+      "fr": "Nourriture",
+      "en": "Food",
+      "it": "Cibo",
+      "ja": "食べ物",
+      "ja-romaji": "tabemono"
+    }
+  }
+]

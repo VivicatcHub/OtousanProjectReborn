@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useData, getTranslation } from "@/hooks/useData";
+import { useData, getTranslation, getText, hasCategory } from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
 import { useWordStats } from "@/context/WordStatsContext";
 import { dataProvider } from "@/services/dataProvider";
 import { Card, CardContent } from "@/components/ui/card";
 import { SpeakButton } from "@/components/SpeakButton";
 import { cn } from "@/lib/utils";
+
+const PAGE_SIZE = 30; // words per page before pagination kicks in
 
 export default function Dictionary() {
   const { t: translate } = useTranslation();
@@ -15,6 +17,8 @@ export default function Dictionary() {
   const { getWordStat } = useWordStats();
   const [category, setCategory] = useState("all");
   const [categories, setCategories] = useState([]);
+  const [query, setQuery] = useState("");
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
     dataProvider.getCategories(learn).then(setCategories);
@@ -24,18 +28,45 @@ export default function Dictionary() {
   const learnLang = languages.find((l) => l.code === learn);
 
   const visible = useMemo(() => {
-    return words.filter((w) => {
-      if (!getTranslation(w, known) || !getTranslation(w, learn)) return false;
-      if (category === "all") return true;
-      return (w.categories[learn] ?? []).includes(category);
-    });
-  }, [words, known, learn, category]);
+    const q = query.trim().toLowerCase();
+    return words
+      .filter((w) => {
+        const knownTr = getTranslation(w, known);
+        const learnTr = getTranslation(w, learn);
+        if (!knownTr || !learnTr) return false;
+        if (!hasCategory(w, category)) return false;
+        if (!q) return true;
+        return [
+          knownTr.text,
+          knownTr.romaji,
+          learnTr.text,
+          learnTr.romaji,
+        ].some((s) => s && s.toLowerCase().includes(q));
+      })
+      .sort((a, b) => a.id.localeCompare(b.id));
+  }, [words, known, learn, category, query]);
+
+  const pageCount = Math.max(1, Math.ceil(visible.length / PAGE_SIZE));
+  useEffect(() => {
+    setPage(1);
+  }, [known, learn, category, query]);
+  const safePage = Math.min(page, pageCount);
+  const paged = visible.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
 
   if (loading) return <p>{translate("common.loading")}</p>;
 
   return (
     <div className="space-y-5">
       <h1 className="text-3xl font-black">{translate("dictionary.title")}</h1>
+
+      {/* Search box */}
+      <input
+        type="search"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder={translate("dictionary.search")}
+        className="w-full rounded-full border-2 border-border bg-card px-4 py-2.5 text-base font-semibold outline-none transition-colors focus:border-brand"
+      />
 
       {/* Category filter chips */}
       <div className="flex flex-wrap gap-2">
@@ -57,25 +88,29 @@ export default function Dictionary() {
       </div>
 
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-        {visible.map((word) => {
+        {paged.map((word, i) => {
           const learnTr = getTranslation(word, learn);
           return (
-            <Card key={word.id}>
+            <Card key={`${word.id}-${i}`}>
               <CardContent className="flex items-center gap-4 p-4">
                 <span className="text-4xl">{word.emoji}</span>
                 <div className="min-w-0 flex-1">
                   <p className="truncate text-sm text-muted-foreground">
-                    {getTranslation(word, known).text}
+                    {getText(word, known)}
                   </p>
                   <p className="truncate text-xl font-extrabold">
-                    {learnTr.text}
+                    {getText(word, learn)}
                   </p>
-                  {learnTr.romaji && (
-                    <p className="truncate text-xs text-muted-foreground">
-                      {learnTr.kanji ? `${learnTr.kanji} · ` : ""}
-                      {learnTr.romaji}
-                    </p>
-                  )}
+                  {(() => {
+                    const extra = [learnTr.romaji]
+                      .filter((x) => x && x !== learnTr.text)
+                      .join(" · ");
+                    return extra ? (
+                      <p className="truncate text-xs text-muted-foreground">
+                        {extra}
+                      </p>
+                    ) : null;
+                  })()}
                   <MasteryBar stat={getWordStat(learn, word.id)} />
                 </div>
                 <SpeakButton
@@ -91,6 +126,32 @@ export default function Dictionary() {
 
       {visible.length === 0 && (
         <p className="text-muted-foreground">{translate("dictionary.empty")}</p>
+      )}
+
+      {/* Pagination — only shown when there are more words than one page */}
+      {pageCount > 1 && (
+        <div className="flex items-center justify-center gap-3 pt-2">
+          <button
+            onClick={() => setPage((p) => Math.max(1, p - 1))}
+            disabled={safePage === 1}
+            className="rounded-full border-2 border-border bg-card px-4 py-2 text-sm font-bold transition-transform active:scale-95 hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            {translate("dictionary.pagination.prev")}
+          </button>
+          <span className="text-sm font-bold text-muted-foreground">
+            {translate("dictionary.pagination.page", {
+              current: safePage,
+              total: pageCount,
+            })}
+          </span>
+          <button
+            onClick={() => setPage((p) => Math.min(pageCount, p + 1))}
+            disabled={safePage === pageCount}
+            className="rounded-full border-2 border-border bg-card px-4 py-2 text-sm font-bold transition-transform active:scale-95 hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            {translate("dictionary.pagination.next")}
+          </button>
+        </div>
       )}
     </div>
   );

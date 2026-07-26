@@ -3,11 +3,12 @@ import { useData } from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
 import { LanguagePicker } from "@/components/LanguagePicker";
 import { Button } from "@/components/ui/button";
+import SettingsPage from "@/pages/Settings";
 
 export function WelcomeSettings() {
   const { t: translate } = useTranslation();
-  const { languages, loading } = useData();
-  const { known, learn, setKnown, setLearn, confirmSettings } = useSettings();
+  const { loading } = useData();
+  const { known, learn, confirmSettings } = useSettings();
 
   const sameLanguage = known === learn;
 
@@ -27,23 +28,7 @@ export function WelcomeSettings() {
           <p>{translate("common.loading")}</p>
         ) : (
           <>
-            <LanguagePicker
-              title={translate("settings.known")}
-              languages={languages}
-              value={known}
-              onChange={setKnown}
-            />
-            <LanguagePicker
-              title={translate("settings.learn")}
-              languages={languages}
-              value={learn}
-              onChange={setLearn}
-            />
-            {sameLanguage && (
-              <p className="rounded-xl bg-sun/40 p-3 text-center font-semibold">
-                {translate("settings.sameLanguage")}
-              </p>
-            )}
+            <SettingsPage />
             <Button
               size="lg"
               className="self-center"

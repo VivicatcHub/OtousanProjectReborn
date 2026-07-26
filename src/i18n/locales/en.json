@@ -6,12 +6,18 @@
     "backToGames": "Back to games",
     "next": "Next →",
     "all": "All",
+    "back": "Back",
     "custom": "Custom",
+    "customDesc": "Set every option yourself",
     "category": "Category",
     "mode": "Mode",
     "modeClassic": "Classic",
     "modeEndless": "Endless",
-    "check": "Check"
+    "check": "Check",
+    "pictures": "Words",
+    "picBoth": "🎭 Pictures & words",
+    "picEmoji": "🖼️ Pictures only",
+    "picText": "🔤 Words only"
   },
   "nav": {
     "home": "Home",
@@ -52,6 +58,8 @@
     "sameLanguage": "💡 Pick two different languages to play.",
     "sound": "Sound 🔊",
     "soundHint": "Play a little chime when you earn a badge.",
+    "articles": "Articles 🏷️",
+    "articlesHint": "Learn words with their article (a cat, a car). Japanese stays the same.",
     "voice": "Robot voice 🤖",
     "voiceHint": "The text-to-speech system does not work on every device; we recommend turning it off if it does not work on yours.",
     "voiceTest": "Test the voice",
@@ -73,11 +81,17 @@
   },
   "dictionary": {
     "title": "Dictionary 📖",
+    "search": "🔍 Search a word…",
     "empty": "No words in this category.",
     "mastery": {
       "new": "New",
       "errors": "{{pct}}% errors",
       "perfect": "Mastered"
+    },
+    "pagination": {
+      "prev": "◀ Previous",
+      "next": "Next ▶",
+      "page": "Page {{current}} / {{total}}"
     }
   },
   "imagierSetup": {

@@ -10,6 +10,7 @@ const CHOICES = 4; // answer buttons per question
 export function useGameRound({
   category = "all",
   direction = "known-learn",
+  pictures = "both", // "both" | "emoji" | "text" — which words to include
   infinite = false,
 } = {}) {
   const { words, languages, loading } = useData();
@@ -70,9 +71,9 @@ export function useGameRound({
 
   useEffect(() => {
     if (loading) return;
-    build(wordsFor(words, known, learn, category));
+    build(wordsFor(words, known, learn, category, pictures));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [loading, words, known, learn, category, direction, infinite]);
+  }, [loading, words, known, learn, category, pictures, direction, infinite]);
 
   const question = questions[index] ?? null;
   const finished = infinite
@@ -95,7 +96,7 @@ export function useGameRound({
   }
 
   function restart() {
-    build(wordsFor(words, known, learn, category));
+    build(wordsFor(words, known, learn, category, pictures));
   }
 
   return {

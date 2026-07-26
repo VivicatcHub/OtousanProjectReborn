@@ -11,6 +11,7 @@ export default function Quiz() {
   const round = useGameRound({
     direction: params.get("dir") || "known-learn",
     category: params.get("category") || "all",
+    pictures: params.get("pics") || "both",
     infinite: params.get("inf") === "1",
   });
 
@@ -21,7 +22,9 @@ export default function Quiz() {
       title={translate("quiz.title")}
       renderPrompt={(question) => (
         <div className="text-center">
-          {showImage && <div className="text-6xl">{question.word.emoji}</div>}
+          {showImage && question.word.emoji && (
+            <div className="text-6xl">{question.word.emoji}</div>
+          )}
           <div className="mt-2 text-3xl font-black">
             {getText(question.word, round.questionLang)}
           </div>

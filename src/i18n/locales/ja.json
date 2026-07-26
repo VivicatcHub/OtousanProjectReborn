@@ -6,12 +6,18 @@
     "backToGames": "ゲームに戻る",
     "next": "次へ →",
     "all": "すべて",
+    "back": "戻る",
     "custom": "カスタム",
+    "customDesc": "設定を自分で選ぶ",
     "category": "カテゴリー",
     "mode": "モード",
     "modeClassic": "クラシック",
     "modeEndless": "エンドレス",
-    "check": "答え合わせ"
+    "check": "答え合わせ",
+    "pictures": "ことば",
+    "picBoth": "🎭 絵とことば",
+    "picEmoji": "🖼️ 絵だけ",
+    "picText": "🔤 ことばだけ"
   },
   "nav": {
     "home": "ホーム",
@@ -52,6 +58,8 @@
     "sameLanguage": "💡 遊ぶには、違う言葉を２つ選んでね。",
     "sound": "音 🔊",
     "soundHint": "バッジをもらったときに、小さな音を鳴らすよ。",
+    "articles": "冠詞 🏷️",
+    "articlesHint": "冠詞つきで単語を覚えるよ（un chat, a cat）。日本語は変わりません。",
     "voice": "ロボットの声 🤖",
     "voiceHint": "text-to-speech（読み上げ）はすべての機械で動くわけではありません。あなたの機械で動かないときは、オフにすることをおすすめします。",
     "voiceTest": "声を試す",
@@ -73,11 +81,17 @@
   },
   "dictionary": {
     "title": "辞書 📖",
+    "search": "🔍 言葉を検索…",
     "empty": "このカテゴリーには言葉がありません。",
     "mastery": {
       "new": "初めて",
       "errors": "間違い {{pct}}%",
       "perfect": "完璧"
+    },
+    "pagination": {
+      "prev": "◀ 前へ",
+      "next": "次へ ▶",
+      "page": "ページ {{current}} / {{total}}"
     }
   },
   "imagierSetup": {

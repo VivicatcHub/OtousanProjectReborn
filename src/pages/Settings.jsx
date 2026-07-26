@@ -10,8 +10,18 @@ import { cn } from "@/lib/utils";
 export default function SettingsPage() {
   const { t: translate } = useTranslation();
   const { languages, loading } = useData();
-  const { known, learn, sound, voice, setKnown, setLearn, setSound, setVoice } =
-    useSettings();
+  const {
+    known,
+    learn,
+    sound,
+    voice,
+    articles,
+    setKnown,
+    setLearn,
+    setSound,
+    setVoice,
+    setArticles,
+  } = useSettings();
   const [asking, setAsking] = useState(false); // showing the "did you hear it?" step
 
   if (loading) return <p>{translate("common.loading")}</p>;
@@ -51,6 +61,13 @@ export default function SettingsPage() {
         hint={translate("settings.soundHint")}
         checked={sound}
         onChange={() => setSound(!sound)}
+      />
+
+      <Toggle
+        label={translate("settings.articles")}
+        hint={translate("settings.articlesHint")}
+        checked={articles}
+        onChange={() => setArticles(!articles)}
       />
 
       {/* Robot voice: some devices have no text-to-speech, so let the child test it. */}

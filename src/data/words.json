@@ -1,2264 +1,4027 @@
 [
   {
-    "id": "cat",
-    "emoji": "🐱",
+    "id": "monkey",
+    "emoji": "🐒",
     "translations": {
-      "fr": {
-        "text": "chat"
-      },
-      "en": {
-        "text": "cat"
-      },
-      "it": {
-        "text": "gatto"
-      },
+      "en": { "text": "monkey" },
+      "fr": { "article": "un", "text": "singe" },
+      "it": { "text": "scimmia" },
+      "de": { "text": "Affe" },
+      "es": { "text": "mono" },
+      "pt": { "text": "macaco" },
+      "ja": { "text": "猿", "kana": "さる", "romaji": "saru" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "gorilla",
+    "emoji": "🦍",
+    "translations": {
+      "en": { "text": "gorilla" },
+      "fr": { "article": "un", "text": "gorille" },
+      "it": { "text": "gorilla" },
+      "de": { "text": "Gorilla" },
+      "es": { "text": "gorila" },
+      "pt": { "text": "gorila" },
+      "ja": { "text": "ゴリラ", "kana": "ゴリラ", "romaji": "gorira" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "orangutan",
+    "emoji": "🦧",
+    "translations": {
+      "en": { "text": "orangutan" },
+      "fr": { "article": "un", "text": "orang-outan" },
+      "it": { "text": "orangotango" },
+      "de": { "text": "Orang-Utan" },
+      "es": { "text": "orangután" },
+      "pt": { "text": "orangotango" },
       "ja": {
-        "text": "ねこ",
-        "kanji": "猫",
-        "romaji": "neko"
-      },
-      "ja-kana": {
-        "text": "ねこ"
-      },
-      "ja-romaji": {
-        "text": "neko",
-        "speech": "ねこ"
+        "text": "オランウータン",
+        "kana": "オランウータン",
+        "romaji": "oran'ūtan"
       }
     },
-    "categories": {
-      "fr": [
-        "animals"
-      ],
-      "en": [
-        "animals"
-      ],
-      "it": [
-        "animals"
-      ],
-      "ja": [
-        "animals",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "animals",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "animals",
-        "jlpt5"
-      ]
-    }
+    "categories": ["animals"]
   },
   {
     "id": "dog",
-    "emoji": "🐶",
+    "emoji": "🐕",
     "translations": {
-      "fr": {
-        "text": "chien"
-      },
-      "en": {
-        "text": "dog"
-      },
-      "it": {
-        "text": "cane"
-      },
+      "en": { "text": "dog" },
+      "fr": { "article": "un", "text": "chien" },
+      "it": { "text": "cane" },
+      "de": { "text": "Hund" },
+      "es": { "text": "perro" },
+      "pt": { "text": "cachorro" },
+      "ja": { "text": "犬", "kana": "いぬ", "romaji": "inu" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "poodle",
+    "emoji": "🐩",
+    "translations": {
+      "en": { "text": "poodle" },
+      "fr": { "article": "un", "text": "caniche" },
+      "it": { "text": "barboncino" },
+      "de": { "text": "Pudel" },
+      "es": { "text": "caniche" },
+      "pt": { "text": "poodle" },
+      "ja": { "text": "プードル", "kana": "プードル", "romaji": "pūdoru" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "wolf",
+    "emoji": "🐺",
+    "translations": {
+      "en": { "text": "wolf" },
+      "fr": { "article": "un", "text": "loup" },
+      "it": { "text": "lupo" },
+      "de": { "text": "Wolf" },
+      "es": { "text": "lobo" },
+      "pt": { "text": "lobo" },
+      "ja": { "text": "狼", "kana": "おおかみ", "romaji": "ōkami" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "spider",
+    "emoji": "🕷️",
+    "translations": {
+      "en": { "text": "spider" },
+      "fr": { "article": "une", "text": "araignée" },
+      "it": { "text": "ragno" },
+      "de": { "text": "Spinne" },
+      "es": { "text": "araña" },
+      "pt": { "text": "aranha" },
+      "ja": { "text": "蜘蛛", "kana": "くも", "romaji": "kumo" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "spider-web",
+    "emoji": "🕸️",
+    "translations": {
+      "en": { "text": "spider web" },
+      "fr": { "article": "une", "text": "toile d’araignée" },
+      "it": { "text": "ragnatela" },
+      "de": { "text": "Spinnennetz" },
+      "es": { "text": "tela de araña" },
+      "pt": { "text": "teia de aranha" },
+      "ja": { "text": "蜘蛛の巣", "kana": "くものす", "romaji": "kumo no su" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "scorpion",
+    "emoji": "🦂",
+    "translations": {
+      "en": { "text": "scorpion" },
+      "fr": { "article": "un", "text": "scorpion" },
+      "it": { "text": "scorpione" },
+      "de": { "text": "Skorpion" },
+      "es": { "text": "escorpión" },
+      "pt": { "text": "escorpião" },
+      "ja": { "text": "蠍", "kana": "さそり", "romaji": "sasori" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "mosquito",
+    "emoji": "🦟",
+    "translations": {
+      "en": { "text": "mosquito" },
+      "fr": { "article": "un", "text": "moustique" },
+      "it": { "text": "zanzara" },
+      "de": { "text": "Mücke" },
+      "es": { "text": "mosquito" },
+      "pt": { "text": "mosquito" },
+      "ja": { "text": "蚊", "kana": "か", "romaji": "ka" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "fly",
+    "emoji": "🪰",
+    "translations": {
+      "en": { "text": "fly" },
+      "fr": { "article": "une", "text": "mouche" },
+      "it": { "text": "mosca" },
+      "de": { "text": "Fliege" },
+      "es": { "text": "mosca" },
+      "pt": { "text": "mosca" },
+      "ja": { "text": "蝿", "kana": "はえ", "romaji": "hae" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "worm",
+    "emoji": "🪱",
+    "translations": {
+      "en": { "text": "worm" },
+      "fr": { "article": "un", "text": "ver" },
+      "it": { "text": "verme" },
+      "de": { "text": "Wurm" },
+      "es": { "text": "gusano" },
+      "pt": { "text": "minhoca" },
+      "ja": { "text": "ミミズ", "kana": "ミミズ", "romaji": "mimizu" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "microbe",
+    "emoji": "🦠",
+    "translations": {
+      "en": { "text": "microbe" },
+      "fr": { "article": "un", "text": "microbe" },
+      "it": { "text": "microbo" },
+      "de": { "text": "Mikrobe" },
+      "es": { "text": "microbio" },
+      "pt": { "text": "micróbio" },
+      "ja": { "text": "微生物", "kana": "びせいぶつ", "romaji": "biseibutsu" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "bouquet",
+    "emoji": "💐",
+    "translations": {
+      "en": { "text": "bouquet" },
+      "fr": { "article": "un", "text": "bouquet" },
+      "it": { "text": "mazzo di fiori" },
+      "de": { "text": "Blumenstrauß" },
+      "es": { "text": "ramo de flores" },
+      "pt": { "text": "buquê" },
+      "ja": { "text": "花束", "kana": "はなたば", "romaji": "hanataba" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "cherry-blossom",
+    "emoji": "🌸",
+    "translations": {
+      "en": { "text": "cherry blossom" },
+      "fr": { "article": "une", "text": "fleur de cerisier" },
+      "it": { "text": "fiore di ciliegio" },
+      "de": { "text": "Kirschblüte" },
+      "es": { "text": "flor de cerezo" },
+      "pt": { "text": "flor de cerejeira" },
+      "ja": { "text": "桜", "kana": "さくら", "romaji": "sakura" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "white-flower",
+    "emoji": "💮",
+    "translations": {
+      "en": { "text": "white flower" },
+      "fr": { "article": "une", "text": "fleur blanche" },
+      "it": { "text": "fiore bianco" },
+      "de": { "text": "weiße Blume" },
+      "es": { "text": "flor blanca" },
+      "pt": { "text": "flor branca" },
+      "ja": { "text": "白い花", "kana": "しろいはな", "romaji": "shiroi hana" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "lotus",
+    "emoji": "🪷",
+    "translations": {
+      "en": { "text": "lotus" },
+      "fr": { "article": "un", "text": "lotus" },
+      "it": { "text": "loto" },
+      "de": { "text": "Lotusblüte" },
+      "es": { "text": "loto" },
+      "pt": { "text": "lótus" },
+      "ja": { "text": "蓮", "kana": "はす", "romaji": "hasu" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "rosette",
+    "emoji": "🏵️",
+    "translations": {
+      "en": { "text": "rosette" },
+      "fr": { "article": "une", "text": "rosette" },
+      "it": { "text": "rosetta" },
+      "de": { "text": "Rosette" },
+      "es": { "text": "roseta" },
+      "pt": { "text": "roseta" },
+      "ja": { "text": "ロゼット", "kana": "ロゼット", "romaji": "rozetto" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "rose",
+    "emoji": "🌹",
+    "translations": {
+      "en": { "text": "rose" },
+      "fr": { "article": "une", "text": "rose" },
+      "it": { "text": "rosa" },
+      "de": { "text": "Rose" },
+      "es": { "text": "rosa" },
+      "pt": { "text": "rosa" },
+      "ja": { "text": "バラ", "kana": "バラ", "romaji": "bara" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "wilted-flower",
+    "emoji": "🥀",
+    "translations": {
+      "en": { "text": "wilted flower" },
+      "fr": { "article": "une", "text": "fleur fanée" },
+      "it": { "text": "fiore appassito" },
+      "de": { "text": "verwelkte Blume" },
+      "es": { "text": "flor marchita" },
+      "pt": { "text": "flor murcha" },
       "ja": {
-        "text": "いぬ",
-        "kanji": "犬",
-        "romaji": "inu"
-      },
-      "ja-kana": {
-        "text": "いぬ"
-      },
-      "ja-romaji": {
-        "text": "inu",
-        "speech": "いぬ"
+        "text": "しおれた花",
+        "kana": "しおれたはな",
+        "romaji": "shioreta hana"
       }
     },
-    "categories": {
-      "fr": [
-        "animals"
-      ],
-      "en": [
-        "animals"
-      ],
-      "it": [
-        "animals"
-      ],
-      "ja": [
-        "animals",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "animals",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "animals",
-        "jlpt5"
-      ]
-    }
+    "categories": ["plants"]
+  },
+  {
+    "id": "hibiscus",
+    "emoji": "🌺",
+    "translations": {
+      "en": { "text": "hibiscus" },
+      "fr": { "article": "un", "text": "hibiscus" },
+      "it": { "text": "ibisco" },
+      "de": { "text": "Hibiskus" },
+      "es": { "text": "flor de hibisco" },
+      "pt": { "text": "hibisco" },
+      "ja": {
+        "text": "ハイビスカス",
+        "kana": "ハイビスカス",
+        "romaji": "haibisukasu"
+      }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "sunflower",
+    "emoji": "🌻",
+    "translations": {
+      "en": { "text": "sunflower" },
+      "fr": { "article": "un", "text": "tournesol" },
+      "it": { "text": "girasole" },
+      "de": { "text": "Sonnenblume" },
+      "es": { "text": "girasol" },
+      "pt": { "text": "girassol" },
+      "ja": { "text": "ひまわり", "kana": "ひまわり", "romaji": "himawari" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "blossom",
+    "emoji": "🌼",
+    "translations": {
+      "en": { "text": "blossom" },
+      "fr": { "article": "une", "text": "fleur" },
+      "it": { "text": "fiore" },
+      "de": { "text": "Blüte" },
+      "es": { "text": "flor" },
+      "pt": { "text": "flor" },
+      "ja": { "text": "花", "kana": "はな", "romaji": "hana" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "tulip",
+    "emoji": "🌷",
+    "translations": {
+      "en": { "text": "tulip" },
+      "fr": { "article": "une", "text": "tulipe" },
+      "it": { "text": "tulipano" },
+      "de": { "text": "Tulpe" },
+      "es": { "text": "tulipán" },
+      "pt": { "text": "tulipa" },
+      "ja": {
+        "text": "チューリップ",
+        "kana": "チューリップ",
+        "romaji": "chūrippu"
+      }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "hyacinth",
+    "emoji": "🪻",
+    "translations": {
+      "en": { "text": "hyacinth" },
+      "fr": { "article": "une", "text": "jacinthe" },
+      "it": { "text": "giacinto" },
+      "de": { "text": "Hyazinthe" },
+      "es": { "text": "jacinto" },
+      "pt": { "text": "jacinto" },
+      "ja": {
+        "text": "ヒヤシンス",
+        "kana": "ヒヤシンス",
+        "romaji": "hyashinsu"
+      }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "seedling",
+    "emoji": "🌱",
+    "translations": {
+      "en": { "text": "seedling" },
+      "fr": { "article": "une", "text": "pousse" },
+      "it": { "text": "germoglio" },
+      "de": { "text": "Spross" },
+      "es": { "text": "planta joven" },
+      "pt": { "text": "muda de planta" },
+      "ja": { "text": "苗", "kana": "なえ", "romaji": "nae" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "potted-plant",
+    "emoji": "🪴",
+    "translations": {
+      "en": { "text": "potted plant" },
+      "fr": { "article": "une", "text": "plante en pot" },
+      "it": { "text": "pianta in vaso" },
+      "de": { "text": "Topfpflanze" },
+      "es": { "text": "planta de maceta" },
+      "pt": { "text": "planta em vaso" },
+      "ja": { "text": "鉢植え", "kana": "はちうえ", "romaji": "hachiue" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "evergreen-tree",
+    "emoji": "🌲",
+    "translations": {
+      "en": { "text": "fir tree" },
+      "fr": { "article": "un", "text": "sapin" },
+      "it": { "text": "abete" },
+      "de": { "text": "Tanne" },
+      "es": { "text": "abeto" },
+      "pt": { "text": "abeto" },
+      "ja": { "text": "モミの木", "kana": "もみのき", "romaji": "momi no ki" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "deciduous-tree",
+    "emoji": "🌳",
+    "translations": {
+      "en": { "text": "tree" },
+      "fr": { "article": "un", "text": "arbre" },
+      "it": { "text": "albero" },
+      "de": { "text": "Laubbaum" },
+      "es": { "text": "árbol" },
+      "pt": { "text": "árvore" },
+      "ja": { "text": "木", "kana": "き", "romaji": "ki" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "palm-tree",
+    "emoji": "🌴",
+    "translations": {
+      "en": { "text": "palm tree" },
+      "fr": { "article": "un", "text": "palmier" },
+      "it": { "text": "palma" },
+      "de": { "text": "Palme" },
+      "es": { "text": "palmera" },
+      "pt": { "text": "palmeira" },
+      "ja": { "text": "ヤシの木", "kana": "ヤシのき", "romaji": "yashi no ki" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "cactus",
+    "emoji": "🌵",
+    "translations": {
+      "en": { "text": "cactus" },
+      "fr": { "article": "un", "text": "cactus" },
+      "it": { "text": "cactus" },
+      "de": { "text": "Kaktus" },
+      "es": { "text": "cactus" },
+      "pt": { "text": "cacto" },
+      "ja": { "text": "サボテン", "kana": "サボテン", "romaji": "saboten" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "sheaf-of-rice",
+    "emoji": "🌾",
+    "translations": {
+      "en": { "text": "sheaf of rice" },
+      "fr": { "article": "une", "text": "gerbe de riz" },
+      "it": { "text": "fascio di riso" },
+      "de": { "text": "Reisähre" },
+      "es": { "text": "espiga de arroz" },
+      "pt": { "text": "espiga de arroz" },
+      "ja": { "text": "稲束", "kana": "いなたば", "romaji": "inataba" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "herb",
+    "emoji": "🌿",
+    "translations": {
+      "en": { "text": "herb" },
+      "fr": { "article": "une", "text": "herbe" },
+      "it": { "text": "erba" },
+      "de": { "text": "Kraut" },
+      "es": { "text": "hierba" },
+      "pt": { "text": "erva" },
+      "ja": { "text": "ハーブ", "kana": "ハーブ", "romaji": "hābu" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "shamrock",
+    "emoji": "☘️",
+    "translations": {
+      "en": { "text": "shamrock" },
+      "fr": { "article": "un", "text": "trèfle" },
+      "it": { "text": "trifoglio" },
+      "de": { "text": "Kleeblatt" },
+      "es": { "text": "trébol" },
+      "pt": { "text": "trevo de três folhas" },
+      "ja": {
+        "text": "シャムロック",
+        "kana": "シャムロック",
+        "romaji": "shamurokku"
+      }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "four-leaf-clover",
+    "emoji": "🍀",
+    "translations": {
+      "en": { "text": "four leaf clover" },
+      "fr": { "article": "un", "text": "trèfle à quatre feuilles" },
+      "it": { "text": "quadrifoglio" },
+      "de": { "text": "Glücksklee" },
+      "es": { "text": "trébol de cuatro hojas" },
+      "pt": { "text": "trevo de quatro folhas" },
+      "ja": {
+        "text": "四つ葉のクローバー",
+        "kana": "よつばのクローバー",
+        "romaji": "yotsuba no kurōbā"
+      }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "maple-leaf",
+    "emoji": "🍁",
+    "translations": {
+      "en": { "text": "maple leaf" },
+      "fr": { "article": "une", "text": "feuille d’érable" },
+      "it": { "text": "foglia d’acero" },
+      "de": { "text": "Ahornblatt" },
+      "es": { "text": "hoja de arce" },
+      "pt": { "text": "folha de bordo" },
+      "ja": {
+        "text": "カエデの葉",
+        "kana": "カエデのは",
+        "romaji": "kaede no ha"
+      }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "fallen-leaf",
+    "emoji": "🍂",
+    "translations": {
+      "en": { "text": "fallen leaf" },
+      "fr": { "article": "une", "text": "feuille morte" },
+      "it": { "text": "foglia caduta" },
+      "de": { "text": "Laub" },
+      "es": { "text": "hoja caída" },
+      "pt": { "text": "folha caída" },
+      "ja": { "text": "落ち葉", "kana": "おちば", "romaji": "ochiba" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "leaf-fluttering-in-wind",
+    "emoji": "🍃",
+    "translations": {
+      "en": { "text": "leaf" },
+      "fr": { "article": "une", "text": "feuille" },
+      "it": { "text": "foglia" },
+      "de": { "text": "Blatt" },
+      "es": { "text": "hoja" },
+      "pt": { "text": "folha" },
+      "ja": { "text": "葉", "kana": "は", "romaji": "ha" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "empty-nest",
+    "emoji": "🪹",
+    "translations": {
+      "en": { "text": "nest" },
+      "fr": { "article": "un", "text": "nid" },
+      "it": { "text": "nido" },
+      "de": { "text": "Nest" },
+      "es": { "text": "nido" },
+      "pt": { "text": "ninho" },
+      "ja": { "text": "巣", "kana": "す", "romaji": "su" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "mushroom",
+    "emoji": "🍄",
+    "translations": {
+      "en": { "text": "mushroom" },
+      "fr": { "article": "un", "text": "champignon" },
+      "it": { "text": "fungo" },
+      "de": { "text": "Pilz" },
+      "es": { "text": "champiñón" },
+      "pt": { "text": "cogumelo" },
+      "ja": { "text": "キノコ", "kana": "キノコ", "romaji": "kinoko" }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "leafless-tree",
+    "emoji": "🪾",
+    "translations": {
+      "en": { "text": "leafless tree" },
+      "fr": { "article": "un", "text": "arbre sans feuilles" },
+      "it": { "text": "albero spoglio" },
+      "de": { "text": "kahler Baum" },
+      "es": { "text": "árbol sin hojas" },
+      "pt": { "text": "árvore sem folhas" },
+      "ja": {
+        "text": "葉のない木",
+        "kana": "はのないき",
+        "romaji": "ha no nai ki"
+      }
+    },
+    "categories": ["plants"]
+  },
+  {
+    "id": "fox",
+    "emoji": "🦊",
+    "translations": {
+      "en": { "text": "fox" },
+      "fr": { "article": "un", "text": "renard" },
+      "it": { "text": "volpe" },
+      "de": { "text": "Fuchs" },
+      "es": { "text": "zorro" },
+      "pt": { "text": "raposa" },
+      "ja": { "text": "狐", "kana": "きつね", "romaji": "kitsune" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "raccoon",
+    "emoji": "🦝",
+    "translations": {
+      "en": { "text": "raccoon" },
+      "fr": { "article": "un", "text": "raton laveur" },
+      "it": { "text": "procione" },
+      "de": { "text": "Waschbär" },
+      "es": { "text": "mapache" },
+      "pt": { "text": "guaxinim" },
+      "ja": { "text": "アライグマ", "kana": "アライグマ", "romaji": "araiguma" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "cat",
+    "emoji": "🐈",
+    "translations": {
+      "en": { "text": "cat" },
+      "fr": { "article": "un", "text": "chat" },
+      "it": { "text": "gatto" },
+      "de": { "text": "Katze" },
+      "es": { "text": "gato" },
+      "pt": { "text": "gato" },
+      "ja": { "text": "猫", "kana": "ねこ", "romaji": "neko" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "lion",
+    "emoji": "🦁",
+    "translations": {
+      "en": { "text": "lion" },
+      "fr": { "article": "un", "text": "lion" },
+      "it": { "text": "leone" },
+      "de": { "text": "Löwe" },
+      "es": { "text": "león" },
+      "pt": { "text": "leão" },
+      "ja": { "text": "ライオン", "kana": "ライオン", "romaji": "raion" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "tiger",
+    "emoji": "🐅",
+    "translations": {
+      "en": { "text": "tiger" },
+      "fr": { "article": "un", "text": "tigre" },
+      "it": { "text": "tigre" },
+      "de": { "text": "Tiger" },
+      "es": { "text": "tigre" },
+      "pt": { "text": "tigre" },
+      "ja": { "text": "虎", "kana": "とら", "romaji": "tora" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "leopard",
+    "emoji": "🐆",
+    "translations": {
+      "en": { "text": "leopard" },
+      "fr": { "article": "un", "text": "léopard" },
+      "it": { "text": "leopardo" },
+      "de": { "text": "Leopard" },
+      "es": { "text": "leopardo" },
+      "pt": { "text": "leopardo" },
+      "ja": { "text": "ヒョウ", "kana": "ヒョウ", "romaji": "hyō" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "moose",
+    "emoji": "🫎",
+    "translations": {
+      "en": { "text": "moose" },
+      "fr": { "article": "un", "text": "élan" },
+      "it": { "text": "alce" },
+      "de": { "text": "Elch" },
+      "es": { "text": "alce" },
+      "pt": { "text": "alce" },
+      "ja": { "text": "ヘラジカ", "kana": "ヘラジカ", "romaji": "herajika" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "donkey",
+    "emoji": "🫏",
+    "translations": {
+      "en": { "text": "donkey" },
+      "fr": { "article": "un", "text": "âne" },
+      "it": { "text": "asino" },
+      "de": { "text": "Esel" },
+      "es": { "text": "burro" },
+      "pt": { "text": "burro" },
+      "ja": { "text": "ロバ", "kana": "ロバ", "romaji": "roba" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "horse",
+    "emoji": "🐎",
+    "translations": {
+      "en": { "text": "horse" },
+      "fr": { "article": "un", "text": "cheval" },
+      "it": { "text": "cavallo" },
+      "de": { "text": "Pferd" },
+      "es": { "text": "caballo" },
+      "pt": { "text": "cavalo" },
+      "ja": { "text": "馬", "kana": "うま", "romaji": "uma" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "unicorn",
+    "emoji": "🦄",
+    "translations": {
+      "en": { "text": "unicorn" },
+      "fr": { "article": "une", "text": "licorne" },
+      "it": { "text": "unicorno" },
+      "de": { "text": "Einhorn" },
+      "es": { "text": "unicornio" },
+      "pt": { "text": "unicórnio" },
+      "ja": { "text": "ユニコーン", "kana": "ユニコーン", "romaji": "yunikōn" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "zebra",
+    "emoji": "🦓",
+    "translations": {
+      "en": { "text": "zebra" },
+      "fr": { "article": "un", "text": "zèbre" },
+      "it": { "text": "zebra" },
+      "de": { "text": "Zebra" },
+      "es": { "text": "cebra" },
+      "pt": { "text": "zebra" },
+      "ja": { "text": "シマウマ", "kana": "シマウマ", "romaji": "shimauma" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "deer",
+    "emoji": "🦌",
+    "translations": {
+      "en": { "text": "deer" },
+      "fr": { "article": "un", "text": "cerf" },
+      "it": { "text": "cervo" },
+      "de": { "text": "Hirsch" },
+      "es": { "text": "ciervo" },
+      "pt": { "text": "cervo" },
+      "ja": { "text": "鹿", "kana": "しか", "romaji": "shika" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "bison",
+    "emoji": "🦬",
+    "translations": {
+      "en": { "text": "bison" },
+      "fr": { "article": "un", "text": "bison" },
+      "it": { "text": "bisonte" },
+      "de": { "text": "Bison" },
+      "es": { "text": "bisonte" },
+      "pt": { "text": "bisão" },
+      "ja": { "text": "バイソン", "kana": "バイソン", "romaji": "baison" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "ox",
+    "emoji": "🐂",
+    "translations": {
+      "en": { "text": "ox" },
+      "fr": { "article": "un", "text": "boeuf" },
+      "it": { "text": "bue" },
+      "de": { "text": "Ochse" },
+      "es": { "text": "buey" },
+      "pt": { "text": "boi" },
+      "ja": { "text": "雄牛", "kana": "おうし", "romaji": "ōushi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "water-buffalo",
+    "emoji": "🐃",
+    "translations": {
+      "en": { "text": "water buffalo" },
+      "fr": { "article": "un", "text": "buffle" },
+      "it": { "text": "bufalo d’acqua" },
+      "de": { "text": "Wasserbüffel" },
+      "es": { "text": "búfalo de agua" },
+      "pt": { "text": "búfalo-d'água" },
+      "ja": { "text": "水牛", "kana": "すいぎゅう", "romaji": "suigyū" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "cow",
+    "emoji": "🐄",
+    "translations": {
+      "en": { "text": "cow" },
+      "fr": { "article": "une", "text": "vache" },
+      "it": { "text": "mucca" },
+      "de": { "text": "Kuh" },
+      "es": { "text": "vaca" },
+      "pt": { "text": "vaca" },
+      "ja": { "text": "牛", "kana": "うし", "romaji": "ushi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "pig",
+    "emoji": "🐖",
+    "translations": {
+      "en": { "text": "pig" },
+      "fr": { "article": "un", "text": "cochon" },
+      "it": { "text": "maiale" },
+      "de": { "text": "Schwein" },
+      "es": { "text": "cerdo" },
+      "pt": { "text": "porco" },
+      "ja": { "text": "豚", "kana": "ぶた", "romaji": "buta" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "boar",
+    "emoji": "🐗",
+    "translations": {
+      "en": { "text": "boar" },
+      "fr": { "article": "un", "text": "sanglier" },
+      "it": { "text": "cinghiale" },
+      "de": { "text": "Wildschwein" },
+      "es": { "text": "jabalí" },
+      "pt": { "text": "javali" },
+      "ja": { "text": "イノシシ", "kana": "イノシシ", "romaji": "inoshishi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "pig-nose",
+    "emoji": "🐽",
+    "translations": {
+      "en": { "text": "pig nose" },
+      "fr": { "article": "un", "text": "groin" },
+      "it": { "text": "naso da maiale" },
+      "de": { "text": "Schweinerüssel" },
+      "es": { "text": "nariz de cerdo" },
+      "pt": { "text": "nariz de porco" },
+      "ja": { "text": "豚の鼻", "kana": "ぶたのはな", "romaji": "buta no hana" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "ram",
+    "emoji": "🐏",
+    "translations": {
+      "en": { "text": "ram" },
+      "fr": { "article": "un", "text": "bélier" },
+      "it": { "text": "montone" },
+      "de": { "text": "Widder" },
+      "es": { "text": "carnero" },
+      "pt": { "text": "carneiro" },
+      "ja": { "text": "雄羊", "kana": "おひつじ", "romaji": "ohitsuji" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "ewe",
+    "emoji": "🐑",
+    "translations": {
+      "en": { "text": "ewe" },
+      "fr": { "article": "une", "text": "brebis" },
+      "it": { "text": "pecora" },
+      "de": { "text": "Schaf" },
+      "es": { "text": "oveja" },
+      "pt": { "text": "ovelha" },
+      "ja": { "text": "雌羊", "kana": "めひつじ", "romaji": "mehitsuji" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "goat",
+    "emoji": "🐐",
+    "translations": {
+      "en": { "text": "goat" },
+      "fr": { "article": "une", "text": "chèvre" },
+      "it": { "text": "capra" },
+      "de": { "text": "Ziege" },
+      "es": { "text": "cabra" },
+      "pt": { "text": "cabra" },
+      "ja": { "text": "ヤギ", "kana": "ヤギ", "romaji": "yagi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "camel",
+    "emoji": "🐪",
+    "translations": {
+      "en": { "text": "camel" },
+      "fr": { "article": "un", "text": "chameau" },
+      "it": { "text": "dromedario" },
+      "de": { "text": "Dromedar" },
+      "es": { "text": "dromedario" },
+      "pt": { "text": "camelo" },
+      "ja": { "text": "ラクダ", "kana": "ラクダ", "romaji": "rakuda" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "two-hump-camel",
+    "emoji": "🐫",
+    "translations": {
+      "en": { "text": "two-hump camel" },
+      "fr": { "article": "un", "text": "dromadaire" },
+      "it": { "text": "cammello" },
+      "de": { "text": "Kamel" },
+      "es": { "text": "camello" },
+      "pt": { "text": "camelo de duas corcovas" },
+      "ja": {
+        "text": "フタコブラクダ",
+        "kana": "フタコブラクダ",
+        "romaji": "futakobura kuda"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "llama",
+    "emoji": "🦙",
+    "translations": {
+      "en": { "text": "llama" },
+      "fr": { "article": "un", "text": "lama" },
+      "it": { "text": "lama" },
+      "de": { "text": "Lama" },
+      "es": { "text": "llama" },
+      "pt": { "text": "lhama" },
+      "ja": { "text": "リャマ", "kana": "リャマ", "romaji": "ryama" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "giraffe",
+    "emoji": "🦒",
+    "translations": {
+      "en": { "text": "giraffe" },
+      "fr": { "article": "une", "text": "girafe" },
+      "it": { "text": "giraffa" },
+      "de": { "text": "Giraffe" },
+      "es": { "text": "jirafa" },
+      "pt": { "text": "girafa" },
+      "ja": { "text": "キリン", "kana": "きりん", "romaji": "kirin" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "elephant",
+    "emoji": "🐘",
+    "translations": {
+      "en": { "text": "elephant" },
+      "fr": { "article": "un", "text": "éléphant" },
+      "it": { "text": "elefante" },
+      "de": { "text": "Elefant" },
+      "es": { "text": "elefante" },
+      "pt": { "text": "elefante" },
+      "ja": { "text": "象", "kana": "ぞう", "romaji": "zō" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "mammoth",
+    "emoji": "🦣",
+    "translations": {
+      "en": { "text": "mammoth" },
+      "fr": { "article": "un", "text": "mammouth" },
+      "it": { "text": "mammut" },
+      "de": { "text": "Mammut" },
+      "es": { "text": "mamut" },
+      "pt": { "text": "mamute" },
+      "ja": { "text": "マンモス", "kana": "マンモス", "romaji": "manmosu" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "rhinoceros",
+    "emoji": "🦏",
+    "translations": {
+      "en": { "text": "rhinoceros" },
+      "fr": { "article": "un", "text": "rhinocéros" },
+      "it": { "text": "rinoceronte" },
+      "de": { "text": "Nashorn" },
+      "es": { "text": "rinoceronte" },
+      "pt": { "text": "rinoceronte" },
+      "ja": { "text": "サイ", "kana": "サイ", "romaji": "sai" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "hippopotamus",
+    "emoji": "🦛",
+    "translations": {
+      "en": { "text": "hippopotamus" },
+      "fr": { "article": "un", "text": "hippopotame" },
+      "it": { "text": "ippopotamo" },
+      "de": { "text": "Nilpferd" },
+      "es": { "text": "hipopótamo" },
+      "pt": { "text": "hipopótamo" },
+      "ja": { "text": "カバ", "kana": "カバ", "romaji": "kaba" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "mouse",
+    "emoji": "🐁",
+    "translations": {
+      "en": { "text": "mouse" },
+      "fr": { "article": "une", "text": "souris" },
+      "it": { "text": "topo" },
+      "de": { "text": "Maus" },
+      "es": { "text": "ratón" },
+      "pt": { "text": "camundongo" },
+      "ja": { "text": "ネズミ", "kana": "ねずみ", "romaji": "nezumi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "rat",
+    "emoji": "🐀",
+    "translations": {
+      "en": { "text": "rat" },
+      "fr": { "article": "un", "text": "rat" },
+      "it": { "text": "ratto" },
+      "de": { "text": "Ratte" },
+      "es": { "text": "rata" },
+      "pt": { "text": "rato" },
+      "ja": { "text": "ネズミ", "kana": "ねずみ", "romaji": "nezumi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "hamster",
+    "emoji": "🐹",
+    "translations": {
+      "en": { "text": "hamster" },
+      "fr": { "article": "un", "text": "hamster" },
+      "it": { "text": "criceto" },
+      "de": { "text": "Hamster" },
+      "es": { "text": "hámster" },
+      "pt": { "text": "hamster" },
+      "ja": { "text": "ハムスター", "kana": "ハムスター", "romaji": "hamusutā" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "rabbit",
+    "emoji": "🐇",
+    "translations": {
+      "en": { "text": "rabbit" },
+      "fr": { "article": "un", "text": "lapin" },
+      "it": { "text": "coniglio" },
+      "de": { "text": "Hase" },
+      "es": { "text": "conejo" },
+      "pt": { "text": "coelho" },
+      "ja": { "text": "ウサギ", "kana": "うさぎ", "romaji": "usagi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "chipmunk",
+    "emoji": "🐿️",
+    "translations": {
+      "en": { "text": "chipmunk" },
+      "fr": { "article": "un", "text": "écureuil" },
+      "it": { "text": "tamia" },
+      "de": { "text": "Streifenhörnchen" },
+      "es": { "text": "ardilla listada" },
+      "pt": { "text": "esquilo listrado" },
+      "ja": { "text": "シマリス", "kana": "シマリス", "romaji": "shimarisu" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "beaver",
+    "emoji": "🦫",
+    "translations": {
+      "en": { "text": "beaver" },
+      "fr": { "article": "un", "text": "castor" },
+      "it": { "text": "castoro" },
+      "de": { "text": "Biber" },
+      "es": { "text": "castor" },
+      "pt": { "text": "castor" },
+      "ja": { "text": "ビーバー", "kana": "ビーバー", "romaji": "bībā" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "hedgehog",
+    "emoji": "🦔",
+    "translations": {
+      "en": { "text": "hedgehog" },
+      "fr": { "article": "un", "text": "hérisson" },
+      "it": { "text": "riccio" },
+      "de": { "text": "Igel" },
+      "es": { "text": "erizo" },
+      "pt": { "text": "porco-espinho" },
+      "ja": {
+        "text": "ハリネズミ",
+        "kana": "はりねずみ",
+        "romaji": "harinezumi"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "bat",
+    "emoji": "🦇",
+    "translations": {
+      "en": { "text": "bat" },
+      "fr": { "article": "une", "text": "chauve-souris" },
+      "it": { "text": "pipistrello" },
+      "de": { "text": "Fledermaus" },
+      "es": { "text": "murciélago" },
+      "pt": { "text": "morcego" },
+      "ja": { "text": "コウモリ", "kana": "こうもり", "romaji": "kōmori" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "bear",
+    "emoji": "🐻",
+    "translations": {
+      "en": { "text": "bear" },
+      "fr": { "article": "un", "text": "ours" },
+      "it": { "text": "orso" },
+      "de": { "text": "Bär" },
+      "es": { "text": "oso" },
+      "pt": { "text": "urso" },
+      "ja": { "text": "熊", "kana": "くま", "romaji": "kuma" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "polar-bear",
+    "emoji": "🐻‍❄️",
+    "translations": {
+      "en": { "text": "polar bear" },
+      "fr": { "article": "un", "text": "ours polaire" },
+      "it": { "text": "orso polare" },
+      "de": { "text": "Eisbär" },
+      "es": { "text": "oso polar" },
+      "pt": { "text": "urso polar" },
+      "ja": {
+        "text": "ホッキョクグマ",
+        "kana": "ホッキョクグマ",
+        "romaji": "hokkyokuguma"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "koala",
+    "emoji": "🐨",
+    "translations": {
+      "en": { "text": "koala" },
+      "fr": { "article": "un", "text": "koala" },
+      "it": { "text": "koala" },
+      "de": { "text": "Koala" },
+      "es": { "text": "koala" },
+      "pt": { "text": "coala" },
+      "ja": { "text": "コアラ", "kana": "コアラ", "romaji": "koara" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "panda",
+    "emoji": "🐼",
+    "translations": {
+      "en": { "text": "panda" },
+      "fr": { "article": "un", "text": "panda" },
+      "it": { "text": "panda" },
+      "de": { "text": "Panda" },
+      "es": { "text": "panda" },
+      "pt": { "text": "panda" },
+      "ja": { "text": "パンダ", "kana": "パンダ", "romaji": "panda" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "sloth",
+    "emoji": "🦥",
+    "translations": {
+      "en": { "text": "sloth" },
+      "fr": { "article": "un", "text": "paresseux" },
+      "it": { "text": "bradipo" },
+      "de": { "text": "Faultier" },
+      "es": { "text": "perezoso" },
+      "pt": { "text": "preguiça" },
+      "ja": {
+        "text": "ナマケモノ",
+        "kana": "ナマケモノ",
+        "romaji": "namakemono"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "otter",
+    "emoji": "🦦",
+    "translations": {
+      "en": { "text": "otter" },
+      "fr": { "article": "une", "text": "loutre" },
+      "it": { "text": "lontra" },
+      "de": { "text": "Otter" },
+      "es": { "text": "nutria" },
+      "pt": { "text": "lontra" },
+      "ja": { "text": "カワウソ", "kana": "かわうそ", "romaji": "kawauso" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "skunk",
+    "emoji": "🦨",
+    "translations": {
+      "en": { "text": "skunk" },
+      "fr": { "article": "une", "text": "mouffette" },
+      "it": { "text": "puzzola" },
+      "de": { "text": "Stinktier" },
+      "es": { "text": "mofeta" },
+      "pt": { "text": "gambá" },
+      "ja": { "text": "スカンク", "kana": "スカンク", "romaji": "sukanku" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "kangaroo",
+    "emoji": "🦘",
+    "translations": {
+      "en": { "text": "kangaroo" },
+      "fr": { "article": "un", "text": "kangourou" },
+      "it": { "text": "canguro" },
+      "de": { "text": "Känguru" },
+      "es": { "text": "canguro" },
+      "pt": { "text": "canguru" },
+      "ja": { "text": "カンガルー", "kana": "カンガルー", "romaji": "kangarū" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "badger",
+    "emoji": "🦡",
+    "translations": {
+      "en": { "text": "badger" },
+      "fr": { "article": "un", "text": "blaireau" },
+      "it": { "text": "tasso" },
+      "de": { "text": "Dachs" },
+      "es": { "text": "tejón" },
+      "pt": { "text": "texugo" },
+      "ja": { "text": "アナグマ", "kana": "アナグマ", "romaji": "anaguma" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "paw-prints",
+    "emoji": "🐾",
+    "translations": {
+      "en": { "text": "print" },
+      "fr": { "article": "une", "text": "empreinte" },
+      "it": { "text": "impronta" },
+      "de": { "text": "Abdruck" },
+      "es": { "text": "huella" },
+      "pt": { "text": "impressão" },
+      "ja": {
+        "text": "印",
+        "kana": "しるし",
+        "romaji": "shirushi"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "turkey",
+    "emoji": "🦃",
+    "translations": {
+      "en": { "text": "turkey" },
+      "fr": { "article": "un", "text": "dindon" },
+      "it": { "text": "tacchino" },
+      "de": { "text": "Truthahn" },
+      "es": { "text": "pavo" },
+      "pt": { "text": "peru" },
+      "ja": {
+        "text": "七面鳥",
+        "kana": "しちめんちょう",
+        "romaji": "shichimenchō"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "chicken",
+    "emoji": "🐔",
+    "translations": {
+      "en": { "text": "chicken" },
+      "fr": { "article": "une", "text": "poule" },
+      "it": { "text": "gallina" },
+      "de": { "text": "Huhn" },
+      "es": { "text": "gallina" },
+      "pt": { "text": "galinha" },
+      "ja": { "text": "鶏", "kana": "にわとり", "romaji": "niwatori" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "rooster",
+    "emoji": "🐓",
+    "translations": {
+      "en": { "text": "rooster" },
+      "fr": { "article": "un", "text": "coq" },
+      "it": { "text": "gallo" },
+      "de": { "text": "Hahn" },
+      "es": { "text": "gallo" },
+      "pt": { "text": "galo" },
+      "ja": { "text": "雄鶏", "kana": "おんどり", "romaji": "ondori" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "dove",
+    "emoji": "🕊️",
+    "translations": {
+      "en": { "text": "dove" },
+      "fr": { "article": "une", "text": "colombe" },
+      "it": { "text": "colomba" },
+      "de": { "text": "Taube" },
+      "es": { "text": "paloma" },
+      "pt": { "text": "pomba" },
+      "ja": { "text": "ハト", "kana": "はと", "romaji": "hato" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "phoenix",
+    "emoji": "🐦‍🔥",
+    "translations": {
+      "en": { "text": "phoenix" },
+      "fr": { "article": "un", "text": "phénix" },
+      "it": { "text": "fenice" },
+      "de": { "text": "Phönix" },
+      "es": { "text": "fénix" },
+      "pt": { "text": "fênix" },
+      "ja": {
+        "text": "フェニックス",
+        "kana": "フェニックス",
+        "romaji": "fenikkusu"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "baby-chick",
+    "emoji": "🐤",
+    "translations": {
+      "en": { "text": "baby chick" },
+      "fr": { "article": "un", "text": "poussin" },
+      "it": { "text": "pulcino" },
+      "de": { "text": "Küken" },
+      "es": { "text": "pollito" },
+      "pt": { "text": "pintinho" },
+      "ja": { "text": "ひよこ", "kana": "ひよこ", "romaji": "hiyoko" }
+    },
+    "categories": ["animals"]
   },
   {
     "id": "bird",
     "emoji": "🐦",
     "translations": {
-      "fr": {
-        "text": "oiseau"
-      },
-      "en": {
-        "text": "bird"
-      },
-      "it": {
-        "text": "uccello"
-      },
+      "en": { "text": "bird" },
+      "fr": { "article": "un", "text": "oiseau" },
+      "it": { "text": "uccello" },
+      "de": { "text": "Vogel" },
+      "es": { "text": "pájaro" },
+      "pt": { "text": "pássaro" },
+      "ja": { "text": "鳥", "kana": "とり", "romaji": "tori" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "penguin",
+    "emoji": "🐧",
+    "translations": {
+      "en": { "text": "penguin" },
+      "fr": { "article": "un", "text": "manchot" },
+      "it": { "text": "pinguino" },
+      "de": { "text": "Pinguin" },
+      "es": { "text": "pingüino" },
+      "pt": { "text": "pinguim" },
+      "ja": { "text": "ペンギン", "kana": "ペンギン", "romaji": "pengin" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "eagle",
+    "emoji": "🦅",
+    "translations": {
+      "en": { "text": "eagle" },
+      "fr": { "article": "un", "text": "aigle" },
+      "it": { "text": "aquila" },
+      "de": { "text": "Adler" },
+      "es": { "text": "águila" },
+      "pt": { "text": "águia" },
+      "ja": { "text": "ワシ", "kana": "わし", "romaji": "washi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "duck",
+    "emoji": "🦆",
+    "translations": {
+      "en": { "text": "duck" },
+      "fr": { "article": "un", "text": "canard" },
+      "it": { "text": "anatra" },
+      "de": { "text": "Ente" },
+      "es": { "text": "pato" },
+      "pt": { "text": "pato" },
+      "ja": { "text": "カモ", "kana": "かも", "romaji": "kamo" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "swan",
+    "emoji": "🦢",
+    "translations": {
+      "en": { "text": "swan" },
+      "fr": { "article": "un", "text": "cygne" },
+      "it": { "text": "cigno" },
+      "de": { "text": "Schwan" },
+      "es": { "text": "cisne" },
+      "pt": { "text": "cisne" },
+      "ja": { "text": "白鳥", "kana": "はくちょう", "romaji": "hakuchō" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "owl",
+    "emoji": "🦉",
+    "translations": {
+      "en": { "text": "owl" },
+      "fr": { "article": "une", "text": "chouette" },
+      "it": { "text": "gufo" },
+      "de": { "text": "Eule" },
+      "es": { "text": "búho" },
+      "pt": { "text": "coruja" },
+      "ja": { "text": "フクロウ", "kana": "ふくろう", "romaji": "fukurō" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "dodo",
+    "emoji": "🦤",
+    "translations": {
+      "en": { "text": "dodo" },
+      "fr": { "article": "un", "text": "dodo" },
+      "it": { "text": "dodo" },
+      "de": { "text": "Dodo" },
+      "es": { "text": "dodo" },
+      "pt": { "text": "dodô" },
+      "ja": { "text": "ドードー", "kana": "ドードー", "romaji": "dōdō" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "feather",
+    "emoji": "🪶",
+    "translations": {
+      "en": { "text": "feather" },
+      "fr": { "article": "une", "text": "plume" },
+      "it": { "text": "piuma" },
+      "de": { "text": "Feder" },
+      "es": { "text": "pluma" },
+      "pt": { "text": "pena" },
+      "ja": { "text": "羽", "kana": "はね", "romaji": "hane" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "flamingo",
+    "emoji": "🦩",
+    "translations": {
+      "en": { "text": "flamingo" },
+      "fr": { "article": "un", "text": "flamant rose" },
+      "it": { "text": "fenicottero" },
+      "de": { "text": "Flamingo" },
+      "es": { "text": "flamenco" },
+      "pt": { "text": "flamingo" },
       "ja": {
-        "text": "とり",
-        "kanji": "鳥",
-        "romaji": "tori"
-      },
-      "ja-kana": {
-        "text": "とり"
-      },
-      "ja-romaji": {
-        "text": "tori",
-        "speech": "とり"
+        "text": "フラミンゴ",
+        "kana": "フラミンゴ",
+        "romaji": "furamingo"
       }
     },
-    "categories": {
-      "fr": [
-        "animals"
-      ],
-      "en": [
-        "animals"
-      ],
-      "it": [
-        "animals"
-      ],
-      "ja": [
-        "animals",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "animals",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "animals",
-        "jlpt5"
-      ]
-    }
+    "categories": ["animals"]
+  },
+  {
+    "id": "peacock",
+    "emoji": "🦚",
+    "translations": {
+      "en": { "text": "peacock" },
+      "fr": { "article": "un", "text": "paon" },
+      "it": { "text": "pavone" },
+      "de": { "text": "Pfau" },
+      "es": { "text": "pavo real" },
+      "pt": { "text": "pavão" },
+      "ja": { "text": "クジャク", "kana": "くじゃく", "romaji": "kujaku" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "parrot",
+    "emoji": "🦜",
+    "translations": {
+      "en": { "text": "parrot" },
+      "fr": { "article": "un", "text": "perroquet" },
+      "it": { "text": "pappagallo" },
+      "de": { "text": "Papagei" },
+      "es": { "text": "loro" },
+      "pt": { "text": "papagaio" },
+      "ja": { "text": "オウム", "kana": "おうむ", "romaji": "ōmu" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "wing",
+    "emoji": "🪽",
+    "translations": {
+      "en": { "text": "wing" },
+      "fr": { "article": "une", "text": "aile" },
+      "it": { "text": "ala" },
+      "de": { "text": "Flügel" },
+      "es": { "text": "ala" },
+      "pt": { "text": "asa" },
+      "ja": { "text": "翼", "kana": "つばさ", "romaji": "tsubasa" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "goose",
+    "emoji": "🪿",
+    "translations": {
+      "en": { "text": "goose" },
+      "fr": { "article": "une", "text": "oie" },
+      "it": { "text": "oca" },
+      "de": { "text": "Gans" },
+      "es": { "text": "oca" },
+      "pt": { "text": "ganso" },
+      "ja": { "text": "ガチョウ", "kana": "ガチョウ", "romaji": "gachō" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "frog",
+    "emoji": "🐸",
+    "translations": {
+      "en": { "text": "frog" },
+      "fr": { "article": "une", "text": "grenouille" },
+      "it": { "text": "rana" },
+      "de": { "text": "Frosch" },
+      "es": { "text": "rana" },
+      "pt": { "text": "sapo" },
+      "ja": { "text": "カエル", "kana": "カエル", "romaji": "kaeru" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "crocodile",
+    "emoji": "🐊",
+    "translations": {
+      "en": { "text": "crocodile" },
+      "fr": { "article": "un", "text": "crocodile" },
+      "it": { "text": "coccodrillo" },
+      "de": { "text": "Krokodil" },
+      "es": { "text": "cocodrilo" },
+      "pt": { "text": "crocodilo" },
+      "ja": { "text": "ワニ", "kana": "ワニ", "romaji": "wani" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "turtle",
+    "emoji": "🐢",
+    "translations": {
+      "en": { "text": "turtle" },
+      "fr": { "article": "une", "text": "tortue" },
+      "it": { "text": "tartaruga" },
+      "de": { "text": "Schildkröte" },
+      "es": { "text": "tortuga" },
+      "pt": { "text": "tartaruga" },
+      "ja": { "text": "カメ", "kana": "かめ", "romaji": "kame" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "lizard",
+    "emoji": "🦎",
+    "translations": {
+      "en": { "text": "lizard" },
+      "fr": { "article": "un", "text": "lézard" },
+      "it": { "text": "lucertola" },
+      "de": { "text": "Eidechse" },
+      "es": { "text": "lagarto" },
+      "pt": { "text": "lagarto" },
+      "ja": { "text": "トカゲ", "kana": "とかげ", "romaji": "tokage" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "snake",
+    "emoji": "🐍",
+    "translations": {
+      "en": { "text": "snake" },
+      "fr": { "article": "un", "text": "serpent" },
+      "it": { "text": "serpente" },
+      "de": { "text": "Schlange" },
+      "es": { "text": "serpiente" },
+      "pt": { "text": "cobra" },
+      "ja": { "text": "ヘビ", "kana": "へび", "romaji": "hebi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "dragon",
+    "emoji": "🐉",
+    "translations": {
+      "en": { "text": "dragon" },
+      "fr": { "article": "un", "text": "dragon" },
+      "it": { "text": "drago" },
+      "de": { "text": "Drache" },
+      "es": { "text": "dragón" },
+      "pt": { "text": "dragão" },
+      "ja": { "text": "ドラゴン", "kana": "ドラゴン", "romaji": "doragon" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "sauropod",
+    "emoji": "🦕",
+    "translations": {
+      "en": { "text": "dinosaur" },
+      "fr": { "article": "un", "text": "dinosaure" },
+      "it": { "text": "dinosauro" },
+      "de": { "text": "Dinosaurier" },
+      "es": { "text": "dinosaurio" },
+      "pt": { "text": "dinossauro" },
+      "ja": { "text": "恐竜", "kana": "きょうりゅう", "romaji": "kyōryū" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "t-rex",
+    "emoji": "🦖",
+    "translations": {
+      "en": { "text": "T-Rex" },
+      "fr": { "article": "un", "text": "T-Rex" },
+      "it": { "text": "T-Rex" },
+      "de": { "text": "T-Rex" },
+      "es": { "text": "T-Rex" },
+      "pt": { "text": "T-Rex" },
+      "ja": {
+        "text": "ティラノサウルス",
+        "kana": "ティラノサウルス",
+        "romaji": "tiranosaurusu"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "whale",
+    "emoji": "🐋",
+    "translations": {
+      "en": { "text": "whale" },
+      "fr": { "article": "une", "text": "baleine" },
+      "it": { "text": "balena" },
+      "de": { "text": "Wal" },
+      "es": { "text": "ballena" },
+      "pt": { "text": "baleia" },
+      "ja": { "text": "クジラ", "kana": "くじら", "romaji": "kujira" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "dolphin",
+    "emoji": "🐬",
+    "translations": {
+      "en": { "text": "dolphin" },
+      "fr": { "article": "un", "text": "dauphin" },
+      "it": { "text": "delfino" },
+      "de": { "text": "Delfin" },
+      "es": { "text": "delfín" },
+      "pt": { "text": "golfinho" },
+      "ja": { "text": "イルカ", "kana": "いるか", "romaji": "iruka" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "orca",
+    "emoji": "🫍",
+    "translations": {
+      "en": { "text": "orca" },
+      "fr": { "article": "une", "text": "orque" },
+      "it": { "text": "orca" },
+      "de": { "text": "Orca" },
+      "es": { "text": "orca" },
+      "pt": { "text": "orca" },
+      "ja": { "text": "シャチ", "kana": "しゃち", "romaji": "shachi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "seal",
+    "emoji": "🦭",
+    "translations": {
+      "en": { "text": "seal" },
+      "fr": { "article": "un", "text": "phoque" },
+      "it": { "text": "foca" },
+      "de": { "text": "Robbe" },
+      "es": { "text": "foca" },
+      "pt": { "text": "foca" },
+      "ja": { "text": "アザラシ", "kana": "アザラシ", "romaji": "azarashi" }
+    },
+    "categories": ["animals"]
   },
   {
     "id": "fish",
     "emoji": "🐟",
     "translations": {
-      "fr": {
-        "text": "poisson"
-      },
-      "en": {
-        "text": "fish"
-      },
-      "it": {
-        "text": "pesce"
-      },
-      "ja": {
-        "text": "さかな",
-        "kanji": "魚",
-        "romaji": "sakana"
-      },
-      "ja-kana": {
-        "text": "さかな"
-      },
-      "ja-romaji": {
-        "text": "sakana",
-        "speech": "さかな"
-      }
+      "en": { "text": "fish" },
+      "fr": { "article": "un", "text": "poisson" },
+      "it": { "text": "pesce" },
+      "de": { "text": "Fisch" },
+      "es": { "text": "pez" },
+      "pt": { "text": "peixe" },
+      "ja": { "text": "魚", "kana": "さかな", "romaji": "sakana" }
     },
-    "categories": {
-      "fr": [
-        "animals"
-      ],
-      "en": [
-        "animals"
-      ],
-      "it": [
-        "animals"
-      ],
-      "ja": [
-        "animals",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "animals",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "animals",
-        "jlpt5"
-      ]
-    }
+    "categories": ["animals"]
   },
   {
-    "id": "rabbit",
-    "emoji": "🐰",
+    "id": "tropical-fish",
+    "emoji": "🐠",
     "translations": {
-      "fr": {
-        "text": "lapin"
-      },
-      "en": {
-        "text": "rabbit"
-      },
-      "it": {
-        "text": "coniglio"
-      },
-      "ja": {
-        "text": "うさぎ",
-        "kanji": "兎",
-        "romaji": "usagi"
-      },
-      "ja-kana": {
-        "text": "うさぎ"
-      },
-      "ja-romaji": {
-        "text": "usagi",
-        "speech": "うさぎ"
-      }
+      "en": { "text": "tropical fish" },
+      "fr": { "article": "un", "text": "poisson tropical" },
+      "it": { "text": "pesce tropicale" },
+      "de": { "text": "Tropenfisch" },
+      "es": { "text": "pez tropical" },
+      "pt": { "text": "peixe tropical" },
+      "ja": { "text": "熱帯魚", "kana": "ねったいぎょ", "romaji": "nettaigyo" }
     },
-    "categories": {
-      "fr": [
-        "animals"
-      ],
-      "en": [
-        "animals"
-      ],
-      "it": [
-        "animals"
-      ],
-      "ja": [
-        "animals"
-      ],
-      "ja-kana": [
-        "animals"
-      ],
-      "ja-romaji": [
-        "animals"
-      ]
-    }
+    "categories": ["animals"]
   },
   {
-    "id": "horse",
-    "emoji": "🐴",
+    "id": "blowfish",
+    "emoji": "🐡",
     "translations": {
-      "fr": {
-        "text": "cheval"
-      },
-      "en": {
-        "text": "horse"
-      },
-      "it": {
-        "text": "cavallo"
-      },
-      "ja": {
-        "text": "うま",
-        "kanji": "馬",
-        "romaji": "uma"
-      },
-      "ja-kana": {
-        "text": "うま"
-      },
-      "ja-romaji": {
-        "text": "uma",
-        "speech": "うま"
-      }
+      "en": { "text": "blowfish" },
+      "fr": { "article": "un", "text": "poisson-globe" },
+      "it": { "text": "pesce palla" },
+      "de": { "text": "Kugelfisch" },
+      "es": { "text": "pez globo" },
+      "pt": { "text": "baiacu" },
+      "ja": { "text": "フグ", "kana": "フグ", "romaji": "fugu" }
     },
-    "categories": {
-      "fr": [
-        "animals"
-      ],
-      "en": [
-        "animals"
-      ],
-      "it": [
-        "animals"
-      ],
-      "ja": [
-        "animals",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "animals",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "animals",
-        "jlpt5"
-      ]
-    }
+    "categories": ["animals"]
   },
   {
-    "id": "apple",
+    "id": "shark",
+    "emoji": "🦈",
+    "translations": {
+      "en": { "text": "shark" },
+      "fr": { "article": "un", "text": "requin" },
+      "it": { "text": "squalo" },
+      "de": { "text": "Hai" },
+      "es": { "text": "tiburón" },
+      "pt": { "text": "tubarão" },
+      "ja": { "text": "サメ", "kana": "さめ", "romaji": "same" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "octopus",
+    "emoji": "🐙",
+    "translations": {
+      "en": { "text": "octopus" },
+      "fr": { "article": "une", "text": "pieuvre" },
+      "it": { "text": "polpo" },
+      "de": { "text": "Oktopus" },
+      "es": { "text": "pulpo" },
+      "pt": { "text": "polvo" },
+      "ja": { "text": "タコ", "kana": "たこ", "romaji": "tako" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "spiral-shell",
+    "emoji": "🐚",
+    "translations": {
+      "en": { "text": "shell" },
+      "fr": { "article": "un", "text": "coquillage" },
+      "it": { "text": "conchiglia" },
+      "de": { "text": "Muschel" },
+      "es": { "text": "concha" },
+      "pt": { "text": "concha" },
+      "ja": { "text": "貝殻", "kana": "かいがら", "romaji": "kaigara" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "coral",
+    "emoji": "🪸",
+    "translations": {
+      "en": { "text": "coral" },
+      "fr": { "article": "un", "text": "corail" },
+      "it": { "text": "corallo" },
+      "de": { "text": "Koralle" },
+      "es": { "text": "coral" },
+      "pt": { "text": "coral" },
+      "ja": { "text": "サンゴ", "kana": "さんご", "romaji": "sango" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "jellyfish",
+    "emoji": "🪼",
+    "translations": {
+      "en": { "text": "jellyfish" },
+      "fr": { "article": "une", "text": "méduse" },
+      "it": { "text": "medusa" },
+      "de": { "text": "Qualle" },
+      "es": { "text": "medusa" },
+      "pt": { "text": "água-viva" },
+      "ja": { "text": "クラゲ", "kana": "くらげ", "romaji": "kurage" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "snail",
+    "emoji": "🐌",
+    "translations": {
+      "en": { "text": "snail" },
+      "fr": { "article": "un", "text": "escargot" },
+      "it": { "text": "lumaca" },
+      "de": { "text": "Schnecke" },
+      "es": { "text": "caracol" },
+      "pt": { "text": "caracol" },
+      "ja": {
+        "text": "カタツムリ",
+        "kana": "かたつむり",
+        "romaji": "katatsumuri"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "butterfly",
+    "emoji": "🦋",
+    "translations": {
+      "en": { "text": "butterfly" },
+      "fr": { "article": "un", "text": "papillon" },
+      "it": { "text": "farfalla" },
+      "de": { "text": "Schmetterling" },
+      "es": { "text": "mariposa" },
+      "pt": { "text": "borboleta" },
+      "ja": { "text": "蝶", "kana": "ちょう", "romaji": "chō" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "bug",
+    "emoji": "🐛",
+    "translations": {
+      "en": { "text": "insect" },
+      "fr": { "article": "un", "text": "insecte" },
+      "it": { "text": "insetto" },
+      "de": { "text": "Insekt" },
+      "es": { "text": "insecto" },
+      "pt": { "text": "inseto" },
+      "ja": {
+        "text": "昆虫",
+        "kana": "こんちゅう",
+        "romaji": "konchū"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "ant",
+    "emoji": "🐜",
+    "translations": {
+      "en": { "text": "ant" },
+      "fr": { "article": "une", "text": "fourmi" },
+      "it": { "text": "formica" },
+      "de": { "text": "Ameise" },
+      "es": { "text": "hormiga" },
+      "pt": { "text": "formiga" },
+      "ja": { "text": "アリ", "kana": "あり", "romaji": "ari" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "honeybee",
+    "emoji": "🐝",
+    "translations": {
+      "en": { "text": "honeybee" },
+      "fr": { "article": "une", "text": "abeille" },
+      "it": { "text": "ape" },
+      "de": { "text": "Honigbiene" },
+      "es": { "text": "abeja" },
+      "pt": { "text": "abelha" },
+      "ja": { "text": "ミツバチ", "kana": "ミツバチ", "romaji": "mitsubachi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "beetle",
+    "emoji": "🪲",
+    "translations": {
+      "en": { "text": "beetle" },
+      "fr": { "article": "un", "text": "scarabée" },
+      "it": { "text": "coleottero" },
+      "de": { "text": "Käfer" },
+      "es": { "text": "escarabajo" },
+      "pt": { "text": "besouro" },
+      "ja": { "text": "甲虫", "kana": "こうちゅう", "romaji": "kōchū" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "lady-beetle",
+    "emoji": "🐞",
+    "translations": {
+      "en": { "text": "lady beetle" },
+      "fr": { "article": "une", "text": "coccinelle" },
+      "it": { "text": "coccinella" },
+      "de": { "text": "Marienkäfer" },
+      "es": { "text": "mariquita" },
+      "pt": { "text": "joaninha" },
+      "ja": {
+        "text": "テントウムシ",
+        "kana": "テントウムシ",
+        "romaji": "tentōmushi"
+      }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "cricket",
+    "emoji": "🦗",
+    "translations": {
+      "en": { "text": "cricket" },
+      "fr": { "article": "un", "text": "grillon" },
+      "it": { "text": "grillo" },
+      "de": { "text": "Grille" },
+      "es": { "text": "grillo" },
+      "pt": { "text": "grilo" },
+      "ja": { "text": "コオロギ", "kana": "コオロギ", "romaji": "kōrogi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "cockroach",
+    "emoji": "🪳",
+    "translations": {
+      "en": { "text": "cockroach" },
+      "fr": { "article": "un", "text": "cafard" },
+      "it": { "text": "scarafaggio" },
+      "de": { "text": "Kakerlake" },
+      "es": { "text": "cucaracha" },
+      "pt": { "text": "barata" },
+      "ja": { "text": "ゴキブリ", "kana": "ゴキブリ", "romaji": "gokiburi" }
+    },
+    "categories": ["animals"]
+  },
+  {
+    "id": "grapes",
+    "emoji": "🍇",
+    "translations": {
+      "en": { "text": "grapes" },
+      "fr": { "article": "un", "text": "raisin" },
+      "it": { "text": "uva" },
+      "de": { "text": "Trauben" },
+      "es": { "text": "uvas" },
+      "pt": { "text": "uvas" },
+      "ja": { "text": "ぶどう", "kana": "ぶどう", "romaji": "budō" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "melon",
+    "emoji": "🍈",
+    "translations": {
+      "en": { "text": "melon" },
+      "fr": { "article": "un", "text": "melon" },
+      "it": { "text": "melone" },
+      "de": { "text": "Honigmelone" },
+      "es": { "text": "melón" },
+      "pt": { "text": "melão" },
+      "ja": { "text": "メロン", "kana": "メロン", "romaji": "meron" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "watermelon",
+    "emoji": "🍉",
+    "translations": {
+      "en": { "text": "watermelon" },
+      "fr": { "article": "une", "text": "pastèque" },
+      "it": { "text": "anguria" },
+      "de": { "text": "Wassermelone" },
+      "es": { "text": "sandía" },
+      "pt": { "text": "melancia" },
+      "ja": { "text": "スイカ", "kana": "スイカ", "romaji": "suika" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "tangerine",
+    "emoji": "🍊",
+    "translations": {
+      "en": { "text": "tangerine" },
+      "fr": { "article": "une", "text": "mandarine" },
+      "it": { "text": "mandarino" },
+      "de": { "text": "Mandarine" },
+      "es": { "text": "mandarina" },
+      "pt": { "text": "tangerina" },
+      "ja": { "text": "みかん", "kana": "みかん", "romaji": "mikan" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "lemon",
+    "emoji": "🍋",
+    "translations": {
+      "en": { "text": "lemon" },
+      "fr": { "article": "un", "text": "citron" },
+      "it": { "text": "limone" },
+      "de": { "text": "Zitrone" },
+      "es": { "text": "limón" },
+      "pt": { "text": "limão" },
+      "ja": { "text": "レモン", "kana": "レモン", "romaji": "remon" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "lime",
+    "emoji": "🍋‍🟩",
+    "translations": {
+      "en": { "text": "lime" },
+      "fr": { "article": "un", "text": "citron vert" },
+      "it": { "text": "lime" },
+      "de": { "text": "Limette" },
+      "es": { "text": "lima" },
+      "pt": { "text": "lima" },
+      "ja": { "text": "ライム", "kana": "ライム", "romaji": "raimu" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "banana",
+    "emoji": "🍌",
+    "translations": {
+      "en": { "text": "banana" },
+      "fr": { "article": "une", "text": "banane" },
+      "it": { "text": "banana" },
+      "de": { "text": "Banane" },
+      "es": { "text": "plátano" },
+      "pt": { "text": "banana" },
+      "ja": { "text": "バナナ", "kana": "バナナ", "romaji": "banana" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "pineapple",
+    "emoji": "🍍",
+    "translations": {
+      "en": { "text": "pineapple" },
+      "fr": { "article": "un", "text": "ananas" },
+      "it": { "text": "ananas" },
+      "de": { "text": "Ananas" },
+      "es": { "text": "piña" },
+      "pt": { "text": "abacaxi" },
+      "ja": {
+        "text": "パイナップル",
+        "kana": "パイナップル",
+        "romaji": "painappuru"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "mango",
+    "emoji": "🥭",
+    "translations": {
+      "en": { "text": "mango" },
+      "fr": { "article": "une", "text": "mangue" },
+      "it": { "text": "mango" },
+      "de": { "text": "Mango" },
+      "es": { "text": "mango" },
+      "pt": { "text": "manga" },
+      "ja": { "text": "マンゴー", "kana": "マンゴー", "romaji": "mangō" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "red-apple",
     "emoji": "🍎",
     "translations": {
-      "fr": {
-        "text": "pomme"
-      },
-      "en": {
-        "text": "apple"
-      },
-      "it": {
-        "text": "mela"
-      },
+      "en": { "text": "apple" },
+      "fr": { "article": "une", "text": "pomme" },
+      "it": { "text": "mela" },
+      "de": { "text": "Apfel" },
+      "es": { "text": "manzana" },
+      "pt": { "text": "maçã" },
       "ja": {
         "text": "りんご",
-        "kanji": "林檎",
+        "kana": "りんご",
         "romaji": "ringo"
-      },
-      "ja-kana": {
-        "text": "りんご"
-      },
-      "ja-romaji": {
-        "text": "ringo",
-        "speech": "りんご"
       }
     },
-    "categories": {
-      "fr": [
-        "food"
-      ],
-      "en": [
-        "food"
-      ],
-      "it": [
-        "food"
-      ],
-      "ja": [
-        "food"
-      ],
-      "ja-kana": [
-        "food"
-      ],
-      "ja-romaji": [
-        "food"
-      ]
-    }
+    "categories": ["food"]
+  },
+  {
+    "id": "green-apple",
+    "emoji": "🍏",
+    "translations": {
+      "en": { "text": "green apple" },
+      "fr": { "article": "une", "text": "pomme verte" },
+      "it": { "text": "mela verde" },
+      "de": { "text": "grüner Apfel" },
+      "es": { "text": "manzana verde" },
+      "pt": { "text": "maçã verde" },
+      "ja": { "text": "青りんご", "kana": "あおりんご", "romaji": "ao ringo" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "pear",
+    "emoji": "🍐",
+    "translations": {
+      "en": { "text": "pear" },
+      "fr": { "article": "une", "text": "poire" },
+      "it": { "text": "pera" },
+      "de": { "text": "Birne" },
+      "es": { "text": "pera" },
+      "pt": { "text": "pera" },
+      "ja": { "text": "梨", "kana": "なし", "romaji": "nashi" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "peach",
+    "emoji": "🍑",
+    "translations": {
+      "en": { "text": "peach" },
+      "fr": { "article": "une", "text": "pêche" },
+      "it": { "text": "pesca" },
+      "de": { "text": "Pfirsich" },
+      "es": { "text": "melocotón" },
+      "pt": { "text": "pêssego" },
+      "ja": { "text": "桃", "kana": "もも", "romaji": "momo" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "cherries",
+    "emoji": "🍒",
+    "translations": {
+      "en": { "text": "cherries" },
+      "fr": { "article": "des", "text": "cerises" },
+      "it": { "text": "ciliegie" },
+      "de": { "text": "Kirschen" },
+      "es": { "text": "cerezas" },
+      "pt": { "text": "cerejas" },
+      "ja": {
+        "text": "さくらんぼ",
+        "kana": "さくらんぼ",
+        "romaji": "sakuranbo"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "strawberry",
+    "emoji": "🍓",
+    "translations": {
+      "en": { "text": "strawberry" },
+      "fr": { "article": "une", "text": "fraise" },
+      "it": { "text": "fragola" },
+      "de": { "text": "Erdbeere" },
+      "es": { "text": "fresa" },
+      "pt": { "text": "morango" },
+      "ja": { "text": "いちご", "kana": "いちご", "romaji": "ichigo" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "blueberries",
+    "emoji": "🫐",
+    "translations": {
+      "en": { "text": "blueberries" },
+      "fr": { "article": "des", "text": "myrtilles" },
+      "it": { "text": "mirtilli" },
+      "de": { "text": "Blaubeeren" },
+      "es": { "text": "arándanos" },
+      "pt": { "text": "mirtilos" },
+      "ja": {
+        "text": "ブルーベリー",
+        "kana": "ブルーベリー",
+        "romaji": "burūberī"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "kiwi-fruit",
+    "emoji": "🥝",
+    "translations": {
+      "en": { "text": "kiwi" },
+      "fr": { "article": "un", "text": "kiwi" },
+      "it": { "text": "kiwi" },
+      "de": { "text": "Kiwi" },
+      "es": { "text": "kiwi" },
+      "pt": { "text": "kiwi" },
+      "ja": { "text": "キウイ", "kana": "キウイ", "romaji": "kiui" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "tomato",
+    "emoji": "🍅",
+    "translations": {
+      "en": { "text": "tomato" },
+      "fr": { "article": "une", "text": "tomate" },
+      "it": { "text": "pomodoro" },
+      "de": { "text": "Tomate" },
+      "es": { "text": "tomate" },
+      "pt": { "text": "tomate" },
+      "ja": { "text": "トマト", "kana": "トマト", "romaji": "tomato" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "olive",
+    "emoji": "🫒",
+    "translations": {
+      "en": { "text": "olive" },
+      "fr": { "article": "une", "text": "olive" },
+      "it": { "text": "oliva" },
+      "de": { "text": "Olive" },
+      "es": { "text": "aceituna" },
+      "pt": { "text": "azeitona" },
+      "ja": { "text": "オリーブ", "kana": "オリーブ", "romaji": "orību" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "coconut",
+    "emoji": "🥥",
+    "translations": {
+      "en": { "text": "coconut" },
+      "fr": { "article": "une", "text": "noix de coco" },
+      "it": { "text": "cocco" },
+      "de": { "text": "Kokosnuss" },
+      "es": { "text": "coco" },
+      "pt": { "text": "coco" },
+      "ja": {
+        "text": "ココナッツ",
+        "kana": "ココナッツ",
+        "romaji": "kokonattsu"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "avocado",
+    "emoji": "🥑",
+    "translations": {
+      "en": { "text": "avocado" },
+      "fr": { "article": "un", "text": "avocat" },
+      "it": { "text": "avocado" },
+      "de": { "text": "Avocado" },
+      "es": { "text": "aguacate" },
+      "pt": { "text": "abacate" },
+      "ja": { "text": "アボカド", "kana": "アボカド", "romaji": "abokado" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "eggplant",
+    "emoji": "🍆",
+    "translations": {
+      "en": { "text": "eggplant" },
+      "fr": { "article": "une", "text": "aubergine" },
+      "it": { "text": "melanzana" },
+      "de": { "text": "Aubergine" },
+      "es": { "text": "berenjena" },
+      "pt": { "text": "berinjela" },
+      "ja": { "text": "茄子", "kana": "なす", "romaji": "nasu" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "potato",
+    "emoji": "🥔",
+    "translations": {
+      "en": { "text": "potato" },
+      "fr": { "article": "une", "text": "pomme de terre" },
+      "it": { "text": "patata" },
+      "de": { "text": "Kartoffel" },
+      "es": { "text": "patata" },
+      "pt": { "text": "batata" },
+      "ja": { "text": "じゃがいも", "kana": "じゃがいも", "romaji": "jagaimo" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "carrot",
+    "emoji": "🥕",
+    "translations": {
+      "en": { "text": "carrot" },
+      "fr": { "article": "une", "text": "carotte" },
+      "it": { "text": "carota" },
+      "de": { "text": "Karotte" },
+      "es": { "text": "zanahoria" },
+      "pt": { "text": "cenoura" },
+      "ja": { "text": "にんじん", "kana": "にんじん", "romaji": "ninjin" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "ear-of-corn",
+    "emoji": "🌽",
+    "translations": {
+      "en": {
+        "text": "corn"
+      },
+      "fr": {
+        "article": "du",
+        "text": "maïs"
+      },
+      "it": {
+        "text": "mais"
+      },
+      "de": {
+        "text": "Mais"
+      },
+      "es": {
+        "text": "maíz"
+      },
+      "pt": {
+        "text": "milho"
+      },
+      "ja": {
+        "text": "コーン",
+        "kana": "こーん",
+        "romaji": "kōn"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "hot-pepper",
+    "emoji": "🌶️",
+    "translations": {
+      "en": { "text": "hot pepper" },
+      "fr": { "article": "un", "text": "piment rouge" },
+      "it": { "text": "peperoncino" },
+      "de": { "text": "Chilischote" },
+      "es": { "text": "chile picante" },
+      "pt": { "text": "pimenta" },
+      "ja": { "text": "唐辛子", "kana": "とうがらし", "romaji": "tōgarashi" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "bell-pepper",
+    "emoji": "🫑",
+    "translations": {
+      "en": { "text": "bell pepper" },
+      "fr": { "article": "un", "text": "poivron" },
+      "it": { "text": "peperone" },
+      "de": { "text": "Paprika" },
+      "es": { "text": "pimiento" },
+      "pt": { "text": "pimentão" },
+      "ja": { "text": "ピーマン", "kana": "ピーマン", "romaji": "pīman" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "cucumber",
+    "emoji": "🥒",
+    "translations": {
+      "en": { "text": "cucumber" },
+      "fr": { "article": "un", "text": "concombre" },
+      "it": { "text": "cetriolo" },
+      "de": { "text": "Gurke" },
+      "es": { "text": "pepino" },
+      "pt": { "text": "pepino" },
+      "ja": { "text": "きゅうり", "kana": "きゅうり", "romaji": "kyūri" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "broccoli",
+    "emoji": "🥦",
+    "translations": {
+      "en": { "text": "broccoli" },
+      "fr": { "article": "un", "text": "brocoli" },
+      "it": { "text": "broccoli" },
+      "de": { "text": "Brokkoli" },
+      "es": { "text": "brócoli" },
+      "pt": { "text": "brócolis" },
+      "ja": {
+        "text": "ブロッコリー",
+        "kana": "ブロッコリー",
+        "romaji": "burokkorī"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "garlic",
+    "emoji": "🧄",
+    "translations": {
+      "en": { "text": "garlic" },
+      "fr": { "article": "un", "text": "ail" },
+      "it": { "text": "aglio" },
+      "de": { "text": "Knoblauch" },
+      "es": { "text": "ajo" },
+      "pt": { "text": "alho" },
+      "ja": { "text": "にんにく", "kana": "にんにく", "romaji": "ninniku" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "onion",
+    "emoji": "🧅",
+    "translations": {
+      "en": { "text": "onion" },
+      "fr": { "article": "un", "text": "oignon" },
+      "it": { "text": "cipolla" },
+      "de": { "text": "Zwiebel" },
+      "es": { "text": "cebolla" },
+      "pt": { "text": "cebola" },
+      "ja": { "text": "玉ねぎ", "kana": "たまねぎ", "romaji": "tamanegi" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "peanuts",
+    "emoji": "🥜",
+    "translations": {
+      "en": { "text": "peanuts" },
+      "fr": { "article": "des", "text": "cacahuètes" },
+      "it": { "text": "arachidi" },
+      "de": { "text": "Erdnüsse" },
+      "es": { "text": "cacahuetes" },
+      "pt": { "text": "amendoins" },
+      "ja": { "text": "ピーナッツ", "kana": "ピーナッツ", "romaji": "pīnattsu" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "beans",
+    "emoji": "🫘",
+    "translations": {
+      "en": { "text": "beans" },
+      "fr": { "article": "des", "text": "haricots" },
+      "it": { "text": "fagioli" },
+      "de": { "text": "Bohnen" },
+      "es": { "text": "alubias" },
+      "pt": { "text": "feijões" },
+      "ja": { "text": "豆", "kana": "まめ", "romaji": "mame" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "chestnut",
+    "emoji": "🌰",
+    "translations": {
+      "en": { "text": "chestnut" },
+      "fr": { "article": "une", "text": "châtaigne" },
+      "it": { "text": "castagna" },
+      "de": { "text": "Kastanie" },
+      "es": { "text": "castaña" },
+      "pt": { "text": "castanha" },
+      "ja": { "text": "栗", "kana": "くり", "romaji": "kuri" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "ginger-root",
+    "emoji": "🫚",
+    "translations": {
+      "en": { "text": "ginger" },
+      "fr": { "article": "du", "text": "gingembre" },
+      "it": { "text": "zenzero" },
+      "de": { "text": "Ingwer" },
+      "es": { "text": "jengibre" },
+      "pt": { "text": "gengibre" },
+      "ja": {
+        "text": "ショウガ",
+        "kana": "しょうが",
+        "romaji": "shōga"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "pea-pod",
+    "emoji": "🫛",
+    "translations": {
+      "en": { "text": "pea" },
+      "fr": { "article": "un", "text": "petit pois" },
+      "it": { "text": "pisello" },
+      "de": { "text": "Erbse" },
+      "es": { "text": "guisante" },
+      "pt": { "text": "ervilha" },
+      "ja": {
+        "text": "えんどう豆",
+        "kana": "えんどうまめ",
+        "romaji": "endōmame"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "brown-mushroom",
+    "emoji": "🍄‍🟫",
+    "translations": {
+      "en": { "text": "brown mushroom" },
+      "fr": { "article": "un", "text": "champignon brun" },
+      "it": { "text": "fungo marrone" },
+      "de": { "text": "brauner Pilz" },
+      "es": { "text": "champiñón marrón" },
+      "pt": { "text": "cogumelo marrom" },
+      "ja": {
+        "text": "茶色いきのこ",
+        "kana": "ちゃいろいきのこ",
+        "romaji": "chairoi kinoko"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "root-vegetable",
+    "emoji": "🫜",
+    "translations": {
+      "en": { "text": "radish" },
+      "fr": { "article": "un", "text": "radis" },
+      "it": { "text": "ravanello" },
+      "de": { "text": "Radieschen" },
+      "es": { "text": "rábano" },
+      "pt": { "text": "rabanete" },
+      "ja": {
+        "text": "だいこん",
+        "kana": "だいこん",
+        "romaji": "daikon"
+      }
+    },
+    "categories": ["food"]
   },
   {
     "id": "bread",
     "emoji": "🍞",
     "translations": {
-      "fr": {
-        "text": "pain"
-      },
-      "en": {
-        "text": "bread"
-      },
-      "it": {
-        "text": "pane"
-      },
-      "ja": {
-        "text": "パン",
-        "romaji": "pan"
-      },
-      "ja-kana": {
-        "text": "パン"
-      },
-      "ja-romaji": {
-        "text": "pan",
-        "speech": "パン"
-      }
+      "en": { "text": "bread" },
+      "fr": { "article": "un", "text": "pain" },
+      "it": { "text": "pane" },
+      "de": { "text": "Brot" },
+      "es": { "text": "pan" },
+      "pt": { "text": "pão" },
+      "ja": { "text": "パン", "kana": "パン", "romaji": "pan" }
     },
-    "categories": {
-      "fr": [
-        "food"
-      ],
-      "en": [
-        "food"
-      ],
-      "it": [
-        "food"
-      ],
-      "ja": [
-        "food",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "food",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "food",
-        "jlpt5"
-      ]
-    }
+    "categories": ["food"]
   },
   {
-    "id": "water",
-    "emoji": "💧",
+    "id": "croissant",
+    "emoji": "🥐",
     "translations": {
-      "fr": {
-        "text": "eau"
-      },
-      "en": {
-        "text": "water"
-      },
-      "it": {
-        "text": "acqua"
-      },
+      "en": { "text": "croissant" },
+      "fr": { "article": "un", "text": "croissant" },
+      "it": { "text": "croissant" },
+      "de": { "text": "Croissant" },
+      "es": { "text": "cruasán" },
+      "pt": { "text": "croissant" },
       "ja": {
-        "text": "みず",
-        "kanji": "水",
-        "romaji": "mizu"
-      },
-      "ja-kana": {
-        "text": "みず"
-      },
-      "ja-romaji": {
-        "text": "mizu",
-        "speech": "みず"
+        "text": "クロワッサン",
+        "kana": "クロワッサン",
+        "romaji": "kurowassan"
       }
     },
-    "categories": {
-      "fr": [
-        "food"
-      ],
-      "en": [
-        "food"
-      ],
-      "it": [
-        "food"
-      ],
-      "ja": [
-        "food",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "food",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "food",
-        "jlpt5"
-      ]
-    }
+    "categories": ["food"]
   },
   {
-    "id": "rice",
-    "emoji": "🍚",
+    "id": "baguette-bread",
+    "emoji": "🥖",
     "translations": {
-      "fr": {
-        "text": "riz"
-      },
-      "en": {
-        "text": "rice"
-      },
-      "it": {
-        "text": "riso"
-      },
+      "en": { "text": "baguette bread" },
+      "fr": { "article": "une", "text": "baguette" },
+      "it": { "text": "baguette" },
+      "de": { "text": "Baguette" },
+      "es": { "text": "baguete" },
+      "pt": { "text": "baguete" },
+      "ja": { "text": "バゲット", "kana": "バゲット", "romaji": "bagetto" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "flatbread",
+    "emoji": "🫓",
+    "translations": {
+      "en": { "text": "flatbread" },
+      "fr": { "article": "un", "text": "pain plat" },
+      "it": { "text": "pane piatto" },
+      "de": { "text": "Fladenbrot" },
+      "es": { "text": "pan plano" },
+      "pt": { "text": "pão achatado" },
       "ja": {
-        "text": "ごはん",
-        "kanji": "ご飯",
-        "romaji": "gohan"
-      },
-      "ja-kana": {
-        "text": "ごはん"
-      },
-      "ja-romaji": {
-        "text": "gohan",
-        "speech": "ごはん"
+        "text": "平たいパン",
+        "kana": "ひらたいパン",
+        "romaji": "hiratai pan"
       }
     },
-    "categories": {
-      "fr": [
-        "food"
-      ],
-      "en": [
-        "food"
-      ],
-      "it": [
-        "food"
-      ],
-      "ja": [
-        "food",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "food",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "food",
-        "jlpt5"
-      ]
-    }
+    "categories": ["food"]
+  },
+  {
+    "id": "pretzel",
+    "emoji": "🥨",
+    "translations": {
+      "en": { "text": "pretzel" },
+      "fr": { "article": "un", "text": "bretzel" },
+      "it": { "text": "pretzel" },
+      "de": { "text": "Brezel" },
+      "es": { "text": "bretzel" },
+      "pt": { "text": "pretzel" },
+      "ja": {
+        "text": "プレッツェル",
+        "kana": "プレッツェル",
+        "romaji": "purettseru"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "bagel",
+    "emoji": "🥯",
+    "translations": {
+      "en": { "text": "bagel" },
+      "fr": { "article": "un", "text": "bagel" },
+      "it": { "text": "bagel" },
+      "de": { "text": "Bagel" },
+      "es": { "text": "bagel" },
+      "pt": { "text": "bagel" },
+      "ja": { "text": "ベーグル", "kana": "ベーグル", "romaji": "bēguru" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "pancakes",
+    "emoji": "🥞",
+    "translations": {
+      "en": { "text": "pancakes" },
+      "fr": { "article": "des", "text": "pancakes" },
+      "it": { "text": "pancake" },
+      "de": { "text": "Pfannkuchen" },
+      "es": { "text": "tortitas" },
+      "pt": { "text": "panquecas" },
+      "ja": { "text": "パンケーキ", "kana": "パンケーキ", "romaji": "pankēki" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "waffle",
+    "emoji": "🧇",
+    "translations": {
+      "en": { "text": "waffle" },
+      "fr": { "article": "une", "text": "gaufre" },
+      "it": { "text": "waffle" },
+      "de": { "text": "Waffel" },
+      "es": { "text": "gofre" },
+      "pt": { "text": "waffle" },
+      "ja": { "text": "ワッフル", "kana": "ワッフル", "romaji": "waffuru" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "cheese-wedge",
+    "emoji": "🧀",
+    "translations": {
+      "en": { "text": "cheese" },
+      "fr": { "article": "un", "text": "fromage" },
+      "it": { "text": "formaggio" },
+      "de": { "text": "Käse" },
+      "es": { "text": "queso" },
+      "pt": { "text": "queijo" },
+      "ja": { "text": "チーズ", "kana": "ちーず", "romaji": "chīzu" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "poultry-leg",
+    "emoji": "🍗",
+    "translations": {
+      "en": { "text": "chicken" },
+      "fr": { "article": "du", "text": "poulet" },
+      "it": { "text": "pollo" },
+      "de": { "text": "Hähnchen" },
+      "es": { "text": "pollo" },
+      "pt": { "text": "frango" },
+      "ja": {
+        "text": "鶏肉",
+        "kana": "とりにく",
+        "romaji": "toriniku"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "cut-of-meat",
+    "emoji": "🥩",
+    "translations": {
+      "en": {
+        "text": "meat"
+      },
+      "fr": {
+        "article": "de la",
+        "text": "viande"
+      },
+      "it": {
+        "text": "carne"
+      },
+      "de": {
+        "text": "Fleisch"
+      },
+      "es": {
+        "text": "carne"
+      },
+      "pt": {
+        "text": "carne"
+      },
+      "ja": {
+        "text": "肉",
+        "kana": "にく",
+        "romaji": "niku"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "bacon",
+    "emoji": "🥓",
+    "translations": {
+      "en": { "text": "bacon" },
+      "fr": { "article": "du", "text": "bacon" },
+      "it": { "text": "pancetta" },
+      "de": { "text": "Bacon" },
+      "es": { "text": "beicon" },
+      "pt": { "text": "bacon" },
+      "ja": { "text": "ベーコン", "kana": "ベーコン", "romaji": "bēkon" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "hamburger",
+    "emoji": "🍔",
+    "translations": {
+      "en": { "text": "hamburger" },
+      "fr": { "article": "un", "text": "hamburger" },
+      "it": { "text": "hamburger" },
+      "de": { "text": "Hamburger" },
+      "es": { "text": "hamburguesa" },
+      "pt": { "text": "hambúrguer" },
+      "ja": {
+        "text": "ハンバーガー",
+        "kana": "ハンバーガー",
+        "romaji": "hanbāgā"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "french-fries",
+    "emoji": "🍟",
+    "translations": {
+      "en": { "text": "french fries" },
+      "fr": { "article": "des", "text": "frites" },
+      "it": { "text": "patatine fritte" },
+      "de": { "text": "Pommes frites" },
+      "es": { "text": "patatas fritas" },
+      "pt": { "text": "batatas fritas" },
+      "ja": {
+        "text": "フライドポテト",
+        "kana": "フライドポテト",
+        "romaji": "furaido poteto"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "pizza",
+    "emoji": "🍕",
+    "translations": {
+      "en": { "text": "pizza" },
+      "fr": { "article": "une", "text": "pizza" },
+      "it": { "text": "pizza" },
+      "de": { "text": "Pizza" },
+      "es": { "text": "pizza" },
+      "pt": { "text": "pizza" },
+      "ja": { "text": "ピザ", "kana": "ピザ", "romaji": "piza" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "hot-dog",
+    "emoji": "🌭",
+    "translations": {
+      "en": { "text": "hot dog" },
+      "fr": { "article": "un", "text": "hot-dog" },
+      "it": { "text": "hot dog" },
+      "de": { "text": "Hotdog" },
+      "es": { "text": "perrito caliente" },
+      "pt": { "text": "cachorro-quente" },
+      "ja": {
+        "text": "ホットドッグ",
+        "kana": "ホットドッグ",
+        "romaji": "hottodoggu"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "sandwich",
+    "emoji": "🥪",
+    "translations": {
+      "en": { "text": "sandwich" },
+      "fr": { "article": "un", "text": "sandwich" },
+      "it": { "text": "sandwich" },
+      "de": { "text": "Sandwich" },
+      "es": { "text": "sándwich" },
+      "pt": { "text": "sanduíche" },
+      "ja": {
+        "text": "サンドイッチ",
+        "kana": "サンドイッチ",
+        "romaji": "sandoitchi"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "taco",
+    "emoji": "🌮",
+    "translations": {
+      "en": { "text": "taco" },
+      "fr": { "article": "un", "text": "taco" },
+      "it": { "text": "taco" },
+      "de": { "text": "Taco" },
+      "es": { "text": "taco" },
+      "pt": { "text": "taco" },
+      "ja": { "text": "タコス", "kana": "タコス", "romaji": "takosu" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "burrito",
+    "emoji": "🌯",
+    "translations": {
+      "en": { "text": "burrito" },
+      "fr": { "article": "un", "text": "burrito" },
+      "it": { "text": "burrito" },
+      "de": { "text": "Burrito" },
+      "es": { "text": "burrito" },
+      "pt": { "text": "burrito" },
+      "ja": { "text": "ブリトー", "kana": "ブリトー", "romaji": "buritō" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "tamale",
+    "emoji": "🫔",
+    "translations": {
+      "en": { "text": "tamale" },
+      "fr": { "article": "un", "text": "tamal" },
+      "it": { "text": "tamale" },
+      "de": { "text": "Tamale" },
+      "es": { "text": "tamal" },
+      "pt": { "text": "tamale" },
+      "ja": { "text": "タマーレ", "kana": "タマーレ", "romaji": "tamāre" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "falafel",
+    "emoji": "🧆",
+    "translations": {
+      "en": { "text": "falafel" },
+      "fr": { "article": "un", "text": "falafel" },
+      "it": { "text": "falafel" },
+      "de": { "text": "Falafel" },
+      "es": { "text": "falafel" },
+      "pt": { "text": "falafel" },
+      "ja": {
+        "text": "ファラフェル",
+        "kana": "ファラフェル",
+        "romaji": "far aferu"
+      }
+    },
+    "categories": ["food"]
   },
   {
     "id": "egg",
     "emoji": "🥚",
     "translations": {
-      "fr": {
-        "text": "œuf"
-      },
-      "en": {
-        "text": "egg"
-      },
-      "it": {
-        "text": "uovo"
-      },
-      "ja": {
-        "text": "たまご",
-        "kanji": "卵",
-        "romaji": "tamago"
-      },
-      "ja-kana": {
-        "text": "たまご"
-      },
-      "ja-romaji": {
-        "text": "tamago",
-        "speech": "たまご"
-      }
+      "en": { "text": "egg" },
+      "fr": { "article": "un", "text": "oeuf" },
+      "it": { "text": "uovo" },
+      "de": { "text": "Ei" },
+      "es": { "text": "huevo" },
+      "pt": { "text": "ovo" },
+      "ja": { "text": "卵", "kana": "たまご", "romaji": "tamago" }
     },
-    "categories": {
-      "fr": [
-        "food"
-      ],
-      "en": [
-        "food"
-      ],
-      "it": [
-        "food"
-      ],
-      "ja": [
-        "food",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "food",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "food",
-        "jlpt5"
-      ]
-    }
+    "categories": ["food"]
   },
   {
-    "id": "milk",
+    "id": "cooking",
+    "emoji": "🍳",
+    "translations": {
+      "en": { "text": "cooking" },
+      "fr": { "article": "la", "text": "cuisine" },
+      "it": { "text": "cucinare" },
+      "de": { "text": "Kochen" },
+      "es": { "text": "cocinar" },
+      "pt": { "text": "cozinhar" },
+      "ja": { "text": "料理", "kana": "りょうり", "romaji": "ryōri" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "pot-of-food",
+    "emoji": "🍲",
+    "translations": {
+      "en": { "text": "dish" },
+      "fr": { "article": "un", "text": "plat" },
+      "it": { "text": "piatto" },
+      "de": { "text": "Gericht" },
+      "es": { "text": "plato" },
+      "pt": { "text": "prato" },
+      "ja": {
+        "text": "料理",
+        "kana": "りょうり",
+        "romaji": "ryōri"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "fondue",
+    "emoji": "🫕",
+    "translations": {
+      "en": { "text": "fondue" },
+      "fr": { "article": "une", "text": "fondue" },
+      "it": { "text": "fonduta" },
+      "de": { "text": "Fondue" },
+      "es": { "text": "fondue" },
+      "pt": { "text": "fondue" },
+      "ja": { "text": "フォンデュ", "kana": "フォンデュ", "romaji": "fondyu" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "bowl-with-spoon",
+    "emoji": "🥣",
+    "translations": {
+      "en": { "text": "bowl" },
+      "fr": { "article": "un", "text": "bol" },
+      "it": { "text": "ciotola" },
+      "de": { "text": "Schüssel" },
+      "es": { "text": "cuenco" },
+      "pt": { "text": "tigela" },
+      "ja": { "text": "ボウル", "kana": "ぼうる", "romaji": "bōru" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "green-salad",
+    "emoji": "🥗",
+    "translations": {
+      "en": { "text": "salad" },
+      "fr": { "article": "une", "text": "salade" },
+      "it": { "text": "insalata" },
+      "de": { "text": "Salat" },
+      "es": { "text": "ensalada" },
+      "pt": { "text": "salada" },
+      "ja": {
+        "text": "サラダ",
+        "kana": "さらだ",
+        "romaji": "sarada"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "popcorn",
+    "emoji": "🍿",
+    "translations": {
+      "en": { "text": "popcorn" },
+      "fr": { "article": "du", "text": "pop-corn" },
+      "it": { "text": "popcorn" },
+      "de": { "text": "Popcorn" },
+      "es": { "text": "palomitas" },
+      "pt": { "text": "pipoca" },
+      "ja": {
+        "text": "ポップコーン",
+        "kana": "ポップコーン",
+        "romaji": "poppukōn"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "butter",
+    "emoji": "🧈",
+    "translations": {
+      "en": { "text": "butter" },
+      "fr": { "article": "du", "text": "beurre" },
+      "it": { "text": "burro" },
+      "de": { "text": "Butter" },
+      "es": { "text": "mantequilla" },
+      "pt": { "text": "manteiga" },
+      "ja": { "text": "バター", "kana": "バター", "romaji": "batā" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "salt",
+    "emoji": "🧂",
+    "translations": {
+      "en": { "text": "salt" },
+      "fr": { "article": "du", "text": "sel" },
+      "it": { "text": "sale" },
+      "de": { "text": "Salz" },
+      "es": { "text": "sal" },
+      "pt": { "text": "sal" },
+      "ja": { "text": "塩", "kana": "しお", "romaji": "shio" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "canned-food",
+    "emoji": "🥫",
+    "translations": {
+      "en": { "text": "can" },
+      "fr": { "article": "une", "text": "conserve" },
+      "it": { "text": "conserva" },
+      "de": { "text": "Konserve" },
+      "es": { "text": "conserva" },
+      "pt": { "text": "conserva" },
+      "ja": { "text": "缶", "kana": "かん", "romaji": "kan" }
+    },
+    "categories": []
+  },
+  {
+    "id": "bento-box",
+    "emoji": "🍱",
+    "translations": {
+      "en": { "text": "bento box" },
+      "fr": { "article": "une", "text": "boîte à bento" },
+      "it": { "text": "bento" },
+      "de": { "text": "Bento-Box" },
+      "es": { "text": "caja de bento" },
+      "pt": { "text": "marmita de bentô" },
+      "ja": { "text": "弁当箱", "kana": "べんとうばこ", "romaji": "bentōbako" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "rice-cracker",
+    "emoji": "🍘",
+    "translations": {
+      "en": { "text": "rice cracker" },
+      "fr": { "article": "un", "text": "cracker de riz" },
+      "it": { "text": "galletta di riso" },
+      "de": { "text": "Reiscracker" },
+      "es": { "text": "galleta de arroz" },
+      "pt": { "text": "biscoito de arroz" },
+      "ja": { "text": "せんべい", "kana": "せんべい", "romaji": "senbei" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "rice-ball",
+    "emoji": "🍙",
+    "translations": {
+      "en": { "text": "rice ball" },
+      "fr": { "article": "une", "text": "boulette de riz" },
+      "it": { "text": "onigiri" },
+      "de": { "text": "Reisbällchen" },
+      "es": { "text": "bola de arroz" },
+      "pt": { "text": "bolinho de arroz" },
+      "ja": { "text": "おにぎり", "kana": "おにぎり", "romaji": "onigiri" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "cooked-rice",
+    "emoji": "🍚",
+    "translations": {
+      "en": {
+        "text": "rice"
+      },
+      "fr": {
+        "article": "du",
+        "text": "riz"
+      },
+      "it": {
+        "text": "riso"
+      },
+      "de": {
+        "text": "Reis"
+      },
+      "es": {
+        "text": "arroz"
+      },
+      "pt": {
+        "text": "arroz"
+      },
+      "ja": {
+        "text": "米",
+        "kana": "こめ",
+        "romaji": "kome"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "curry-rice",
+    "emoji": "🍛",
+    "translations": {
+      "en": { "text": "curry" },
+      "fr": { "article": "du", "text": "curry" },
+      "it": { "text": "curry" },
+      "de": { "text": "Curry" },
+      "es": { "text": "curry" },
+      "pt": { "text": "caril" },
+      "ja": {
+        "text": "カレー",
+        "kana": "かれー",
+        "romaji": "karē"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "steaming-bowl",
+    "emoji": "🍜",
+    "translations": {
+      "en": { "text": "noodles" },
+      "fr": { "article": "des", "text": "nouilles" },
+      "it": { "text": "noodles" },
+      "de": { "text": "Nudeln" },
+      "es": { "text": "fideos" },
+      "pt": { "text": "macarrão" },
+      "ja": {
+        "text": "麺",
+        "kana": "めん",
+        "romaji": "men"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "spaghetti",
+    "emoji": "🍝",
+    "translations": {
+      "en": { "text": "spaghetti" },
+      "fr": { "article": "des", "text": "spaghettis" },
+      "it": { "text": "spaghetti" },
+      "de": { "text": "Spaghetti" },
+      "es": { "text": "espaguetis" },
+      "pt": { "text": "espaguete" },
+      "ja": {
+        "text": "スパゲッティ",
+        "kana": "スパゲッティ",
+        "romaji": "supagetti"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "roasted-sweet-potato",
+    "emoji": "🍠",
+    "translations": {
+      "en": { "text": "sweet potato" },
+      "fr": { "article": "une", "text": "patate douce" },
+      "it": { "text": "patata dolce" },
+      "de": { "text": "Süßkartoffel" },
+      "es": { "text": "batata dulce" },
+      "pt": { "text": "batata-doce" },
+      "ja": {
+        "text": "さつまいも",
+        "kana": "さつまいも",
+        "romaji": "satsumaimo"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "oden",
+    "emoji": "🍢",
+    "translations": {
+      "en": { "text": "oden" },
+      "fr": { "article": "un", "text": "oden" },
+      "it": { "text": "oden" },
+      "de": { "text": "Oden" },
+      "es": { "text": "oden" },
+      "pt": { "text": "oden" },
+      "ja": { "text": "おでん", "kana": "おでん", "romaji": "oden" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "sushi",
+    "emoji": "🍣",
+    "translations": {
+      "en": { "text": "sushi" },
+      "fr": { "article": "des", "text": "sushis" },
+      "it": { "text": "sushi" },
+      "de": { "text": "Sushi" },
+      "es": { "text": "sushi" },
+      "pt": { "text": "sushi" },
+      "ja": { "text": "すし", "kana": "すし", "romaji": "sushi" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "fried-shrimp",
+    "emoji": "🍤",
+    "translations": {
+      "en": { "text": "fried shrimp" },
+      "fr": { "article": "une", "text": "crevette frite" },
+      "it": { "text": "gambero fritto" },
+      "de": { "text": "frittierte Garnele" },
+      "es": { "text": "gamba frita" },
+      "pt": { "text": "camarão frito" },
+      "ja": {
+        "text": "エビフライ",
+        "kana": "エビフライ",
+        "romaji": "ebi furai"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "moon-cake",
+    "emoji": "🥮",
+    "translations": {
+      "en": { "text": "moon cake" },
+      "fr": { "article": "un", "text": "gâteau de lune" },
+      "it": { "text": "torta della luna" },
+      "de": { "text": "Mondkuchen" },
+      "es": { "text": "pastel de luna" },
+      "pt": { "text": "bolo lunar" },
+      "ja": { "text": "月餅", "kana": "げっぺい", "romaji": "geppei" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "dango",
+    "emoji": "🍡",
+    "translations": {
+      "en": { "text": "dango" },
+      "fr": { "article": "des", "text": "dango" },
+      "it": { "text": "dango" },
+      "de": { "text": "Dango" },
+      "es": { "text": "dango" },
+      "pt": { "text": "dango" },
+      "ja": { "text": "団子", "kana": "だんご", "romaji": "dango" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "dumpling",
+    "emoji": "🥟",
+    "translations": {
+      "en": { "text": "dumpling" },
+      "fr": { "article": "un", "text": "ravioli" },
+      "it": { "text": "raviolo" },
+      "de": { "text": "Teigtasche" },
+      "es": { "text": "empanadilla" },
+      "pt": { "text": "bolinho recheado" },
+      "ja": { "text": "餃子", "kana": "ぎょうざ", "romaji": "gyōza" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "fortune-cookie",
+    "emoji": "🥠",
+    "translations": {
+      "en": { "text": "fortune cookie" },
+      "fr": { "article": "un", "text": "biscuit chinois" },
+      "it": { "text": "biscotto della fortuna" },
+      "de": { "text": "Glückskeks" },
+      "es": { "text": "galleta de la fortuna" },
+      "pt": { "text": "biscoito da sorte" },
+      "ja": {
+        "text": "フォーチュンクッキー",
+        "kana": "フォーチュンクッキー",
+        "romaji": "fōchun kukkī"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "takeout-box",
+    "emoji": "🥡",
+    "translations": {
+      "en": { "text": "takeout box" },
+      "fr": { "article": "une", "text": "boîte à emporter" },
+      "it": { "text": "confezione da asporto" },
+      "de": { "text": "Takeaway-Schachtel" },
+      "es": { "text": "caja para llevar" },
+      "pt": { "text": "caixa para viagem" },
+      "ja": {
+        "text": "テイクアウトボックス",
+        "kana": "テイクアウトボックス",
+        "romaji": "teikuauto bokkusu"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "crab",
+    "emoji": "🦀",
+    "translations": {
+      "en": { "text": "crab" },
+      "fr": { "article": "un", "text": "crabe" },
+      "it": { "text": "granchio" },
+      "de": { "text": "Krebs" },
+      "es": { "text": "cangrejo" },
+      "pt": { "text": "caranguejo" },
+      "ja": { "text": "カニ", "kana": "カニ", "romaji": "kani" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "lobster",
+    "emoji": "🦞",
+    "translations": {
+      "en": { "text": "lobster" },
+      "fr": { "article": "un", "text": "homard" },
+      "it": { "text": "aragosta" },
+      "de": { "text": "Hummer" },
+      "es": { "text": "bogavante" },
+      "pt": { "text": "lagosta" },
+      "ja": { "text": "ロブスター", "kana": "ロブスター", "romaji": "robusutā" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "shrimp",
+    "emoji": "🦐",
+    "translations": {
+      "en": { "text": "shrimp" },
+      "fr": { "article": "une", "text": "crevette" },
+      "it": { "text": "gamberetto" },
+      "de": { "text": "Garnele" },
+      "es": { "text": "gamba" },
+      "pt": { "text": "camarão" },
+      "ja": { "text": "エビ", "kana": "エビ", "romaji": "ebi" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "squid",
+    "emoji": "🦑",
+    "translations": {
+      "en": { "text": "squid" },
+      "fr": { "article": "un", "text": "calamar" },
+      "it": { "text": "calamaro" },
+      "de": { "text": "Tintenfisch" },
+      "es": { "text": "calamar" },
+      "pt": { "text": "lula" },
+      "ja": { "text": "イカ", "kana": "イカ", "romaji": "ika" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "oyster",
+    "emoji": "🦪",
+    "translations": {
+      "en": { "text": "oyster" },
+      "fr": { "article": "une", "text": "huître" },
+      "it": { "text": "ostrica" },
+      "de": { "text": "Auster" },
+      "es": { "text": "ostra" },
+      "pt": { "text": "ostra" },
+      "ja": { "text": "牡蠣", "kana": "かき", "romaji": "kaki" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "soft-ice-cream",
+    "emoji": "🍦",
+    "translations": {
+      "en": { "text": "soft ice cream" },
+      "fr": { "article": "une", "text": "glace italienne" },
+      "it": { "text": "gelato soft" },
+      "de": { "text": "Softeis" },
+      "es": { "text": "helado suave" },
+      "pt": { "text": "sorvete soft" },
+      "ja": {
+        "text": "ソフトクリーム",
+        "kana": "ソフトクリーム",
+        "romaji": "sofuto kurīmu"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "shaved-ice",
+    "emoji": "🍧",
+    "translations": {
+      "en": { "text": "shaved ice" },
+      "fr": { "article": "un", "text": "granité" },
+      "it": { "text": "granita" },
+      "de": { "text": "Raspel-Eis" },
+      "es": { "text": "hielo raspado" },
+      "pt": { "text": "raspadinha" },
+      "ja": { "text": "かき氷", "kana": "かきごおり", "romaji": "kakigōri" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "ice-cream",
+    "emoji": "🍨",
+    "translations": {
+      "en": { "text": "ice cream" },
+      "fr": { "article": "une", "text": "glace" },
+      "it": { "text": "gelato" },
+      "de": { "text": "Eiscreme" },
+      "es": { "text": "helado" },
+      "pt": { "text": "sorvete" },
+      "ja": {
+        "text": "アイスクリーム",
+        "kana": "アイスクリーム",
+        "romaji": "aisu kurīmu"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "donut",
+    "emoji": "🍩",
+    "translations": {
+      "en": { "text": "donut" },
+      "fr": { "article": "un", "text": "beignet" },
+      "it": { "text": "ciambella" },
+      "de": { "text": "Donut" },
+      "es": { "text": "dónut" },
+      "pt": { "text": "donut" },
+      "ja": { "text": "ドーナツ", "kana": "ドーナツ", "romaji": "dōnatsu" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "cookie",
+    "emoji": "🍪",
+    "translations": {
+      "en": { "text": "cookie" },
+      "fr": { "article": "un", "text": "cookie" },
+      "it": { "text": "biscotto" },
+      "de": { "text": "Keks" },
+      "es": { "text": "galleta" },
+      "pt": { "text": "biscoito" },
+      "ja": { "text": "クッキー", "kana": "クッキー", "romaji": "kukkī" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "birthday-cake",
+    "emoji": "🎂",
+    "translations": {
+      "en": { "text": "birthday cake" },
+      "fr": { "article": "un", "text": "gâteau d'anniversaire" },
+      "it": { "text": "torta di compleanno" },
+      "de": { "text": "Geburtstagskuchen" },
+      "es": { "text": "tarta de cumpleaños" },
+      "pt": { "text": "bolo de aniversário" },
+      "ja": {
+        "text": "誕生日ケーキ",
+        "kana": "たんじょうびケーキ",
+        "romaji": "tanjōbi kēki"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "shortcake",
+    "emoji": "🍰",
+    "translations": {
+      "en": { "text": "shortcake" },
+      "fr": { "article": "une", "text": "part de gâteau" },
+      "it": { "text": "fetta di torta" },
+      "de": { "text": "Tortenstück" },
+      "es": { "text": "porción de tarta" },
+      "pt": { "text": "fatia de bolo" },
+      "ja": {
+        "text": "ショートケーキ",
+        "kana": "ショートケーキ",
+        "romaji": "shōto kēki"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "cupcake",
+    "emoji": "🧁",
+    "translations": {
+      "en": { "text": "cupcake" },
+      "fr": { "article": "un", "text": "cupcake" },
+      "it": { "text": "cupcake" },
+      "de": { "text": "Cupcake" },
+      "es": { "text": "magdalena" },
+      "pt": { "text": "cupcake" },
+      "ja": {
+        "text": "カップケーキ",
+        "kana": "カップケーキ",
+        "romaji": "kappu kēki"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "pie",
+    "emoji": "🥧",
+    "translations": {
+      "en": { "text": "pie" },
+      "fr": { "article": "une", "text": "tarte" },
+      "it": { "text": "torta" },
+      "de": { "text": "Kuchen" },
+      "es": { "text": "pastel" },
+      "pt": { "text": "torta" },
+      "ja": { "text": "パイ", "kana": "パイ", "romaji": "pai" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "chocolate-bar",
+    "emoji": "🍫",
+    "translations": {
+      "en": {
+        "text": "chocolate"
+      },
+      "fr": {
+        "article": "du",
+        "text": "chocolat"
+      },
+      "it": {
+        "text": "cioccolato"
+      },
+      "de": {
+        "text": "Schokolade"
+      },
+      "es": {
+        "text": "chocolate"
+      },
+      "pt": {
+        "text": "chocolate"
+      },
+      "ja": {
+        "text": "チョコレート",
+        "kana": "ちょこれーと",
+        "romaji": "chokorēto"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "candy",
+    "emoji": "🍬",
+    "translations": {
+      "en": { "text": "candy" },
+      "fr": { "article": "un", "text": "bonbon" },
+      "it": { "text": "caramella" },
+      "de": { "text": "Bonbon" },
+      "es": { "text": "caramelo" },
+      "pt": { "text": "bala" },
+      "ja": {
+        "text": "キャンディー",
+        "kana": "キャンディー",
+        "romaji": "kyandī"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "lollipop",
+    "emoji": "🍭",
+    "translations": {
+      "en": { "text": "lollipop" },
+      "fr": { "article": "une", "text": "sucette" },
+      "it": { "text": "lecca-lecca" },
+      "de": { "text": "Lutscher" },
+      "es": { "text": "piruleta" },
+      "pt": { "text": "pirulito" },
+      "ja": {
+        "text": "ロリポップ",
+        "kana": "ロリポップ",
+        "romaji": "roripoppu"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "custard",
+    "emoji": "🍮",
+    "translations": {
+      "en": { "text": "custard" },
+      "fr": { "article": "un", "text": "flan" },
+      "it": { "text": "budino" },
+      "de": { "text": "Pudding" },
+      "es": { "text": "flan" },
+      "pt": { "text": "pudim" },
+      "ja": { "text": "プリン", "kana": "プリン", "romaji": "purin" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "honey-pot",
+    "emoji": "🍯",
+    "translations": {
+      "en": { "text": "honey" },
+      "fr": { "article": "du", "text": "miel" },
+      "it": { "text": "miele" },
+      "de": { "text": "Honig" },
+      "es": { "text": "miel" },
+      "pt": { "text": "mel" },
+      "ja": {
+        "text": "はちみつ",
+        "kana": "はちみつ",
+        "romaji": "hachimitsu"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "baby-bottle",
+    "emoji": "🍼",
+    "translations": {
+      "en": { "text": "baby bottle" },
+      "fr": { "article": "un", "text": "biberon" },
+      "it": { "text": "biberon" },
+      "de": { "text": "Babyflasche" },
+      "es": { "text": "biberón" },
+      "pt": { "text": "mamadeira" },
+      "ja": { "text": "哺乳瓶", "kana": "ほにゅうびん", "romaji": "honyūbin" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "hot-beverage",
+    "emoji": "☕",
+    "translations": {
+      "en": { "text": "coffee" },
+      "fr": { "article": "un", "text": "café" },
+      "it": { "text": "caffè" },
+      "de": { "text": "Kaffee" },
+      "es": { "text": "café" },
+      "pt": { "text": "café" },
+      "ja": {
+        "text": "コーヒー",
+        "kana": "こーひー",
+        "romaji": "kōhī"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "teapot",
+    "emoji": "🫖",
+    "translations": {
+      "en": { "text": "teapot" },
+      "fr": { "article": "une", "text": "théière" },
+      "it": { "text": "teiera" },
+      "de": { "text": "Teekanne" },
+      "es": { "text": "tetera" },
+      "pt": { "text": "bule" },
+      "ja": { "text": "急須", "kana": "きゅうす", "romaji": "kyūsu" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "teacup-without-handle",
+    "emoji": "🍵",
+    "translations": {
+      "en": { "text": "tea" },
+      "fr": { "article": "du", "text": "thé" },
+      "it": { "text": "tè" },
+      "de": { "text": "Tee" },
+      "es": { "text": "té" },
+      "pt": { "text": "chá" },
+      "ja": {
+        "text": "お茶",
+        "kana": "おちゃ",
+        "romaji": "ocha"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "sake",
+    "emoji": "🍶",
+    "translations": {
+      "en": { "text": "sake" },
+      "fr": { "article": "du", "text": "saké" },
+      "it": { "text": "sake" },
+      "de": { "text": "Sake" },
+      "es": { "text": "sake" },
+      "pt": { "text": "saquê" },
+      "ja": { "text": "日本酒", "kana": "にほんしゅ", "romaji": "nihonshu" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "bottle-with-popping-cork",
+    "emoji": "🍾",
+    "translations": {
+      "en": {
+        "text": "champagne"
+      },
+      "fr": {
+        "article": "du",
+        "text": "champagne"
+      },
+      "it": {
+        "text": "champagne"
+      },
+      "de": {
+        "text": "Champagner"
+      },
+      "es": {
+        "text": "champán"
+      },
+      "pt": {
+        "text": "champanhe"
+      },
+      "ja": {
+        "text": "シャンパン",
+        "kana": "しゃんぱん",
+        "romaji": "shanpan"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "beer-mug",
+    "emoji": "🍺",
+    "translations": {
+      "en": { "text": "beer" },
+      "fr": { "article": "une", "text": "bière" },
+      "it": { "text": "birra" },
+      "de": { "text": "Bier" },
+      "es": { "text": "cerveza" },
+      "pt": { "text": "cerveja" },
+      "ja": { "text": "ビール", "kana": "びーる", "romaji": "bīru" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "bubble-tea",
+    "emoji": "🧋",
+    "translations": {
+      "en": { "text": "bubble tea" },
+      "fr": { "article": "un", "text": "bubble tea" },
+      "it": { "text": "bubble tea" },
+      "de": { "text": "Bubble Tea" },
+      "es": { "text": "té de burbujas" },
+      "pt": { "text": "chá de bolhas" },
+      "ja": {
+        "text": "タピオカティー",
+        "kana": "タピオカティー",
+        "romaji": "tapioka tī"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "beverage-box",
+    "emoji": "🧃",
+    "translations": {
+      "en": { "text": "beverage box" },
+      "fr": { "article": "une", "text": "brique de boisson" },
+      "it": { "text": "bevanda in brick" },
+      "de": { "text": "Trinkpäckchen" },
+      "es": { "text": "brik de bebida" },
+      "pt": { "text": "caixinha de bebida" },
+      "ja": {
+        "text": "紙パック飲料",
+        "kana": "かみパックいんりょう",
+        "romaji": "kami pakku inryō"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "mate",
+    "emoji": "🧉",
+    "translations": {
+      "en": { "text": "mate" },
+      "fr": { "article": "du", "text": "maté" },
+      "it": { "text": "mate" },
+      "de": { "text": "Mate-Tee" },
+      "es": { "text": "mate" },
+      "pt": { "text": "chimarrão" },
+      "ja": { "text": "マテ茶", "kana": "マテちゃ", "romaji": "mate cha" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "ice",
+    "emoji": "🧊",
+    "translations": {
+      "en": { "text": "ice" },
+      "fr": { "article": "un", "text": "glaçon" },
+      "it": { "text": "cubetto di ghiaccio" },
+      "de": { "text": "Eiswürfel" },
+      "es": { "text": "cubito de hielo" },
+      "pt": { "text": "cubo de gelo" },
+      "ja": { "text": "氷", "kana": "こおり", "romaji": "kōri" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "chopsticks",
+    "emoji": "🥢",
+    "translations": {
+      "en": { "text": "chopsticks" },
+      "fr": { "article": "des", "text": "baguettes" },
+      "it": { "text": "bacchette" },
+      "de": { "text": "Essstäbchen" },
+      "es": { "text": "palillos" },
+      "pt": { "text": "hashi" },
+      "ja": { "text": "箸", "kana": "はし", "romaji": "hashi" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "fork-and-knife",
+    "emoji": "🍴",
+    "translations": {
+      "en": { "text": "cutlery" },
+      "fr": { "article": "des", "text": "couverts" },
+      "it": { "text": "posate" },
+      "de": { "text": "Besteck" },
+      "es": { "text": "cubiertos" },
+      "pt": { "text": "talheres" },
+      "ja": {
+        "text": "食器",
+        "kana": "しょっき",
+        "romaji": "shokki"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "spoon",
+    "emoji": "🥄",
+    "translations": {
+      "en": { "text": "spoon" },
+      "fr": { "article": "une", "text": "cuillère" },
+      "it": { "text": "cucchiaio" },
+      "de": { "text": "Löffel" },
+      "es": { "text": "cuchara" },
+      "pt": { "text": "colher" },
+      "ja": { "text": "スプーン", "kana": "スプーン", "romaji": "supūn" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "kitchen-knife",
+    "emoji": "🔪",
+    "translations": {
+      "en": { "text": "knife" },
+      "fr": { "article": "un", "text": "couteau" },
+      "it": { "text": "coltello" },
+      "de": { "text": "Messer" },
+      "es": { "text": "cuchillo" },
+      "pt": { "text": "faca" },
+      "ja": {
+        "text": "ナイフ",
+        "kana": "ないふ",
+        "romaji": "naifu"
+      }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "jar",
+    "emoji": "🫙",
+    "translations": {
+      "en": { "text": "jar" },
+      "fr": { "article": "un", "text": "bocal" },
+      "it": { "text": "barattolo" },
+      "de": { "text": "Glas" },
+      "es": { "text": "tarro" },
+      "pt": { "text": "pote" },
+      "ja": { "text": "瓶", "kana": "びん", "romaji": "bin" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "amphora",
+    "emoji": "🏺",
+    "translations": {
+      "en": { "text": "amphora" },
+      "fr": { "article": "une", "text": "amphore" },
+      "it": { "text": "anfora" },
+      "de": { "text": "Amphore" },
+      "es": { "text": "ánfora" },
+      "pt": { "text": "ânfora" },
+      "ja": { "text": "アンフォラ", "kana": "アンフォラ", "romaji": "anfora" }
+    },
+    "categories": ["food"]
+  },
+  {
+    "id": "glass-of-milk",
     "emoji": "🥛",
     "translations": {
-      "fr": {
-        "text": "lait"
-      },
-      "en": {
-        "text": "milk"
-      },
-      "it": {
-        "text": "latte"
-      },
+      "en": { "text": "milk" },
+      "fr": { "article": "du", "text": "lait" },
+      "it": { "text": "latte" },
+      "de": { "text": "Milch" },
+      "es": { "text": "leche" },
+      "pt": { "text": "leite" },
       "ja": {
-        "text": "ぎゅうにゅう",
-        "kanji": "牛乳",
-        "romaji": "gyuunyuu"
-      },
-      "ja-kana": {
-        "text": "ぎゅうにゅう"
-      },
-      "ja-romaji": {
-        "text": "gyuunyuu",
-        "speech": "ぎゅうにゅう"
+        "text": "牛乳",
+        "kana": "ぎゅうにゅう",
+        "romaji": "gyūnyū"
       }
     },
-    "categories": {
-      "fr": [
-        "food"
-      ],
-      "en": [
-        "food"
-      ],
-      "it": [
-        "food"
-      ],
-      "ja": [
-        "food",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "food",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "food",
-        "jlpt5"
-      ]
-    }
+    "categories": ["food"]
   },
   {
-    "id": "red",
-    "emoji": "🔴",
+    "id": "wine-glass",
+    "emoji": "🍷",
     "translations": {
-      "fr": {
-        "text": "rouge"
-      },
-      "en": {
-        "text": "red"
-      },
-      "it": {
-        "text": "rosso"
-      },
+      "en": { "text": "wine" },
+      "fr": { "article": "du", "text": "vin" },
+      "it": { "text": "vino" },
+      "de": { "text": "Wein" },
+      "es": { "text": "vino" },
+      "pt": { "text": "vinho" },
       "ja": {
-        "text": "あか",
-        "kanji": "赤",
-        "romaji": "aka"
-      },
-      "ja-kana": {
-        "text": "あか"
-      },
-      "ja-romaji": {
-        "text": "aka",
-        "speech": "あか"
+        "text": "ワイン",
+        "kana": "わいん",
+        "romaji": "wain"
       }
     },
-    "categories": {
-      "fr": [
-        "colors"
-      ],
-      "en": [
-        "colors"
-      ],
-      "it": [
-        "colors"
-      ],
-      "ja": [
-        "colors",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "colors",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "colors",
-        "jlpt5"
-      ]
-    }
+    "categories": ["food"]
   },
   {
-    "id": "blue",
-    "emoji": "🔵",
+    "id": "cocktail-glass",
+    "emoji": "🍸",
     "translations": {
-      "fr": {
-        "text": "bleu"
-      },
-      "en": {
-        "text": "blue"
-      },
-      "it": {
-        "text": "blu"
-      },
+      "en": { "text": "cocktail" },
+      "fr": { "article": "un", "text": "cocktail" },
+      "it": { "text": "cocktail" },
+      "de": { "text": "Cocktail" },
+      "es": { "text": "cóctel" },
+      "pt": { "text": "coquetel" },
       "ja": {
-        "text": "あお",
-        "kanji": "青",
-        "romaji": "ao"
-      },
-      "ja-kana": {
-        "text": "あお"
-      },
-      "ja-romaji": {
-        "text": "ao",
-        "speech": "あお"
+        "text": "カクテル",
+        "kana": "かくてる",
+        "romaji": "kakuteru"
       }
     },
-    "categories": {
-      "fr": [
-        "colors"
-      ],
-      "en": [
-        "colors"
-      ],
-      "it": [
-        "colors"
-      ],
-      "ja": [
-        "colors",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "colors",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "colors",
-        "jlpt5"
-      ]
-    }
+    "categories": ["food"]
   },
   {
-    "id": "green",
-    "emoji": "🟢",
+    "id": "tumbler-glass",
+    "emoji": "🥃",
     "translations": {
-      "fr": {
-        "text": "vert"
-      },
-      "en": {
-        "text": "green"
-      },
-      "it": {
-        "text": "verde"
-      },
+      "en": { "text": "alcohol" },
+      "fr": { "article": "un", "text": "alcool" },
+      "it": { "text": "alcol" },
+      "de": { "text": "Alkohol" },
+      "es": { "text": "alcohol" },
+      "pt": { "text": "álcool" },
       "ja": {
-        "text": "みどり",
-        "kanji": "緑",
-        "romaji": "midori"
-      },
-      "ja-kana": {
-        "text": "みどり"
-      },
-      "ja-romaji": {
-        "text": "midori",
-        "speech": "みどり"
+        "text": "アルコール",
+        "kana": "あるこーる",
+        "romaji": "arukōru"
       }
     },
-    "categories": {
-      "fr": [
-        "colors"
-      ],
-      "en": [
-        "colors"
-      ],
-      "it": [
-        "colors"
-      ],
-      "ja": [
-        "colors",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "colors",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "colors",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "yellow",
-    "emoji": "🟡",
-    "translations": {
-      "fr": {
-        "text": "jaune"
-      },
-      "en": {
-        "text": "yellow"
-      },
-      "it": {
-        "text": "giallo"
-      },
-      "ja": {
-        "text": "きいろ",
-        "kanji": "黄色",
-        "romaji": "kiiro"
-      },
-      "ja-kana": {
-        "text": "きいろ"
-      },
-      "ja-romaji": {
-        "text": "kiiro",
-        "speech": "きいろ"
-      }
-    },
-    "categories": {
-      "fr": [
-        "colors"
-      ],
-      "en": [
-        "colors"
-      ],
-      "it": [
-        "colors"
-      ],
-      "ja": [
-        "colors",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "colors",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "colors",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "one",
-    "emoji": "1️⃣",
-    "translations": {
-      "fr": {
-        "text": "un"
-      },
-      "en": {
-        "text": "one"
-      },
-      "it": {
-        "text": "uno"
-      },
-      "ja": {
-        "text": "いち",
-        "kanji": "一",
-        "romaji": "ichi"
-      },
-      "ja-kana": {
-        "text": "いち"
-      },
-      "ja-romaji": {
-        "text": "ichi",
-        "speech": "いち"
-      }
-    },
-    "categories": {
-      "fr": [
-        "numbers"
-      ],
-      "en": [
-        "numbers"
-      ],
-      "it": [
-        "numbers"
-      ],
-      "ja": [
-        "numbers",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "numbers",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "numbers",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "two",
-    "emoji": "2️⃣",
-    "translations": {
-      "fr": {
-        "text": "deux"
-      },
-      "en": {
-        "text": "two"
-      },
-      "it": {
-        "text": "due"
-      },
-      "ja": {
-        "text": "に",
-        "kanji": "二",
-        "romaji": "ni"
-      },
-      "ja-kana": {
-        "text": "に"
-      },
-      "ja-romaji": {
-        "text": "ni",
-        "speech": "に"
-      }
-    },
-    "categories": {
-      "fr": [
-        "numbers"
-      ],
-      "en": [
-        "numbers"
-      ],
-      "it": [
-        "numbers"
-      ],
-      "ja": [
-        "numbers",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "numbers",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "numbers",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "three",
-    "emoji": "3️⃣",
-    "translations": {
-      "fr": {
-        "text": "trois"
-      },
-      "en": {
-        "text": "three"
-      },
-      "ja": {
-        "text": "さん",
-        "kanji": "三",
-        "romaji": "san"
-      },
-      "ja-kana": {
-        "text": "さん"
-      },
-      "ja-romaji": {
-        "text": "san",
-        "speech": "さん"
-      }
-    },
-    "categories": {
-      "fr": [
-        "numbers"
-      ],
-      "en": [
-        "numbers"
-      ],
-      "ja": [
-        "numbers",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "numbers",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "numbers",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "mother",
-    "emoji": "👩",
-    "translations": {
-      "fr": {
-        "text": "maman"
-      },
-      "en": {
-        "text": "mother"
-      },
-      "it": {
-        "text": "mamma"
-      },
-      "ja": {
-        "text": "おかあさん",
-        "kanji": "お母さん",
-        "romaji": "okaasan"
-      },
-      "ja-kana": {
-        "text": "おかあさん"
-      },
-      "ja-romaji": {
-        "text": "okaasan",
-        "speech": "おかあさん"
-      }
-    },
-    "categories": {
-      "fr": [
-        "family"
-      ],
-      "en": [
-        "family"
-      ],
-      "it": [
-        "family"
-      ],
-      "ja": [
-        "family",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "family",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "family",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "father",
-    "emoji": "👨",
-    "translations": {
-      "fr": {
-        "text": "papa"
-      },
-      "en": {
-        "text": "father"
-      },
-      "it": {
-        "text": "papà"
-      },
-      "ja": {
-        "text": "おとうさん",
-        "kanji": "お父さん",
-        "romaji": "otousan"
-      },
-      "ja-kana": {
-        "text": "おとうさん"
-      },
-      "ja-romaji": {
-        "text": "otousan",
-        "speech": "おとうさん"
-      }
-    },
-    "categories": {
-      "fr": [
-        "family"
-      ],
-      "en": [
-        "family"
-      ],
-      "it": [
-        "family"
-      ],
-      "ja": [
-        "family",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "family",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "family",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "child",
-    "emoji": "🧒",
-    "translations": {
-      "fr": {
-        "text": "enfant"
-      },
-      "en": {
-        "text": "child"
-      },
-      "it": {
-        "text": "bambino"
-      },
-      "ja": {
-        "text": "こども",
-        "kanji": "子供",
-        "romaji": "kodomo"
-      },
-      "ja-kana": {
-        "text": "こども"
-      },
-      "ja-romaji": {
-        "text": "kodomo",
-        "speech": "こども"
-      }
-    },
-    "categories": {
-      "fr": [
-        "family"
-      ],
-      "en": [
-        "family"
-      ],
-      "it": [
-        "family"
-      ],
-      "ja": [
-        "family",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "family",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "family",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "hand",
-    "emoji": "✋",
-    "translations": {
-      "fr": {
-        "text": "main"
-      },
-      "en": {
-        "text": "hand"
-      },
-      "it": {
-        "text": "mano"
-      },
-      "ja": {
-        "text": "て",
-        "kanji": "手",
-        "romaji": "te"
-      },
-      "ja-kana": {
-        "text": "て"
-      },
-      "ja-romaji": {
-        "text": "te",
-        "speech": "て"
-      }
-    },
-    "categories": {
-      "fr": [
-        "body"
-      ],
-      "en": [
-        "body"
-      ],
-      "it": [
-        "body"
-      ],
-      "ja": [
-        "body",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "body",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "body",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "eye",
-    "emoji": "👁️",
-    "translations": {
-      "fr": {
-        "text": "œil"
-      },
-      "en": {
-        "text": "eye"
-      },
-      "it": {
-        "text": "occhio"
-      },
-      "ja": {
-        "text": "め",
-        "kanji": "目",
-        "romaji": "me"
-      },
-      "ja-kana": {
-        "text": "め"
-      },
-      "ja-romaji": {
-        "text": "me",
-        "speech": "め"
-      }
-    },
-    "categories": {
-      "fr": [
-        "body"
-      ],
-      "en": [
-        "body"
-      ],
-      "it": [
-        "body"
-      ],
-      "ja": [
-        "body",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "body",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "body",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "ear",
-    "emoji": "👂",
-    "translations": {
-      "fr": {
-        "text": "oreille"
-      },
-      "en": {
-        "text": "ear"
-      },
-      "it": {
-        "text": "orecchio"
-      },
-      "ja": {
-        "text": "みみ",
-        "kanji": "耳",
-        "romaji": "mimi"
-      },
-      "ja-kana": {
-        "text": "みみ"
-      },
-      "ja-romaji": {
-        "text": "mimi",
-        "speech": "みみ"
-      }
-    },
-    "categories": {
-      "fr": [
-        "body"
-      ],
-      "en": [
-        "body"
-      ],
-      "it": [
-        "body"
-      ],
-      "ja": [
-        "body",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "body",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "body",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "nose",
-    "emoji": "👃",
-    "translations": {
-      "fr": {
-        "text": "nez"
-      },
-      "en": {
-        "text": "nose"
-      },
-      "it": {
-        "text": "naso"
-      },
-      "ja": {
-        "text": "はな",
-        "kanji": "鼻",
-        "romaji": "hana"
-      },
-      "ja-kana": {
-        "text": "はな"
-      },
-      "ja-romaji": {
-        "text": "hana",
-        "speech": "はな"
-      }
-    },
-    "categories": {
-      "fr": [
-        "body"
-      ],
-      "en": [
-        "body"
-      ],
-      "it": [
-        "body"
-      ],
-      "ja": [
-        "body"
-      ],
-      "ja-kana": [
-        "body"
-      ],
-      "ja-romaji": [
-        "body"
-      ]
-    }
-  },
-  {
-    "id": "mouth",
-    "emoji": "👄",
-    "translations": {
-      "fr": {
-        "text": "bouche"
-      },
-      "en": {
-        "text": "mouth"
-      },
-      "it": {
-        "text": "bocca"
-      },
-      "ja": {
-        "text": "くち",
-        "kanji": "口",
-        "romaji": "kuchi"
-      },
-      "ja-kana": {
-        "text": "くち"
-      },
-      "ja-romaji": {
-        "text": "kuchi",
-        "speech": "くち"
-      }
-    },
-    "categories": {
-      "fr": [
-        "body"
-      ],
-      "en": [
-        "body"
-      ],
-      "it": [
-        "body"
-      ],
-      "ja": [
-        "body",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "body",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "body",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "foot",
-    "emoji": "🦶",
-    "translations": {
-      "fr": {
-        "text": "pied"
-      },
-      "en": {
-        "text": "foot"
-      },
-      "it": {
-        "text": "piede"
-      },
-      "ja": {
-        "text": "あし",
-        "kanji": "足",
-        "romaji": "ashi"
-      },
-      "ja-kana": {
-        "text": "あし"
-      },
-      "ja-romaji": {
-        "text": "ashi",
-        "speech": "あし"
-      }
-    },
-    "categories": {
-      "fr": [
-        "body"
-      ],
-      "en": [
-        "body"
-      ],
-      "it": [
-        "body"
-      ],
-      "ja": [
-        "body",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "body",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "body",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "sun",
-    "emoji": "☀️",
-    "translations": {
-      "fr": {
-        "text": "soleil"
-      },
-      "en": {
-        "text": "sun"
-      },
-      "it": {
-        "text": "sole"
-      },
-      "ja": {
-        "text": "たいよう",
-        "kanji": "太陽",
-        "romaji": "taiyou"
-      },
-      "ja-kana": {
-        "text": "たいよう"
-      },
-      "ja-romaji": {
-        "text": "taiyou",
-        "speech": "たいよう"
-      }
-    },
-    "categories": {
-      "fr": [
-        "weather"
-      ],
-      "en": [
-        "weather"
-      ],
-      "it": [
-        "weather"
-      ],
-      "ja": [
-        "weather"
-      ],
-      "ja-kana": [
-        "weather"
-      ],
-      "ja-romaji": [
-        "weather"
-      ]
-    }
-  },
-  {
-    "id": "rain",
-    "emoji": "🌧️",
-    "translations": {
-      "fr": {
-        "text": "pluie"
-      },
-      "en": {
-        "text": "rain"
-      },
-      "it": {
-        "text": "pioggia"
-      },
-      "ja": {
-        "text": "あめ",
-        "kanji": "雨",
-        "romaji": "ame"
-      },
-      "ja-kana": {
-        "text": "あめ"
-      },
-      "ja-romaji": {
-        "text": "ame",
-        "speech": "あめ"
-      }
-    },
-    "categories": {
-      "fr": [
-        "weather"
-      ],
-      "en": [
-        "weather"
-      ],
-      "it": [
-        "weather"
-      ],
-      "ja": [
-        "weather",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "weather",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "weather",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "snow",
-    "emoji": "❄️",
-    "translations": {
-      "fr": {
-        "text": "neige"
-      },
-      "en": {
-        "text": "snow"
-      },
-      "it": {
-        "text": "neve"
-      },
-      "ja": {
-        "text": "ゆき",
-        "kanji": "雪",
-        "romaji": "yuki"
-      },
-      "ja-kana": {
-        "text": "ゆき"
-      },
-      "ja-romaji": {
-        "text": "yuki",
-        "speech": "ゆき"
-      }
-    },
-    "categories": {
-      "fr": [
-        "weather"
-      ],
-      "en": [
-        "weather"
-      ],
-      "it": [
-        "weather"
-      ],
-      "ja": [
-        "weather",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "weather",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "weather",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "cloud",
-    "emoji": "☁️",
-    "translations": {
-      "fr": {
-        "text": "nuage"
-      },
-      "en": {
-        "text": "cloud"
-      },
-      "it": {
-        "text": "nuvola"
-      },
-      "ja": {
-        "text": "くも",
-        "kanji": "雲",
-        "romaji": "kumo"
-      },
-      "ja-kana": {
-        "text": "くも"
-      },
-      "ja-romaji": {
-        "text": "kumo",
-        "speech": "くも"
-      }
-    },
-    "categories": {
-      "fr": [
-        "weather"
-      ],
-      "en": [
-        "weather"
-      ],
-      "it": [
-        "weather"
-      ],
-      "ja": [
-        "weather"
-      ],
-      "ja-kana": [
-        "weather"
-      ],
-      "ja-romaji": [
-        "weather"
-      ]
-    }
-  },
-  {
-    "id": "wind",
-    "emoji": "🌬️",
-    "translations": {
-      "fr": {
-        "text": "vent"
-      },
-      "en": {
-        "text": "wind"
-      },
-      "it": {
-        "text": "vento"
-      },
-      "ja": {
-        "text": "かぜ",
-        "kanji": "風",
-        "romaji": "kaze"
-      },
-      "ja-kana": {
-        "text": "かぜ"
-      },
-      "ja-romaji": {
-        "text": "kaze",
-        "speech": "かぜ"
-      }
-    },
-    "categories": {
-      "fr": [
-        "weather"
-      ],
-      "en": [
-        "weather"
-      ],
-      "it": [
-        "weather"
-      ],
-      "ja": [
-        "weather",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "weather",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "weather",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "rainbow",
-    "emoji": "🌈",
-    "translations": {
-      "fr": {
-        "text": "arc-en-ciel"
-      },
-      "en": {
-        "text": "rainbow"
-      },
-      "it": {
-        "text": "arcobaleno"
-      },
-      "ja": {
-        "text": "にじ",
-        "kanji": "虹",
-        "romaji": "niji"
-      },
-      "ja-kana": {
-        "text": "にじ"
-      },
-      "ja-romaji": {
-        "text": "niji",
-        "speech": "にじ"
-      }
-    },
-    "categories": {
-      "fr": [
-        "weather"
-      ],
-      "en": [
-        "weather"
-      ],
-      "it": [
-        "weather"
-      ],
-      "ja": [
-        "weather"
-      ],
-      "ja-kana": [
-        "weather"
-      ],
-      "ja-romaji": [
-        "weather"
-      ]
-    }
-  },
-  {
-    "id": "shirt",
-    "emoji": "👕",
-    "translations": {
-      "fr": {
-        "text": "chemise"
-      },
-      "en": {
-        "text": "shirt"
-      },
-      "it": {
-        "text": "camicia"
-      },
-      "ja": {
-        "text": "シャツ",
-        "romaji": "shatsu"
-      },
-      "ja-kana": {
-        "text": "シャツ"
-      },
-      "ja-romaji": {
-        "text": "shatsu",
-        "speech": "シャツ"
-      }
-    },
-    "categories": {
-      "fr": [
-        "clothes"
-      ],
-      "en": [
-        "clothes"
-      ],
-      "it": [
-        "clothes"
-      ],
-      "ja": [
-        "clothes",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "clothes",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "clothes",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "hat",
-    "emoji": "🧢",
-    "translations": {
-      "fr": {
-        "text": "chapeau"
-      },
-      "en": {
-        "text": "hat"
-      },
-      "it": {
-        "text": "cappello"
-      },
-      "ja": {
-        "text": "ぼうし",
-        "kanji": "帽子",
-        "romaji": "boushi"
-      },
-      "ja-kana": {
-        "text": "ぼうし"
-      },
-      "ja-romaji": {
-        "text": "boushi",
-        "speech": "ぼうし"
-      }
-    },
-    "categories": {
-      "fr": [
-        "clothes"
-      ],
-      "en": [
-        "clothes"
-      ],
-      "it": [
-        "clothes"
-      ],
-      "ja": [
-        "clothes",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "clothes",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "clothes",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "shoes",
-    "emoji": "👟",
-    "translations": {
-      "fr": {
-        "text": "chaussures"
-      },
-      "en": {
-        "text": "shoes"
-      },
-      "it": {
-        "text": "scarpe"
-      },
-      "ja": {
-        "text": "くつ",
-        "kanji": "靴",
-        "romaji": "kutsu"
-      },
-      "ja-kana": {
-        "text": "くつ"
-      },
-      "ja-romaji": {
-        "text": "kutsu",
-        "speech": "くつ"
-      }
-    },
-    "categories": {
-      "fr": [
-        "clothes"
-      ],
-      "en": [
-        "clothes"
-      ],
-      "it": [
-        "clothes"
-      ],
-      "ja": [
-        "clothes",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "clothes",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "clothes",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "socks",
-    "emoji": "🧦",
-    "translations": {
-      "fr": {
-        "text": "chaussettes"
-      },
-      "en": {
-        "text": "socks"
-      },
-      "it": {
-        "text": "calzini"
-      },
-      "ja": {
-        "text": "くつした",
-        "kanji": "靴下",
-        "romaji": "kutsushita"
-      },
-      "ja-kana": {
-        "text": "くつした"
-      },
-      "ja-romaji": {
-        "text": "kutsushita",
-        "speech": "くつした"
-      }
-    },
-    "categories": {
-      "fr": [
-        "clothes"
-      ],
-      "en": [
-        "clothes"
-      ],
-      "it": [
-        "clothes"
-      ],
-      "ja": [
-        "clothes"
-      ],
-      "ja-kana": [
-        "clothes"
-      ],
-      "ja-romaji": [
-        "clothes"
-      ]
-    }
-  },
-  {
-    "id": "dress",
-    "emoji": "👗",
-    "translations": {
-      "fr": {
-        "text": "robe"
-      },
-      "en": {
-        "text": "dress"
-      },
-      "it": {
-        "text": "vestito"
-      },
-      "ja": {
-        "text": "ワンピース",
-        "romaji": "wanpiisu"
-      },
-      "ja-kana": {
-        "text": "ワンピース"
-      },
-      "ja-romaji": {
-        "text": "wanpiisu",
-        "speech": "ワンピース"
-      }
-    },
-    "categories": {
-      "fr": [
-        "clothes"
-      ],
-      "en": [
-        "clothes"
-      ],
-      "it": [
-        "clothes"
-      ],
-      "ja": [
-        "clothes"
-      ],
-      "ja-kana": [
-        "clothes"
-      ],
-      "ja-romaji": [
-        "clothes"
-      ]
-    }
-  },
-  {
-    "id": "coat",
-    "emoji": "🧥",
-    "translations": {
-      "fr": {
-        "text": "manteau"
-      },
-      "en": {
-        "text": "coat"
-      },
-      "it": {
-        "text": "cappotto"
-      },
-      "ja": {
-        "text": "コート",
-        "romaji": "kooto"
-      },
-      "ja-kana": {
-        "text": "コート"
-      },
-      "ja-romaji": {
-        "text": "kooto",
-        "speech": "コート"
-      }
-    },
-    "categories": {
-      "fr": [
-        "clothes"
-      ],
-      "en": [
-        "clothes"
-      ],
-      "it": [
-        "clothes"
-      ],
-      "ja": [
-        "clothes"
-      ],
-      "ja-kana": [
-        "clothes"
-      ],
-      "ja-romaji": [
-        "clothes"
-      ]
-    }
-  },
-  {
-    "id": "car",
-    "emoji": "🚗",
-    "translations": {
-      "fr": {
-        "text": "voiture"
-      },
-      "en": {
-        "text": "car"
-      },
-      "it": {
-        "text": "macchina"
-      },
-      "ja": {
-        "text": "くるま",
-        "kanji": "車",
-        "romaji": "kuruma"
-      },
-      "ja-kana": {
-        "text": "くるま"
-      },
-      "ja-romaji": {
-        "text": "kuruma",
-        "speech": "くるま"
-      }
-    },
-    "categories": {
-      "fr": [
-        "vehicles"
-      ],
-      "en": [
-        "vehicles"
-      ],
-      "it": [
-        "vehicles"
-      ],
-      "ja": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "vehicles",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "train",
-    "emoji": "🚆",
-    "translations": {
-      "fr": {
-        "text": "train"
-      },
-      "en": {
-        "text": "train"
-      },
-      "it": {
-        "text": "treno"
-      },
-      "ja": {
-        "text": "でんしゃ",
-        "kanji": "電車",
-        "romaji": "densha"
-      },
-      "ja-kana": {
-        "text": "でんしゃ"
-      },
-      "ja-romaji": {
-        "text": "densha",
-        "speech": "でんしゃ"
-      }
-    },
-    "categories": {
-      "fr": [
-        "vehicles"
-      ],
-      "en": [
-        "vehicles"
-      ],
-      "it": [
-        "vehicles"
-      ],
-      "ja": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "vehicles",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "airplane",
-    "emoji": "✈️",
-    "translations": {
-      "fr": {
-        "text": "avion"
-      },
-      "en": {
-        "text": "airplane"
-      },
-      "it": {
-        "text": "aereo"
-      },
-      "ja": {
-        "text": "ひこうき",
-        "kanji": "飛行機",
-        "romaji": "hikouki"
-      },
-      "ja-kana": {
-        "text": "ひこうき"
-      },
-      "ja-romaji": {
-        "text": "hikouki",
-        "speech": "ひこうき"
-      }
-    },
-    "categories": {
-      "fr": [
-        "vehicles"
-      ],
-      "en": [
-        "vehicles"
-      ],
-      "it": [
-        "vehicles"
-      ],
-      "ja": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "vehicles",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "boat",
-    "emoji": "🚢",
-    "translations": {
-      "fr": {
-        "text": "bateau"
-      },
-      "en": {
-        "text": "boat"
-      },
-      "it": {
-        "text": "barca"
-      },
-      "ja": {
-        "text": "ふね",
-        "kanji": "船",
-        "romaji": "fune"
-      },
-      "ja-kana": {
-        "text": "ふね"
-      },
-      "ja-romaji": {
-        "text": "fune",
-        "speech": "ふね"
-      }
-    },
-    "categories": {
-      "fr": [
-        "vehicles"
-      ],
-      "en": [
-        "vehicles"
-      ],
-      "it": [
-        "vehicles"
-      ],
-      "ja": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "vehicles",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "bicycle",
-    "emoji": "🚲",
-    "translations": {
-      "fr": {
-        "text": "vélo"
-      },
-      "en": {
-        "text": "bicycle"
-      },
-      "it": {
-        "text": "bicicletta"
-      },
-      "ja": {
-        "text": "じてんしゃ",
-        "kanji": "自転車",
-        "romaji": "jitensha"
-      },
-      "ja-kana": {
-        "text": "じてんしゃ"
-      },
-      "ja-romaji": {
-        "text": "jitensha",
-        "speech": "じてんしゃ"
-      }
-    },
-    "categories": {
-      "fr": [
-        "vehicles"
-      ],
-      "en": [
-        "vehicles"
-      ],
-      "it": [
-        "vehicles"
-      ],
-      "ja": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "vehicles",
-        "jlpt5"
-      ]
-    }
-  },
-  {
-    "id": "bus",
-    "emoji": "🚌",
-    "translations": {
-      "fr": {
-        "text": "bus"
-      },
-      "en": {
-        "text": "bus"
-      },
-      "it": {
-        "text": "autobus"
-      },
-      "ja": {
-        "text": "バス",
-        "romaji": "basu"
-      },
-      "ja-kana": {
-        "text": "バス"
-      },
-      "ja-romaji": {
-        "text": "basu",
-        "speech": "バス"
-      }
-    },
-    "categories": {
-      "fr": [
-        "vehicles"
-      ],
-      "en": [
-        "vehicles"
-      ],
-      "it": [
-        "vehicles"
-      ],
-      "ja": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-kana": [
-        "vehicles",
-        "jlpt5"
-      ],
-      "ja-romaji": [
-        "vehicles",
-        "jlpt5"
-      ]
-    }
+    "categories": ["food"]
   }
 ]

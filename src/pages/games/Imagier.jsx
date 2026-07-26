@@ -26,7 +26,7 @@ function findFactorClosestToRoot(z) {
 
 export default function Imagier() {
   const { t: translate } = useTranslation();
-  const { voice, learn } = useSettings();
+  const { voice, known, learn } = useSettings();
   const [params] = useSearchParams();
   const gridSize = Number(params.get("grid")) || 12;
   const infinite = params.get("inf") === "1";
@@ -34,6 +34,7 @@ export default function Imagier() {
   const game = useImagier({
     gridSize: gridSize,
     category: params.get("category") || "all",
+    pictures: params.get("pics") || "both",
     infinite,
     prompt,
   });
@@ -185,7 +186,13 @@ export default function Imagier() {
                 index === game.poppedIndex && "animate-pop",
               )}
             >
-              <span role="img">{slot.word.emoji}</span>
+              {slot.word.emoji ? (
+                <span role="img">{slot.word.emoji}</span>
+              ) : (
+                <span className="px-1 text-center text-lg font-black leading-tight sm:text-2xl">
+                  {getText(slot.word, known)}
+                </span>
+              )}
             </button>
           );
         })}

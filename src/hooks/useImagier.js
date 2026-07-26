@@ -10,6 +10,7 @@ const DEFAULT_GRID = 12; // how many picture tiles the grid starts with
 export function useImagier({
   gridSize = DEFAULT_GRID,
   category = "all",
+  pictures = "both", // "both" | "emoji" (only picture words) | "text" (only word-only entries)
   infinite = false,
   prompt = "voice", // "voice" = hear the word · "text" = read it in the learned language
 } = {}) {
@@ -28,8 +29,8 @@ export function useImagier({
   );
 
   const pool = useMemo(
-    () => wordsFor(words, known, learn, category),
-    [words, known, learn, category],
+    () => wordsFor(words, known, learn, category, pictures),
+    [words, known, learn, category, pictures],
   );
 
   const [phase, setPhase] = useState("intro"); // "intro" | "playing" | "won" | "over"
@@ -42,7 +43,7 @@ export function useImagier({
 
   useEffect(() => {
     setPhase("intro");
-  }, [known, learn, gridSize, category, infinite, prompt]);
+  }, [known, learn, gridSize, category, pictures, infinite, prompt]);
 
   const say = useCallback(
     (word) => {

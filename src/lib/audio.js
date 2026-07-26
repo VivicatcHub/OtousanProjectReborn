@@ -1,4 +1,5 @@
 import { speak } from "@/lib/speech";
+import { getSpeech } from "@/hooks/useData";
 
 let voiceEnabled = true; // gated by the "robot voice" setting (see SettingsContext)
 
@@ -9,8 +10,7 @@ export function setVoiceEnabled(on) {
 export async function playWord(word, langCode, speechCode) {
   if (!voiceEnabled) return; // robot voice turned off in Settings
   if (!word) return;
-  const tr = word.translations?.[langCode];
-  const text = tr?.speech ?? tr?.text ?? "";
+  const text = getSpeech(word, langCode); // resolves ja views + article when on
   if (!text) return;
   speak(text, speechCode);
 }

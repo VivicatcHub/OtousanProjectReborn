@@ -13,3 +13,4 @@ logs
 npm-debug.log*
 *.md
 !README.md
+__py*
