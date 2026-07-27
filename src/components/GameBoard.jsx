@@ -54,7 +54,21 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
   useHotkeys("k", () => pickOption(3));
   useHotkeys("enter", () => round.next());
 
-  if (loading || !ready) return <p>{translate("common.loading")}</p>;
+  if (loading) return <p>{translate("common.loading")}</p>;
+
+  if (!ready) {
+    return (
+      <div className="space-y-6 text-center">
+        <h1 className="text-3xl font-black">{title}</h1>
+        <p className="rounded-xl bg-sun/40 p-3 font-semibold">
+          {translate("common.notEnoughWords")}
+        </p>
+        <Button asChild size="lg" variant="outline">
+          <Link to="/games">{translate("common.backToGames")}</Link>
+        </Button>
+      </div>
+    );
+  }
 
   if (finished) {
     const perfect = !infinite && score === total;

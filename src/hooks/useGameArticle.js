@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useData, wordsFor, getText } from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
 import { useWordStats } from "@/context/WordStatsContext";
-import { sample, shuffle, weightedSample } from "@/lib/utils";
+import { shuffle, weightedSample } from "@/lib/utils";
 
 const ROUND_SIZE = 8; // questions per game (classic mode)
 const CHOICES = 4; // answer buttons per question
@@ -66,7 +66,7 @@ export function useGameArticle({
 
   useEffect(() => {
     if (loading) return;
-    build(wordsFor(words, known, learn, category, pictures));
+    build(wordsFor(words, known, learn, category, pictures, "article"));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading, words, known, learn, category, pictures, direction, infinite]);
 
@@ -91,7 +91,7 @@ export function useGameArticle({
   }
 
   function restart() {
-    build(wordsFor(words, known, learn, category, pictures));
+    build(wordsFor(words, known, learn, category, pictures, "article"));
   }
 
   return {

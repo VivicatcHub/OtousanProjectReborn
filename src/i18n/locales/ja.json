@@ -17,7 +17,8 @@
     "pictures": "ことば",
     "picBoth": "🎭 絵とことば",
     "picEmoji": "🖼️ 絵だけ",
-    "picText": "🔤 ことばだけ"
+    "picText": "🔤 ことばだけ",
+    "notEnoughWords": "😅 この設定では、遊べる言葉が足りないよ。"
   },
   "nav": {
     "home": "ホーム",

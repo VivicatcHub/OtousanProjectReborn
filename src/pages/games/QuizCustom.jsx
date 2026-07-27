@@ -1,11 +1,11 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Play } from "lucide-react";
 import { useData } from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
-import { dataProvider } from "@/services/dataProvider";
 import { useCustomSettings } from "@/hooks/useCustomSettings";
+import { useGameCategories } from "@/hooks/useGameCategories";
 import { Field, Select, PictureFilter } from "@/pages/games/ImagierSetup";
 import { BackLink } from "@/pages/games/ImagierCustom";
 import { Button } from "@/components/ui/button";
@@ -25,19 +25,19 @@ export default function QuizCustom() {
   const { languages } = useData();
   const { known, learn } = useSettings();
   const [values, set] = useCustomSettings("quiz", DEFAULTS);
-  const [categories, setCategories] = useState([]);
+  const { categories, canPlay, ready } = useGameCategories("quiz", {
+    pictures: values.pics,
+  });
 
   useEffect(() => {
-    dataProvider.getCategories(learn).then((cats) => {
-      setCategories(cats);
-      if (
-        values.category !== "all" &&
-        !cats.some((c) => c.id === values.category)
-      )
-        set("category", "all");
-    });
+    if (!ready) return;
+    if (
+      values.category !== "all" &&
+      !categories.some((c) => c.id === values.category)
+    )
+      set("category", "all"); // saved category has no playable word left
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [learn]);
+  }, [ready, categories]);
 
   const label = (code) => languages.find((l) => l.code === code)?.label ?? code;
   const directions = useMemo(
@@ -127,7 +127,12 @@ export default function QuizCustom() {
               </Select>
             </Field>
           </div>
-          <Button size="lg" variant="grass" onClick={play}>
+          {!canPlay && (
+            <p className="rounded-xl bg-sun/40 p-3 text-sm font-semibold">
+              {translate("common.notEnoughWords")}
+            </p>
+          )}
+          <Button size="lg" variant="grass" disabled={!canPlay} onClick={play}>
             <Play className="h-5 w-5" /> {translate("common.play")}
           </Button>
         </CardContent>

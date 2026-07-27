@@ -1,10 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Play } from "lucide-react";
-import { useSettings } from "@/context/SettingsContext";
-import { dataProvider } from "@/services/dataProvider";
 import { useCustomSettings } from "@/hooks/useCustomSettings";
+import { useGameCategories } from "@/hooks/useGameCategories";
 import { Field, Select, PictureFilter } from "@/pages/games/ImagierSetup";
 import { BackLink } from "@/pages/games/ImagierCustom";
 import { Button } from "@/components/ui/button";
@@ -17,21 +16,21 @@ const DEFAULTS = { mode: "image", pairs: 6, pics: "both", category: "all" };
 export default function MemoryCustom() {
   const { t: translate } = useTranslation();
   const navigate = useNavigate();
-  const { learn } = useSettings();
   const [values, set] = useCustomSettings("memory", DEFAULTS);
-  const [categories, setCategories] = useState([]);
+  const { categories, canPlay, ready } = useGameCategories("memory", {
+    pictures: values.pics,
+    min: values.pairs, // one different word per pair
+  });
 
   useEffect(() => {
-    dataProvider.getCategories(learn).then((cats) => {
-      setCategories(cats);
-      if (
-        values.category !== "all" &&
-        !cats.some((c) => c.id === values.category)
-      )
-        set("category", "all");
-    });
+    if (!ready) return;
+    if (
+      values.category !== "all" &&
+      !categories.some((c) => c.id === values.category)
+    )
+      set("category", "all"); // saved category has too few words for that many pairs
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [learn]);
+  }, [ready, categories]);
 
   const play = () =>
     navigate(
@@ -101,7 +100,12 @@ export default function MemoryCustom() {
               </Select>
             </Field>
           </div>
-          <Button size="lg" variant="grass" onClick={play}>
+          {!canPlay && (
+            <p className="rounded-xl bg-sun/40 p-3 text-sm font-semibold">
+              {translate("common.notEnoughWords")}
+            </p>
+          )}
+          <Button size="lg" variant="grass" disabled={!canPlay} onClick={play}>
             <Play className="h-5 w-5" /> {translate("common.play")}
           </Button>
         </CardContent>

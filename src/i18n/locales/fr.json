@@ -17,7 +17,8 @@
     "pictures": "Mots",
     "picBoth": "🎭 Images et mots",
     "picEmoji": "🖼️ Images seulement",
-    "picText": "🔤 Mots seulement"
+    "picText": "🔤 Mots seulement",
+    "notEnoughWords": "😅 Il n'y a pas assez de mots pour jouer avec ces options."
   },
   "nav": {
     "home": "Accueil",

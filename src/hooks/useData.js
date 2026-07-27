@@ -95,18 +95,31 @@ function matchesPictures(word, pictures) {
   return true; // "both"
 }
 
+export const ARTICLE_LANG = "fr"; // the article game always asks for French articles
+
+const GAME_RULES = {
+  article: (w) => Boolean(getTranslation(w, ARTICLE_LANG)?.article), // no article → nothing to guess
+};
+
+export function matchesGame(word, game) {
+  const rule = GAME_RULES[game];
+  return rule ? rule(word) : true; // games without a rule take every word
+}
+
 export function wordsFor(
   words,
   known,
   learn,
   categoryId = "all",
   pictures = "both",
+  game = "",
 ) {
   return words.filter(
     (w) =>
       getTranslation(w, known) &&
       getTranslation(w, learn) &&
       hasCategory(w, categoryId) &&
-      matchesPictures(w, pictures),
+      matchesPictures(w, pictures) &&
+      matchesGame(w, game),
   );
 }

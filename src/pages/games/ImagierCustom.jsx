@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Play, ArrowLeft } from "lucide-react";
 import { useSettings } from "@/context/SettingsContext";
-import { dataProvider } from "@/services/dataProvider";
 import { useCustomSettings } from "@/hooks/useCustomSettings";
+import { useGameCategories } from "@/hooks/useGameCategories";
 import {
   Field,
   Select,
@@ -25,21 +25,22 @@ const DEFAULTS = {
 export default function ImagierCustom() {
   const { t: translate } = useTranslation();
   const navigate = useNavigate();
-  const { learn, voice } = useSettings();
+  const { voice } = useSettings();
   const [values, set] = useCustomSettings("imagier", DEFAULTS);
-  const [categories, setCategories] = useState([]);
+  const { categories, canPlay, ready } = useGameCategories("imagier", {
+    pictures: values.pics,
+    min: values.grid, // the grid needs one different word per tile
+  });
 
   useEffect(() => {
-    dataProvider.getCategories(learn).then((cats) => {
-      setCategories(cats);
-      if (
-        values.category !== "all" &&
-        !cats.some((c) => c.id === values.category)
-      )
-        set("category", "all");
-    });
+    if (!ready) return;
+    if (
+      values.category !== "all" &&
+      !categories.some((c) => c.id === values.category)
+    )
+      set("category", "all"); // saved category cannot fill the grid
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [learn]);
+  }, [ready, categories]);
 
   useEffect(() => {
     if (!voice && values.prompt !== "text") set("prompt", "text"); // no robot voice → reading only
@@ -136,7 +137,12 @@ export default function ImagierCustom() {
               {translate("imagierSetup.voiceOffNote")}
             </p>
           )}
-          <Button size="lg" variant="grass" onClick={play}>
+          {!canPlay && (
+            <p className="rounded-xl bg-sun/40 p-3 text-sm font-semibold">
+              {translate("common.notEnoughWords")}
+            </p>
+          )}
+          <Button size="lg" variant="grass" disabled={!canPlay} onClick={play}>
             <Play className="h-5 w-5" /> {translate("common.play")}
           </Button>
         </CardContent>
