@@ -6,6 +6,9 @@
       "fr": "Animaux",
       "en": "Animals",
       "it": "Animali",
+      "es": "Animales",
+      "de": "Tiere",
+      "pt": "Animais",
       "ja": "動物",
       "ja-romaji": "doubutsu"
     }
@@ -15,7 +18,13 @@
     "emoji": "🌸",
     "labels": {
       "fr": "Plantes",
-      "en": "Plants"
+      "en": "Plants",
+      "it": "Piante",
+      "es": "Plantas",
+      "de": "Pflanzen",
+      "pt": "Plantas",
+      "ja": "植物",
+      "ja-romaji": "shokubutsu"
     }
   },
   {
@@ -25,8 +34,39 @@
       "fr": "Nourriture",
       "en": "Food",
       "it": "Cibo",
+      "es": "Comida",
+      "de": "Essen",
+      "pt": "Comida",
       "ja": "食べ物",
       "ja-romaji": "tabemono"
+    }
+  },
+  {
+    "id": "objects",
+    "emoji": "👓",
+    "labels": {
+      "fr": "Objets",
+      "en": "Objects",
+      "it": "Oggetti",
+      "es": "Objetos",
+      "de": "Gegenstände",
+      "pt": "Objetos",
+      "ja": "物",
+      "ja-romaji": "mono"
+    }
+  },
+  {
+    "id": "verbs",
+    "emoji": "💬",
+    "labels": {
+      "fr": "Verbes",
+      "en": "Verbs",
+      "it": "Verbi",
+      "es": "Verbos",
+      "de": "Verben",
+      "pt": "Verbos",
+      "ja": "動詞",
+      "ja-romaji": "doushi"
     }
   }
 ]

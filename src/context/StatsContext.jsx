@@ -27,6 +27,7 @@ function blankStats() {
     bestStreak: 0,
     games: {
       quiz: blankGame(),
+      article: blankGame(),
       imagier: blankGame(),
       writing: blankGame(),
       memory: blankGame(),

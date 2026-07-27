@@ -1293,11 +1293,7 @@
       "de": { "text": "Abdruck" },
       "es": { "text": "huella" },
       "pt": { "text": "impressão" },
-      "ja": {
-        "text": "印",
-        "kana": "しるし",
-        "romaji": "shirushi"
-      }
+      "ja": { "text": "印", "kana": "しるし", "romaji": "shirushi" }
     },
     "categories": ["animals"]
   },
@@ -1905,11 +1901,7 @@
       "de": { "text": "Insekt" },
       "es": { "text": "insecto" },
       "pt": { "text": "inseto" },
-      "ja": {
-        "text": "昆虫",
-        "kana": "こんちゅう",
-        "romaji": "konchū"
-      }
+      "ja": { "text": "昆虫", "kana": "こんちゅう", "romaji": "konchū" }
     },
     "categories": ["animals"]
   },
@@ -2141,11 +2133,7 @@
       "de": { "text": "Apfel" },
       "es": { "text": "manzana" },
       "pt": { "text": "maçã" },
-      "ja": {
-        "text": "りんご",
-        "kana": "りんご",
-        "romaji": "ringo"
-      }
+      "ja": { "text": "りんご", "kana": "りんご", "romaji": "ringo" }
     },
     "categories": ["food"]
   },
@@ -2361,30 +2349,13 @@
     "id": "ear-of-corn",
     "emoji": "🌽",
     "translations": {
-      "en": {
-        "text": "corn"
-      },
-      "fr": {
-        "article": "du",
-        "text": "maïs"
-      },
-      "it": {
-        "text": "mais"
-      },
-      "de": {
-        "text": "Mais"
-      },
-      "es": {
-        "text": "maíz"
-      },
-      "pt": {
-        "text": "milho"
-      },
-      "ja": {
-        "text": "コーン",
-        "kana": "こーん",
-        "romaji": "kōn"
-      }
+      "en": { "text": "corn" },
+      "fr": { "article": "du", "text": "maïs" },
+      "it": { "text": "mais" },
+      "de": { "text": "Mais" },
+      "es": { "text": "maíz" },
+      "pt": { "text": "milho" },
+      "ja": { "text": "コーン", "kana": "こーん", "romaji": "kōn" }
     },
     "categories": ["food"]
   },
@@ -2528,11 +2499,7 @@
       "de": { "text": "Ingwer" },
       "es": { "text": "jengibre" },
       "pt": { "text": "gengibre" },
-      "ja": {
-        "text": "ショウガ",
-        "kana": "しょうが",
-        "romaji": "shōga"
-      }
+      "ja": { "text": "ショウガ", "kana": "しょうが", "romaji": "shōga" }
     },
     "categories": ["food"]
   },
@@ -2582,11 +2549,7 @@
       "de": { "text": "Radieschen" },
       "es": { "text": "rábano" },
       "pt": { "text": "rabanete" },
-      "ja": {
-        "text": "だいこん",
-        "kana": "だいこん",
-        "romaji": "daikon"
-      }
+      "ja": { "text": "だいこん", "kana": "だいこん", "romaji": "daikon" }
     },
     "categories": ["food"]
   },
@@ -2738,11 +2701,7 @@
       "de": { "text": "Hähnchen" },
       "es": { "text": "pollo" },
       "pt": { "text": "frango" },
-      "ja": {
-        "text": "鶏肉",
-        "kana": "とりにく",
-        "romaji": "toriniku"
-      }
+      "ja": { "text": "鶏肉", "kana": "とりにく", "romaji": "toriniku" }
     },
     "categories": ["food"]
   },
@@ -2750,30 +2709,13 @@
     "id": "cut-of-meat",
     "emoji": "🥩",
     "translations": {
-      "en": {
-        "text": "meat"
-      },
-      "fr": {
-        "article": "de la",
-        "text": "viande"
-      },
-      "it": {
-        "text": "carne"
-      },
-      "de": {
-        "text": "Fleisch"
-      },
-      "es": {
-        "text": "carne"
-      },
-      "pt": {
-        "text": "carne"
-      },
-      "ja": {
-        "text": "肉",
-        "kana": "にく",
-        "romaji": "niku"
-      }
+      "en": { "text": "meat" },
+      "fr": { "article": "une", "text": "viande" },
+      "it": { "text": "carne" },
+      "de": { "text": "Fleisch" },
+      "es": { "text": "carne" },
+      "pt": { "text": "carne" },
+      "ja": { "text": "肉", "kana": "にく", "romaji": "niku" }
     },
     "categories": ["food"]
   },
@@ -2956,7 +2898,7 @@
     "emoji": "🍳",
     "translations": {
       "en": { "text": "cooking" },
-      "fr": { "article": "la", "text": "cuisine" },
+      "fr": { "article": "une", "text": "cuisine" },
       "it": { "text": "cucinare" },
       "de": { "text": "Kochen" },
       "es": { "text": "cocinar" },
@@ -2975,11 +2917,7 @@
       "de": { "text": "Gericht" },
       "es": { "text": "plato" },
       "pt": { "text": "prato" },
-      "ja": {
-        "text": "料理",
-        "kana": "りょうり",
-        "romaji": "ryōri"
-      }
+      "ja": { "text": "料理", "kana": "りょうり", "romaji": "ryōri" }
     },
     "categories": ["food"]
   },
@@ -3021,11 +2959,7 @@
       "de": { "text": "Salat" },
       "es": { "text": "ensalada" },
       "pt": { "text": "salada" },
-      "ja": {
-        "text": "サラダ",
-        "kana": "さらだ",
-        "romaji": "sarada"
-      }
+      "ja": { "text": "サラダ", "kana": "さらだ", "romaji": "sarada" }
     },
     "categories": ["food"]
   },
@@ -3135,30 +3069,13 @@
     "id": "cooked-rice",
     "emoji": "🍚",
     "translations": {
-      "en": {
-        "text": "rice"
-      },
-      "fr": {
-        "article": "du",
-        "text": "riz"
-      },
-      "it": {
-        "text": "riso"
-      },
-      "de": {
-        "text": "Reis"
-      },
-      "es": {
-        "text": "arroz"
-      },
-      "pt": {
-        "text": "arroz"
-      },
-      "ja": {
-        "text": "米",
-        "kana": "こめ",
-        "romaji": "kome"
-      }
+      "en": { "text": "rice" },
+      "fr": { "article": "du", "text": "riz" },
+      "it": { "text": "riso" },
+      "de": { "text": "Reis" },
+      "es": { "text": "arroz" },
+      "pt": { "text": "arroz" },
+      "ja": { "text": "米", "kana": "こめ", "romaji": "kome" }
     },
     "categories": ["food"]
   },
@@ -3172,11 +3089,7 @@
       "de": { "text": "Curry" },
       "es": { "text": "curry" },
       "pt": { "text": "caril" },
-      "ja": {
-        "text": "カレー",
-        "kana": "かれー",
-        "romaji": "karē"
-      }
+      "ja": { "text": "カレー", "kana": "かれー", "romaji": "karē" }
     },
     "categories": ["food"]
   },
@@ -3190,11 +3103,7 @@
       "de": { "text": "Nudeln" },
       "es": { "text": "fideos" },
       "pt": { "text": "macarrão" },
-      "ja": {
-        "text": "麺",
-        "kana": "めん",
-        "romaji": "men"
-      }
+      "ja": { "text": "麺", "kana": "めん", "romaji": "men" }
     },
     "categories": ["food"]
   },
@@ -3578,25 +3487,12 @@
     "id": "chocolate-bar",
     "emoji": "🍫",
     "translations": {
-      "en": {
-        "text": "chocolate"
-      },
-      "fr": {
-        "article": "du",
-        "text": "chocolat"
-      },
-      "it": {
-        "text": "cioccolato"
-      },
-      "de": {
-        "text": "Schokolade"
-      },
-      "es": {
-        "text": "chocolate"
-      },
-      "pt": {
-        "text": "chocolate"
-      },
+      "en": { "text": "chocolate" },
+      "fr": { "article": "du", "text": "chocolat" },
+      "it": { "text": "cioccolato" },
+      "de": { "text": "Schokolade" },
+      "es": { "text": "chocolate" },
+      "pt": { "text": "chocolate" },
       "ja": {
         "text": "チョコレート",
         "kana": "ちょこれーと",
@@ -3665,11 +3561,7 @@
       "de": { "text": "Honig" },
       "es": { "text": "miel" },
       "pt": { "text": "mel" },
-      "ja": {
-        "text": "はちみつ",
-        "kana": "はちみつ",
-        "romaji": "hachimitsu"
-      }
+      "ja": { "text": "はちみつ", "kana": "はちみつ", "romaji": "hachimitsu" }
     },
     "categories": ["food"]
   },
@@ -3697,11 +3589,7 @@
       "de": { "text": "Kaffee" },
       "es": { "text": "café" },
       "pt": { "text": "café" },
-      "ja": {
-        "text": "コーヒー",
-        "kana": "こーひー",
-        "romaji": "kōhī"
-      }
+      "ja": { "text": "コーヒー", "kana": "こーひー", "romaji": "kōhī" }
     },
     "categories": ["food"]
   },
@@ -3729,11 +3617,7 @@
       "de": { "text": "Tee" },
       "es": { "text": "té" },
       "pt": { "text": "chá" },
-      "ja": {
-        "text": "お茶",
-        "kana": "おちゃ",
-        "romaji": "ocha"
-      }
+      "ja": { "text": "お茶", "kana": "おちゃ", "romaji": "ocha" }
     },
     "categories": ["food"]
   },
@@ -3755,30 +3639,13 @@
     "id": "bottle-with-popping-cork",
     "emoji": "🍾",
     "translations": {
-      "en": {
-        "text": "champagne"
-      },
-      "fr": {
-        "article": "du",
-        "text": "champagne"
-      },
-      "it": {
-        "text": "champagne"
-      },
-      "de": {
-        "text": "Champagner"
-      },
-      "es": {
-        "text": "champán"
-      },
-      "pt": {
-        "text": "champanhe"
-      },
-      "ja": {
-        "text": "シャンパン",
-        "kana": "しゃんぱん",
-        "romaji": "shanpan"
-      }
+      "en": { "text": "champagne" },
+      "fr": { "article": "du", "text": "champagne" },
+      "it": { "text": "champagne" },
+      "de": { "text": "Champagner" },
+      "es": { "text": "champán" },
+      "pt": { "text": "champanhe" },
+      "ja": { "text": "シャンパン", "kana": "しゃんぱん", "romaji": "shanpan" }
     },
     "categories": ["food"]
   },
@@ -3884,11 +3751,7 @@
       "de": { "text": "Besteck" },
       "es": { "text": "cubiertos" },
       "pt": { "text": "talheres" },
-      "ja": {
-        "text": "食器",
-        "kana": "しょっき",
-        "romaji": "shokki"
-      }
+      "ja": { "text": "食器", "kana": "しょっき", "romaji": "shokki" }
     },
     "categories": ["food"]
   },
@@ -3916,11 +3779,7 @@
       "de": { "text": "Messer" },
       "es": { "text": "cuchillo" },
       "pt": { "text": "faca" },
-      "ja": {
-        "text": "ナイフ",
-        "kana": "ないふ",
-        "romaji": "naifu"
-      }
+      "ja": { "text": "ナイフ", "kana": "ないふ", "romaji": "naifu" }
     },
     "categories": ["food"]
   },
@@ -3962,11 +3821,7 @@
       "de": { "text": "Milch" },
       "es": { "text": "leche" },
       "pt": { "text": "leite" },
-      "ja": {
-        "text": "牛乳",
-        "kana": "ぎゅうにゅう",
-        "romaji": "gyūnyū"
-      }
+      "ja": { "text": "牛乳", "kana": "ぎゅうにゅう", "romaji": "gyūnyū" }
     },
     "categories": ["food"]
   },
@@ -3980,11 +3835,7 @@
       "de": { "text": "Wein" },
       "es": { "text": "vino" },
       "pt": { "text": "vinho" },
-      "ja": {
-        "text": "ワイン",
-        "kana": "わいん",
-        "romaji": "wain"
-      }
+      "ja": { "text": "ワイン", "kana": "わいん", "romaji": "wain" }
     },
     "categories": ["food"]
   },
@@ -3998,11 +3849,7 @@
       "de": { "text": "Cocktail" },
       "es": { "text": "cóctel" },
       "pt": { "text": "coquetel" },
-      "ja": {
-        "text": "カクテル",
-        "kana": "かくてる",
-        "romaji": "kakuteru"
-      }
+      "ja": { "text": "カクテル", "kana": "かくてる", "romaji": "kakuteru" }
     },
     "categories": ["food"]
   },
@@ -4016,12 +3863,2720 @@
       "de": { "text": "Alkohol" },
       "es": { "text": "alcohol" },
       "pt": { "text": "álcool" },
-      "ja": {
-        "text": "アルコール",
-        "kana": "あるこーる",
-        "romaji": "arukōru"
-      }
+      "ja": { "text": "アルコール", "kana": "あるこーる", "romaji": "arukōru" }
     },
     "categories": ["food"]
+  },
+  {
+    "id": "glasses",
+    "emoji": "👓",
+    "translations": {
+      "en": { "text": "glasses" },
+      "fr": { "article": "des", "text": "lunettes" },
+      "it": { "text": "occhiali" },
+      "de": { "text": "Brille" },
+      "es": { "text": "gafas" },
+      "pt": { "text": "óculos" },
+      "ja": { "text": "メガネ", "kana": "めがね", "romaji": "megane" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "sunglasses",
+    "emoji": "️🕶️",
+    "translations": {
+      "en": { "text": "sunglasses" },
+      "fr": { "article": "des", "text": "lunettes de soleil" },
+      "it": { "text": "occhiali da sole" },
+      "de": { "text": "Sonnenbrille" },
+      "es": { "text": "gafas de sol" },
+      "pt": { "text": "óculos escuros" },
+      "ja": {
+        "text": "サングラス",
+        "kana": "サングラス",
+        "romaji": "sangurasu"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "lab-coat",
+    "emoji": "🥼",
+    "translations": {
+      "en": { "text": "lab coat" },
+      "fr": { "article": "une", "text": "blouse" },
+      "it": { "text": "camice" },
+      "de": { "text": "Laborkittel" },
+      "es": { "text": "bata de laboratorio" },
+      "pt": { "text": "jaleco" },
+      "ja": { "text": "白衣", "kana": "はくい", "romaji": "hakui" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "safety-vest",
+    "emoji": "🦺",
+    "translations": {
+      "en": { "text": "safety vest" },
+      "fr": { "article": "un", "text": "gilet de sécurité" },
+      "it": { "text": "gilet di sicurezza" },
+      "de": { "text": "Sicherheitsweste" },
+      "es": { "text": "chaleco de seguridad" },
+      "pt": { "text": "colete de segurança" },
+      "ja": {
+        "text": "安全ベスト",
+        "kana": "あんぜんベスト",
+        "romaji": "anzen besuto"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "necktie",
+    "emoji": "👔",
+    "translations": {
+      "en": { "text": "necktie" },
+      "fr": { "article": "une", "text": "cravate" },
+      "it": { "text": "cravatta" },
+      "de": { "text": "Krawatte" },
+      "es": { "text": "corbata" },
+      "pt": { "text": "gravata" },
+      "ja": { "text": "ネクタイ", "kana": "ネクタイ", "romaji": "nekutai" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "t-shirt",
+    "emoji": "👕",
+    "translations": {
+      "en": { "text": "t-shirt" },
+      "fr": { "article": "un", "text": "T-shirt" },
+      "it": { "text": "t-shirt" },
+      "de": { "text": "T-Shirt" },
+      "es": { "text": "camiseta" },
+      "pt": { "text": "camiseta" },
+      "ja": { "text": "Tシャツ", "kana": "Tシャツ", "romaji": "tīshatsu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "jeans",
+    "emoji": "👖",
+    "translations": {
+      "en": { "text": "jeans" },
+      "fr": { "article": "un", "text": "jean" },
+      "it": { "text": "jeans" },
+      "de": { "text": "Jeans" },
+      "es": { "text": "vaqueros" },
+      "pt": { "text": "jeans" },
+      "ja": { "text": "ジーンズ", "kana": "ジーンズ", "romaji": "jīnzu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "scarf",
+    "emoji": "🧣",
+    "translations": {
+      "en": { "text": "scarf" },
+      "fr": { "article": "une", "text": "écharpe" },
+      "it": { "text": "sciarpa" },
+      "de": { "text": "Schal" },
+      "es": { "text": "bufanda" },
+      "pt": { "text": "cachecol" },
+      "ja": { "text": "マフラー", "kana": "マフラー", "romaji": "mafurā" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "gloves",
+    "emoji": "🧤",
+    "translations": {
+      "en": { "text": "gloves" },
+      "fr": { "article": "des", "text": "gants" },
+      "it": { "text": "guanti" },
+      "de": { "text": "Handschuhe" },
+      "es": { "text": "guantes" },
+      "pt": { "text": "luvas" },
+      "ja": { "text": "手袋", "kana": "てぶくろ", "romaji": "tebukuro" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "coat",
+    "emoji": "🧥",
+    "translations": {
+      "en": { "text": "coat" },
+      "fr": { "article": "un", "text": "manteau" },
+      "it": { "text": "cappotto" },
+      "de": { "text": "Mantel" },
+      "es": { "text": "abrigo" },
+      "pt": { "text": "casaco" },
+      "ja": { "text": "毛皮", "kana": "けがわ", "romaji": "kegawa" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "socks",
+    "emoji": "🧦",
+    "translations": {
+      "en": { "text": "socks" },
+      "fr": { "article": "des", "text": "chaussettes" },
+      "it": { "text": "calzini" },
+      "de": { "text": "Socken" },
+      "es": { "text": "calcetines" },
+      "pt": { "text": "meias" },
+      "ja": { "text": "靴下", "kana": "くつした", "romaji": "kutsushita" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "dress",
+    "emoji": "👗",
+    "translations": {
+      "en": { "text": "dress" },
+      "fr": { "article": "une", "text": "robe" },
+      "it": { "text": "vestito" },
+      "de": { "text": "Kleid" },
+      "es": { "text": "vestido" },
+      "pt": { "text": "vestido" },
+      "ja": { "text": "ドレス", "kana": "ドレス", "romaji": "doresu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "one-piece-swimsuit",
+    "emoji": "🩱",
+    "translations": {
+      "en": { "text": "swimsuit" },
+      "fr": { "article": "un", "text": "maillot de bain" },
+      "it": { "text": "costume da bagno" },
+      "de": { "text": "Badeanzug" },
+      "es": { "text": "traje de baño" },
+      "pt": { "text": "maiô" },
+      "ja": { "text": "水着", "kana": "みずぎ", "romaji": "mizugi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "briefs",
+    "emoji": "🩲",
+    "translations": {
+      "en": { "text": "briefs" },
+      "fr": { "article": "un", "text": "slip" },
+      "it": { "text": "slip" },
+      "de": { "text": "Slip" },
+      "es": { "text": "ropa interior" },
+      "pt": { "text": "cueca" },
+      "ja": { "text": "ブリーフ", "kana": "ブリーフ", "romaji": "burīfu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "shorts",
+    "emoji": "🩳",
+    "translations": {
+      "en": { "text": "shorts" },
+      "fr": { "article": "un", "text": "short" },
+      "it": { "text": "pantaloncini" },
+      "de": { "text": "Shorts" },
+      "es": { "text": "pantalones cortos" },
+      "pt": { "text": "shorts" },
+      "ja": {
+        "text": "ショートパンツ",
+        "kana": "ショートパンツ",
+        "romaji": "shōto pantsu"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "bikini",
+    "emoji": "👙",
+    "translations": {
+      "en": { "text": "bikini" },
+      "fr": { "article": "un", "text": "bikini" },
+      "it": { "text": "bikini" },
+      "de": { "text": "Bikini" },
+      "es": { "text": "bikini" },
+      "pt": { "text": "biquíni" },
+      "ja": { "text": "ビキニ", "kana": "ビキニ", "romaji": "bikini" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "folding-hand-fan",
+    "emoji": "🪭",
+    "translations": {
+      "en": { "text": "folding hand fan" },
+      "fr": { "article": "un", "text": "éventail" },
+      "it": { "text": "ventaglio" },
+      "de": { "text": "Faltfächer" },
+      "es": { "text": "abanico abierto" },
+      "pt": { "text": "leque dobrável" },
+      "ja": { "text": "扇子", "kana": "せんす", "romaji": "sensu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "purse",
+    "emoji": "👛",
+    "translations": {
+      "en": { "text": "purse" },
+      "fr": { "article": "un", "text": "porte-monnaie" },
+      "it": { "text": "borsellino" },
+      "de": { "text": "Geldbörse" },
+      "es": { "text": "monedero" },
+      "pt": { "text": "bolsinha" },
+      "ja": { "text": "財布", "kana": "さいふ", "romaji": "saifu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "handbag",
+    "emoji": "👜",
+    "translations": {
+      "en": { "text": "handbag" },
+      "fr": { "article": "un", "text": "sac à main" },
+      "it": { "text": "borsa" },
+      "de": { "text": "Handtasche" },
+      "es": { "text": "bolso" },
+      "pt": { "text": "bolsa de mão" },
+      "ja": {
+        "text": "ハンドバッグ",
+        "kana": "ハンドバッグ",
+        "romaji": "handobaggu"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "clutch-bag",
+    "emoji": "👝",
+    "translations": {
+      "en": { "text": "clutch bag" },
+      "fr": { "article": "une", "text": "pochette" },
+      "it": { "text": "pochette" },
+      "de": { "text": "Clutch" },
+      "es": { "text": "bolso de mano" },
+      "pt": { "text": "bolsa pequena" },
+      "ja": {
+        "text": "クラッチバッグ",
+        "kana": "クラッチバッグ",
+        "romaji": "kuratchi baggu"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "shopping-bags",
+    "emoji": "️🛍️",
+    "translations": {
+      "en": { "text": "shopping bags" },
+      "fr": { "article": "des", "text": "sacs de shopping" },
+      "it": { "text": "borse della spesa" },
+      "de": { "text": "Einkaufstüten" },
+      "es": { "text": "bolsas de compras" },
+      "pt": { "text": "sacolas de compras" },
+      "ja": {
+        "text": "買い物袋",
+        "kana": "かいものぶくろ",
+        "romaji": "kaimono bukuro"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "backpack",
+    "emoji": "🎒",
+    "translations": {
+      "en": { "text": "backpack" },
+      "fr": { "article": "un", "text": "sac à dos" },
+      "it": { "text": "zaino" },
+      "de": { "text": "Rucksack" },
+      "es": { "text": "mochila" },
+      "pt": { "text": "mochila" },
+      "ja": { "text": "リュック", "kana": "リュック", "romaji": "ryukku" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "thong-sandal",
+    "emoji": "🩴",
+    "translations": {
+      "en": { "text": "thong sandal" },
+      "fr": { "article": "une", "text": "tong" },
+      "it": { "text": "infradito" },
+      "de": { "text": "Zehensandale" },
+      "es": { "text": "chancla" },
+      "pt": { "text": "chinelo" },
+      "ja": {
+        "text": "ビーチサンダル",
+        "kana": "ビーチサンダル",
+        "romaji": "bīchi sandaru"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "man’s-shoe",
+    "emoji": "👞",
+    "translations": {
+      "en": { "text": "office shoe" },
+      "fr": { "article": "une", "text": "chaussure de bureau" },
+      "it": { "text": "scarpa da ufficio" },
+      "de": { "text": "Büroschuh" },
+      "es": { "text": "zapato de oficina" },
+      "pt": { "text": "sapato de escritório" },
+      "ja": { "text": "革靴", "kana": "かわぐつ", "romaji": "kawagutsu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "running-shoe",
+    "emoji": "👟",
+    "translations": {
+      "en": { "text": "running shoe" },
+      "fr": { "article": "une", "text": "chaussure de sport" },
+      "it": { "text": "scarpa sportiva" },
+      "de": { "text": "Sportschuh" },
+      "es": { "text": "zapatilla deportiva" },
+      "pt": { "text": "tênis de corrida" },
+      "ja": { "text": "スニーカー", "kana": "スニーカー", "romaji": "sunīkā" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "hiking-boot",
+    "emoji": "🥾",
+    "translations": {
+      "en": { "text": "ankle boot" },
+      "fr": { "article": "une", "text": "botine" },
+      "it": { "text": "stivaletto" },
+      "de": { "text": "Stiefelette" },
+      "es": { "text": "botín" },
+      "pt": { "text": "botina" },
+      "ja": { "text": "ブーツ", "kana": "ぶーつ", "romaji": "būtsu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "flat-shoe",
+    "emoji": "🥿",
+    "translations": {
+      "en": { "text": "ballet flat" },
+      "fr": { "article": "une", "text": "ballerine" },
+      "it": { "text": "ballerina" },
+      "de": { "text": "Ballerina" },
+      "es": { "text": "bailarina" },
+      "pt": { "text": "sapatilha" },
+      "ja": {
+        "text": "バレエシューズ",
+        "kana": "バレエシューズ",
+        "romaji": "baree shūzu"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "high-heeled-shoe",
+    "emoji": "👠",
+    "translations": {
+      "en": { "text": "heel" },
+      "fr": { "article": "un", "text": "talon" },
+      "it": { "text": "tacco" },
+      "de": { "text": "Absatz" },
+      "es": { "text": "tacón" },
+      "pt": { "text": "salto" },
+      "ja": { "text": "ヒール", "kana": "ひーる", "romaji": "hīru" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "woman’s-sandal",
+    "emoji": "👡",
+    "translations": {
+      "en": { "text": "sandal" },
+      "fr": { "article": "une", "text": "sandale" },
+      "it": { "text": "sandalo" },
+      "de": { "text": "Sandale" },
+      "es": { "text": "sandalia" },
+      "pt": { "text": "sandália" },
+      "ja": { "text": "サンダル", "kana": "サンダル", "romaji": "sandaru" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "ballet-shoes",
+    "emoji": "🩰",
+    "translations": {
+      "en": { "text": "ballet shoes" },
+      "fr": { "article": "des", "text": "chaussons de danse" },
+      "it": { "text": "scarpette da ballerina" },
+      "de": { "text": "Ballettschuhe" },
+      "es": { "text": "zapatillas de ballet" },
+      "pt": { "text": "sapatilha de balé" },
+      "ja": {
+        "text": "バレエシューズ",
+        "kana": "バレエシューズ",
+        "romaji": "baree shūzu"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "woman’s-boot",
+    "emoji": "👢",
+    "translations": {
+      "en": { "text": "boot" },
+      "fr": { "article": "une", "text": "botte" },
+      "it": { "text": "stivale" },
+      "de": { "text": "Stiefel" },
+      "es": { "text": "bota" },
+      "pt": { "text": "bota" },
+      "ja": { "text": "ブーツ", "kana": "ブーツ", "romaji": "būtsu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "hair-pick",
+    "emoji": "🪮",
+    "translations": {
+      "en": { "text": "hair pick" },
+      "fr": { "article": "un", "text": "peigne" },
+      "it": { "text": "pettine afro" },
+      "de": { "text": "Haarkamm" },
+      "es": { "text": "peineta" },
+      "pt": { "text": "pente de cabelo" },
+      "ja": {
+        "text": "アフロコーム",
+        "kana": "アフロコーム",
+        "romaji": "afuro kōmu"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "crown",
+    "emoji": "👑",
+    "translations": {
+      "en": { "text": "crown" },
+      "fr": { "article": "une", "text": "couronne" },
+      "it": { "text": "corona" },
+      "de": { "text": "Krone" },
+      "es": { "text": "corona" },
+      "pt": { "text": "coroa" },
+      "ja": { "text": "王冠", "kana": "おうかん", "romaji": "ōkan" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "woman’s-hat",
+    "emoji": "👒",
+    "translations": {
+      "en": { "text": "straw hat" },
+      "fr": { "article": "un", "text": "chapeau de paille" },
+      "it": { "text": "cappello di paglia" },
+      "de": { "text": "Strohhut" },
+      "es": { "text": "sombrero de paja" },
+      "pt": { "text": "chapéu de palha" },
+      "ja": {
+        "text": "麦わら帽子",
+        "kana": "むぎわらぼうし",
+        "romaji": "mugiwara bōshi"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "top-hat",
+    "emoji": "🎩",
+    "translations": {
+      "en": { "text": "top hat" },
+      "fr": { "article": "un", "text": "haut de forme" },
+      "it": { "text": "cilindro" },
+      "de": { "text": "Zylinder" },
+      "es": { "text": "sombrero de copa" },
+      "pt": { "text": "cartola" },
+      "ja": {
+        "text": "シルクハット",
+        "kana": "シルクハット",
+        "romaji": "shirukuhatto"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "graduation-cap",
+    "emoji": "🎓",
+    "translations": {
+      "en": { "text": "graduation cap" },
+      "fr": { "article": "une", "text": "toque universitaire" },
+      "it": { "text": "cappello da laureato" },
+      "de": { "text": "Doktorhut" },
+      "es": { "text": "birrete" },
+      "pt": { "text": "chapéu de formatura" },
+      "ja": {
+        "text": "卒業帽",
+        "kana": "そつぎょうぼう",
+        "romaji": "sotsugyōbō"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "billed-cap",
+    "emoji": "🧢",
+    "translations": {
+      "en": { "text": "billed cap" },
+      "fr": { "article": "une", "text": "casquette" },
+      "it": { "text": "cappello con visiera" },
+      "de": { "text": "Baseballmütze" },
+      "es": { "text": "gorra con visera" },
+      "pt": { "text": "boné" },
+      "ja": { "text": "キャップ", "kana": "キャップ", "romaji": "kyappu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "military-helmet",
+    "emoji": "🪖",
+    "translations": {
+      "en": { "text": "military helmet" },
+      "fr": { "article": "un", "text": "casque militaire" },
+      "it": { "text": "elmetto militare" },
+      "de": { "text": "Militärhelm" },
+      "es": { "text": "casco militar" },
+      "pt": { "text": "capacete militar" },
+      "ja": {
+        "text": "軍用ヘルメット",
+        "kana": "ぐんようヘルメット",
+        "romaji": "gun'yō herumetto"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "rescue-worker’s-helmet",
+    "emoji": "️⛑️",
+    "translations": {
+      "en": { "text": "rescue worker’s helmet" },
+      "fr": { "article": "un", "text": "casque de secouriste" },
+      "it": { "text": "elmetto con croce bianca" },
+      "de": { "text": "Rettungshelm" },
+      "es": { "text": "casco con una cruz blanca" },
+      "pt": { "text": "capacete de socorrista" },
+      "ja": {
+        "text": "救助隊員のヘルメット",
+        "kana": "きゅうじょたいいんのヘルメット",
+        "romaji": "kyūjo taiin no herumetto"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "prayer-beads",
+    "emoji": "📿",
+    "translations": {
+      "en": { "text": "prayer beads" },
+      "fr": { "article": "un", "text": "chapelet" },
+      "it": { "text": "rosario" },
+      "de": { "text": "Gebetskette" },
+      "es": { "text": "rosario" },
+      "pt": { "text": "rosário" },
+      "ja": { "text": "ロザリオ", "kana": "ロザリオ", "romaji": "rozario" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "lipstick",
+    "emoji": "💄",
+    "translations": {
+      "en": { "text": "lipstick" },
+      "fr": { "article": "un", "text": "rouge à lèvres" },
+      "it": { "text": "rossetto" },
+      "de": { "text": "Lippenstift" },
+      "es": { "text": "pintalabios" },
+      "pt": { "text": "batom" },
+      "ja": { "text": "口紅", "kana": "くちべに", "romaji": "kuchibeni" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "ring",
+    "emoji": "💍",
+    "translations": {
+      "en": { "text": "ring" },
+      "fr": { "article": "une", "text": "bague" },
+      "it": { "text": "anello" },
+      "de": { "text": "Ring" },
+      "es": { "text": "anillo" },
+      "pt": { "text": "anel" },
+      "ja": { "text": "輪", "kana": "わ", "romaji": "wa" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "gem-stone",
+    "emoji": "💎",
+    "translations": {
+      "en": { "text": "diamond" },
+      "fr": { "article": "un", "text": "diamant" },
+      "it": { "text": "diamante" },
+      "de": { "text": "Diamant" },
+      "es": { "text": "diamante" },
+      "pt": { "text": "diamante" },
+      "ja": {
+        "text": "ダイヤモンド",
+        "kana": "だいやもんど",
+        "romaji": "daiyamondo"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "loudspeaker",
+    "emoji": "📢",
+    "translations": {
+      "en": { "text": "loudspeaker" },
+      "fr": { "article": "un", "text": "haut-parleur" },
+      "it": { "text": "altoparlante" },
+      "de": { "text": "Lautsprecher" },
+      "es": { "text": "altavoz de mano" },
+      "pt": { "text": "alto-falante" },
+      "ja": { "text": "拡声器", "kana": "かくせいき", "romaji": "kakuseiki" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "megaphone",
+    "emoji": "📣",
+    "translations": {
+      "en": { "text": "megaphone" },
+      "fr": { "article": "un", "text": "mégaphone" },
+      "it": { "text": "megafono" },
+      "de": { "text": "Megafon" },
+      "es": { "text": "megáfono" },
+      "pt": { "text": "megafone" },
+      "ja": { "text": "メガホン", "kana": "メガホン", "romaji": "megahon" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "postal-horn",
+    "emoji": "📯",
+    "translations": {
+      "en": { "text": "horn" },
+      "fr": { "article": "un", "text": "cor" },
+      "it": { "text": "corno" },
+      "de": { "text": "Horn" },
+      "es": { "text": "corneta" },
+      "pt": { "text": "corneta" },
+      "ja": { "text": "ラッパ", "kana": "らっぱ", "romaji": "rappa" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "bell",
+    "emoji": "🔔",
+    "translations": {
+      "en": { "text": "bell" },
+      "fr": { "article": "une", "text": "cloche" },
+      "it": { "text": "campana" },
+      "de": { "text": "Glocke" },
+      "es": { "text": "campana" },
+      "pt": { "text": "sino" },
+      "ja": { "text": "鐘", "kana": "かね", "romaji": "kane" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "musical-score",
+    "emoji": "🎼",
+    "translations": {
+      "en": { "text": "musical score" },
+      "fr": { "article": "une", "text": "partition" },
+      "it": { "text": "partitura" },
+      "de": { "text": "Partitur" },
+      "es": { "text": "partitura" },
+      "pt": { "text": "partitura musical" },
+      "ja": { "text": "楽譜", "kana": "がくふ", "romaji": "gakufu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "musical-note",
+    "emoji": "🎵",
+    "translations": {
+      "en": { "text": "musical note" },
+      "fr": { "article": "une", "text": "note de musique" },
+      "it": { "text": "nota musicale" },
+      "de": { "text": "Musiknote" },
+      "es": { "text": "nota musical" },
+      "pt": { "text": "nota musical" },
+      "ja": { "text": "音符", "kana": "おんぷ", "romaji": "onpu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "microphone",
+    "emoji": "🎤",
+    "translations": {
+      "en": { "text": "microphone" },
+      "fr": { "article": "un", "text": "micro" },
+      "it": { "text": "microfono" },
+      "de": { "text": "Mikrofon" },
+      "es": { "text": "micrófono" },
+      "pt": { "text": "microfone" },
+      "ja": { "text": "マイク", "kana": "マイク", "romaji": "maiku" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "headphone",
+    "emoji": "🎧",
+    "translations": {
+      "en": { "text": "headphone" },
+      "fr": { "article": "un", "text": "casque" },
+      "it": { "text": "cuffie" },
+      "de": { "text": "Kopfhörer" },
+      "es": { "text": "auricular" },
+      "pt": { "text": "fones de ouvido" },
+      "ja": {
+        "text": "ヘッドフォン",
+        "kana": "ヘッドフォン",
+        "romaji": "heddofon"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "radio",
+    "emoji": "📻",
+    "translations": {
+      "en": { "text": "radio" },
+      "fr": { "article": "une", "text": "radio" },
+      "it": { "text": "radio" },
+      "de": { "text": "Radio" },
+      "es": { "text": "radio" },
+      "pt": { "text": "rádio" },
+      "ja": { "text": "ラジオ", "kana": "ラジオ", "romaji": "rajio" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "saxophone",
+    "emoji": "🎷",
+    "translations": {
+      "en": { "text": "saxophone" },
+      "fr": { "article": "un", "text": "saxophone" },
+      "it": { "text": "sassofono" },
+      "de": { "text": "Saxofon" },
+      "es": { "text": "saxofón" },
+      "pt": { "text": "saxofone" },
+      "ja": {
+        "text": "サクソフォン",
+        "kana": "サクソフォン",
+        "romaji": "sakusofon"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "accordion",
+    "emoji": "🪗",
+    "translations": {
+      "en": { "text": "accordion" },
+      "fr": { "article": "un", "text": "accordéon" },
+      "it": { "text": "fisarmonica" },
+      "de": { "text": "Akkordeon" },
+      "es": { "text": "acordeón" },
+      "pt": { "text": "acordeão" },
+      "ja": {
+        "text": "アコーディオン",
+        "kana": "アコーディオン",
+        "romaji": "akōdion"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "guitar",
+    "emoji": "🎸",
+    "translations": {
+      "en": { "text": "guitar" },
+      "fr": { "article": "une", "text": "guitare" },
+      "it": { "text": "chitarra" },
+      "de": { "text": "Gitarre" },
+      "es": { "text": "guitarra" },
+      "pt": { "text": "guitarra" },
+      "ja": { "text": "ギター", "kana": "ギター", "romaji": "gitā" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "musical-keyboard",
+    "emoji": "🎹",
+    "translations": {
+      "en": { "text": "musical keyboard" },
+      "fr": { "article": "un", "text": "piano" },
+      "it": { "text": "piano" },
+      "de": { "text": "Keyboard" },
+      "es": { "text": "teclado musical" },
+      "pt": { "text": "teclado musical" },
+      "ja": { "text": "ピアノ", "kana": "ピアノ", "romaji": "piano" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "trumpet",
+    "emoji": "🎺",
+    "translations": {
+      "en": { "text": "trumpet" },
+      "fr": { "article": "une", "text": "trompette" },
+      "it": { "text": "tromba" },
+      "de": { "text": "Trompete" },
+      "es": { "text": "trompeta" },
+      "pt": { "text": "trompete" },
+      "ja": {
+        "text": "トランペット",
+        "kana": "トランペット",
+        "romaji": "toranpetto"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "trombone",
+    "emoji": "🪊",
+    "translations": {
+      "en": { "text": "trombone" },
+      "fr": { "article": "un", "text": "trombone" },
+      "it": { "text": "trombone" },
+      "de": { "text": "Posaune" },
+      "es": { "text": "trombón" },
+      "pt": { "text": "trombone" },
+      "ja": {
+        "text": "トロンボーン",
+        "kana": "トロンボーン",
+        "romaji": "toronbōn"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "violin",
+    "emoji": "🎻",
+    "translations": {
+      "en": { "text": "violin" },
+      "fr": { "article": "un", "text": "violon" },
+      "it": { "text": "violino" },
+      "de": { "text": "Geige" },
+      "es": { "text": "violín" },
+      "pt": { "text": "violino" },
+      "ja": { "text": "バイオリン", "kana": "バイオリン", "romaji": "baiorin" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "banjo",
+    "emoji": "🪕",
+    "translations": {
+      "en": { "text": "banjo" },
+      "fr": { "article": "un", "text": "banjo" },
+      "it": { "text": "banjo" },
+      "de": { "text": "Banjo" },
+      "es": { "text": "banjo" },
+      "pt": { "text": "banjo" },
+      "ja": { "text": "バンジョー", "kana": "バンジョー", "romaji": "banjō" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "drum",
+    "emoji": "🥁",
+    "translations": {
+      "en": { "text": "drum" },
+      "fr": { "article": "une", "text": "batterie" },
+      "it": { "text": "batteria" },
+      "de": { "text": "Schlagzeug" },
+      "es": { "text": "batería" },
+      "pt": { "text": "bateria" },
+      "ja": { "text": "鼓", "kana": "鼓", "romaji": "tsuzumi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "long-drum",
+    "emoji": "🪘",
+    "translations": {
+      "en": { "text": "long drum" },
+      "fr": { "article": "un", "text": "djembé" },
+      "it": { "text": "tamburo lungo" },
+      "de": { "text": "afrikanische Trommel" },
+      "es": { "text": "tamboril" },
+      "pt": { "text": "tambor comprido" },
+      "ja": { "text": "ジャンベ", "kana": "ジャンベ", "romaji": "janbe" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "maracas",
+    "emoji": "🪇",
+    "translations": {
+      "en": { "text": "maracas" },
+      "fr": { "article": "des", "text": "maracas" },
+      "it": { "text": "maracas" },
+      "de": { "text": "Maracas" },
+      "es": { "text": "maracas" },
+      "pt": { "text": "maracás" },
+      "ja": { "text": "マラカス", "kana": "マラカス", "romaji": "marakasu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "flute",
+    "emoji": "🪈",
+    "translations": {
+      "en": { "text": "flute" },
+      "fr": { "article": "une", "text": "flûte" },
+      "it": { "text": "flauto" },
+      "de": { "text": "Flöte" },
+      "es": { "text": "flauta" },
+      "pt": { "text": "flauta" },
+      "ja": { "text": "笛", "kana": "ふえ", "romaji": "fue" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "harp",
+    "emoji": "🪉",
+    "translations": {
+      "en": { "text": "harp" },
+      "fr": { "article": "une", "text": "harpe" },
+      "it": { "text": "arpa" },
+      "de": { "text": "Harfe" },
+      "es": { "text": "arpa" },
+      "pt": { "text": "harpa" },
+      "ja": { "text": "ハープ", "kana": "ハープ", "romaji": "hāpu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "mobile-phone",
+    "emoji": "📱",
+    "translations": {
+      "en": { "text": "mobile phone" },
+      "fr": { "article": "un", "text": "téléphone portable" },
+      "it": { "text": "telefono cellulare" },
+      "de": { "text": "Mobiltelefon" },
+      "es": { "text": "teléfono móvil" },
+      "pt": { "text": "telefone celular" },
+      "ja": {
+        "text": "携帯電話",
+        "kana": "けいたいでんわ",
+        "romaji": "keitai denwa"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "telephone",
+    "emoji": "️📞",
+    "translations": {
+      "en": { "text": "telephone" },
+      "fr": { "article": "un", "text": "téléphone" },
+      "it": { "text": "telefono" },
+      "de": { "text": "Telefon" },
+      "es": { "text": "teléfono" },
+      "pt": { "text": "telefone" },
+      "ja": { "text": "電話", "kana": "でんわ", "romaji": "denwa" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "battery",
+    "emoji": "🔋",
+    "translations": {
+      "en": { "text": "battery" },
+      "fr": { "article": "une", "text": "pile" },
+      "it": { "text": "batteria" },
+      "de": { "text": "Batterie" },
+      "es": { "text": "pila" },
+      "pt": { "text": "pilha" },
+      "ja": { "text": "電池", "kana": "でんち", "romaji": "denchi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "laptop",
+    "emoji": "💻",
+    "translations": {
+      "en": { "text": "laptop" },
+      "fr": { "article": "un", "text": "ordinateur portable" },
+      "it": { "text": "computer portatile" },
+      "de": { "text": "Laptop" },
+      "es": { "text": "ordenador portátil" },
+      "pt": { "text": "laptop" },
+      "ja": {
+        "text": "ラップトップ",
+        "kana": "ラップトップ",
+        "romaji": "rapputoppu"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "desktop-computer",
+    "emoji": "️🖥️",
+    "translations": {
+      "en": { "text": "desktop computer" },
+      "fr": { "article": "un", "text": "ordinateur de bureau" },
+      "it": { "text": "computer fisso" },
+      "de": { "text": "Desktopcomputer" },
+      "es": { "text": "ordenador de sobremesa" },
+      "pt": { "text": "computador de mesa" },
+      "ja": {
+        "text": "デスクトップパソコン",
+        "kana": "デスクトップパソコン",
+        "romaji": "desukutoppu pasokon"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "printer",
+    "emoji": "️🖨️",
+    "translations": {
+      "en": { "text": "printer" },
+      "fr": { "article": "une", "text": "imprimante" },
+      "it": { "text": "stampante" },
+      "de": { "text": "Drucker" },
+      "es": { "text": "impresora" },
+      "pt": { "text": "impressora" },
+      "ja": { "text": "プリンター", "kana": "プリンター", "romaji": "purintā" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "keyboard",
+    "emoji": "️⌨️",
+    "translations": {
+      "en": { "text": "keyboard" },
+      "fr": { "article": "un", "text": "clavier" },
+      "it": { "text": "tastiera" },
+      "de": { "text": "Tastatur" },
+      "es": { "text": "teclado" },
+      "pt": { "text": "teclado" },
+      "ja": { "text": "鍵盤", "kana": "けんばん", "romaji": "kenban" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "computer-mouse",
+    "emoji": "️🖱️",
+    "translations": {
+      "en": { "text": "computer mouse" },
+      "fr": { "article": "une", "text": "souris d’ordinateur" },
+      "it": { "text": "mouse" },
+      "de": { "text": "Computermaus" },
+      "es": { "text": "ratón de ordenador" },
+      "pt": { "text": "mouse" },
+      "ja": {
+        "text": "コンピューターマウス",
+        "kana": "コンピューターマウス",
+        "romaji": "konpyūtā mausu"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "computer-disk",
+    "emoji": "💽",
+    "translations": {
+      "en": { "text": "disk" },
+      "fr": { "article": "un", "text": "disque" },
+      "it": { "text": "disco" },
+      "de": { "text": "Disk" },
+      "es": { "text": "disco" },
+      "pt": { "text": "disco" },
+      "ja": { "text": "ディスク", "kana": "ディスク", "romaji": "disuku" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "floppy-disk",
+    "emoji": "💾",
+    "translations": {
+      "en": { "text": "floppy disk" },
+      "fr": { "article": "une", "text": "disquette" },
+      "it": { "text": "floppy disc" },
+      "de": { "text": "Diskette" },
+      "es": { "text": "disquete" },
+      "pt": { "text": "disquete" },
+      "ja": {
+        "text": "フロッピーディスク",
+        "kana": "フロッピーディスク",
+        "romaji": "furoppī disuku"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "dvd",
+    "emoji": "📀",
+    "translations": {
+      "en": { "text": "dvd" },
+      "fr": { "article": "un", "text": "DVD" },
+      "it": { "text": "DVD" },
+      "de": { "text": "DVD" },
+      "es": { "text": "disco DVD" },
+      "pt": { "text": "DVD" },
+      "ja": { "text": "DVD", "kana": "ディーブイディー", "romaji": "dībuidīdī" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "clapper-board",
+    "emoji": "🎬",
+    "translations": {
+      "en": { "text": "clapper board" },
+      "fr": { "article": "un", "text": "clap" },
+      "it": { "text": "ciak" },
+      "de": { "text": "Filmklappe" },
+      "es": { "text": "claqueta" },
+      "pt": { "text": "claquete" },
+      "ja": { "text": "カチンコ", "kana": "カチンコ", "romaji": "kachinko" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "television",
+    "emoji": "📺",
+    "translations": {
+      "en": { "text": "television" },
+      "fr": { "article": "un", "text": "téléviseur" },
+      "it": { "text": "televisore" },
+      "de": { "text": "Fernseher" },
+      "es": { "text": "televisor" },
+      "pt": { "text": "televisor" },
+      "ja": {
+        "text": "テレビジョン",
+        "kana": "テレビジョン",
+        "romaji": "terebijon"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "camera",
+    "emoji": "📷",
+    "translations": {
+      "en": { "text": "camera" },
+      "fr": { "article": "un", "text": "appareil photo" },
+      "it": { "text": "fotocamera" },
+      "de": { "text": "Fotoapparat" },
+      "es": { "text": "cámara de fotos" },
+      "pt": { "text": "câmera" },
+      "ja": { "text": "カメラ", "kana": "カメラ", "romaji": "kamera" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "video-camera",
+    "emoji": "📹",
+    "translations": {
+      "en": { "text": "video camera" },
+      "fr": { "article": "une", "text": "caméra" },
+      "it": { "text": "videocamera" },
+      "de": { "text": "Videokamera" },
+      "es": { "text": "videocámara" },
+      "pt": { "text": "câmera de vídeo" },
+      "ja": { "text": "カメラ", "kana": "カメラ", "romaji": "kamera" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "videocassette",
+    "emoji": "📼",
+    "translations": {
+      "en": { "text": "videocassette" },
+      "fr": { "article": "une", "text": "cassette vidéo" },
+      "it": { "text": "videocassetta" },
+      "de": { "text": "Videokassette" },
+      "es": { "text": "cinta de vídeo" },
+      "pt": { "text": "videocassete" },
+      "ja": { "text": "ビデオ", "kana": "ビデオ", "romaji": "bideo" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "magnifying-glass-tilted-left",
+    "emoji": "🔍",
+    "translations": {
+      "en": { "text": "magnifying glass" },
+      "fr": { "article": "une", "text": "loupe" },
+      "it": { "text": "lente di ingrandimento" },
+      "de": { "text": "Lupe" },
+      "es": { "text": "lupa" },
+      "pt": { "text": "lupa" },
+      "ja": { "text": "虫眼鏡", "kana": "むしめがね", "romaji": "mushimegane" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "candle",
+    "emoji": "️🕯️",
+    "translations": {
+      "en": { "text": "candle" },
+      "fr": { "article": "une", "text": "bougie" },
+      "it": { "text": "candela" },
+      "de": { "text": "Kerze" },
+      "es": { "text": "vela" },
+      "pt": { "text": "vela" },
+      "ja": { "text": "ろうそく", "kana": "ろうそく", "romaji": "rōsoku" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "light-bulb",
+    "emoji": "💡",
+    "translations": {
+      "en": { "text": "light bulb" },
+      "fr": { "article": "une", "text": "ampoule" },
+      "it": { "text": "lampadina" },
+      "de": { "text": "Glühbirne" },
+      "es": { "text": "bombilla" },
+      "pt": { "text": "lâmpada" },
+      "ja": { "text": "電球", "kana": "でんきゅう", "romaji": "denkyū" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "flashlight",
+    "emoji": "🔦",
+    "translations": {
+      "en": { "text": "flashlight" },
+      "fr": { "article": "une", "text": "torche" },
+      "it": { "text": "torcia" },
+      "de": { "text": "Taschenlampe" },
+      "es": { "text": "linterna" },
+      "pt": { "text": "lanterna" },
+      "ja": {
+        "text": "懐中電灯",
+        "kana": "かいちゅうでんとう",
+        "romaji": "kaichū dentō"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "red-paper-lantern",
+    "emoji": "🏮",
+    "translations": {
+      "en": { "text": "lantern" },
+      "fr": { "article": "un", "text": "lampion" },
+      "it": { "text": "lanterna" },
+      "de": { "text": "Laterne" },
+      "es": { "text": "farolillo" },
+      "pt": { "text": "lanterna" },
+      "ja": { "text": "提灯", "kana": "ちょうちん", "romaji": "chōchin" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "closed-book",
+    "emoji": "📕",
+    "translations": {
+      "en": { "text": "closed book" },
+      "fr": { "article": "un", "text": "livre fermé" },
+      "it": { "text": "libro chiuso" },
+      "de": { "text": "geschlossenes Buch" },
+      "es": { "text": "libro cerrado" },
+      "pt": { "text": "livro fechado" },
+      "ja": { "text": "閉じた本", "kana": "とじたほん", "romaji": "tojita hon" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "open-book",
+    "emoji": "📖",
+    "translations": {
+      "en": { "text": "open book" },
+      "fr": { "article": "un", "text": "livre ouvert" },
+      "it": { "text": "libro aperto" },
+      "de": { "text": "offenes Buch" },
+      "es": { "text": "libro abierto" },
+      "pt": { "text": "livro aberto" },
+      "ja": {
+        "text": "開いた本",
+        "kana": "ひらいたほん",
+        "romaji": "hiraita hon"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "scroll",
+    "emoji": "📜",
+    "translations": {
+      "en": { "text": "scroll" },
+      "fr": { "article": "un", "text": "parchemin" },
+      "it": { "text": "pergamena" },
+      "de": { "text": "Schriftrolle" },
+      "es": { "text": "pergamino" },
+      "pt": { "text": "pergaminho" },
+      "ja": { "text": "巻物", "kana": "まきもの", "romaji": "makimono" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "page-facing-up",
+    "emoji": "📄",
+    "translations": {
+      "en": { "text": "page" },
+      "fr": { "article": "une", "text": "page" },
+      "it": { "text": "pagina" },
+      "de": { "text": "Seite" },
+      "es": { "text": "página" },
+      "pt": { "text": "página" },
+      "ja": { "text": "ページ", "kana": "ページ", "romaji": "pēji" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "newspaper",
+    "emoji": "📰",
+    "translations": {
+      "en": { "text": "newspaper" },
+      "fr": { "article": "un", "text": "journal" },
+      "it": { "text": "quotidiano" },
+      "de": { "text": "Zeitung" },
+      "es": { "text": "periódico" },
+      "pt": { "text": "jornal" },
+      "ja": { "text": "新聞", "kana": "しんぶん", "romaji": "shinbun" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "bookmark",
+    "emoji": "🔖",
+    "translations": {
+      "en": { "text": "bookmark" },
+      "fr": { "article": "un", "text": "marque-page" },
+      "it": { "text": "segnalibro" },
+      "de": { "text": "Lesezeichen" },
+      "es": { "text": "marcapáginas" },
+      "pt": { "text": "marcador de página" },
+      "ja": { "text": "栞", "kana": "しおり", "romaji": "shiori" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "label",
+    "emoji": "️🏷️",
+    "translations": {
+      "en": { "text": "label" },
+      "fr": { "article": "une", "text": "étiquette" },
+      "it": { "text": "etichetta" },
+      "de": { "text": "Etikett" },
+      "es": { "text": "etiqueta" },
+      "pt": { "text": "etiqueta" },
+      "ja": { "text": "札", "kana": "ふだ", "romaji": "fuda" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "treasure-chest",
+    "emoji": "🪎",
+    "translations": {
+      "en": { "text": "treasure chest" },
+      "fr": { "article": "un", "text": "coffre au trésor" },
+      "it": { "text": "forziere" },
+      "de": { "text": "Schatztruhe" },
+      "es": { "text": "cofre de tesoro" },
+      "pt": { "text": "baú de tesouro" },
+      "ja": { "text": "宝箱", "kana": "たからばこ", "romaji": "takarabako" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "coin",
+    "emoji": "🪙",
+    "translations": {
+      "en": { "text": "coin" },
+      "fr": { "article": "une", "text": "pièce" },
+      "it": { "text": "moneta" },
+      "de": { "text": "Münze" },
+      "es": { "text": "moneda" },
+      "pt": { "text": "moeda" },
+      "ja": { "text": "玉", "kana": "玉", "romaji": "tama" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "euro-banknote",
+    "emoji": "💶",
+    "translations": {
+      "en": { "text": "banknote" },
+      "fr": { "article": "un", "text": "billet" },
+      "it": { "text": "banconota" },
+      "de": { "text": "Geldschein" },
+      "es": { "text": "billete" },
+      "pt": { "text": "nota" },
+      "ja": { "text": "紙幣", "kana": "しへい", "romaji": "shihei" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "credit-card",
+    "emoji": "💳",
+    "translations": {
+      "en": { "text": "credit card" },
+      "fr": { "article": "une", "text": "carte bancaire" },
+      "it": { "text": "carta di credito" },
+      "de": { "text": "Kreditkarte" },
+      "es": { "text": "tarjeta de crédito" },
+      "pt": { "text": "cartão de crédito" },
+      "ja": {
+        "text": "クレジットカード",
+        "kana": "クレジットカード",
+        "romaji": "kurejitto kādo"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "receipt",
+    "emoji": "🧾",
+    "translations": {
+      "en": { "text": "receipt" },
+      "fr": { "article": "un", "text": "reçu" },
+      "it": { "text": "scontrino" },
+      "de": { "text": "Beleg" },
+      "es": { "text": "recibo" },
+      "pt": { "text": "recibo" },
+      "ja": { "text": "レシート", "kana": "レシート", "romaji": "reshīto" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "envelope",
+    "emoji": "️✉️",
+    "translations": {
+      "en": { "text": "envelope" },
+      "fr": { "article": "une", "text": "enveloppe" },
+      "it": { "text": "busta" },
+      "de": { "text": "Briefumschlag" },
+      "es": { "text": "sobre" },
+      "pt": { "text": "envelope" },
+      "ja": { "text": "封筒", "kana": "ふうとう", "romaji": "fūtō" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "e-mail",
+    "emoji": "📧",
+    "translations": {
+      "en": { "text": "e-mail" },
+      "fr": { "article": "un", "text": "e-mail" },
+      "it": { "text": "e-mail" },
+      "de": { "text": "E-Mail" },
+      "es": { "text": "correo electrónico" },
+      "pt": { "text": "e-mail" },
+      "ja": { "text": "メール", "kana": "メール", "romaji": "mēru" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "package",
+    "emoji": "📦",
+    "translations": {
+      "en": { "text": "package" },
+      "fr": { "article": "un", "text": "colis" },
+      "it": { "text": "pacco" },
+      "de": { "text": "Paket" },
+      "es": { "text": "paquete" },
+      "pt": { "text": "pacote" },
+      "ja": { "text": "包み", "kana": "つつみ", "romaji": "tsutsumi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "closed-mailbox-with-raised-flag",
+    "emoji": "📫",
+    "translations": {
+      "en": { "text": "mailbox" },
+      "fr": { "article": "une", "text": "boîte aux lettres" },
+      "it": { "text": "cassetta delle lettere" },
+      "de": { "text": "Briefkasten" },
+      "es": { "text": "buzón" },
+      "pt": { "text": "caixa de correio" },
+      "ja": {
+        "text": "郵便受け",
+        "kana": "ゆうびんうけ",
+        "romaji": "yūbin uke"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "pencil",
+    "emoji": "️✏️",
+    "translations": {
+      "en": { "text": "pencil" },
+      "fr": { "article": "un", "text": "crayon" },
+      "it": { "text": "matita" },
+      "de": { "text": "Bleistift" },
+      "es": { "text": "lápiz" },
+      "pt": { "text": "lápis" },
+      "ja": { "text": "鉛筆", "kana": "えんぴつ", "romaji": "enpitsu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "fountain-pen",
+    "emoji": "️🖋️",
+    "translations": {
+      "en": { "text": "fountain pen" },
+      "fr": { "article": "un", "text": "stylo plume" },
+      "it": { "text": "penna stilografica" },
+      "de": { "text": "Füllhalter" },
+      "es": { "text": "estilográfica" },
+      "pt": { "text": "caneta tinteiro" },
+      "ja": {
+        "text": "万年筆",
+        "kana": "まんねんひつ",
+        "romaji": "mannenhitsu"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "pen",
+    "emoji": "️🖊️",
+    "translations": {
+      "en": { "text": "pen" },
+      "fr": { "article": "un", "text": "stylo" },
+      "it": { "text": "penna a sfera" },
+      "de": { "text": "Kugelschreiber" },
+      "es": { "text": "bolígrafo" },
+      "pt": { "text": "caneta" },
+      "ja": { "text": "ペン", "kana": "ペン", "romaji": "pen" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "paintbrush",
+    "emoji": "️🖌️",
+    "translations": {
+      "en": { "text": "paintbrush" },
+      "fr": { "article": "un", "text": "pinceau" },
+      "it": { "text": "pennello" },
+      "de": { "text": "Pinsel" },
+      "es": { "text": "pincel" },
+      "pt": { "text": "pincel" },
+      "ja": { "text": "絵筆", "kana": "えふで", "romaji": "efude" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "briefcase",
+    "emoji": "💼",
+    "translations": {
+      "en": { "text": "briefcase" },
+      "fr": { "article": "un", "text": "porte-documents" },
+      "it": { "text": "valigetta 24 ore" },
+      "de": { "text": "Aktentasche" },
+      "es": { "text": "maletín" },
+      "pt": { "text": "maleta" },
+      "ja": { "text": "鞄", "kana": "かばん", "romaji": "kaban" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "file-folder",
+    "emoji": "📁",
+    "translations": {
+      "en": { "text": "file folder" },
+      "fr": { "article": "un", "text": "dossier" },
+      "it": { "text": "cartella file" },
+      "de": { "text": "Ordner" },
+      "es": { "text": "carpeta de archivos" },
+      "pt": { "text": "pasta de arquivos" },
+      "ja": {
+        "text": "ファイルフォルダー",
+        "kana": "ファイルフォルダー",
+        "romaji": "fairu forudā"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "calendar",
+    "emoji": "📅",
+    "translations": {
+      "en": { "text": "calendar" },
+      "fr": { "article": "un", "text": "calendrier" },
+      "it": { "text": "calendario" },
+      "de": { "text": "Kalender" },
+      "es": { "text": "calendario" },
+      "pt": { "text": "calendário" },
+      "ja": { "text": "カレンダー", "kana": "カレンダー", "romaji": "karendā" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "chart-increasing",
+    "emoji": "📈",
+    "translations": {
+      "en": { "text": "increase" },
+      "fr": { "text": "monter" },
+      "it": { "text": "aumentare" },
+      "de": { "text": "steigen" },
+      "es": { "text": "subir" },
+      "pt": { "text": "subir" },
+      "ja": { "text": "上がる", "kana": "あがる", "romaji": "agaru" }
+    },
+    "categories": ["verbs"]
+  },
+  {
+    "id": "chart-decreasing",
+    "emoji": "📉",
+    "translations": {
+      "en": { "text": "decrease" },
+      "fr": { "text": "descendre" },
+      "it": { "text": "diminuire" },
+      "de": { "text": "sinken" },
+      "es": { "text": "bajar" },
+      "pt": { "text": "descer" },
+      "ja": { "text": "下がる", "kana": "さがる", "romaji": "sagaru" }
+    },
+    "categories": ["verbs"]
+  },
+  {
+    "id": "pushpin",
+    "emoji": "📌",
+    "translations": {
+      "en": { "text": "pushpin" },
+      "fr": { "article": "une", "text": "punaise" },
+      "it": { "text": "puntina" },
+      "de": { "text": "Reißzwecke" },
+      "es": { "text": "chincheta" },
+      "pt": { "text": "tacha" },
+      "ja": { "text": "画びょう", "kana": "がびょう", "romaji": "gabyō" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "round-pushpin",
+    "emoji": "📍",
+    "translations": {
+      "en": { "text": "round pushpin" },
+      "fr": { "article": "une", "text": "épingle" },
+      "it": { "text": "puntina arrotondata" },
+      "de": { "text": "Stecknadel" },
+      "es": { "text": "chincheta redonda" },
+      "pt": { "text": "tacha redonda" },
+      "ja": { "text": "押しピン", "kana": "おしピン", "romaji": "oshi pin" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "paperclip",
+    "emoji": "📎",
+    "translations": {
+      "en": { "text": "paperclip" },
+      "fr": { "article": "un", "text": "trombone" },
+      "it": { "text": "graffetta" },
+      "de": { "text": "Büroklammer" },
+      "es": { "text": "clip" },
+      "pt": { "text": "clipe de papel" },
+      "ja": { "text": "クリップ", "kana": "クリップ", "romaji": "kurippu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "straight-ruler",
+    "emoji": "📏",
+    "translations": {
+      "en": { "text": "straight ruler" },
+      "fr": { "article": "une", "text": "règle" },
+      "it": { "text": "righello" },
+      "de": { "text": "Lineal" },
+      "es": { "text": "regla" },
+      "pt": { "text": "régua reta" },
+      "ja": { "text": "定規", "kana": "じょうぎ", "romaji": "jōgi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "triangular-ruler",
+    "emoji": "📐",
+    "translations": {
+      "en": { "text": "triangular ruler" },
+      "fr": { "article": "une", "text": "équerre" },
+      "it": { "text": "squadra" },
+      "de": { "text": "dreieckiges Lineal" },
+      "es": { "text": "escuadra" },
+      "pt": { "text": "régua triangular" },
+      "ja": {
+        "text": "三角定規",
+        "kana": "さんかくじょうぎ",
+        "romaji": "sankaku jōgi"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "scissors",
+    "emoji": "️✂️",
+    "translations": {
+      "en": { "text": "scissors" },
+      "fr": { "article": "des", "text": "ciseaux" },
+      "it": { "text": "forbici" },
+      "de": { "text": "Schere" },
+      "es": { "text": "tijeras" },
+      "pt": { "text": "tesoura" },
+      "ja": { "text": "鋏", "kana": "はさみ", "romaji": "hasami" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "wastebasket",
+    "emoji": "️🗑️",
+    "translations": {
+      "en": { "text": "wastebasket" },
+      "fr": { "article": "une", "text": "corbeille à papiers" },
+      "it": { "text": "cestino" },
+      "de": { "text": "Papierkorb" },
+      "es": { "text": "papelera" },
+      "pt": { "text": "lixeira" },
+      "ja": {
+        "text": "紙くずかご",
+        "kana": "かみくずかご",
+        "romaji": "kamikuzu kago"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "locked",
+    "emoji": "🔒",
+    "translations": {
+      "en": { "text": "close" },
+      "fr": { "text": "fermer" },
+      "it": { "text": "chiudere" },
+      "de": { "text": "schließen" },
+      "es": { "text": "cerrar" },
+      "pt": { "text": "fechar" },
+      "ja": { "text": "閉める", "kana": "しめる", "romaji": "shimeru" }
+    },
+    "categories": ["verbs"]
+  },
+  {
+    "id": "unlocked",
+    "emoji": "🔓",
+    "translations": {
+      "en": { "text": "open" },
+      "fr": { "text": "ouvrir" },
+      "it": { "text": "aprire" },
+      "de": { "text": "öffnen" },
+      "es": { "text": "abrir" },
+      "pt": { "text": "abrir" },
+      "ja": { "text": "開ける", "kana": "あける", "romaji": "akeru" }
+    },
+    "categories": ["verbs"]
+  },
+  {
+    "id": "locked-with-key",
+    "emoji": "🔐",
+    "translations": {
+      "en": { "text": "padlock" },
+      "fr": { "article": "un", "text": "cadenas" },
+      "it": { "text": "lucchetto" },
+      "de": { "text": "Vorhängeschloss" },
+      "es": { "text": "candado" },
+      "pt": { "text": "cadeado" },
+      "ja": { "text": "南京錠", "kana": "なんきんじょう", "romaji": "nankinjō" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "key",
+    "emoji": "🔑",
+    "translations": {
+      "en": { "text": "key" },
+      "fr": { "article": "une", "text": "clé" },
+      "it": { "text": "chiave" },
+      "de": { "text": "Schlüssel" },
+      "es": { "text": "llave" },
+      "pt": { "text": "chave" },
+      "ja": { "text": "鍵", "kana": "かぎ", "romaji": "kagi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "old-key",
+    "emoji": "️🗝️",
+    "translations": {
+      "en": { "text": "old key" },
+      "fr": { "article": "une", "text": "clé ancienne" },
+      "it": { "text": "chiave antica" },
+      "de": { "text": "alter Schlüssel" },
+      "es": { "text": "llave antigua" },
+      "pt": { "text": "chave antiga" },
+      "ja": { "text": "古い鍵", "kana": "ふるいかぎ", "romaji": "furui kagi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "hammer",
+    "emoji": "🔨",
+    "translations": {
+      "en": { "text": "hammer" },
+      "fr": { "article": "un", "text": "marteau" },
+      "it": { "text": "martello" },
+      "de": { "text": "Hammer" },
+      "es": { "text": "martillo" },
+      "pt": { "text": "martelo" },
+      "ja": { "text": "金槌", "kana": "かなづち", "romaji": "kanazuchi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "axe",
+    "emoji": "🪓",
+    "translations": {
+      "en": { "text": "axe" },
+      "fr": { "article": "une", "text": "hache" },
+      "it": { "text": "ascia" },
+      "de": { "text": "Axt" },
+      "es": { "text": "hacha" },
+      "pt": { "text": "machado" },
+      "ja": { "text": "斧", "kana": "おの", "romaji": "ono" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "pick",
+    "emoji": "️⛏️",
+    "translations": {
+      "en": { "text": "pick" },
+      "fr": { "article": "une", "text": "pioche" },
+      "it": { "text": "piccone" },
+      "de": { "text": "Pickel" },
+      "es": { "text": "pico" },
+      "pt": { "text": "picareta" },
+      "ja": { "text": "つるはし", "kana": "つるはし", "romaji": "tsuruhashi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "dagger",
+    "emoji": "️🗡️",
+    "translations": {
+      "en": { "text": "dagger" },
+      "fr": { "article": "une", "text": "dague" },
+      "it": { "text": "pugnale" },
+      "de": { "text": "Dolch" },
+      "es": { "text": "puñal" },
+      "pt": { "text": "adaga" },
+      "ja": { "text": "短剣", "kana": "たんけん", "romaji": "tanken" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "bomb",
+    "emoji": "💣",
+    "translations": {
+      "en": { "text": "bomb" },
+      "fr": { "article": "une", "text": "bombe" },
+      "it": { "text": "bomba" },
+      "de": { "text": "Bombe" },
+      "es": { "text": "bomba" },
+      "pt": { "text": "bomba" },
+      "ja": { "text": "爆弾", "kana": "ばくだん", "romaji": "bakudan" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "boomerang",
+    "emoji": "🪃",
+    "translations": {
+      "en": { "text": "boomerang" },
+      "fr": { "article": "un", "text": "boomerang" },
+      "it": { "text": "boomerang" },
+      "de": { "text": "Bumerang" },
+      "es": { "text": "bumerán" },
+      "pt": { "text": "bumerangue" },
+      "ja": { "text": "ブーメラン", "kana": "ブーメラン", "romaji": "būmeran" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "bow-and-arrow",
+    "emoji": "🏹",
+    "translations": {
+      "en": { "text": "bow" },
+      "fr": { "article": "un", "text": "arc" },
+      "it": { "text": "arco" },
+      "de": { "text": "Bogen" },
+      "es": { "text": "arco" },
+      "pt": { "text": "arco" },
+      "ja": { "text": "弓", "kana": "ゆみ", "romaji": "yumi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "shield",
+    "emoji": "️🛡️",
+    "translations": {
+      "en": { "text": "shield" },
+      "fr": { "article": "un", "text": "bouclier" },
+      "it": { "text": "scudo" },
+      "de": { "text": "Schutzschild" },
+      "es": { "text": "escudo" },
+      "pt": { "text": "escudo" },
+      "ja": { "text": "盾", "kana": "たて", "romaji": "tate" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "carpentry-saw",
+    "emoji": "🪚",
+    "translations": {
+      "en": { "text": "carpentry saw" },
+      "fr": { "article": "une", "text": "scie" },
+      "it": { "text": "sega da falegname" },
+      "de": { "text": "Handsäge" },
+      "es": { "text": "sierra de carpintería" },
+      "pt": { "text": "serrote" },
+      "ja": { "text": "のこぎり", "kana": "のこぎり", "romaji": "nokogiri" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "wrench",
+    "emoji": "🔧",
+    "translations": {
+      "en": { "text": "wrench" },
+      "fr": { "article": "une", "text": "clé à molette" },
+      "it": { "text": "chiave inglese" },
+      "de": { "text": "Schraubenschlüssel" },
+      "es": { "text": "llave inglesa" },
+      "pt": { "text": "chave inglesa" },
+      "ja": { "text": "スパナ", "kana": "スパナ", "romaji": "supana" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "screwdriver",
+    "emoji": "🪛",
+    "translations": {
+      "en": { "text": "screwdriver" },
+      "fr": { "article": "un", "text": "tournevis" },
+      "it": { "text": "cacciavite" },
+      "de": { "text": "Schraubenzieher" },
+      "es": { "text": "destornillador" },
+      "pt": { "text": "chave de fenda" },
+      "ja": {
+        "text": "螺子回し",
+        "kana": "ねじまわし",
+        "romaji": "nejimawashi"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "nut-and-bolt",
+    "emoji": "🔩",
+    "translations": {
+      "en": { "text": "screw" },
+      "fr": { "article": "une", "text": "vis" },
+      "it": { "text": "vite" },
+      "de": { "text": "Schraube" },
+      "es": { "text": "tornillo" },
+      "pt": { "text": "parafuso" },
+      "ja": { "text": "ねじ", "kana": "ねじ", "romaji": "neji" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "gear",
+    "emoji": "️⚙️",
+    "translations": {
+      "en": { "text": "gear" },
+      "fr": { "article": "un", "text": "engrenage" },
+      "it": { "text": "ingranaggio" },
+      "de": { "text": "Zahnrad" },
+      "es": { "text": "engranaje" },
+      "pt": { "text": "engrenagem" },
+      "ja": { "text": "歯車", "kana": "はぐるま", "romaji": "haguruma" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "balance-scale",
+    "emoji": "⚖️",
+    "translations": {
+      "en": { "text": "scale" },
+      "fr": { "article": "une", "text": "balance" },
+      "it": { "text": "bilancia" },
+      "de": { "text": "Waage" },
+      "es": { "text": "balanza" },
+      "pt": { "text": "balança" },
+      "ja": { "text": "天秤", "kana": "てんびん", "romaji": "tenbin" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "white-cane",
+    "emoji": "🦯",
+    "translations": {
+      "en": { "text": "cane" },
+      "fr": { "article": "une", "text": "canne" },
+      "it": { "text": "bastone" },
+      "de": { "text": "Stock" },
+      "es": { "text": "bastón" },
+      "pt": { "text": "bengala" },
+      "ja": { "text": "杖", "kana": "つえ", "romaji": "tsue" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "chains",
+    "emoji": "️⛓️",
+    "translations": {
+      "en": { "text": "chains" },
+      "fr": { "article": "des", "text": "chaînes" },
+      "it": { "text": "catene" },
+      "de": { "text": "Ketten" },
+      "es": { "text": "cadenas" },
+      "pt": { "text": "correntes" },
+      "ja": { "text": "鎖", "kana": "くさり", "romaji": "kusari" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "hook",
+    "emoji": "🪝",
+    "translations": {
+      "en": { "text": "hook" },
+      "fr": { "article": "un", "text": "crochet" },
+      "it": { "text": "gancio" },
+      "de": { "text": "Haken" },
+      "es": { "text": "gancho" },
+      "pt": { "text": "gancho" },
+      "ja": { "text": "鉤", "kana": "かぎ", "romaji": "kagi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "toolbox",
+    "emoji": "🧰",
+    "translations": {
+      "en": { "text": "toolbox" },
+      "fr": { "article": "une", "text": "boîte à outils" },
+      "it": { "text": "cassetta degli attrezzi" },
+      "de": { "text": "Werkzeugkasten" },
+      "es": { "text": "caja de herramientas" },
+      "pt": { "text": "caixa de ferramentas" },
+      "ja": { "text": "工具箱", "kana": "こうぐばこ", "romaji": "kōgu bako" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "magnet",
+    "emoji": "🧲",
+    "translations": {
+      "en": { "text": "magnet" },
+      "fr": { "article": "un", "text": "aimant" },
+      "it": { "text": "calamita" },
+      "de": { "text": "Magnet" },
+      "es": { "text": "imán" },
+      "pt": { "text": "ímã" },
+      "ja": { "text": "磁石", "kana": "じしゃく", "romaji": "jishaku" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "ladder",
+    "emoji": "🪜",
+    "translations": {
+      "en": { "text": "ladder" },
+      "fr": { "article": "une", "text": "échelle" },
+      "it": { "text": "scala" },
+      "de": { "text": "Leiter" },
+      "es": { "text": "escalera" },
+      "pt": { "text": "escada" },
+      "ja": { "text": "梯子", "kana": "はしご", "romaji": "hashigo" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "shovel",
+    "emoji": "🪏",
+    "translations": {
+      "en": { "text": "shovel" },
+      "fr": { "article": "une", "text": "pelle" },
+      "it": { "text": "vanga" },
+      "de": { "text": "Schaufel" },
+      "es": { "text": "pala" },
+      "pt": { "text": "pá" },
+      "ja": { "text": "シャベル", "kana": "シャベル", "romaji": "shaberu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "alembic",
+    "emoji": "️⚗️",
+    "translations": {
+      "en": { "text": "alembic" },
+      "fr": { "article": "un", "text": "alambic" },
+      "it": { "text": "alambicco" },
+      "de": { "text": "Destillierapparat" },
+      "es": { "text": "alambique" },
+      "pt": { "text": "alambique" },
+      "ja": { "text": "蒸留器", "kana": "じょうりゅうき", "romaji": "jōryūki" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "test-tube",
+    "emoji": "🧪",
+    "translations": {
+      "en": { "text": "test tube" },
+      "fr": { "article": "un", "text": "tube à essai" },
+      "it": { "text": "provetta" },
+      "de": { "text": "Reagenzglas" },
+      "es": { "text": "tubo de ensayo" },
+      "pt": { "text": "tubo de ensaio" },
+      "ja": { "text": "試験管", "kana": "しけんかん", "romaji": "shikenkan" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "dna",
+    "emoji": "🧬",
+    "translations": {
+      "en": { "text": "dna" },
+      "fr": { "article": "un", "text": "adn" },
+      "it": { "text": "dna" },
+      "de": { "text": "DNA" },
+      "es": { "text": "adn" },
+      "pt": { "text": "dna" },
+      "ja": { "text": "DNA", "kana": "ディーエヌエー", "romaji": "dīenuē" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "microscope",
+    "emoji": "🔬",
+    "translations": {
+      "en": { "text": "microscope" },
+      "fr": { "article": "un", "text": "microscope" },
+      "it": { "text": "microscopio" },
+      "de": { "text": "Mikroskop" },
+      "es": { "text": "microscopio" },
+      "pt": { "text": "microscópio" },
+      "ja": { "text": "顕微鏡", "kana": "けんびきょう", "romaji": "kenbikyō" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "telescope",
+    "emoji": "🔭",
+    "translations": {
+      "en": { "text": "telescope" },
+      "fr": { "article": "un", "text": "télescope" },
+      "it": { "text": "telescopio" },
+      "de": { "text": "Teleskop" },
+      "es": { "text": "telescopio" },
+      "pt": { "text": "telescópio" },
+      "ja": { "text": "望遠鏡", "kana": "ぼうえんきょう", "romaji": "bōenkyō" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "satellite-antenna",
+    "emoji": "📡",
+    "translations": {
+      "en": { "text": "satellite antenna" },
+      "fr": { "article": "une", "text": "antenne satellite" },
+      "it": { "text": "antenna satellitare" },
+      "de": { "text": "Satellitenschüssel" },
+      "es": { "text": "antena de satélite" },
+      "pt": { "text": "antena parabólica" },
+      "ja": {
+        "text": "衛星アンテナ",
+        "kana": "えいせいアンテナ",
+        "romaji": "eisei antenna"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "syringe",
+    "emoji": "💉",
+    "translations": {
+      "en": { "text": "syringe" },
+      "fr": { "article": "une", "text": "seringue" },
+      "it": { "text": "siringa" },
+      "de": { "text": "Spritze" },
+      "es": { "text": "jeringuilla" },
+      "pt": { "text": "seringa" },
+      "ja": { "text": "注射器", "kana": "ちゅうしゃき", "romaji": "chūshaki" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "drop-of-blood",
+    "emoji": "🩸",
+    "translations": {
+      "en": { "text": "blood" },
+      "fr": { "article": "du", "text": "sang" },
+      "it": { "text": "sangue" },
+      "de": { "text": "Blut" },
+      "es": { "text": "sangre" },
+      "pt": { "text": "sangue" },
+      "ja": { "text": "血", "kana": "ち", "romaji": "chi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "pill",
+    "emoji": "💊",
+    "translations": {
+      "en": { "text": "pill" },
+      "fr": { "article": "une", "text": "pilule" },
+      "it": { "text": "pillola" },
+      "de": { "text": "Kapsel" },
+      "es": { "text": "píldora" },
+      "pt": { "text": "comprimido" },
+      "ja": { "text": "ピル", "kana": "ピル", "romaji": "piru" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "adhesive-bandage",
+    "emoji": "🩹",
+    "translations": {
+      "en": { "text": "adhesive bandage" },
+      "fr": { "article": "un", "text": "sparadrap" },
+      "it": { "text": "cerotto" },
+      "de": { "text": "Heftpflaster" },
+      "es": { "text": "tirita" },
+      "pt": { "text": "curativo adesivo" },
+      "ja": { "text": "絆創膏", "kana": "ばんそうこう", "romaji": "bansōkō" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "crutch",
+    "emoji": "🩼",
+    "translations": {
+      "en": { "text": "crutch" },
+      "fr": { "article": "une", "text": "béquille" },
+      "it": { "text": "stampella" },
+      "de": { "text": "Krücke" },
+      "es": { "text": "muleta" },
+      "pt": { "text": "muleta" },
+      "ja": { "text": "松葉杖", "kana": "まつばづえ", "romaji": "matsubazue" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "stethoscope",
+    "emoji": "🩺",
+    "translations": {
+      "en": { "text": "stethoscope" },
+      "fr": { "article": "un", "text": "stéthoscope" },
+      "it": { "text": "stetoscopio" },
+      "de": { "text": "Stethoskop" },
+      "es": { "text": "estetoscopio" },
+      "pt": { "text": "estetoscópio" },
+      "ja": { "text": "聴診器", "kana": "ちょうしんき", "romaji": "chōshinki" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "door",
+    "emoji": "🚪",
+    "translations": {
+      "en": { "text": "door" },
+      "fr": { "article": "une", "text": "porte" },
+      "it": { "text": "porta" },
+      "de": { "text": "Tür" },
+      "es": { "text": "puerta" },
+      "pt": { "text": "porta" },
+      "ja": { "text": "戸", "kana": "と", "romaji": "to" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "elevator",
+    "emoji": "🛗",
+    "translations": {
+      "en": { "text": "elevator" },
+      "fr": { "article": "un", "text": "ascenseur" },
+      "it": { "text": "ascensore" },
+      "de": { "text": "Fahrstuhl" },
+      "es": { "text": "ascensor" },
+      "pt": { "text": "elevador" },
+      "ja": {
+        "text": "エレベーター",
+        "kana": "エレベーター",
+        "romaji": "erebētā"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "mirror",
+    "emoji": "🪞",
+    "translations": {
+      "en": { "text": "mirror" },
+      "fr": { "article": "un", "text": "miroir" },
+      "it": { "text": "specchio" },
+      "de": { "text": "Spiegel" },
+      "es": { "text": "espejo" },
+      "pt": { "text": "espelho" },
+      "ja": { "text": "鏡", "kana": "かがみ", "romaji": "kagami" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "window",
+    "emoji": "🪟",
+    "translations": {
+      "en": { "text": "window" },
+      "fr": { "article": "une", "text": "fenêtre" },
+      "it": { "text": "finestra" },
+      "de": { "text": "Fenster" },
+      "es": { "text": "ventana" },
+      "pt": { "text": "janela" },
+      "ja": { "text": "窓", "kana": "まど", "romaji": "mado" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "bed",
+    "emoji": "️🛏️",
+    "translations": {
+      "en": { "text": "bed" },
+      "fr": { "article": "un", "text": "lit" },
+      "it": { "text": "letto" },
+      "de": { "text": "Bett" },
+      "es": { "text": "cama" },
+      "pt": { "text": "cama" },
+      "ja": { "text": "ベッド", "kana": "ベッド", "romaji": "beddo" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "couch-and-lamp",
+    "emoji": "️🛋️",
+    "translations": {
+      "en": { "text": "sofa" },
+      "fr": { "article": "un", "text": "canapé" },
+      "it": { "text": "divano" },
+      "de": { "text": "Sofa" },
+      "es": { "text": "sofá" },
+      "pt": { "text": "sofá" },
+      "ja": { "text": "ソファ", "kana": "ソファ", "romaji": "sofa" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "chair",
+    "emoji": "🪑",
+    "translations": {
+      "en": { "text": "chair" },
+      "fr": { "article": "une", "text": "chaise" },
+      "it": { "text": "sedia" },
+      "de": { "text": "Stuhl" },
+      "es": { "text": "silla" },
+      "pt": { "text": "cadeira" },
+      "ja": { "text": "椅子", "kana": "いす", "romaji": "isu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "toilet",
+    "emoji": "🚽",
+    "translations": {
+      "en": { "text": "toilet" },
+      "fr": { "article": "des", "text": "toilettes" },
+      "it": { "text": "toilette" },
+      "de": { "text": "Toilette" },
+      "es": { "text": "inodoro" },
+      "pt": { "text": "vaso sanitário" },
+      "ja": { "text": "トイレ", "kana": "トイレ", "romaji": "toire" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "plunger",
+    "emoji": "🪠",
+    "translations": {
+      "en": { "text": "plunger" },
+      "fr": { "article": "une", "text": "ventouse" },
+      "it": { "text": "sturalavandini" },
+      "de": { "text": "Saugglocke" },
+      "es": { "text": "desatascador" },
+      "pt": { "text": "desentupidor" },
+      "ja": { "text": "スッポン", "kana": "スッポン", "romaji": "suppon" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "shower",
+    "emoji": "🚿",
+    "translations": {
+      "en": { "text": "shower" },
+      "fr": { "article": "une", "text": "douche" },
+      "it": { "text": "doccia" },
+      "de": { "text": "Dusche" },
+      "es": { "text": "ducha" },
+      "pt": { "text": "chuveiro" },
+      "ja": { "text": "俄雨", "kana": "にわかあめ", "romaji": "niwakaame" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "bathtub",
+    "emoji": "🛁",
+    "translations": {
+      "en": { "text": "bathtub" },
+      "fr": { "article": "une", "text": "baignoire" },
+      "it": { "text": "vasca" },
+      "de": { "text": "Badewanne" },
+      "es": { "text": "bañera" },
+      "pt": { "text": "banheira" },
+      "ja": { "text": "浴槽", "kana": "よくそう", "romaji": "yokusō" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "razor",
+    "emoji": "🪒",
+    "translations": {
+      "en": { "text": "razor" },
+      "fr": { "article": "un", "text": "rasoir" },
+      "it": { "text": "rasoio" },
+      "de": { "text": "Rasierer" },
+      "es": { "text": "cuchilla de afeitar" },
+      "pt": { "text": "barbeador" },
+      "ja": { "text": "剃刀", "kana": "かみそり", "romaji": "kamisori" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "broom",
+    "emoji": "🧹",
+    "translations": {
+      "en": { "text": "broom" },
+      "fr": { "article": "un", "text": "balai" },
+      "it": { "text": "scopa" },
+      "de": { "text": "Besen" },
+      "es": { "text": "escoba" },
+      "pt": { "text": "vassoura" },
+      "ja": { "text": "ほうき", "kana": "ほうき", "romaji": "hōki" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "basket",
+    "emoji": "🧺",
+    "translations": {
+      "en": { "text": "basket" },
+      "fr": { "article": "un", "text": "panier" },
+      "it": { "text": "cesto" },
+      "de": { "text": "Korb" },
+      "es": { "text": "cesta" },
+      "pt": { "text": "cesta" },
+      "ja": { "text": "篭", "kana": "かご", "romaji": "kago" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "roll-of-paper",
+    "emoji": "🧻",
+    "translations": {
+      "en": { "text": "roll of paper" },
+      "fr": { "article": "un", "text": "rouleau de papier" },
+      "it": { "text": "rotolo di carta" },
+      "de": { "text": "Papierrolle" },
+      "es": { "text": "rollo de papel" },
+      "pt": { "text": "rolo de papel" },
+      "ja": {
+        "text": "トイレットペーパー",
+        "kana": "トイレットペーパー",
+        "romaji": "toiretto pēpā"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "bucket",
+    "emoji": "🪣",
+    "translations": {
+      "en": { "text": "bucket" },
+      "fr": { "article": "un", "text": "seau" },
+      "it": { "text": "secchio" },
+      "de": { "text": "Eimer" },
+      "es": { "text": "cubo" },
+      "pt": { "text": "balde" },
+      "ja": { "text": "バケツ", "kana": "バケツ", "romaji": "baketsu" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "soap",
+    "emoji": "🧼",
+    "translations": {
+      "en": { "text": "soap" },
+      "fr": { "article": "un", "text": "savon" },
+      "it": { "text": "sapone" },
+      "de": { "text": "Seife" },
+      "es": { "text": "jabón" },
+      "pt": { "text": "sabonete" },
+      "ja": { "text": "石鹸", "kana": "せっけん", "romaji": "sekken" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "bubbles",
+    "emoji": "🫧",
+    "translations": {
+      "en": { "text": "bubbles" },
+      "fr": { "article": "des", "text": "bulles" },
+      "it": { "text": "bolle" },
+      "de": { "text": "Blasen" },
+      "es": { "text": "burbujas" },
+      "pt": { "text": "bolhas" },
+      "ja": { "text": "泡", "kana": "あわ", "romaji": "awa" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "toothbrush",
+    "emoji": "🪥",
+    "translations": {
+      "en": { "text": "toothbrush" },
+      "fr": { "article": "une", "text": "brosse à dents" },
+      "it": { "text": "spazzolino da denti" },
+      "de": { "text": "Zahnbürste" },
+      "es": { "text": "cepillo de dientes" },
+      "pt": { "text": "escova de dentes" },
+      "ja": { "text": "歯ブラシ", "kana": "はブラシ", "romaji": "haburashi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "sponge",
+    "emoji": "🧽",
+    "translations": {
+      "en": { "text": "sponge" },
+      "fr": { "article": "une", "text": "éponge" },
+      "it": { "text": "spugna" },
+      "de": { "text": "Schwamm" },
+      "es": { "text": "esponja" },
+      "pt": { "text": "esponja" },
+      "ja": { "text": "海綿", "kana": "かいめん", "romaji": "kaimen" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "fire-extinguisher",
+    "emoji": "🧯",
+    "translations": {
+      "en": { "text": "fire extinguisher" },
+      "fr": { "article": "un", "text": "extincteur" },
+      "it": { "text": "estintore" },
+      "de": { "text": "Feuerlöscher" },
+      "es": { "text": "extintor" },
+      "pt": { "text": "extintor de incêndio" },
+      "ja": { "text": "消火器", "kana": "しょうかき", "romaji": "shōkaki" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "shopping-cart",
+    "emoji": "🛒",
+    "translations": {
+      "en": { "text": "shopping cart" },
+      "fr": { "article": "un", "text": "chariot" },
+      "it": { "text": "carrello" },
+      "de": { "text": "Einkaufswagen" },
+      "es": { "text": "carrito de la compra" },
+      "pt": { "text": "carrinho de compras" },
+      "ja": {
+        "text": "ショッピングカート",
+        "kana": "ショッピングカート",
+        "romaji": "shoppingu kāto"
+      }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "cigarette",
+    "emoji": "🚬",
+    "translations": {
+      "en": { "text": "cigarette" },
+      "fr": { "article": "une", "text": "cigarette" },
+      "it": { "text": "sigaretta" },
+      "de": { "text": "Zigarette" },
+      "es": { "text": "cigarrillo" },
+      "pt": { "text": "cigarro" },
+      "ja": { "text": "タバコ", "kana": "タバコ", "romaji": "tabako" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "coffin",
+    "emoji": "️⚰️",
+    "translations": {
+      "en": { "text": "coffin" },
+      "fr": { "article": "un", "text": "cercueil" },
+      "it": { "text": "bara" },
+      "de": { "text": "Sarg" },
+      "es": { "text": "ataúd" },
+      "pt": { "text": "caixão" },
+      "ja": { "text": "棺", "kana": "ひつぎ", "romaji": "hitsugi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "headstone",
+    "emoji": "🪦",
+    "translations": {
+      "en": { "text": "headstone" },
+      "fr": { "article": "une", "text": "pierre tombale" },
+      "it": { "text": "lapide" },
+      "de": { "text": "Grabstein" },
+      "es": { "text": "lápida" },
+      "pt": { "text": "lápide" },
+      "ja": { "text": "墓石", "kana": "はかいし", "romaji": "hakaishi" }
+    },
+    "categories": ["objects"]
+  },
+  {
+    "id": "identification-card",
+    "emoji": "🪪",
+    "translations": {
+      "en": { "text": "identification card" },
+      "fr": { "article": "une", "text": "carte d’identité" },
+      "it": { "text": "carta d’identità" },
+      "de": { "text": "Ausweis" },
+      "es": { "text": "documento de identidad" },
+      "pt": { "text": "documento de identidade" },
+      "ja": {
+        "text": "身分証明書",
+        "kana": "みぶんしょうめいしょ",
+        "romaji": "mibun shōmeisho"
+      }
+    },
+    "categories": ["objects"]
   }
 ]

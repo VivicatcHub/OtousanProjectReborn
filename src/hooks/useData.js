@@ -7,8 +7,10 @@ export function setArticlesEnabled(on) {
   articlesEnabled = on;
 }
 
-function withArticle(tr, base) {
-  return articlesEnabled && tr?.article ? `${tr.article} ${base}` : base;
+function withArticle(tr, base, articleGame = false) {
+  return articlesEnabled && tr?.article && !articleGame
+    ? `${tr.article} ${base}`
+    : base;
 }
 
 export function useData() {
@@ -54,10 +56,10 @@ export function getTranslation(word, langCode) {
   return word.translations[langCode] ?? null;
 }
 
-export function getText(word, langCode) {
+export function getText(word, langCode, articleGame = false) {
   const tr = getTranslation(word, langCode);
   if (!tr) return "?";
-  return withArticle(tr, tr.text);
+  return withArticle(tr, tr.text, articleGame);
 }
 
 export function getSpeech(word, langCode) {

@@ -42,6 +42,10 @@
       "title": "Quiz",
       "description": "Pick the right translation."
     },
+    "article": {
+      "title": "Article",
+      "description": "Find the little word that goes before: un, une, du or des."
+    },
     "writing": {
       "title": "Writing",
       "description": "Learn how to spell the words."
@@ -124,6 +128,18 @@
     "withImage": "🖼️ With picture",
     "withoutImage": "🚫 No picture"
   },
+  "articleSetup": {
+    "title": "Article 😩",
+    "presetClassicTitle": "Classic",
+    "presetClassicDesc": "With picture · 8 words",
+    "presetNoImageTitle": "No picture",
+    "presetNoImageDesc": "Just the word, harder",
+    "presetEndlessTitle": "Endless ♾️",
+    "presetEndlessDesc": "Keep going until you miss one!",
+    "image": "Picture",
+    "withImage": "🖼️ With picture",
+    "withoutImage": "🚫 No picture"
+  },
   "imagier": {
     "title": "Picture game 🖼️",
     "intro": "Listen to the word 🔊 then click the right picture!",
@@ -139,6 +155,9 @@
   },
   "quiz": {
     "title": "Quiz ❓ — Pick the translation"
+  },
+  "article": {
+    "title": "Article 😩 — Which article goes with this word?"
   },
   "writingSetup": {
     "title": "Writing 🖊",
@@ -224,10 +243,30 @@
       "badges": "Badges"
     },
     "items": {
-      "firstGame": { "title": "First Steps", "desc": "Play your first game." },
-      "tenGames": { "title": "Getting Warmed Up", "desc": "Play 10 games." },
-      "fiftyGames": { "title": "Big Player", "desc": "Play 50 games." },
-      "explorer": { "title": "Explorer", "desc": "Play all three games." },
+      "firstGame": {
+        "title": "First Steps",
+        "desc": "Play your first game."
+      },
+      "tenGames": {
+        "title": "Getting Warmed Up",
+        "desc": "Play 10 games."
+      },
+      "fiftyGames": {
+        "title": "Big Player",
+        "desc": "Play 50 games."
+      },
+      "hundredGames": {
+        "title": "Century Player",
+        "desc": "Play 100 games."
+      },
+      "explorer": {
+        "title": "Explorer",
+        "desc": "Play three different games."
+      },
+      "allGames": {
+        "title": "Grand Tour",
+        "desc": "Play all five games at least once."
+      },
       "perfectQuiz": {
         "title": "Quiz Whiz",
         "desc": "Finish a quiz with no mistakes."
@@ -244,6 +283,38 @@
         "title": "Memory Master",
         "desc": "Clear a memory game with no mistakes."
       },
+      "firstArticle": {
+        "title": "Little Words",
+        "desc": "Play the Article game once."
+      },
+      "perfectArticle": {
+        "title": "Article Ace",
+        "desc": "Finish an article game with no mistakes."
+      },
+      "quizMaster": {
+        "title": "Quiz Master",
+        "desc": "Win 5 perfect quizzes."
+      },
+      "imagierMaster": {
+        "title": "Picture Master",
+        "desc": "Win 5 perfect picture games."
+      },
+      "writingMaster": {
+        "title": "Writing Master",
+        "desc": "Win 5 perfect writing games."
+      },
+      "memoryMaster": {
+        "title": "Card Shark",
+        "desc": "Win 5 perfect memory games."
+      },
+      "articleMaster": {
+        "title": "Grammar Master",
+        "desc": "Win 5 perfect article games."
+      },
+      "articleStreak10": {
+        "title": "Un, Une, Du, Des",
+        "desc": "Reach a streak of 10 in endless article mode."
+      },
       "streak10": {
         "title": "On Fire",
         "desc": "Reach a streak of 10 in endless mode."
@@ -252,15 +323,30 @@
         "title": "Unstoppable",
         "desc": "Reach a streak of 25 in endless mode."
       },
+      "streak50": {
+        "title": "Shooting Star",
+        "desc": "Reach a streak of 50 in endless mode."
+      },
       "hundredCorrect": {
         "title": "Century",
         "desc": "Answer 100 words correctly."
+      },
+      "fiveHundredCorrect": {
+        "title": "Sharpshooter",
+        "desc": "Answer 500 words correctly."
       },
       "perfectionist": {
         "title": "Perfectionist",
         "desc": "Win 10 perfect games."
       },
-      "dedicated": { "title": "Dedicated", "desc": "Play on 3 different days." }
+      "dedicated": {
+        "title": "Dedicated",
+        "desc": "Play on 3 different days."
+      },
+      "weekWarrior": {
+        "title": "A Whole Week",
+        "desc": "Play on 7 different days."
+      }
     }
   }
 }

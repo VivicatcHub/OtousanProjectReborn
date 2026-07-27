@@ -42,6 +42,10 @@
       "title": "クイズ",
       "description": "正しい翻訳を選ぼう。"
     },
+    "article": {
+      "title": "冠詞",
+      "description": "言葉の前につく un・une・du・des を選ぼう。"
+    },
     "writing": {
       "title": "書き取り",
       "description": "言葉のつづりを覚えよう。"
@@ -124,6 +128,18 @@
     "withImage": "🖼️ 絵あり",
     "withoutImage": "🚫 絵なし"
   },
+  "articleSetup": {
+    "title": "冠詞 😩",
+    "presetClassicTitle": "クラシック",
+    "presetClassicDesc": "絵あり・8問",
+    "presetNoImageTitle": "絵なし",
+    "presetNoImageDesc": "言葉だけ、難しい",
+    "presetEndlessTitle": "エンドレス ♾️",
+    "presetEndlessDesc": "間違えるまで続けよう！",
+    "image": "絵",
+    "withImage": "🖼️ 絵あり",
+    "withoutImage": "🚫 絵なし"
+  },
   "imagier": {
     "title": "絵合わせ 🖼️",
     "intro": "言葉を聞いて 🔊 正しい絵をクリックしよう！",
@@ -138,6 +154,9 @@
   },
   "quiz": {
     "title": "クイズ ❓ — 翻訳を選ぼう"
+  },
+  "article": {
+    "title": "冠詞 😩 — この言葉に合う冠詞は？"
   },
   "writingSetup": {
     "title": "書き取り 🖊",
@@ -225,11 +244,25 @@
         "title": "はじめの一歩",
         "desc": "初めてのゲームで遊ぼう。"
       },
-      "tenGames": { "title": "ウォームアップ", "desc": "10回遊ぼう。" },
-      "fiftyGames": { "title": "対戦者", "desc": "50回遊ぼう。" },
+      "tenGames": {
+        "title": "ウォームアップ",
+        "desc": "10回遊ぼう。"
+      },
+      "fiftyGames": {
+        "title": "対戦者",
+        "desc": "50回遊ぼう。"
+      },
+      "hundredGames": {
+        "title": "100回プレイヤー",
+        "desc": "100回遊ぼう。"
+      },
       "explorer": {
         "title": "探検家",
-        "desc": "三つのゲーム全部で遊ぼう。"
+        "desc": "違うゲームを3つ遊ぼう。"
+      },
+      "allGames": {
+        "title": "全制覇",
+        "desc": "5つのゲーム全部で遊ぼう。"
       },
       "perfectQuiz": {
         "title": "クイズ名人",
@@ -247,6 +280,38 @@
         "title": "記憶マスター",
         "desc": "神経衰弱をノーミスでクリアしよう。"
       },
+      "firstArticle": {
+        "title": "小さな言葉",
+        "desc": "冠詞のゲームで遊ぼう。"
+      },
+      "perfectArticle": {
+        "title": "冠詞名人",
+        "desc": "冠詞のゲームをノーミスでクリアしよう。"
+      },
+      "quizMaster": {
+        "title": "クイズマスター",
+        "desc": "パーフェクトなクイズを5回出そう。"
+      },
+      "imagierMaster": {
+        "title": "絵合わせマスター",
+        "desc": "パーフェクトな絵合わせを5回出そう。"
+      },
+      "writingMaster": {
+        "title": "書き取りマスター",
+        "desc": "パーフェクトな書き取りを5回出そう。"
+      },
+      "memoryMaster": {
+        "title": "カードの王様",
+        "desc": "パーフェクトな神経衰弱を5回出そう。"
+      },
+      "articleMaster": {
+        "title": "文法マスター",
+        "desc": "パーフェクトな冠詞のゲームを5回出そう。"
+      },
+      "articleStreak10": {
+        "title": "un・une・du・des",
+        "desc": "冠詞のエンドレスで10連続しよう。"
+      },
       "streak10": {
         "title": "燃えている",
         "desc": "エンドレスで10連続しよう。"
@@ -255,15 +320,30 @@
         "title": "止まらない",
         "desc": "エンドレスで25連続しよう。"
       },
+      "streak50": {
+        "title": "流れ星",
+        "desc": "エンドレスで50連続しよう。"
+      },
       "hundredCorrect": {
         "title": "100正解",
         "desc": "100個の言葉を正解しよう。"
+      },
+      "fiveHundredCorrect": {
+        "title": "500正解",
+        "desc": "500個の言葉を正解しよう。"
       },
       "perfectionist": {
         "title": "パーフェクトマスター",
         "desc": "パーフェクトを10回出そう。"
       },
-      "dedicated": { "title": "毎日がんばる", "desc": "3日遊ぼう。" }
+      "dedicated": {
+        "title": "毎日がんばる",
+        "desc": "3日遊ぼう。"
+      },
+      "weekWarrior": {
+        "title": "一週間",
+        "desc": "7日遊ぼう。"
+      }
     }
   }
 }

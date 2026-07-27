@@ -42,6 +42,10 @@
       "title": "Quiz",
       "description": "Choisis la bonne traduction."
     },
+    "article": {
+      "title": "Article",
+      "description": "Trouve le petit mot devant : un, une, du ou des."
+    },
     "writing": {
       "title": "Écriture",
       "description": "Apprends la bonne orthographe des mots."
@@ -124,6 +128,18 @@
     "withImage": "🖼️ Avec image",
     "withoutImage": "🚫 Sans image"
   },
+  "articleSetup": {
+    "title": "Article 😩",
+    "presetClassicTitle": "Classique",
+    "presetClassicDesc": "Avec image · 8 mots",
+    "presetNoImageTitle": "Sans image",
+    "presetNoImageDesc": "Juste le mot, plus difficile",
+    "presetEndlessTitle": "Sans fin ♾️",
+    "presetEndlessDesc": "Continue jusqu'à la première erreur !",
+    "image": "Image",
+    "withImage": "🖼️ Avec image",
+    "withoutImage": "🚫 Sans image"
+  },
   "imagier": {
     "title": "Imagier 🖼️",
     "intro": "Écoute le mot 🔊 puis clique sur la bonne image !",
@@ -139,6 +155,9 @@
   },
   "quiz": {
     "title": "Quiz ❓ — Choisis la traduction"
+  },
+  "article": {
+    "title": "Article 😩 — Quel article va avec ce mot ?"
   },
   "writingSetup": {
     "title": "Écriture 🖊",
@@ -228,9 +247,26 @@
         "title": "Premiers pas",
         "desc": "Joue à ton premier jeu."
       },
-      "tenGames": { "title": "Échauffement", "desc": "Joue 10 parties." },
-      "fiftyGames": { "title": "Grand joueur", "desc": "Joue 50 parties." },
-      "explorer": { "title": "Explorateur", "desc": "Joue aux trois jeux." },
+      "tenGames": {
+        "title": "Échauffement",
+        "desc": "Joue 10 parties."
+      },
+      "fiftyGames": {
+        "title": "Grand joueur",
+        "desc": "Joue 50 parties."
+      },
+      "hundredGames": {
+        "title": "Joueur du siècle",
+        "desc": "Joue 100 parties."
+      },
+      "explorer": {
+        "title": "Explorateur",
+        "desc": "Joue à trois jeux différents."
+      },
+      "allGames": {
+        "title": "Grand tour",
+        "desc": "Joue au moins une fois à tous les jeux."
+      },
       "perfectQuiz": {
         "title": "As du quiz",
         "desc": "Termine un quiz sans faute."
@@ -247,6 +283,38 @@
         "title": "Maître de la mémoire",
         "desc": "Termine un memory sans faute."
       },
+      "firstArticle": {
+        "title": "Petits mots",
+        "desc": "Joue une partie d'articles."
+      },
+      "perfectArticle": {
+        "title": "As des articles",
+        "desc": "Termine une partie d'articles sans faute."
+      },
+      "quizMaster": {
+        "title": "Maître du quiz",
+        "desc": "Gagne 5 quiz parfaits."
+      },
+      "imagierMaster": {
+        "title": "Maître de l'imagier",
+        "desc": "Gagne 5 imagiers parfaits."
+      },
+      "writingMaster": {
+        "title": "Maître de l'écriture",
+        "desc": "Gagne 5 écritures parfaites."
+      },
+      "memoryMaster": {
+        "title": "Roi des cartes",
+        "desc": "Gagne 5 memory parfaits."
+      },
+      "articleMaster": {
+        "title": "Maître de la grammaire",
+        "desc": "Gagne 5 parties d'articles parfaites."
+      },
+      "articleStreak10": {
+        "title": "Un, une, du, des",
+        "desc": "Atteins une série de 10 en articles sans fin."
+      },
       "streak10": {
         "title": "En feu",
         "desc": "Atteins une série de 10 en mode sans fin."
@@ -255,9 +323,17 @@
         "title": "Inarrêtable",
         "desc": "Atteins une série de 25 en mode sans fin."
       },
+      "streak50": {
+        "title": "Étoile filante",
+        "desc": "Atteins une série de 50 en mode sans fin."
+      },
       "hundredCorrect": {
         "title": "Centaine",
         "desc": "Réponds correctement à 100 mots."
+      },
+      "fiveHundredCorrect": {
+        "title": "Fine gâchette",
+        "desc": "Réponds correctement à 500 mots."
       },
       "perfectionist": {
         "title": "Perfectionniste",
@@ -266,6 +342,10 @@
       "dedicated": {
         "title": "Assidu",
         "desc": "Joue pendant 3 jours différents."
+      },
+      "weekWarrior": {
+        "title": "Une semaine entière",
+        "desc": "Joue pendant 7 jours différents."
       }
     }
   }

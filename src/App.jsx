@@ -13,6 +13,9 @@ import Imagier from "@/pages/games/Imagier";
 import QuizSetup from "@/pages/games/QuizSetup";
 import QuizCustom from "@/pages/games/QuizCustom";
 import Quiz from "@/pages/games/Quiz";
+import ArticleSetup from "@/pages/games/ArticleSetup";
+import ArticleCustom from "@/pages/games/ArticleCustom";
+import Article from "@/pages/games/Article";
 import WritingSetup from "@/pages/games/WritingSetup";
 import WritingCustom from "@/pages/games/WritingCustom";
 import Writing from "@/pages/games/Writing";
@@ -36,6 +39,9 @@ export default function App() {
         <Route path="/games/quiz" element={<QuizSetup />} />
         <Route path="/games/quiz/custom" element={<QuizCustom />} />
         <Route path="/games/quiz/play" element={<Quiz />} />
+        <Route path="/games/article" element={<ArticleSetup />} />
+        <Route path="/games/article/custom" element={<ArticleCustom />} />
+        <Route path="/games/article/play" element={<Article />} />
         <Route path="/games/writing" element={<WritingSetup />} />
         <Route path="/games/writing/custom" element={<WritingCustom />} />
         <Route path="/games/writing/play" element={<Writing />} />

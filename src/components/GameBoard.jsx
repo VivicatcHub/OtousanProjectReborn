@@ -101,8 +101,11 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
 
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         {question.options.map((option, i) => {
-          const isAnswer = option.id === question.word.id;
-          const isPicked = picked?.id === option.id;
+          const isAnswer =
+            gameId === "article"
+              ? option === question.word.translations.fr.article
+              : option.id === question.word.id;
+          const isPicked = picked === option;
 
           let state = "border-border bg-card hover:bg-muted";
           if (answered && isAnswer) state = "border-grass bg-grass text-white";
@@ -121,13 +124,13 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
                 state,
               )}
             >
-              <span className="flex items-center gap-3">
+              <span className="flex items-center gap-3" key={option.id}>
                 {!answered && (
                   <kbd className="hidden h-7 w-7 shrink-0 items-center justify-center rounded-md border-2 border-border bg-muted text-sm font-black text-muted-foreground lg:inline-flex">
                     {shortcutKeys[i]}
                   </kbd>
                 )}
-                {getText(option, answerLang)}
+                {gameId === "article" ? option : getText(option, answerLang)}
               </span>
               {answered && isAnswer && <Check className="h-6 w-6" />}
               {answered && isPicked && !isAnswer && <X className="h-6 w-6" />}

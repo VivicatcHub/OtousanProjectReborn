@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 
 const GAME_META = {
   quiz: { emoji: "❓", color: "sky" },
+  article: { emoji: "😩", color: "brand" },
   imagier: { emoji: "🖼️", color: "grass" },
   writing: { emoji: "🖊", color: "grape" },
   memory: { emoji: "🧩", color: "sky" },

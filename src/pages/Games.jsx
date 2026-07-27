@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useSettings } from "@/context/SettingsContext";
 
 const GAMES = [
   {
@@ -13,6 +14,12 @@ const GAMES = [
     key: "games.quiz",
     emoji: "❓",
     color: "bg-sun text-foreground",
+  },
+  {
+    to: "/games/article",
+    key: "games.article",
+    emoji: "😩",
+    color: "bg-brand text-foreground",
   },
   {
     to: "/games/writing",
@@ -30,12 +37,15 @@ const GAMES = [
 
 export default function Games() {
   const { t: translate } = useTranslation();
+  const { articles } = useSettings();
 
   return (
     <div className="space-y-6">
       <h1 className="text-3xl font-black">{translate("games.title")}</h1>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        {GAMES.map((g) => (
+        {GAMES.filter(
+          (game) => game.key !== "games.article" || articles === true,
+        ).map((g) => (
           <Link
             key={g.to}
             to={g.to}
