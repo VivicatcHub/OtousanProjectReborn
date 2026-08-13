@@ -8,18 +8,36 @@ import {
 } from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
 import { useWordStats } from "@/context/WordStatsContext";
-import { sample, weightedSample } from "@/lib/utils";
+import { weightedSample } from "@/lib/utils";
 
-const ROUND_SIZE = 8; // words per game (classic mode)
+const ROUND_SIZE = 8;
+
+const BASIC_LETTERS = [..."abcdefghijklmnopqrstuvwxyz"];
 
 export function normalizeAnswer(s) {
   return (s ?? "").normalize("NFC").trim().toLowerCase().replace(/\s+/g, " ");
 }
 
+function alphabetOf(pool, langCode) {
+  const extras = new Set();
+  let space = false;
+  for (const word of pool) {
+    for (const char of typingTarget(word, langCode).toLowerCase()) {
+      if (char === " ") space = true;
+      else if (!BASIC_LETTERS.includes(char)) extras.add(char);
+    }
+  }
+  return {
+    letters: BASIC_LETTERS,
+    extras: [...extras].sort((a, b) => a.localeCompare(b)),
+    space,
+  };
+}
+
 export function useWritingRound({
   category = "all",
   direction = "known-learn",
-  pictures = "both", // "both" | "emoji" | "text" — which words to include
+  pictures = "both",
   hint = "underscores",
   forgiving = true,
   infinite = false,
@@ -38,10 +56,10 @@ export function useWritingRound({
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [typed, setTyped] = useState("");
-  const [checkedValue, setCheckedValue] = useState(""); // the exact text last verified
-  const [attempts, setAttempts] = useState(0); // wrong tries on the current word
+  const [checkedValue, setCheckedValue] = useState("");
+  const [attempts, setAttempts] = useState(0);
   const [status, setStatus] = useState("typing");
-  const [gameOver, setGameOver] = useState(false); // infinite: a counted mistake
+  const [gameOver, setGameOver] = useState(false);
 
   const answerLangObj = useMemo(
     () => languages.find((l) => l.code === answerLang),
@@ -69,15 +87,19 @@ export function useWritingRound({
   useEffect(() => {
     if (loading) return;
     build(wordsFor(words, known, learn, category, pictures));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading, words, known, learn, category, pictures, direction, infinite]);
 
+  const alphabet = useMemo(
+    () => alphabetOf(pool, answerLang),
+    [pool, answerLang],
+  );
+
   const word = questions[index] ?? null;
-  const target = word ? typingTarget(word, answerLang) : ""; // typeable form (kana, not kanji)
+  const target = word ? typingTarget(word, answerLang) : "";
   const finished = infinite
     ? gameOver
     : questions.length > 0 && index >= questions.length;
-  const revealed = status === "wrong"; // only wrong answers pause to reveal
+  const revealed = status === "wrong";
 
   function check() {
     if (!word || revealed) return;
@@ -87,17 +109,17 @@ export function useWritingRound({
     );
     if (correct) {
       setScore((s) => s + 1);
-      recordWord(learn, word.id, true); // update this word's error rate
-      next(); // correct: no feedback, straight to the next word
+      recordWord(learn, word.id, true);
+      next();
       return;
     }
     if (forgiving && attempts === 0) {
       setAttempts(1);
-      setCheckedValue(typed); // colour this attempt until the input is edited
+      setCheckedValue(typed);
       setStatus("retry");
       return;
     }
-    recordWord(learn, word.id, false); // update this word's error rate
+    recordWord(learn, word.id, false);
     setStatus("wrong");
     if (infinite) setGameOver(true);
   }
@@ -134,10 +156,11 @@ export function useWritingRound({
     revealed,
     hint,
     forgiving,
+    alphabet,
     known,
     learn,
-    questionLang, // language shown in the prompt
-    answerLang, // language the child types (read aloud once revealed)
+    questionLang,
+    answerLang,
     questionLangObj,
     answerLangObj,
     getText,

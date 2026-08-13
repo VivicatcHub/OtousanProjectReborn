@@ -30,8 +30,7 @@ export default function ArticleCustom() {
       values.category !== "all" &&
       !categories.some((c) => c.id === values.category)
     )
-      set("category", "all"); // saved category has no playable word left
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+      set("category", "all");
   }, [ready, categories]);
 
   const play = () =>

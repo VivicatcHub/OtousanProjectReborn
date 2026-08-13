@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 
-const PREFIX = "otousan.custom."; // one saved custom setup per game
+const PREFIX = "otousan.custom.";
 
 export function useCustomSettings(gameKey, defaults) {
   const storageKey = PREFIX + gameKey;

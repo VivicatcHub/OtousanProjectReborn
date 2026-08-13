@@ -35,8 +35,7 @@ export default function QuizCustom() {
       values.category !== "all" &&
       !categories.some((c) => c.id === values.category)
     )
-      set("category", "all"); // saved category has no playable word left
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+      set("category", "all");
   }, [ready, categories]);
 
   const label = (code) => languages.find((l) => l.code === code)?.label ?? code;
@@ -45,7 +44,7 @@ export default function QuizCustom() {
       { value: "known-learn", label: `${label(known)} → ${label(learn)}` },
       { value: "learn-known", label: `${label(learn)} → ${label(known)}` },
     ],
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
     [languages, known, learn],
   );
 

@@ -108,3 +108,113 @@
 .animate-badge-wiggle {
   animation: badge-wiggle 0.7s ease-in-out 0.2s;
 }
+
+@keyframes fade-up {
+  from {
+    transform: translateY(14px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animate-fade-up {
+  animation: fade-up 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.animate-pop-in {
+  animation: pop-in 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes flip {
+  from {
+    transform: rotateY(90deg);
+  }
+  to {
+    transform: rotateY(0);
+  }
+}
+.animate-flip {
+  animation: flip 0.28s ease-out both;
+}
+
+@keyframes grow-up {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+.animate-grow-up {
+  transform-origin: bottom;
+  animation: grow-up 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes grow-side {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.animate-grow-side {
+  transform-origin: left;
+  animation: grow-side 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes tada {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.12) rotate(-3deg);
+  }
+  60% {
+    transform: scale(1.08) rotate(3deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+.animate-tada {
+  animation: tada 0.5s ease-in-out;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

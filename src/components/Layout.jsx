@@ -12,7 +12,6 @@ export function Layout({ children }) {
 
   return (
     <div className="min-h-screen">
-      {/* Global: pops up whenever a badge is unlocked, on any screen. */}
       <AchievementToast />
       <header className="sticky top-0 z-10 border-b-2 border-border bg-card/90 backdrop-blur">
         <div className="mx-auto flex max-w-3xl items-center justify-between gap-2 px-4 py-3">
@@ -29,8 +28,14 @@ export function Layout({ children }) {
                 </Link>
               </Button>
             )}
-            <Link to="/" className="text-lg font-extrabold tracking-tight">
-              🌸 Otousan
+            <Link
+              to="/"
+              className="group text-lg font-extrabold tracking-tight"
+            >
+              <span className="inline-block transition-transform group-hover:rotate-180">
+                🌸
+              </span>{" "}
+              Otousan
             </Link>
           </div>
           <div className="flex items-center gap-2">
@@ -49,7 +54,12 @@ export function Layout({ children }) {
         </div>
       </header>
 
-      <main className="mx-auto max-w-3xl px-4 py-6">{children}</main>
+      <main
+        key={pathname}
+        className="animate-fade-up mx-auto max-w-3xl px-4 py-6"
+      >
+        {children}
+      </main>
     </div>
   );
 }

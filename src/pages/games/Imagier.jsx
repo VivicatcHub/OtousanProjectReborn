@@ -3,31 +3,21 @@ import { Volume2, RotateCcw, Play } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useImagier } from "@/hooks/useImagier";
 import { useSettings } from "@/context/SettingsContext";
-import { getText } from "@/hooks/useData";
+import { getText, displayEmoji } from "@/hooks/useData";
 import { VoiceRequired } from "@/components/VoiceRequired";
+import { AutoText } from "@/components/AutoText";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
+import { cn, gridColumns } from "@/lib/utils";
+import { useIsPhone } from "@/hooks/useMediaQuery";
 import { useHotkeys } from "react-hotkeys-hook";
 import { useRecordResult } from "@/hooks/useRecordResult";
-
-function findFactorClosestToRoot(z) {
-  const root = Math.sqrt(z);
-  let diff = Infinity;
-  let val = 1;
-  for (let i = 1; i <= z; i++) {
-    if (z % i === 0 && Math.abs(i - root) < diff) {
-      diff = Math.abs(i - root);
-      val = i;
-    }
-  }
-  return z / val;
-}
 
 export default function Imagier() {
   const { t: translate } = useTranslation();
   const { voice, known, learn } = useSettings();
   const [params] = useSearchParams();
+  const phone = useIsPhone();
   const gridSize = Number(params.get("grid")) || 12;
   const infinite = params.get("inf") === "1";
   const prompt = params.get("prompt") === "text" ? "text" : "voice";
@@ -48,13 +38,13 @@ export default function Imagier() {
     correct: game.score,
   }));
 
-  if (prompt === "voice" && !voice) return <VoiceRequired />; // voice mode needs the robot voice
+  if (prompt === "voice" && !voice) return <VoiceRequired />;
 
   if (game.loading) return <p>{translate("common.loading")}</p>;
 
   if (game.phase === "intro") {
     return (
-      <div className="space-y-6 text-center">
+      <div className="animate-fade-up space-y-6 text-center">
         <h1 className="text-3xl font-black">{translate("imagier.title")}</h1>
         <p className="text-lg text-muted-foreground">
           {prompt === "text"
@@ -76,15 +66,15 @@ export default function Imagier() {
 
   if (game.phase === "over") {
     return (
-      <div className="space-y-6 text-center">
+      <div className="animate-fade-up space-y-6 text-center">
         <h1 className="text-3xl font-black">
           {translate("result.endlessOver")}
         </h1>
-        <p className="text-6xl">🏁</p>
+        <p className="animate-tada text-6xl">🏁</p>
         <p className="text-2xl font-bold">
           {translate("result.streak", { count: game.score })}
         </p>
-        <div className="flex justify-center gap-3">
+        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
           <Button size="lg" variant="grass" onClick={game.start}>
             <RotateCcw className="h-5 w-5" /> {translate("common.replay")}
           </Button>
@@ -99,17 +89,17 @@ export default function Imagier() {
   if (game.phase === "won") {
     const perfect = game.mistakes === 0;
     return (
-      <div className="space-y-6 text-center">
+      <div className="animate-fade-up space-y-6 text-center">
         <h1 className="text-3xl font-black">
           {perfect
             ? translate("result.perfect")
             : translate("result.wonImagier")}
         </h1>
-        <p className="text-6xl">{perfect ? "🌟" : "👏"}</p>
+        <p className="animate-tada text-6xl">{perfect ? "🌟" : "👏"}</p>
         <p className="text-2xl font-bold">
           {translate("imagier.mistakes", { count: game.mistakes })}
         </p>
-        <div className="flex justify-center gap-3">
+        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
           <Button size="lg" variant="grass" onClick={game.start}>
             <RotateCcw className="h-5 w-5" /> {translate("common.replay")}
           </Button>
@@ -161,37 +151,37 @@ export default function Imagier() {
       </Card>
 
       <div
-        className="grid gap-3"
+        className="grid gap-2 sm:gap-3"
         style={{
-          gridTemplateColumns: `repeat(${findFactorClosestToRoot(gridSize)}, minmax(0, 1fr))`,
+          gridTemplateColumns: `repeat(${gridColumns(gridSize, phone)}, minmax(0, 1fr))`,
         }}
       >
         {game.slots.map((slot, index) => {
           if (!slot.word) {
-            return (
-              <div
-                key={index}
-                className="aspect-square rounded-2xl border-2 border-dashed border-border/60"
-              />
-            );
+            return <div key={index} className="aspect-square rounded-2xl" />;
           }
+          const emoji = displayEmoji(slot.word);
           return (
             <button
               key={index}
               onClick={() => game.clickSlot(index)}
               aria-label="image"
+              style={{ animationDelay: `${Math.min(index, 12) * 40}ms` }}
               className={cn(
-                "flex aspect-square items-center justify-center rounded-2xl border-2 border-border bg-card text-5xl shadow-sm transition-transform hover:-translate-y-0.5 active:scale-95 sm:text-6xl",
-                index === game.shakeIndex && "animate-shake border-brand",
-                index === game.poppedIndex && "animate-pop",
+                "flex aspect-square items-center justify-center rounded-2xl bg-card text-5xl shadow-sm transition-transform hover:-translate-y-0.5 hover:rotate-2 active:scale-95 sm:text-6xl",
+                index === game.shakeIndex
+                  ? "animate-shake border-brand"
+                  : index === game.poppedIndex
+                    ? "animate-pop"
+                    : "animate-pop-in",
               )}
             >
-              {slot.word.emoji ? (
-                <span role="img">{slot.word.emoji}</span>
+              {emoji ? (
+                <AutoText>{emoji}</AutoText>
               ) : (
-                <span className="px-1 text-center text-lg font-black leading-tight sm:text-2xl">
+                <AutoText className="px-1 text-center font-black leading-tight">
                   {getText(slot.word, known)}
-                </span>
+                </AutoText>
               )}
             </button>
           );

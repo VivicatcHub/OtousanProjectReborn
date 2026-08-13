@@ -40,7 +40,7 @@ export function AchievementToast() {
   return (
     <div className="pointer-events-none fixed inset-x-0 top-3 z-50 flex justify-center px-3">
       <div
-        key={current} // restart the animation for each new badge
+        key={current}
         role="status"
         aria-live="polite"
         className="animate-achievement flex w-full max-w-sm items-center gap-3 rounded-2xl border-2 border-border bg-foreground p-3 text-background shadow-2xl"

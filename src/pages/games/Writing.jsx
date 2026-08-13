@@ -4,9 +4,12 @@ import { useTranslation } from "react-i18next";
 import { useHotkeys } from "react-hotkeys-hook";
 import { Check, RotateCcw } from "lucide-react";
 import { useWritingRound, normalizeAnswer } from "@/hooks/useWritingRound";
+import { useIsTouch } from "@/hooks/useMediaQuery";
+import { displayEmoji } from "@/hooks/useData";
 import { Button } from "@/components/ui/button";
 import { ScoreBar } from "@/components/ScoreBar";
 import { SpeakButton } from "@/components/SpeakButton";
+import { VirtualKeyboard } from "@/components/VirtualKeyboard";
 import { cn } from "@/lib/utils";
 import { useRecordResult } from "@/hooks/useRecordResult";
 
@@ -14,6 +17,7 @@ export default function Writing() {
   const { t: translate } = useTranslation();
   const [params] = useSearchParams();
   const showImage = params.get("image") !== "0";
+  const touch = useIsTouch();
   const round = useWritingRound({
     direction: params.get("dir") || "known-learn",
     category: params.get("category") || "all",
@@ -39,6 +43,7 @@ export default function Writing() {
     status,
     revealed,
     hint,
+    alphabet,
     questionLang,
     answerLang,
     answerLangObj,
@@ -50,12 +55,24 @@ export default function Writing() {
     if (!revealed && ready && !finished) inputRef.current?.focus();
   }, [index, revealed, ready, finished]);
 
+  const submit = () => {
+    if (revealed) round.next();
+    else if (typed.trim().length > 0) round.check();
+  };
+
+  const insert = (char) => {
+    if (!revealed) setTyped((current) => current + char);
+  };
+
+  const backspace = () => {
+    if (!revealed) setTyped((current) => [...current].slice(0, -1).join(""));
+  };
+
   useHotkeys(
     "enter",
     (e) => {
       e.preventDefault();
-      if (revealed) round.next();
-      else if (typed.trim().length > 0) round.check();
+      submit();
     },
     { enableOnFormTags: ["INPUT"], enabled: ready && !finished },
     [revealed, typed, round],
@@ -73,7 +90,7 @@ export default function Writing() {
   if (finished) {
     const perfect = !infinite && score === total;
     return (
-      <div className="space-y-6 text-center">
+      <div className="animate-fade-up space-y-6 text-center">
         <h1 className="text-3xl font-black">
           {infinite
             ? translate("result.endlessOver")
@@ -81,13 +98,15 @@ export default function Writing() {
               ? translate("result.perfect")
               : translate("result.wonQuiz")}
         </h1>
-        <p className="text-6xl">{infinite ? "🏁" : perfect ? "🌟" : "👏"}</p>
+        <p className="animate-tada text-6xl">
+          {infinite ? "🏁" : perfect ? "🌟" : "👏"}
+        </p>
         <p className="text-2xl font-bold">
           {infinite
             ? translate("result.streak", { count: score })
             : translate("result.score", { score, total })}
         </p>
-        <div className="flex justify-center gap-3">
+        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
           <Button size="lg" variant="grass" onClick={round.restart}>
             <RotateCcw className="h-5 w-5" /> {translate("common.replay")}
           </Button>
@@ -99,9 +118,11 @@ export default function Writing() {
     );
   }
 
+  const emoji = displayEmoji(word);
+
   return (
-    <div className="space-y-6">
-      <h1 className="text-2xl font-black">{translate("writing.title")}</h1>
+    <div className="space-y-5">
+      {/* <h1 className="text-2xl font-black">{translate("writing.title")}</h1> */}
       <ScoreBar
         current={index}
         total={total}
@@ -109,10 +130,12 @@ export default function Writing() {
         infinite={infinite}
       />
 
-      {/* Prompt: the word to translate, in the language the child knows. */}
-      <div className="flex flex-col items-center gap-2 py-2 text-center">
-        {showImage && word.emoji && (
-          <div className="text-6xl">{word.emoji}</div>
+      <div
+        key={index}
+        className="animate-fade-up flex flex-col items-center gap-2 py-2 text-center"
+      >
+        {showImage && emoji && (
+          <div className="animate-pop-in text-6xl">{emoji}</div>
         )}
         <div className="text-3xl font-black">{getText(word, questionLang)}</div>
         <span className="text-sm font-bold text-muted-foreground">
@@ -122,7 +145,6 @@ export default function Writing() {
         </span>
       </div>
 
-      {/* Character slots: fill as they type, colour wrong letters red. */}
       <AnswerSlots
         typed={typed}
         target={target}
@@ -131,30 +153,29 @@ export default function Writing() {
         checkedValue={checkedValue}
       />
 
-      {/* The input the child types into. */}
       <input
         ref={inputRef}
         value={typed}
         onChange={(e) => setTyped(e.target.value)}
         disabled={revealed}
+        readOnly={touch}
+        inputMode={touch ? "none" : "text"}
         autoCapitalize="none"
         autoCorrect="off"
         autoComplete="off"
         spellCheck={false}
         placeholder={translate("writing.placeholder")}
-        className="w-full rounded-2xl border-2 border-border bg-card px-5 py-4 text-center text-2xl font-bold focus:border-brand focus:outline-none disabled:opacity-60"
+        className="w-full rounded-2xl border-2 border-border bg-card px-5 py-4 text-center text-2xl font-bold transition-colors focus:border-brand focus:outline-none disabled:opacity-60"
       />
 
-      {/* Retry nudge (easy mode, after the first wrong try). */}
       {status === "retry" && (
-        <p className="text-center text-lg font-bold text-brand">
+        <p className="animate-shake text-center text-lg font-bold text-brand">
           {translate("writing.tryAgain")}
         </p>
       )}
 
-      {/* Wrong answer: reveal the correct word (correct answers just advance). */}
       {revealed && (
-        <div className="flex flex-col items-center gap-3 rounded-2xl bg-brand/15 p-4 text-center">
+        <div className="animate-fade-up flex flex-col items-center gap-3 rounded-2xl bg-brand/15 p-4 text-center">
           <p className="text-xl font-black">{translate("writing.wrong")}</p>
           <div className="flex items-center gap-2 text-2xl font-black">
             <SpeakButton
@@ -167,7 +188,6 @@ export default function Writing() {
         </div>
       )}
 
-      {/* Action button. */}
       {revealed ? (
         <Button size="lg" variant="sky" className="w-full" onClick={round.next}>
           {translate("common.next")}
@@ -183,6 +203,17 @@ export default function Writing() {
           <Check className="h-5 w-5" /> {translate("common.check")}
         </Button>
       )}
+
+      <VirtualKeyboard
+        alphabet={alphabet}
+        disabled={revealed}
+        onInsert={insert}
+        onBackspace={backspace}
+        onEnter={submit}
+        enterLabel={
+          revealed ? translate("common.next") : translate("common.check")
+        }
+      />
     </div>
   );
 }
@@ -200,7 +231,7 @@ function AnswerSlots({ typed, target, hint, status, checkedValue }) {
       ? Math.max(targetChars.length, typedChars.length)
       : typedChars.length;
 
-  if (len === 0) return <div className="h-14" />; // keep layout steady
+  if (len === 0) return <div className="h-14" />;
 
   const same = (a, b) =>
     a !== undefined &&
@@ -232,11 +263,15 @@ function AnswerSlots({ typed, target, hint, status, checkedValue }) {
           ch = yc ?? "";
         }
 
+        const width = Math.round((100 - len * 4) / len);
+
         return (
           <span
             key={i}
+            style={{ width: `${width}%` }}
             className={cn(
-              "inline-flex h-14 w-10 items-center justify-center border-b-4 text-3xl font-black",
+              "inline-flex h-14 items-center justify-center border-b-4 text-3xl font-black transition-colors",
+              ch && "animate-pop-in",
               tone,
             )}
           >

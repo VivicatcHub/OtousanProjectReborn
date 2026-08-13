@@ -52,10 +52,10 @@ export default function ImagierSetup() {
   const { t: translate } = useTranslation();
   const navigate = useNavigate();
   const { voice } = useSettings();
-  const [prompt, setPrompt] = useState(voice ? "voice" : "text"); // hear it vs. read it
+  const [prompt, setPrompt] = useState(voice ? "voice" : "text");
 
   useEffect(() => {
-    if (!voice) setPrompt("text"); // no robot voice → only the reading version works
+    if (!voice) setPrompt("text");
   }, [voice]);
 
   const play = (params) =>
@@ -72,7 +72,6 @@ export default function ImagierSetup() {
         <p className="text-muted-foreground">{translate("games.chooseHow")}</p>
       </div>
 
-      {/* Which version: hear the word (voice) or read it in the learned language. */}
       <div>
         <p className="mb-2 text-sm font-bold text-muted-foreground">
           {translate("imagierSetup.promptTitle")}
@@ -100,9 +99,10 @@ export default function ImagierSetup() {
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        {PRESETS.map((p) => (
+        {PRESETS.map((p, i) => (
           <PresetCard
             key={p.titleKey}
+            delay={i * 70}
             emoji={p.emoji}
             title={translate(p.titleKey)}
             description={

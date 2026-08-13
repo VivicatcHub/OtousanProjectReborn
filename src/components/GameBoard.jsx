@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Check, X, RotateCcw } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -9,6 +10,8 @@ import { playWord } from "@/lib/audio";
 import { cn } from "@/lib/utils";
 import { useHotkeys } from "react-hotkeys-hook";
 import { useRecordResult } from "@/hooks/useRecordResult";
+
+const NEXT_DELAY = 1000;
 
 export function GameBoard({ round, title, renderPrompt, gameId }) {
   const { t: translate } = useTranslation();
@@ -24,6 +27,10 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
     infinite,
     answerLang,
     answerLangObj,
+    isCorrectOption,
+    optionKey,
+    optionLabel,
+    speakOnPick,
   } = round;
 
   useRecordResult(finished, () => ({
@@ -34,6 +41,7 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
   }));
 
   const answered = picked !== null;
+  const wasRight = answered && isCorrectOption(picked);
   const answerSpeech = answerLangObj?.speechCode;
 
   const shortcutKeys = ["D", "J", "F", "K"];
@@ -44,9 +52,16 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
     } else {
       const option = question.options[i];
       round.answer(option);
-      playWord(option, answerLang, answerSpeech); // read the choice aloud
+      playWord(speakOnPick(option), answerLang, answerSpeech);
     }
   };
+
+  useEffect(() => {
+    if (!wasRight) return;
+    const timer = setTimeout(() => round.next(), NEXT_DELAY);
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [wasRight, picked, index]);
 
   useHotkeys("d", () => pickOption(0));
   useHotkeys("j", () => pickOption(1));
@@ -58,7 +73,7 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
 
   if (!ready) {
     return (
-      <div className="space-y-6 text-center">
+      <div className="animate-fade-up space-y-6 text-center">
         <h1 className="text-3xl font-black">{title}</h1>
         <p className="rounded-xl bg-sun/40 p-3 font-semibold">
           {translate("common.notEnoughWords")}
@@ -73,7 +88,7 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
   if (finished) {
     const perfect = !infinite && score === total;
     return (
-      <div className="space-y-6 text-center">
+      <div className="animate-fade-up space-y-6 text-center">
         <h1 className="text-3xl font-black">
           {infinite
             ? translate("result.endlessOver")
@@ -81,13 +96,15 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
               ? translate("result.perfect")
               : translate("result.wonQuiz")}
         </h1>
-        <p className="text-6xl">{infinite ? "🏁" : perfect ? "🌟" : "👏"}</p>
+        <p className="animate-tada text-6xl">
+          {infinite ? "🏁" : perfect ? "🌟" : "👏"}
+        </p>
         <p className="text-2xl font-bold">
           {infinite
             ? translate("result.streak", { count: score })
             : translate("result.score", { score, total })}
         </p>
-        <div className="flex justify-center gap-3">
+        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
           <Button size="lg" variant="grass" onClick={round.restart}>
             <RotateCcw className="h-5 w-5" /> {translate("common.replay")}
           </Button>
@@ -101,7 +118,7 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-black">{title}</h1>
+      {/* <h1 className="text-2xl font-black">{title}</h1> */}
       <ScoreBar
         current={index}
         total={total}
@@ -109,42 +126,49 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
         infinite={infinite}
       />
 
-      <div className="flex flex-col items-center gap-3 py-4">
+      <div
+        key={index}
+        className="animate-fade-up flex flex-col items-center gap-3 py-4"
+      >
         {renderPrompt(question)}
       </div>
 
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         {question.options.map((option, i) => {
-          const isAnswer =
-            gameId === "article"
-              ? option === question.word.translations.fr.article
-              : option.id === question.word.id;
+          const isAnswer = isCorrectOption(option);
           const isPicked = picked === option;
 
-          let state = "border-border bg-card hover:bg-muted";
-          if (answered && isAnswer) state = "border-grass bg-grass text-white";
-          else if (answered && isPicked)
+          let state =
+            "border-border bg-card hover:bg-muted hover:-translate-y-0.5";
+          let animation = "animate-pop-in";
+          if (answered && isAnswer) {
+            state = "border-grass bg-grass text-white";
+            animation = "animate-tada";
+          } else if (answered && isPicked) {
             state = "border-brand bg-brand text-white";
-          else if (answered) state = "border-border bg-card opacity-60";
+            animation = "animate-shake";
+          } else if (answered) {
+            state = "border-border bg-card opacity-60";
+          }
 
           return (
             <button
-              key={option.id}
-              onClick={() => {
-                pickOption(i);
-              }}
+              key={optionKey(option)}
+              onClick={() => pickOption(i)}
+              style={{ animationDelay: `${i * 60}ms` }}
               className={cn(
-                "flex items-center justify-between rounded-2xl border-2 px-5 py-4 text-left text-xl font-bold transition-transform active:scale-95",
+                "flex items-center justify-between rounded-2xl border-2 px-5 py-4 text-left text-xl font-bold transition-all active:scale-95",
+                animation,
                 state,
               )}
             >
-              <span className="flex items-center gap-3" key={option.id}>
+              <span className="flex items-center gap-3">
                 {!answered && (
                   <kbd className="hidden h-7 w-7 shrink-0 items-center justify-center rounded-md border-2 border-border bg-muted text-sm font-black text-muted-foreground lg:inline-flex">
                     {shortcutKeys[i]}
                   </kbd>
                 )}
-                {gameId === "article" ? option : getText(option, answerLang)}
+                {optionLabel(option)}
               </span>
               {answered && isAnswer && <Check className="h-6 w-6" />}
               {answered && isPicked && !isAnswer && <X className="h-6 w-6" />}
@@ -154,7 +178,7 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
       </div>
 
       {answered && (
-        <div className="flex items-center justify-between gap-3 rounded-2xl bg-muted p-4">
+        <div className="animate-fade-up flex items-center justify-between gap-3 rounded-2xl bg-muted p-4">
           <div className="flex items-center gap-2 text-lg font-bold">
             <SpeakButton
               word={question.word}
@@ -163,9 +187,13 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
             />
             <span>{getText(question.word, answerLang)}</span>
           </div>
-          <Button size="lg" variant="sky" onClick={round.next}>
-            {translate("common.next")}
-          </Button>
+          {wasRight ? (
+            <span className="animate-tada text-2xl">✅</span>
+          ) : (
+            <Button size="lg" variant="sky" onClick={round.next}>
+              {translate("common.next")}
+            </Button>
+          )}
         </div>
       )}
     </div>

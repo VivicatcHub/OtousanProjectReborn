@@ -32,9 +32,9 @@ export function useGameCategories(game, { pictures = "both", min } = {}) {
   );
 
   return {
-    categories, // only the categories that can actually be played
-    allCount, // words available when no category is selected
+    categories,
+    allCount,
     canPlay: allCount >= minWords,
-    ready: !loading && all.length > 0, // categories + words are loaded
+    ready: !loading && all.length > 0,
   };
 }

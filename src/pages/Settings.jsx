@@ -22,14 +22,14 @@ export default function SettingsPage() {
     setVoice,
     setArticles,
   } = useSettings();
-  const [asking, setAsking] = useState(false); // showing the "did you hear it?" step
+  const [asking, setAsking] = useState(false);
 
   if (loading) return <p>{translate("common.loading")}</p>;
 
   const knownSpeech = languages.find((l) => l.code === known)?.speechCode;
 
   const testVoice = () => {
-    speak(translate("settings.voiceTestSentence"), knownSpeech); // uses the same engine as the games
+    speak(translate("settings.voiceTestSentence"), knownSpeech);
     setAsking(true);
   };
 
@@ -70,7 +70,6 @@ export default function SettingsPage() {
         onChange={() => setArticles(!articles)}
       />
 
-      {/* Robot voice: some devices have no text-to-speech, so let the child test it. */}
       <div className="space-y-3 rounded-2xl border-2 border-border bg-card p-4">
         <Toggle
           label={translate("settings.voice")}

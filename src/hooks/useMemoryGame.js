@@ -5,14 +5,14 @@ import { useWordStats } from "@/context/WordStatsContext";
 import { shuffle, weightedSample } from "@/lib/utils";
 import { playWord } from "@/lib/audio";
 
-const DEFAULT_PAIRS = 6; // how many matching pairs the board starts with
-const FLIP_BACK_MS = 900; // how long a wrong pair stays visible
+const DEFAULT_PAIRS = 6;
+const FLIP_BACK_MS = 900;
 
 export function useMemoryGame({
   pairs = DEFAULT_PAIRS,
   mode = "image",
   category = "all",
-  pictures = "both", // "both" | "emoji" | "text" — which words to include
+  pictures = "both",
 } = {}) {
   const { words, languages, loading } = useData();
   const { known, learn } = useSettings();
@@ -33,13 +33,13 @@ export function useMemoryGame({
     [words, known, learn, category, pictures],
   );
 
-  const [cards, setCards] = useState([]); // [{ id, wordId, word, type, lang, matched }]
-  const [flipped, setFlipped] = useState([]); // indices currently face-up (0..2)
-  const [lock, setLock] = useState(false); // true while a wrong pair is shown
+  const [cards, setCards] = useState([]);
+  const [flipped, setFlipped] = useState([]);
+  const [lock, setLock] = useState(false);
   const [mistakes, setMistakes] = useState(0);
   const [matches, setMatches] = useState(0);
-  const [penalty, setPenalty] = useState(false); // the shown wrong pair counted as a mistake
-  const [phase, setPhase] = useState("playing"); // "playing" | "won"
+  const [penalty, setPenalty] = useState(false);
+  const [phase, setPhase] = useState("playing");
 
   const seenRef = useRef(new Set());
 
@@ -64,7 +64,7 @@ export function useMemoryGame({
           : [
               { type: "image", lang: known },
               { type: "text", lang: learn },
-            ]; // lang = fallback text when the word has no picture
+            ];
       return faces.map((face, f) => ({
         id: `${i}-${f}`,
         wordId: word.id,
@@ -135,7 +135,7 @@ export function useMemoryGame({
         }, FLIP_BACK_MS);
       }
     },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
     [lock, phase, cards, flipped, matches, totalPairs, learn, say, recordWord],
   );
 

@@ -18,6 +18,27 @@ export function sample(array, count) {
   return shuffle(array).slice(0, count);
 }
 
+export function gridFactors(total) {
+  const root = Math.sqrt(total);
+  let best = 1;
+  let diff = Infinity;
+  for (let i = 1; i <= total; i++) {
+    if (total % i === 0 && Math.abs(i - root) < diff) {
+      diff = Math.abs(i - root);
+      best = i;
+    }
+  }
+  const other = total / best;
+  return [Math.min(best, other), Math.max(best, other)];
+}
+
+export function gridColumns(total, narrow = false) {
+  if (!total) return 1;
+  const [small, big] = gridFactors(total);
+  if (!narrow) return big;
+  return Math.min(Math.max(small, 2), total);
+}
+
 export function weightedSample(array, count, weightOf) {
   const pool = array.map((item) => ({
     item,

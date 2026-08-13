@@ -9,8 +9,8 @@ const DEFAULTS = {
   learn: "ja",
   configured: false,
   sound: true,
-  voice: true, // robot voice (text-to-speech); off blocks voice-only games
-  articles: false, // show/say/type words with their article ("un chat")
+  voice: true,
+  articles: false,
 };
 
 const SettingsContext = createContext(null);
@@ -41,7 +41,7 @@ export function SettingsProvider({ children }) {
   }, [settings.known]);
 
   useEffect(() => {
-    setVoiceEnabled(settings.voice); // keep the audio module in sync with the setting
+    setVoiceEnabled(settings.voice);
   }, [settings.voice]);
 
   const value = useMemo(

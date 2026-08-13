@@ -12,6 +12,5 @@ export function useRecordResult(active, build) {
     } else if (!active) {
       done.current = false;
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [active]);
 }

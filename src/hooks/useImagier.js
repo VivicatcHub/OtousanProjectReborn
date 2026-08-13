@@ -5,14 +5,14 @@ import { useWordStats } from "@/context/WordStatsContext";
 import { sample, shuffle, weightedSample } from "@/lib/utils";
 import { playWord } from "@/lib/audio";
 
-const DEFAULT_GRID = 12; // how many picture tiles the grid starts with
+const DEFAULT_GRID = 12;
 
 export function useImagier({
   gridSize = DEFAULT_GRID,
   category = "all",
-  pictures = "both", // "both" | "emoji" (only picture words) | "text" (only word-only entries)
+  pictures = "both",
   infinite = false,
-  prompt = "voice", // "voice" = hear the word · "text" = read it in the learned language
+  prompt = "voice",
 } = {}) {
   const { words, languages, loading } = useData();
   const { known, learn } = useSettings();
@@ -33,13 +33,13 @@ export function useImagier({
     [words, known, learn, category, pictures],
   );
 
-  const [phase, setPhase] = useState("intro"); // "intro" | "playing" | "won" | "over"
-  const [slots, setSlots] = useState([]); // [{ word: Word | null }]
+  const [phase, setPhase] = useState("intro");
+  const [slots, setSlots] = useState([]);
   const [targetId, setTargetId] = useState(null);
   const [mistakes, setMistakes] = useState(0);
-  const [score, setScore] = useState(0); // infinite mode: tiles cleared in a row
-  const [shakeIndex, setShakeIndex] = useState(-1); // slot currently shaking
-  const [poppedIndex, setPoppedIndex] = useState(-1); // slot that just reappeared
+  const [score, setScore] = useState(0);
+  const [shakeIndex, setShakeIndex] = useState(-1);
+  const [poppedIndex, setPoppedIndex] = useState(-1);
 
   useEffect(() => {
     setPhase("intro");
@@ -91,7 +91,7 @@ export function useImagier({
           clearTileInfinite(index);
           return;
         }
-        setScore((s) => s + 1); // count cleared tiles (for records/achievements)
+        setScore((s) => s + 1);
         const next = slots.map((s, i) => (i === index ? { word: null } : s));
         setSlots(next);
         const remaining = next.filter((s) => s.word);
@@ -130,7 +130,7 @@ export function useImagier({
         }
       }
     },
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
     [slots, phase, targetId, pool, say, infinite, recordWord, learn],
   );
 
@@ -145,9 +145,9 @@ export function useImagier({
 
       let r = 0;
       const next = slots.map((s, i) => {
-        if (i === index) return { word: null }; // just cleared → stays empty
+        if (i === index) return { word: null };
         if (!s.word) {
-          const w = refills[r++]; // older empty slot → a picture reappears
+          const w = refills[r++];
           return w ? { word: w } : { word: null };
         }
         return s;

@@ -5,7 +5,7 @@ import { playWord } from "@/lib/audio";
 
 export function SpeakButton({ word, langCode, speechCode, className }) {
   const { voice } = useSettings();
-  if (!voice) return null; // robot voice off: hide the bonus listen button
+  if (!voice) return null;
 
   return (
     <Button

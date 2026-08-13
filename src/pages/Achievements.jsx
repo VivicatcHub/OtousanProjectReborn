@@ -47,7 +47,7 @@ export default function Achievements() {
 
   return (
     <div className="space-y-8">
-      <section className="text-center">
+      <section className="animate-fade-up text-center">
         <h1 className="text-3xl font-black sm:text-4xl">
           {translate("achievements.title")}
         </h1>
@@ -56,12 +56,15 @@ export default function Achievements() {
         </p>
       </section>
 
-      {/* ---- Records: headline numbers ---- */}
       <section className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-        {tiles.map((tile) => (
-          <Card key={tile.key} className="text-center">
+        {tiles.map((tile, i) => (
+          <Card
+            key={tile.key}
+            className="animate-pop-in text-center transition-transform hover:-translate-y-1"
+            style={{ animationDelay: `${i * 60}ms` }}
+          >
             <CardContent className="p-4 pt-4">
-              <div className="text-3xl">{tile.emoji}</div>
+              <div className="animate-float text-3xl">{tile.emoji}</div>
               <div className="mt-1 text-2xl font-black tabular-nums">
                 {tile.value}
               </div>
@@ -86,15 +89,19 @@ export default function Achievements() {
         </Card>
       )}
 
-      {/* ---- Badges grid ---- */}
       <section className="space-y-3">
         <h2 className="flex items-center gap-2 text-2xl font-black">
           <Trophy className="h-6 w-6 text-sun" />{" "}
           {translate("achievements.badgesTitle")}
         </h2>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-          {ACHIEVEMENTS.map((a) => (
-            <BadgeCard key={a.id} badge={a} date={stats.unlocked[a.id]} />
+          {ACHIEVEMENTS.map((a, i) => (
+            <BadgeCard
+              key={a.id}
+              badge={a}
+              date={stats.unlocked[a.id]}
+              delay={i * 40}
+            />
           ))}
         </div>
       </section>
@@ -104,14 +111,15 @@ export default function Achievements() {
   );
 }
 
-function BadgeCard({ badge, date }) {
+function BadgeCard({ badge, date, delay = 0 }) {
   const { t: translate } = useTranslation();
   const earned = Boolean(date);
 
   return (
     <div
+      style={{ animationDelay: `${delay}ms` }}
       className={cn(
-        "flex items-center gap-4 rounded-2xl border-2 p-4 transition-colors",
+        "animate-fade-up flex items-center gap-4 rounded-2xl border-2 p-4 transition-transform hover:-translate-y-0.5",
         earned
           ? "border-border bg-card"
           : "border-dashed border-border bg-muted/50",
@@ -123,7 +131,7 @@ function BadgeCard({ badge, date }) {
           earned ? `${BG[badge.color]} text-white shadow-sm` : "bg-muted",
         )}
       >
-        <span className={cn(!earned && "opacity-40 grayscale")}>
+        <span className={cn(earned ? "animate-float" : "opacity-40 grayscale")}>
           {badge.emoji}
         </span>
       </div>
@@ -165,20 +173,20 @@ function GamesChart({ stats }) {
         <h2 className="text-xl font-black">
           {translate("achievements.gamesChart")}
         </h2>
-        {rows.map((r) => (
+        {rows.map((r, i) => (
           <div key={r.game} className="flex items-center gap-3">
             <div className="w-28 shrink-0 text-sm font-bold">
               {r.emoji} {translate(`games.${r.game}.title`)}
             </div>
-            {/* Track + baseline-anchored fill; value sits at the bar end. */}
             <div className="relative h-7 flex-1 overflow-hidden rounded-full bg-muted">
               <div
                 className={cn(
-                  "flex h-full items-center justify-end rounded-full pr-2 text-sm font-black text-white transition-all",
+                  "animate-grow-side flex h-full items-center justify-end rounded-full pr-2 text-sm font-black text-white transition-all",
                   BG[r.color],
                 )}
                 style={{
                   width: `${Math.max((r.plays / max) * 100, r.plays > 0 ? 12 : 0)}%`,
+                  animationDelay: `${i * 70}ms`,
                 }}
               >
                 {r.plays > 0 && r.plays}
@@ -203,31 +211,31 @@ function WeekChart({ stats }) {
         <h2 className="text-xl font-black">
           {translate("achievements.weekChart")}
         </h2>
-        <div
-          className="flex items-end justify-between gap-2"
-          style={{ height: "8rem" }}
-        >
-          {days.map((d) => {
+        <div className="flex h-40 items-stretch justify-between gap-2">
+          {days.map((d, i) => {
             const count = stats.history[d.key] ?? 0;
             return (
               <div
                 key={d.key}
-                className="flex flex-1 flex-col items-center justify-end gap-1"
+                className="flex flex-1 flex-col items-center gap-1"
                 title={`${count}`}
               >
                 <span className="text-xs font-black tabular-nums text-muted-foreground">
                   {count > 0 ? count : ""}
                 </span>
-                <div
-                  className={cn(
-                    "w-full rounded-t-lg bg-sky transition-all",
-                    count === 0 && "bg-muted",
-                  )}
-                  style={{
-                    height: `${count === 0 ? 4 : (count / max) * 100}%`,
-                    minHeight: count === 0 ? "4px" : "8px",
-                  }}
-                />
+                <div className="relative w-full flex-1">
+                  <div
+                    className={cn(
+                      "animate-grow-up absolute bottom-0 w-full rounded-t-lg bg-sky",
+                      count === 0 && "bg-muted",
+                    )}
+                    style={{
+                      height: count === 0 ? "4px" : `${(count / max) * 100}%`,
+                      minHeight: count === 0 ? "4px" : "8px",
+                      animationDelay: `${i * 70}ms`,
+                    }}
+                  />
+                </div>
                 <span className="text-xs font-bold text-muted-foreground">
                   {fmt.format(d.date).slice(0, 2)}
                 </span>

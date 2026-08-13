@@ -1,15 +1,26 @@
 import { useEffect, useState } from "react";
 import { dataProvider } from "@/services/dataProvider";
+import { emojiSupported } from "@/lib/emoji";
 
-let articlesEnabled = false; // gated by the "articles" setting (see SettingsContext)
+let articlesEnabled = false;
 
 export function setArticlesEnabled(on) {
   articlesEnabled = on;
 }
 
+export function articlesOf(tr) {
+  if (!tr?.article) return [];
+  return Array.isArray(tr.article) ? tr.article.filter(Boolean) : [tr.article];
+}
+
+export function wordArticles(word, langCode) {
+  return articlesOf(getTranslation(word, langCode));
+}
+
 function withArticle(tr, base, articleGame = false) {
-  return articlesEnabled && tr?.article && !articleGame
-    ? `${tr.article} ${base}`
+  const [article] = articlesOf(tr);
+  return articlesEnabled && article && !articleGame
+    ? `${article} ${base}`
     : base;
 }
 
@@ -22,7 +33,7 @@ export function useData() {
   });
 
   useEffect(() => {
-    let active = true; // avoid setting state after unmount
+    let active = true;
     Promise.all([dataProvider.getWords(), dataProvider.getLanguages()])
       .then(([words, languages]) => {
         if (active) setState({ words, languages, loading: false, error: null });
@@ -76,34 +87,41 @@ export function typingTarget(word, langCode) {
 export function acceptedAnswers(word, langCode) {
   const tr = getTranslation(word, langCode);
   if (!tr) return [];
-  const forms = [tr.text, tr.romaji].filter(Boolean); // e.g. accept 猫 or neko
-  return forms.map((f) => withArticle(tr, f));
+  const forms = [tr.text, tr.romaji].filter(Boolean);
+  const articles = articlesEnabled ? articlesOf(tr) : [];
+  if (articles.length === 0) return forms;
+  return forms.flatMap((f) => articles.map((a) => `${a} ${f}`));
 }
 
 export function hasCategory(word, categoryId) {
   if (categoryId === "all") return true;
-  return (word.categories ?? []).includes(categoryId); // membership is global (a flat list)
+  return (word.categories ?? []).includes(categoryId);
+}
+
+export function displayEmoji(word) {
+  const emoji = word?.emoji;
+  return emoji && emojiSupported(emoji) ? emoji : null;
 }
 
 export function hasEmoji(word) {
-  return Boolean(word.emoji); // words may exist without a picture
+  return Boolean(displayEmoji(word));
 }
 
 function matchesPictures(word, pictures) {
-  if (pictures === "emoji") return hasEmoji(word); // only words that have a picture
-  if (pictures === "text") return !hasEmoji(word); // only words without a picture
-  return true; // "both"
+  if (pictures === "emoji") return hasEmoji(word);
+  if (pictures === "text") return !hasEmoji(word);
+  return true;
 }
 
-export const ARTICLE_LANG = "fr"; // the article game always asks for French articles
+export const ARTICLE_LANG = "fr";
 
 const GAME_RULES = {
-  article: (w) => Boolean(getTranslation(w, ARTICLE_LANG)?.article), // no article → nothing to guess
+  article: (w) => wordArticles(w, ARTICLE_LANG).length > 0,
 };
 
 export function matchesGame(word, game) {
   const rule = GAME_RULES[game];
-  return rule ? rule(word) : true; // games without a rule take every word
+  return rule ? rule(word) : true;
 }
 
 export function wordsFor(

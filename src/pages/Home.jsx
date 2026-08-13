@@ -18,8 +18,8 @@ export default function Home() {
 
   return (
     <div className="space-y-6">
-      <section className="text-center">
-        <h1 className="text-3xl font-black sm:text-4xl">
+      <section className="animate-fade-up text-center">
+        <h1 className="text-2xl font-black sm:text-4xl">
           {translate("home.title")}
         </h1>
         <p className="mt-2 text-muted-foreground">
@@ -28,13 +28,14 @@ export default function Home() {
       </section>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        {TILES.map((tile) => (
+        {TILES.map((tile, i) => (
           <Link
             key={tile.to}
             to={tile.to}
-            className={`group flex flex-col items-center justify-center gap-2 rounded-2xl ${tile.color} p-8 text-white shadow-lg transition-transform hover:-translate-y-1 active:scale-95`}
+            style={{ animationDelay: `${i * 80}ms` }}
+            className={`animate-pop-in group flex flex-col items-center justify-center gap-2 rounded-2xl ${tile.color} p-8 text-white shadow-lg transition-transform hover:-translate-y-1 hover:rotate-1 active:scale-95`}
           >
-            <span className="text-6xl transition-transform group-hover:scale-110">
+            <span className="animate-float text-6xl transition-transform group-hover:scale-125">
               {tile.emoji}
             </span>
             <span className="text-2xl font-black">{translate(tile.key)}</span>

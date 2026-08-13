@@ -1,6 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useData, getTranslation, getText, hasCategory } from "@/hooks/useData";
+import {
+  useData,
+  getTranslation,
+  getText,
+  hasCategory,
+  displayEmoji,
+} from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
 import { useWordStats } from "@/context/WordStatsContext";
 import { dataProvider } from "@/services/dataProvider";
@@ -8,7 +14,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SpeakButton } from "@/components/SpeakButton";
 import { cn } from "@/lib/utils";
 
-const PAGE_SIZE = 30; // words per page before pagination kicks in
+const PAGE_SIZE = 30;
 
 export default function Dictionary() {
   const { t: translate } = useTranslation();
@@ -59,7 +65,6 @@ export default function Dictionary() {
     <div className="space-y-5">
       <h1 className="text-3xl font-black">{translate("dictionary.title")}</h1>
 
-      {/* Search box */}
       <input
         type="search"
         value={query}
@@ -68,7 +73,6 @@ export default function Dictionary() {
         className="w-full rounded-full border-2 border-border bg-card px-4 py-2.5 text-base font-semibold outline-none transition-colors focus:border-brand"
       />
 
-      {/* Category filter chips */}
       <div className="flex flex-wrap gap-2">
         <FilterChip
           active={category === "all"}
@@ -91,9 +95,13 @@ export default function Dictionary() {
         {paged.map((word, i) => {
           const learnTr = getTranslation(word, learn);
           return (
-            <Card key={`${word.id}-${i}`}>
+            <Card
+              key={`${word.id}-${i}`}
+              style={{ animationDelay: `${Math.min(i, 12) * 30}ms` }}
+              className="animate-fade-up transition-transform hover:-translate-y-0.5"
+            >
               <CardContent className="flex items-center gap-4 p-4">
-                <span className="text-4xl">{word.emoji}</span>
+                <span className="text-4xl">{displayEmoji(word)}</span>
                 <div className="min-w-0 flex-1">
                   <p className="truncate text-sm text-muted-foreground">
                     {getText(word, known)}
@@ -128,7 +136,6 @@ export default function Dictionary() {
         <p className="text-muted-foreground">{translate("dictionary.empty")}</p>
       )}
 
-      {/* Pagination — only shown when there are more words than one page */}
       {pageCount > 1 && (
         <div className="flex items-center justify-center gap-3 pt-2">
           <button

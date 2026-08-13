@@ -1,24 +1,30 @@
 import { useEffect, useMemo, useState } from "react";
-import { useData, wordsFor, getText } from "@/hooks/useData";
+import {
+  useData,
+  wordsFor,
+  getText,
+  wordArticles,
+  ARTICLE_LANG,
+} from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
 import { useWordStats } from "@/context/WordStatsContext";
 import { shuffle, weightedSample } from "@/lib/utils";
 
-const ROUND_SIZE = 8; // questions per game (classic mode)
-const CHOICES = 4; // answer buttons per question
+const ROUND_SIZE = 8;
+const OPTIONS = ["un", "une", "du", "des"];
 
 export function useGameArticle({
   category = "all",
   direction = "known-learn",
-  pictures = "both", // "both" | "emoji" | "text" — which words to include
+  pictures = "both",
   infinite = false,
 } = {}) {
   const { words, languages, loading } = useData();
   const { known, learn } = useSettings();
   const { recordWord, wordWeight } = useWordStats();
 
-  const questionLang = "fr";
-  const answerLang = "fr";
+  const questionLang = ARTICLE_LANG;
+  const answerLang = ARTICLE_LANG;
 
   const weightOf = (w) => wordWeight(learn, w.id);
 
@@ -26,8 +32,8 @@ export function useGameArticle({
   const [questions, setQuestions] = useState([]);
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
-  const [picked, setPicked] = useState(null); // the option the child tapped
-  const [gameOver, setGameOver] = useState(false); // infinite mode: a wrong answer
+  const [picked, setPicked] = useState(null);
+  const [gameOver, setGameOver] = useState(false);
 
   const answerLangObj = useMemo(
     () => languages.find((l) => l.code === answerLang),
@@ -36,7 +42,7 @@ export function useGameArticle({
 
   function makeQuestion(p) {
     const [word] = weightedSample(p, 1, weightOf);
-    return { word, options: shuffle(["un", "une", "du", "des"]) };
+    return { word, options: shuffle(OPTIONS) };
   }
 
   function build(p) {
@@ -50,12 +56,7 @@ export function useGameArticle({
         Math.min(ROUND_SIZE, p.length),
         weightOf,
       );
-      round = chosen.map((word) => {
-        return {
-          word,
-          options: shuffle(["un", "une", "du", "des"]),
-        };
-      });
+      round = chosen.map((word) => ({ word, options: shuffle(OPTIONS) }));
     }
     setQuestions(round);
     setIndex(0);
@@ -67,7 +68,6 @@ export function useGameArticle({
   useEffect(() => {
     if (loading) return;
     build(wordsFor(words, known, learn, category, pictures, "article"));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading, words, known, learn, category, pictures, direction, infinite]);
 
   const question = questions[index] ?? null;
@@ -75,13 +75,18 @@ export function useGameArticle({
     ? gameOver
     : questions.length > 0 && index >= questions.length;
 
+  const isCorrectOption = (option) =>
+    question
+      ? wordArticles(question.word, ARTICLE_LANG).includes(option)
+      : false;
+
   function answer(option) {
-    if (picked) return; // already answered this question
+    if (picked) return;
     setPicked(option);
-    const correct = option === question.word.translations.fr.article;
-    recordWord(learn, question.word.id, correct); // update this word's error rate
+    const correct = isCorrectOption(option);
+    recordWord(learn, question.word.id, correct);
     if (correct) setScore((s) => s + 1);
-    else if (infinite) setGameOver(true); // one mistake ends an endless run
+    else if (infinite) setGameOver(true);
   }
 
   function next() {
@@ -106,10 +111,14 @@ export function useGameArticle({
     picked,
     known,
     learn,
-    questionLang, // language shown in the prompt
-    answerLang, // language of the answer buttons
-    answerLangObj, // the language object (for its speech code)
-    getText, // convenience re-export so games don't import it separately
+    questionLang,
+    answerLang,
+    answerLangObj,
+    getText,
+    isCorrectOption,
+    optionKey: (option) => option,
+    optionLabel: (option) => option,
+    speakOnPick: () => question?.word,
     answer,
     next,
     restart,

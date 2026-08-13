@@ -29,7 +29,7 @@ export default function ImagierCustom() {
   const [values, set] = useCustomSettings("imagier", DEFAULTS);
   const { categories, canPlay, ready } = useGameCategories("imagier", {
     pictures: values.pics,
-    min: values.grid, // the grid needs one different word per tile
+    min: values.grid,
   });
 
   useEffect(() => {
@@ -38,13 +38,11 @@ export default function ImagierCustom() {
       values.category !== "all" &&
       !categories.some((c) => c.id === values.category)
     )
-      set("category", "all"); // saved category cannot fill the grid
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+      set("category", "all");
   }, [ready, categories]);
 
   useEffect(() => {
-    if (!voice && values.prompt !== "text") set("prompt", "text"); // no robot voice → reading only
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    if (!voice && values.prompt !== "text") set("prompt", "text");
   }, [voice]);
 
   const prompt = voice ? values.prompt : "text";

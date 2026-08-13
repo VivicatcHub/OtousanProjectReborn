@@ -32,10 +32,10 @@ function blankStats() {
       writing: blankGame(),
       memory: blankGame(),
     },
-    history: {}, // { "YYYY-MM-DD": number of games that day }
+    history: {},
     firstPlay: null,
     lastPlay: null,
-    unlocked: {}, // { achievementId: "YYYY-MM-DD" it was earned }
+    unlocked: {},
   };
 }
 

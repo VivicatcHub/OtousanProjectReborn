@@ -19,7 +19,7 @@ export default function MemoryCustom() {
   const [values, set] = useCustomSettings("memory", DEFAULTS);
   const { categories, canPlay, ready } = useGameCategories("memory", {
     pictures: values.pics,
-    min: values.pairs, // one different word per pair
+    min: values.pairs,
   });
 
   useEffect(() => {
@@ -28,8 +28,7 @@ export default function MemoryCustom() {
       values.category !== "all" &&
       !categories.some((c) => c.id === values.category)
     )
-      set("category", "all"); // saved category has too few words for that many pairs
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+      set("category", "all");
   }, [ready, categories]);
 
   const play = () =>

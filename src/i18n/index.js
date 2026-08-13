@@ -13,14 +13,14 @@ const resources = {
 export function uiLanguage(code) {
   if (code?.startsWith("ja")) return "ja";
   if (code === "en") return "en";
-  return "fr"; // default / fallback
+  return "fr";
 }
 
 i18n.use(initReactI18next).init({
   resources,
   lng: "fr",
   fallbackLng: "fr",
-  interpolation: { escapeValue: false }, // React already escapes
+  interpolation: { escapeValue: false },
 });
 
 export function syncUiLanguage(knownCode) {

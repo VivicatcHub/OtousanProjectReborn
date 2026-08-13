@@ -41,17 +41,22 @@ export default function Games() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-black">{translate("games.title")}</h1>
+      <h1 className="animate-fade-up text-3xl font-black">
+        {translate("games.title")}
+      </h1>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         {GAMES.filter(
           (game) => game.key !== "games.article" || articles === true,
-        ).map((g) => (
+        ).map((g, i) => (
           <Link
             key={g.to}
             to={g.to}
-            className={`flex items-center gap-4 rounded-2xl ${g.color} p-6 text-white shadow-lg transition-transform hover:-translate-y-1 active:scale-95`}
+            style={{ animationDelay: `${i * 70}ms` }}
+            className={`animate-pop-in group flex items-center gap-4 rounded-2xl ${g.color} p-6 text-white shadow-lg transition-transform hover:-translate-y-1 hover:rotate-1 active:scale-95`}
           >
-            <span className="text-5xl">{g.emoji}</span>
+            <span className="animate-float text-5xl transition-transform group-hover:scale-125">
+              {g.emoji}
+            </span>
             <span>
               <span className="block text-2xl font-black">
                 {translate(`${g.key}.title`)}

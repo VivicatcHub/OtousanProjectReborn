@@ -2,7 +2,7 @@ import { useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useGameArticle } from "@/hooks/useGameArticle";
 import { GameBoard } from "@/components/GameBoard";
-import { getText } from "@/hooks/useData";
+import { getText, displayEmoji } from "@/hooks/useData";
 
 export default function Article() {
   const { t: translate } = useTranslation();
@@ -22,8 +22,10 @@ export default function Article() {
       title={translate("article.title")}
       renderPrompt={(question) => (
         <div className="text-center">
-          {showImage && question.word.emoji && (
-            <div className="text-6xl">{question.word.emoji}</div>
+          {showImage && displayEmoji(question.word) && (
+            <div className="animate-pop-in text-6xl">
+              {displayEmoji(question.word)}
+            </div>
           )}
           <div className="mt-2 text-3xl font-black">
             {getText(question.word, round.questionLang, true)}

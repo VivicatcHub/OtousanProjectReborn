@@ -14,12 +14,14 @@ export function ScoreBar({ current, total, score, infinite = false }) {
                 total,
               })}
         </span>
-        <span>⭐ {score}</span>
+        <span key={score} className="inline-block animate-tada">
+          ⭐ {score}
+        </span>
       </div>
       {!infinite && (
         <div className="h-3 w-full overflow-hidden rounded-full bg-muted">
           <div
-            className="h-full rounded-full bg-grass transition-all"
+            className="h-full rounded-full bg-grass transition-all duration-500"
             style={{ width: `${pct}%` }}
           />
         </div>

@@ -48,9 +48,10 @@ export default function QuizSetup() {
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        {PRESETS.map((p) => (
+        {PRESETS.map((p, i) => (
           <PresetCard
             key={p.titleKey}
+            delay={i * 70}
             emoji={p.emoji}
             title={translate(p.titleKey)}
             description={translate(p.descKey)}

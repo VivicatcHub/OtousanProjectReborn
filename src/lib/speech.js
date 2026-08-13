@@ -1,7 +1,7 @@
 export function speak(text, speechCode = "en-GB") {
   if (typeof window === "undefined" || !window.speechSynthesis) return;
 
-  window.speechSynthesis.cancel(); // stop anything currently playing
+  window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = speechCode;
 
@@ -11,6 +11,6 @@ export function speak(text, speechCode = "en-GB") {
   );
   if (match) utterance.voice = match;
 
-  utterance.rate = 0.9; // a touch slower, easier for kids to follow
+  utterance.rate = 0.9;
   window.speechSynthesis.speak(utterance);
 }
