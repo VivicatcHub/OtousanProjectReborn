@@ -60,6 +60,7 @@ export function useWritingRound({
   const [attempts, setAttempts] = useState(0);
   const [status, setStatus] = useState("typing");
   const [gameOver, setGameOver] = useState(false);
+  const [pendingOver, setPendingOver] = useState(false); // wrong in endless: show the answer first
 
   const answerLangObj = useMemo(
     () => languages.find((l) => l.code === answerLang),
@@ -82,6 +83,7 @@ export function useWritingRound({
     setAttempts(0);
     setStatus("typing");
     setGameOver(false);
+    setPendingOver(false);
   }
 
   useEffect(() => {
@@ -121,10 +123,14 @@ export function useWritingRound({
     }
     recordWord(learn, word.id, false);
     setStatus("wrong");
-    if (infinite) setGameOver(true);
+    if (infinite) setPendingOver(true);
   }
 
   function next() {
+    if (pendingOver) {
+      setGameOver(true); // the answer has been shown, end the endless run now
+      return;
+    }
     setTyped("");
     setCheckedValue("");
     setAttempts(0);

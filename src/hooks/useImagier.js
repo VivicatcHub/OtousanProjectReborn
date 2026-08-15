@@ -40,6 +40,7 @@ export function useImagier({
   const [score, setScore] = useState(0);
   const [shakeIndex, setShakeIndex] = useState(-1);
   const [poppedIndex, setPoppedIndex] = useState(-1);
+  const [revealIndex, setRevealIndex] = useState(-1); // right tile, shown before the endless run ends
 
   useEffect(() => {
     setPhase("intro");
@@ -71,6 +72,7 @@ export function useImagier({
     setScore(0);
     setShakeIndex(-1);
     setPoppedIndex(-1);
+    setRevealIndex(-1);
     setPhase("playing");
     const target = gridWords[Math.floor(Math.random() * gridWords.length)];
     setTargetId(target.id);
@@ -107,7 +109,8 @@ export function useImagier({
         if (infinite) {
           setMistakes((m) => m + 1);
           setShakeIndex(index);
-          setPhase("over");
+          setRevealIndex(slots.findIndex((s) => s.word?.id === targetId));
+          setPhase("reveal");
           return;
         }
         setMistakes((m) => m + 1);
@@ -133,6 +136,8 @@ export function useImagier({
 
     [slots, phase, targetId, pool, say, infinite, recordWord, learn],
   );
+
+  const dismissReveal = useCallback(() => setPhase("over"), []);
 
   const clearTileInfinite = useCallback(
     (index) => {
@@ -178,10 +183,12 @@ export function useImagier({
     score,
     shakeIndex,
     poppedIndex,
+    revealIndex,
     remaining: slots.filter((s) => s.word).length,
     canPlay: pool.length >= 2,
     start,
     repeat,
     clickSlot,
+    dismissReveal,
   };
 }

@@ -54,10 +54,10 @@ function japaneseView(word, langCode) {
   if (!ja) return null;
   if (langCode === "ja") {
     if (!ja.text) return null;
-    return { text: ja.text, speech: ja.text, romaji: ja.romaji };
+    return { text: ja.text, speech: ja.text, romaji: ja.romaji, kana: ja.kana };
   }
   if (!ja.romaji) return null;
-  return { text: ja.romaji, speech: ja.text ?? ja.romaji };
+  return { text: ja.romaji, speech: ja.text ?? ja.romaji, kana: ja.kana };
 }
 
 export function getTranslation(word, langCode) {

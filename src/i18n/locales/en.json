@@ -20,6 +20,18 @@
     "picText": "🔤 Words only",
     "notEnoughWords": "😅 There are not enough words to play with these options."
   },
+  "shortcuts": {
+    "flip": "Flip",
+    "move": "Browse",
+    "listen": "Listen",
+    "back": "Back",
+    "replay": "Play again",
+    "answer": "Answer",
+    "next": "Next",
+    "check": "Check",
+    "start": "Start",
+    "repeat": "Hear again"
+  },
   "nav": {
     "home": "Home",
     "settings": "Settings"
@@ -54,6 +66,10 @@
     "memory": {
       "title": "Memory",
       "description": "Flip the cards and find the matching pairs."
+    },
+    "flashcards": {
+      "title": "Flashcards",
+      "description": "Look at a card, flip it and learn the word. No score!"
     }
   },
   "settings": {
@@ -88,6 +104,16 @@
     "title": "Dictionary 📖",
     "search": "🔍 Search a word…",
     "empty": "No words in this category.",
+    "back": "The dictionary",
+    "notFound": "This word does not exist. 🤔",
+    "detail": {
+      "languages": "All the languages 🌍",
+      "stats": "Your scores 📊",
+      "noStats": "You have not played with this word yet.",
+      "correct": "Right",
+      "wrong": "Mistakes",
+      "success": "Success"
+    },
     "mastery": {
       "new": "New",
       "errors": "{{pct}}% errors",
@@ -142,6 +168,7 @@
     "withoutImage": "🚫 No picture"
   },
   "imagier": {
+    "answerWas": "The right picture was:",
     "title": "Picture game 🖼️",
     "intro": "Listen to the word 🔊 then click the right picture!",
     "introText": "Read the word 📖 then click the right picture!",
@@ -208,6 +235,39 @@
     "cardAria": "card",
     "mistakes_one": "{{count}} mistake",
     "mistakes_other": "{{count}} mistakes"
+  },
+  "flashcards": {
+    "title": "Flashcards 🃏",
+    "flip": "Flip the card",
+    "tapReveal": "👆 Tap to see the answer",
+    "tapBack": "👆 Tap to go back",
+    "listen": "Listen",
+    "finished": "Deck finished! 🎉",
+    "seenCount_one": "You looked at {{count}} card.",
+    "seenCount_other": "You looked at {{count}} cards.",
+    "again": "New cards"
+  },
+  "flashcardsSetup": {
+    "title": "Flashcards 🃏",
+    "subtitle": "No score, no timer — just learn at your own pace.",
+    "presetShortTitle": "Quick look",
+    "presetShortDesc": "5 cards to warm up",
+    "presetNormalTitle": "Normal",
+    "presetNormalDesc": "10 cards, your language first",
+    "presetReverseTitle": "The other way",
+    "presetReverseDesc": "10 cards, the new language first",
+    "presetRandomTitle": "Surprise",
+    "presetRandomDesc": "10 cards, random side first",
+    "front": "Front side",
+    "frontKnown": "The language I know",
+    "frontLearn": "The language I learn",
+    "frontRandom": "Random",
+    "cards": "Number of cards",
+    "cardCount": "{{count}} cards",
+    "allCards": "Every word",
+    "autoVoice": "Say the word when flipping",
+    "autoVoiceOn": "Yes",
+    "autoVoiceOff": "No"
   },
   "result": {
     "perfect": "Perfect! 🏆",

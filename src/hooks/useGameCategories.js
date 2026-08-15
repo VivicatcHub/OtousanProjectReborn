@@ -3,7 +3,14 @@ import { useData, wordsFor } from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
 import { dataProvider } from "@/services/dataProvider";
 
-const MIN_WORDS = { quiz: 4, imagier: 4, memory: 3, writing: 1, article: 1 };
+const MIN_WORDS = {
+  quiz: 4,
+  imagier: 4,
+  memory: 3,
+  writing: 1,
+  article: 1,
+  flashcards: 1,
+};
 
 export function useGameCategories(game, { pictures = "both", min } = {}) {
   const { words, loading } = useData();

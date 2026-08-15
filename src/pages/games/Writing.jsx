@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { ScoreBar } from "@/components/ScoreBar";
 import { SpeakButton } from "@/components/SpeakButton";
 import { VirtualKeyboard } from "@/components/VirtualKeyboard";
+import { ShortcutHints } from "@/components/ShortcutHints";
 import { cn } from "@/lib/utils";
 import { useRecordResult } from "@/hooks/useRecordResult";
 
@@ -77,6 +78,7 @@ export default function Writing() {
     { enableOnFormTags: ["INPUT"], enabled: ready && !finished },
     [revealed, typed, round],
   );
+  useHotkeys("enter", () => round.restart(), { enabled: finished }, [round]);
 
   useRecordResult(finished, () => ({
     game: "writing",
@@ -114,6 +116,9 @@ export default function Writing() {
             <Link to="/games">{translate("common.backToGames")}</Link>
           </Button>
         </div>
+        <ShortcutHints
+          items={[{ keys: ["Enter"], label: translate("shortcuts.replay") }]}
+        />
       </div>
     );
   }
@@ -122,7 +127,7 @@ export default function Writing() {
 
   return (
     <div className="space-y-5">
-      {/* <h1 className="text-2xl font-black">{translate("writing.title")}</h1> */}
+      {/* <h1 className="text-2xl font-black">{translate("writing.title")}</h1>s */}
       <ScoreBar
         current={index}
         total={total}
@@ -213,6 +218,17 @@ export default function Writing() {
         enterLabel={
           revealed ? translate("common.next") : translate("common.check")
         }
+      />
+
+      <ShortcutHints
+        items={[
+          {
+            keys: ["Enter"],
+            label: revealed
+              ? translate("shortcuts.next")
+              : translate("shortcuts.check"),
+          },
+        ]}
       />
     </div>
   );

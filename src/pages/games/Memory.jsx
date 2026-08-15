@@ -4,8 +4,10 @@ import { useTranslation } from "react-i18next";
 import { useMemoryGame } from "@/hooks/useMemoryGame";
 import { getText, displayEmoji } from "@/hooks/useData";
 import { Button } from "@/components/ui/button";
+import { ShortcutHints } from "@/components/ShortcutHints";
 import { cn, gridColumns } from "@/lib/utils";
 import { useIsPhone } from "@/hooks/useMediaQuery";
+import { useHotkeys } from "react-hotkeys-hook";
 import { useRecordResult } from "@/hooks/useRecordResult";
 
 export default function Memory() {
@@ -18,6 +20,11 @@ export default function Memory() {
     category: params.get("category") || "all",
     pictures: params.get("pics") || "both",
   });
+
+  // Only on the win screen: restarting mid-game would wipe the board by accident.
+  useHotkeys("enter", () => game.start(), { enabled: game.phase === "won" }, [
+    game,
+  ]);
 
   useRecordResult(game.phase === "won", () => ({
     game: "memory",
@@ -63,6 +70,9 @@ export default function Memory() {
             <Link to="/games">{translate("common.backToGames")}</Link>
           </Button>
         </div>
+        <ShortcutHints
+          items={[{ keys: ["Enter"], label: translate("shortcuts.replay") }]}
+        />
       </div>
     );
   }

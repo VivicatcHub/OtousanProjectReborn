@@ -5,6 +5,8 @@ import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { ScoreBar } from "@/components/ScoreBar";
 import { SpeakButton } from "@/components/SpeakButton";
+import { ShortcutHints } from "@/components/ShortcutHints";
+import { useSettings } from "@/context/SettingsContext";
 import { getText } from "@/hooks/useData";
 import { playWord } from "@/lib/audio";
 import { cn } from "@/lib/utils";
@@ -15,6 +17,7 @@ const NEXT_DELAY = 1000;
 
 export function GameBoard({ round, title, renderPrompt, gameId }) {
   const { t: translate } = useTranslation();
+  const { voice } = useSettings();
   const {
     loading,
     ready,
@@ -67,7 +70,16 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
   useHotkeys("j", () => pickOption(1));
   useHotkeys("f", () => pickOption(2));
   useHotkeys("k", () => pickOption(3));
-  useHotkeys("enter", () => round.next());
+  useHotkeys("enter", () => (finished ? round.restart() : round.next()), [
+    finished,
+    round,
+  ]);
+  useHotkeys(
+    "s",
+    () => playWord(question.word, answerLang, answerSpeech), // only once answered, so it never gives the answer away
+    { enabled: answered },
+    [answered, question, answerLang, answerSpeech],
+  );
 
   if (loading) return <p>{translate("common.loading")}</p>;
 
@@ -112,6 +124,9 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
             <Link to="/games">{translate("common.backToGames")}</Link>
           </Button>
         </div>
+        <ShortcutHints
+          items={[{ keys: ["Enter"], label: translate("shortcuts.replay") }]}
+        />
       </div>
     );
   }
@@ -196,6 +211,19 @@ export function GameBoard({ round, title, renderPrompt, gameId }) {
           )}
         </div>
       )}
+
+      <ShortcutHints
+        items={[
+          {
+            keys: shortcutKeys.slice(0, question.options.length),
+            label: translate("shortcuts.answer"),
+          },
+          { keys: ["Enter"], label: translate("shortcuts.next") },
+          ...(voice && answered
+            ? [{ keys: ["S"], label: translate("shortcuts.listen") }]
+            : []),
+        ]}
+      />
     </div>
   );
 }

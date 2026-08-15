@@ -20,6 +20,18 @@
     "picText": "🔤 Mots seulement",
     "notEnoughWords": "😅 Il n'y a pas assez de mots pour jouer avec ces options."
   },
+  "shortcuts": {
+    "flip": "Retourner",
+    "move": "Naviguer",
+    "listen": "Écouter",
+    "back": "Retour",
+    "replay": "Rejouer",
+    "answer": "Répondre",
+    "next": "Suivant",
+    "check": "Vérifier",
+    "start": "Commencer",
+    "repeat": "Réécouter"
+  },
   "nav": {
     "home": "Accueil",
     "settings": "Réglages"
@@ -54,6 +66,10 @@
     "memory": {
       "title": "Memory",
       "description": "Retourne les cartes et trouve les paires."
+    },
+    "flashcards": {
+      "title": "Cartes",
+      "description": "Regarde une carte, retourne-la et apprends le mot. Sans score !"
     }
   },
   "settings": {
@@ -88,6 +104,16 @@
     "title": "Dictionnaire 📖",
     "search": "🔍 Chercher un mot…",
     "empty": "Aucun mot dans cette catégorie.",
+    "back": "Le dictionnaire",
+    "notFound": "Ce mot n'existe pas. 🤔",
+    "detail": {
+      "languages": "Toutes les langues 🌍",
+      "stats": "Tes scores 📊",
+      "noStats": "Tu n'as pas encore joué avec ce mot.",
+      "correct": "Réussites",
+      "wrong": "Erreurs",
+      "success": "Réussite"
+    },
     "mastery": {
       "new": "Nouveau",
       "errors": "{{pct}} % d'erreurs",
@@ -142,6 +168,7 @@
     "withoutImage": "🚫 Sans image"
   },
   "imagier": {
+    "answerWas": "La bonne image était :",
     "title": "Imagier 🖼️",
     "intro": "Écoute le mot 🔊 puis clique sur la bonne image !",
     "introText": "Lis le mot 📖 puis clique sur la bonne image !",
@@ -208,6 +235,39 @@
     "cardAria": "carte",
     "mistakes_one": "{{count}} erreur",
     "mistakes_other": "{{count}} erreurs"
+  },
+  "flashcards": {
+    "title": "Cartes 🃏",
+    "flip": "Retourner la carte",
+    "tapReveal": "👆 Touche pour voir la réponse",
+    "tapBack": "👆 Touche pour revenir",
+    "listen": "Écouter",
+    "finished": "Paquet terminé ! 🎉",
+    "seenCount_one": "Tu as regardé {{count}} carte.",
+    "seenCount_other": "Tu as regardé {{count}} cartes.",
+    "again": "Nouvelles cartes"
+  },
+  "flashcardsSetup": {
+    "title": "Cartes 🃏",
+    "subtitle": "Pas de score, pas de chrono — apprends à ton rythme.",
+    "presetShortTitle": "Petit tour",
+    "presetShortDesc": "5 cartes pour s'échauffer",
+    "presetNormalTitle": "Normal",
+    "presetNormalDesc": "10 cartes, ta langue d'abord",
+    "presetReverseTitle": "À l'envers",
+    "presetReverseDesc": "10 cartes, la nouvelle langue d'abord",
+    "presetRandomTitle": "Surprise",
+    "presetRandomDesc": "10 cartes, côté au hasard",
+    "front": "Côté visible",
+    "frontKnown": "La langue que je connais",
+    "frontLearn": "La langue que j'apprends",
+    "frontRandom": "Au hasard",
+    "cards": "Nombre de cartes",
+    "cardCount": "{{count}} cartes",
+    "allCards": "Tous les mots",
+    "autoVoice": "Dire le mot en retournant",
+    "autoVoiceOn": "Oui",
+    "autoVoiceOff": "Non"
   },
   "result": {
     "perfect": "Parfait ! 🏆",

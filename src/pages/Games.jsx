@@ -28,6 +28,12 @@ const GAMES = [
     color: "bg-grape",
   },
   {
+    to: "/games/flashcards",
+    key: "games.flashcards",
+    emoji: "🃏",
+    color: "bg-sun text-foreground",
+  },
+  {
     to: "/games/memory",
     key: "games.memory",
     emoji: "🧩",

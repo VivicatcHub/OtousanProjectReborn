@@ -1,63 +1,66 @@
 import { useEffect, useMemo, useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import {
   useData,
   getTranslation,
   getText,
-  hasCategory,
   displayEmoji,
 } from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
 import { useWordStats } from "@/context/WordStatsContext";
 import { dataProvider } from "@/services/dataProvider";
+import { dictionaryWords } from "@/lib/dictionary";
 import { Card, CardContent } from "@/components/ui/card";
+import { MasteryBar } from "@/components/MasteryBar";
 import { SpeakButton } from "@/components/SpeakButton";
-import { cn } from "@/lib/utils";
 
 const PAGE_SIZE = 30;
+
+const DEFAULTS = { cat: "all", q: "", page: "1" }; // params equal to these stay out of the URL
 
 export default function Dictionary() {
   const { t: translate } = useTranslation();
   const { words, languages, loading } = useData();
   const { known, learn } = useSettings();
   const { getWordStat } = useWordStats();
-  const [category, setCategory] = useState("all");
   const [categories, setCategories] = useState([]);
-  const [query, setQuery] = useState("");
-  const [page, setPage] = useState(1);
+  const [params, setParams] = useSearchParams();
+
+  const category = params.get("cat") ?? "all";
+  const query = params.get("q") ?? "";
+  const page = Number(params.get("page")) || 1;
+
+  const update = (patch) => {
+    const next = new URLSearchParams(params);
+    for (const [key, value] of Object.entries(patch)) {
+      const v = String(value);
+      if (!v || v === DEFAULTS[key]) next.delete(key);
+      else next.set(key, v);
+    }
+    setParams(next, { replace: true }); // replace: typing must not fill the history
+  };
 
   useEffect(() => {
     dataProvider.getCategories(learn).then(setCategories);
-    setCategory("all");
   }, [learn]);
+
+  useEffect(() => {
+    if (categories.length === 0 || category === "all") return;
+    if (!categories.some((c) => c.id === category)) update({ cat: "all" }); // category gone with the language
+  }, [categories, category]);
 
   const learnLang = languages.find((l) => l.code === learn);
 
-  const visible = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return words
-      .filter((w) => {
-        const knownTr = getTranslation(w, known);
-        const learnTr = getTranslation(w, learn);
-        if (!knownTr || !learnTr) return false;
-        if (!hasCategory(w, category)) return false;
-        if (!q) return true;
-        return [
-          knownTr.text,
-          knownTr.romaji,
-          learnTr.text,
-          learnTr.romaji,
-        ].some((s) => s && s.toLowerCase().includes(q));
-      })
-      .sort((a, b) => a.id.localeCompare(b.id));
-  }, [words, known, learn, category, query]);
+  const visible = useMemo(
+    () => dictionaryWords(words, { known, learn, category, query }),
+    [words, known, learn, category, query],
+  );
 
   const pageCount = Math.max(1, Math.ceil(visible.length / PAGE_SIZE));
-  useEffect(() => {
-    setPage(1);
-  }, [known, learn, category, query]);
   const safePage = Math.min(page, pageCount);
   const paged = visible.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
+  const search = params.toString();
 
   if (loading) return <p>{translate("common.loading")}</p>;
 
@@ -68,7 +71,7 @@ export default function Dictionary() {
       <input
         type="search"
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        onChange={(e) => update({ q: e.target.value, page: 1 })}
         placeholder={translate("dictionary.search")}
         className="w-full rounded-full border-2 border-border bg-card px-4 py-2.5 text-base font-semibold outline-none transition-colors focus:border-brand"
       />
@@ -76,7 +79,7 @@ export default function Dictionary() {
       <div className="flex flex-wrap gap-2">
         <FilterChip
           active={category === "all"}
-          onClick={() => setCategory("all")}
+          onClick={() => update({ cat: "all", page: 1 })}
         >
           🌈 {translate("common.all")}
         </FilterChip>
@@ -84,7 +87,7 @@ export default function Dictionary() {
           <FilterChip
             key={c.id}
             active={category === c.id}
-            onClick={() => setCategory(c.id)}
+            onClick={() => update({ cat: c.id, page: 1 })}
           >
             {c.emoji} {c.label}
           </FilterChip>
@@ -101,26 +104,31 @@ export default function Dictionary() {
               className="animate-fade-up transition-transform hover:-translate-y-0.5"
             >
               <CardContent className="flex items-center gap-4 p-4">
-                <span className="text-4xl">{displayEmoji(word)}</span>
-                <div className="min-w-0 flex-1">
-                  <p className="truncate text-sm text-muted-foreground">
-                    {getText(word, known)}
-                  </p>
-                  <p className="truncate text-xl font-extrabold">
-                    {getText(word, learn)}
-                  </p>
-                  {(() => {
-                    const extra = [learnTr.romaji]
-                      .filter((x) => x && x !== learnTr.text)
-                      .join(" · ");
-                    return extra ? (
-                      <p className="truncate text-xs text-muted-foreground">
-                        {extra}
-                      </p>
-                    ) : null;
-                  })()}
-                  <MasteryBar stat={getWordStat(learn, word.id)} />
-                </div>
+                <Link
+                  to={`/dictionary/${word.id}${search ? `?${search}` : ""}`}
+                  className="flex min-w-0 flex-1 items-center gap-4 rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-brand"
+                >
+                  <span className="text-4xl">{displayEmoji(word)}</span>
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate text-sm text-muted-foreground">
+                      {getText(word, known)}
+                    </p>
+                    <p className="truncate text-xl font-extrabold">
+                      {getText(word, learn)}
+                    </p>
+                    {(() => {
+                      const extra = [learnTr.romaji]
+                        .filter((x) => x && x !== learnTr.text)
+                        .join(" · ");
+                      return extra ? (
+                        <p className="truncate text-xs text-muted-foreground">
+                          {extra}
+                        </p>
+                      ) : null;
+                    })()}
+                    <MasteryBar stat={getWordStat(learn, word.id)} />
+                  </div>
+                </Link>
                 <SpeakButton
                   word={word}
                   langCode={learn}
@@ -139,7 +147,7 @@ export default function Dictionary() {
       {pageCount > 1 && (
         <div className="flex items-center justify-center gap-3 pt-2">
           <button
-            onClick={() => setPage((p) => Math.max(1, p - 1))}
+            onClick={() => update({ page: Math.max(1, safePage - 1) })}
             disabled={safePage === 1}
             className="rounded-full border-2 border-border bg-card px-4 py-2 text-sm font-bold transition-transform active:scale-95 hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
           >
@@ -152,7 +160,7 @@ export default function Dictionary() {
             })}
           </span>
           <button
-            onClick={() => setPage((p) => Math.min(pageCount, p + 1))}
+            onClick={() => update({ page: Math.min(pageCount, safePage + 1) })}
             disabled={safePage === pageCount}
             className="rounded-full border-2 border-border bg-card px-4 py-2 text-sm font-bold transition-transform active:scale-95 hover:bg-muted disabled:cursor-not-allowed disabled:opacity-40"
           >
@@ -160,47 +168,6 @@ export default function Dictionary() {
           </button>
         </div>
       )}
-    </div>
-  );
-}
-
-function MasteryBar({ stat }) {
-  const { t: translate } = useTranslation();
-  const total = (stat?.correct ?? 0) + (stat?.wrong ?? 0);
-
-  if (total === 0) {
-    return (
-      <div className="mt-1.5 flex items-center gap-2">
-        <div className="h-1.5 flex-1 rounded-full bg-muted" />
-        <span className="shrink-0 text-[11px] font-bold text-muted-foreground">
-          🆕 {translate("dictionary.mastery.new")}
-        </span>
-      </div>
-    );
-  }
-
-  const errPct = Math.round((stat.wrong / total) * 100);
-  const mastery = 100 - errPct;
-  const tone =
-    errPct <= 25
-      ? { fill: "bg-grass", text: "text-grass" }
-      : errPct <= 60
-        ? { fill: "bg-sun", text: "text-sun" }
-        : { fill: "bg-brand", text: "text-brand" };
-
-  return (
-    <div className="mt-1.5 flex items-center gap-2">
-      <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-muted">
-        <div
-          className={cn("h-full rounded-full transition-all", tone.fill)}
-          style={{ width: `${mastery}%` }}
-        />
-      </div>
-      <span className={cn("shrink-0 text-[11px] font-bold", tone.text)}>
-        {errPct === 0
-          ? `⭐ ${translate("dictionary.mastery.perfect")}`
-          : translate("dictionary.mastery.errors", { pct: errPct })}
-      </span>
     </div>
   );
 }

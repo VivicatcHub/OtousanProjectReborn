@@ -34,6 +34,7 @@ export function useGameArticle({
   const [score, setScore] = useState(0);
   const [picked, setPicked] = useState(null);
   const [gameOver, setGameOver] = useState(false);
+  const [pendingOver, setPendingOver] = useState(false); // wrong in endless: show the answer first
 
   const answerLangObj = useMemo(
     () => languages.find((l) => l.code === answerLang),
@@ -63,6 +64,7 @@ export function useGameArticle({
     setScore(0);
     setPicked(null);
     setGameOver(false);
+    setPendingOver(false);
   }
 
   useEffect(() => {
@@ -86,10 +88,14 @@ export function useGameArticle({
     const correct = isCorrectOption(option);
     recordWord(learn, question.word.id, correct);
     if (correct) setScore((s) => s + 1);
-    else if (infinite) setGameOver(true);
+    else if (infinite) setPendingOver(true);
   }
 
   function next() {
+    if (pendingOver) {
+      setGameOver(true); // the answer has been shown, end the endless run now
+      return;
+    }
     setPicked(null);
     if (infinite) setQuestions((qs) => [...qs, makeQuestion(pool)]);
     setIndex((i) => i + 1);

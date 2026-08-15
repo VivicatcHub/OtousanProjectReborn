@@ -29,7 +29,7 @@
   },
   {
     "id": "food",
-    "emoji": "🍎",
+    "emoji": "🍔",
     "labels": {
       "fr": "Nourriture",
       "en": "Food",
@@ -56,6 +56,20 @@
     }
   },
   {
+    "id": "others",
+    "emoji": "✨",
+    "labels": {
+      "fr": "Autres",
+      "en": "Others",
+      "it": "Altri",
+      "es": "Otros",
+      "de": "Sonstiges",
+      "pt": "Outros",
+      "ja": "その他",
+      "ja-romaji": "sonota"
+    }
+  },
+  {
     "id": "verbs",
     "emoji": "💬",
     "labels": {
@@ -67,6 +81,202 @@
       "pt": "Verbos",
       "ja": "動詞",
       "ja-romaji": "doushi"
+    }
+  },
+  {
+    "id": "feelings",
+    "emoji": "😊",
+    "labels": {
+      "fr": "Sentiments",
+      "en": "Feelings",
+      "it": "Sentimenti",
+      "es": "Sentimientos",
+      "de": "Gefühle",
+      "pt": "Sentimentos",
+      "ja": "気持ち",
+      "ja-romaji": "kimochi"
+    }
+  },
+  {
+    "id": "colors",
+    "emoji": "🎨",
+    "labels": {
+      "fr": "Couleurs",
+      "en": "Colors",
+      "it": "Colori",
+      "es": "Colores",
+      "de": "Farben",
+      "pt": "Cores",
+      "ja": "色",
+      "ja-romaji": "iro"
+    }
+  },
+  {
+    "id": "fruits",
+    "emoji": "🍓",
+    "labels": {
+      "fr": "Fruits",
+      "en": "Fruits",
+      "it": "Frutta",
+      "es": "Frutas",
+      "de": "Obst",
+      "pt": "Frutas",
+      "ja": "果物",
+      "ja-romaji": "kudamono"
+    }
+  },
+  {
+    "id": "vegetables",
+    "emoji": "🥕",
+    "labels": {
+      "fr": "Légumes",
+      "en": "Vegetables",
+      "it": "Verdure",
+      "es": "Verduras",
+      "de": "Gemüse",
+      "pt": "Legumes",
+      "ja": "野菜",
+      "ja-romaji": "yasai"
+    }
+  },
+  {
+    "id": "drinks",
+    "emoji": "🥤",
+    "labels": {
+      "fr": "Boissons",
+      "en": "Drinks",
+      "it": "Bevande",
+      "es": "Bebidas",
+      "de": "Getränke",
+      "pt": "Bebidas",
+      "ja": "飲み物",
+      "ja-romaji": "nomimono"
+    }
+  },
+  {
+    "id": "clothes",
+    "emoji": "👕",
+    "labels": {
+      "fr": "Vêtements",
+      "en": "Clothes",
+      "it": "Vestiti",
+      "es": "Ropa",
+      "de": "Kleidung",
+      "pt": "Roupas",
+      "ja": "服",
+      "ja-romaji": "fuku"
+    }
+  },
+  {
+    "id": "school",
+    "emoji": "✏️",
+    "labels": {
+      "fr": "École",
+      "en": "School",
+      "it": "Scuola",
+      "es": "Escuela",
+      "de": "Schule",
+      "pt": "Escola",
+      "ja": "学校",
+      "ja-romaji": "gakkou"
+    }
+  },
+  {
+    "id": "music",
+    "emoji": "🎵",
+    "labels": {
+      "fr": "Musique",
+      "en": "Music",
+      "it": "Musica",
+      "es": "Música",
+      "de": "Musik",
+      "pt": "Música",
+      "ja": "音楽",
+      "ja-romaji": "ongaku"
+    }
+  },
+  {
+    "id": "characters",
+    "emoji": "👻",
+    "labels": {
+      "fr": "Personnages",
+      "en": "Characters",
+      "it": "Personaggi",
+      "es": "Personajes",
+      "de": "Figuren",
+      "pt": "Personagens",
+      "ja": "キャラクター",
+      "ja-romaji": "kyarakutaa"
+    }
+  },
+  {
+    "id": "body",
+    "emoji": "👁️",
+    "labels": {
+      "fr": "Corps",
+      "en": "Body",
+      "it": "Corpo",
+      "es": "Cuerpo",
+      "de": "Körper",
+      "pt": "Corpo",
+      "ja": "体",
+      "ja-romaji": "karada"
+    }
+  },
+  {
+    "id": "people",
+    "emoji": "🧑",
+    "labels": {
+      "fr": "Personnes",
+      "en": "People",
+      "it": "Persone",
+      "es": "Personas",
+      "de": "Menschen",
+      "pt": "Pessoas",
+      "ja": "人",
+      "ja-romaji": "hito"
+    }
+  },
+  {
+    "id": "family",
+    "emoji": "👪",
+    "labels": {
+      "fr": "Famille",
+      "en": "Family",
+      "it": "Famiglia",
+      "es": "Familia",
+      "de": "Familie",
+      "pt": "Família",
+      "ja": "家族",
+      "ja-romaji": "kazoku"
+    }
+  },
+  {
+    "id": "jobs",
+    "emoji": "👷",
+    "labels": {
+      "fr": "Métiers",
+      "en": "Jobs",
+      "it": "Lavori",
+      "es": "Trabajos",
+      "de": "Berufe",
+      "pt": "Profissões",
+      "ja": "仕事",
+      "ja-romaji": "shigoto"
+    }
+  },
+  {
+    "id": "basics",
+    "emoji": "👋",
+    "labels": {
+      "fr": "Les bases",
+      "en": "Basics",
+      "it": "Base",
+      "es": "Básicos",
+      "de": "Grundlagen",
+      "pt": "Básico",
+      "ja": "基本",
+      "ja-romaji": "kihon"
     }
   }
 ]

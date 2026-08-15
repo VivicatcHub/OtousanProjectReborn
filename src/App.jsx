@@ -5,6 +5,7 @@ import { useSettings } from "@/context/SettingsContext";
 import Home from "@/pages/Home";
 import Games from "@/pages/Games";
 import Dictionary from "@/pages/Dictionary";
+import WordDetail from "@/pages/WordDetail";
 import Achievements from "@/pages/Achievements";
 import SettingsPage from "@/pages/Settings";
 import ImagierSetup from "@/pages/games/ImagierSetup";
@@ -22,6 +23,9 @@ import Writing from "@/pages/games/Writing";
 import MemorySetup from "@/pages/games/MemorySetup";
 import MemoryCustom from "@/pages/games/MemoryCustom";
 import Memory from "@/pages/games/Memory";
+import FlashcardsSetup from "@/pages/games/FlashcardsSetup";
+import FlashcardsCustom from "@/pages/games/FlashcardsCustom";
+import Flashcards from "@/pages/games/Flashcards";
 
 export default function App() {
   const { configured } = useSettings();
@@ -48,7 +52,11 @@ export default function App() {
         <Route path="/games/memory" element={<MemorySetup />} />
         <Route path="/games/memory/custom" element={<MemoryCustom />} />
         <Route path="/games/memory/play" element={<Memory />} />
+        <Route path="/games/flashcards" element={<FlashcardsSetup />} />
+        <Route path="/games/flashcards/custom" element={<FlashcardsCustom />} />
+        <Route path="/games/flashcards/play" element={<Flashcards />} />
         <Route path="/dictionary" element={<Dictionary />} />
+        <Route path="/dictionary/:wordId" element={<WordDetail />} />
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="*" element={<Home />} />

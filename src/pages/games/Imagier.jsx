@@ -6,6 +6,7 @@ import { useSettings } from "@/context/SettingsContext";
 import { getText, displayEmoji } from "@/hooks/useData";
 import { VoiceRequired } from "@/components/VoiceRequired";
 import { AutoText } from "@/components/AutoText";
+import { ShortcutHints } from "@/components/ShortcutHints";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn, gridColumns } from "@/lib/utils";
@@ -29,7 +30,15 @@ export default function Imagier() {
     prompt,
   });
 
-  useHotkeys("r", game.repeat);
+  useHotkeys("r", game.repeat, { enabled: game.phase === "playing" }, [game]);
+  useHotkeys(
+    "enter",
+    () => {
+      if (game.phase === "reveal") game.dismissReveal();
+      else if (game.phase !== "playing" && game.canPlay) game.start(); // intro, won and over all (re)start
+    },
+    [game],
+  );
 
   useRecordResult(game.phase === "won" || game.phase === "over", () => ({
     game: "imagier",
@@ -52,9 +61,14 @@ export default function Imagier() {
             : translate("imagier.intro")}
         </p>
         {game.canPlay ? (
-          <Button size="lg" variant="grass" onClick={game.start}>
-            <Play className="h-5 w-5" /> {translate("imagier.start")}
-          </Button>
+          <>
+            <Button size="lg" variant="grass" onClick={game.start}>
+              <Play className="h-5 w-5" /> {translate("imagier.start")}
+            </Button>
+            <ShortcutHints
+              items={[{ keys: ["Enter"], label: translate("shortcuts.start") }]}
+            />
+          </>
         ) : (
           <p className="rounded-xl bg-sun/40 p-3 font-semibold">
             {translate("imagier.needTwoLanguages")}
@@ -82,6 +96,9 @@ export default function Imagier() {
             <Link to="/games">{translate("common.backToGames")}</Link>
           </Button>
         </div>
+        <ShortcutHints
+          items={[{ keys: ["Enter"], label: translate("shortcuts.replay") }]}
+        />
       </div>
     );
   }
@@ -107,9 +124,14 @@ export default function Imagier() {
             <Link to="/games">{translate("common.backToGames")}</Link>
           </Button>
         </div>
+        <ShortcutHints
+          items={[{ keys: ["Enter"], label: translate("shortcuts.replay") }]}
+        />
       </div>
     );
   }
+
+  const revealing = game.phase === "reveal";
 
   return (
     <div className="space-y-6">
@@ -126,29 +148,46 @@ export default function Imagier() {
         </span>
       </div>
 
-      <Card>
-        <CardContent className="flex flex-col items-center gap-3 p-6">
-          <p className="font-semibold text-muted-foreground">
-            {prompt === "text"
-              ? translate("imagier.promptText")
-              : translate("imagier.prompt")}
-          </p>
-          {prompt === "text" ? (
-            <p className="text-center text-4xl font-black">
-              {getText(game.targetWord, learn)}
+      {revealing ? (
+        <Card>
+          <CardContent className="flex flex-col items-center gap-3 p-6">
+            <p className="font-semibold text-muted-foreground">
+              {translate("imagier.answerWas")}
             </p>
-          ) : (
-            <Button
-              size="lg"
-              variant="sky"
-              onClick={game.repeat}
-              aria-label={translate("imagier.listenAgainAria")}
-            >
-              <Volume2 className="h-7 w-7" /> {translate("imagier.listenAgain")}
+            <p className="animate-pop-in text-center text-4xl font-black">
+              {displayEmoji(game.targetWord)} {getText(game.targetWord, learn)}
+            </p>
+            <Button size="lg" variant="sky" onClick={game.dismissReveal}>
+              {translate("common.next")}
             </Button>
-          )}
-        </CardContent>
-      </Card>
+          </CardContent>
+        </Card>
+      ) : (
+        <Card>
+          <CardContent className="flex flex-col items-center gap-3 p-6">
+            <p className="font-semibold text-muted-foreground">
+              {prompt === "text"
+                ? translate("imagier.promptText")
+                : translate("imagier.prompt")}
+            </p>
+            {prompt === "text" ? (
+              <p className="text-center text-4xl font-black">
+                {getText(game.targetWord, learn)}
+              </p>
+            ) : (
+              <Button
+                size="lg"
+                variant="sky"
+                onClick={game.repeat}
+                aria-label={translate("imagier.listenAgainAria")}
+              >
+                <Volume2 className="h-7 w-7" />{" "}
+                {translate("imagier.listenAgain")}
+              </Button>
+            )}
+          </CardContent>
+        </Card>
+      )}
 
       <div
         className="grid gap-2 sm:gap-3"
@@ -174,6 +213,12 @@ export default function Imagier() {
                   : index === game.poppedIndex
                     ? "animate-pop"
                     : "animate-pop-in",
+                revealing &&
+                  (index === game.revealIndex
+                    ? "animate-tada ring-4 ring-grass"
+                    : index === game.shakeIndex
+                      ? "ring-4 ring-brand"
+                      : "opacity-60"),
               )}
             >
               {emoji ? (
@@ -187,6 +232,16 @@ export default function Imagier() {
           );
         })}
       </div>
+
+      <ShortcutHints
+        items={
+          revealing
+            ? [{ keys: ["Enter"], label: translate("shortcuts.next") }]
+            : prompt === "voice"
+              ? [{ keys: ["R"], label: translate("shortcuts.repeat") }]
+              : []
+        }
+      />
     </div>
   );
 }

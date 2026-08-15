@@ -20,6 +20,18 @@
     "picText": "🔤 ことばだけ",
     "notEnoughWords": "😅 この設定では、遊べる言葉が足りないよ。"
   },
+  "shortcuts": {
+    "flip": "めくる",
+    "move": "うごく",
+    "listen": "きく",
+    "back": "もどる",
+    "replay": "もういちど",
+    "answer": "こたえる",
+    "next": "つぎへ",
+    "check": "チェック",
+    "start": "スタート",
+    "repeat": "もういちどきく"
+  },
   "nav": {
     "home": "ホーム",
     "settings": "設定"
@@ -54,6 +66,10 @@
     "memory": {
       "title": "神経衰弱",
       "description": "カードをめくって、同じペアを探そう。"
+    },
+    "flashcards": {
+      "title": "カード",
+      "description": "カードを見て、めくって、ことばを おぼえよう。てんすうは なし！"
     }
   },
   "settings": {
@@ -88,6 +104,16 @@
     "title": "辞書 📖",
     "search": "🔍 言葉を検索…",
     "empty": "このカテゴリーには言葉がありません。",
+    "back": "辞書へ",
+    "notFound": "この言葉はありません。🤔",
+    "detail": {
+      "languages": "すべての言語 🌍",
+      "stats": "きみの成績 📊",
+      "noStats": "この言葉はまだ遊んでいません。",
+      "correct": "正解",
+      "wrong": "間違い",
+      "success": "正解率"
+    },
     "mastery": {
       "new": "初めて",
       "errors": "間違い {{pct}}%",
@@ -142,6 +168,7 @@
     "withoutImage": "🚫 絵なし"
   },
   "imagier": {
+    "answerWas": "正しい絵は：",
     "title": "絵合わせ 🖼️",
     "intro": "言葉を聞いて 🔊 正しい絵をクリックしよう！",
     "introText": "言葉を読んで 📖 正しい絵をクリックしよう！",
@@ -206,6 +233,38 @@
     "needTwoLanguages": "💡 遊ぶには、設定で違う言葉を２つ選んでね。",
     "cardAria": "カード",
     "mistakes_other": "間違い {{count}}回"
+  },
+  "flashcards": {
+    "title": "カード 🃏",
+    "flip": "カードを めくる",
+    "tapReveal": "👆 タップして こたえを みる",
+    "tapBack": "👆 タップして もどる",
+    "listen": "きく",
+    "finished": "ぜんぶ おわり！ 🎉",
+    "seenCount_other": "カードを {{count}}まい みたよ。",
+    "again": "あたらしい カード"
+  },
+  "flashcardsSetup": {
+    "title": "カード 🃏",
+    "subtitle": "てんすうも じかんも なし。じぶんの ペースで おぼえよう。",
+    "presetShortTitle": "ちょっとだけ",
+    "presetShortDesc": "5まいの カード",
+    "presetNormalTitle": "ふつう",
+    "presetNormalDesc": "10まい、しっている ことばから",
+    "presetReverseTitle": "ぎゃく",
+    "presetReverseDesc": "10まい、ならう ことばから",
+    "presetRandomTitle": "びっくり",
+    "presetRandomDesc": "10まい、どちらの めんか ランダム",
+    "front": "おもての めん",
+    "frontKnown": "しっている ことば",
+    "frontLearn": "ならう ことば",
+    "frontRandom": "ランダム",
+    "cards": "カードの かず",
+    "cardCount": "{{count}}まい",
+    "allCards": "ぜんぶの ことば",
+    "autoVoice": "めくったら よみあげる",
+    "autoVoiceOn": "はい",
+    "autoVoiceOff": "いいえ"
   },
   "result": {
     "perfect": "パーフェクト！🏆",
