@@ -9,6 +9,7 @@
   --color-grass: oklch(0.78 0.16 145); /* green */
   --color-sun: oklch(0.86 0.16 90); /* yellow */
   --color-grape: oklch(0.7 0.16 300); /* purple */
+  --color-mint: oklch(0.8 0.13 185); /* teal */
 
   --color-background: oklch(0.99 0.01 95);
   --color-foreground: oklch(0.29 0.03 260);

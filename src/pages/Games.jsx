@@ -19,7 +19,7 @@ const GAMES = [
     to: "/games/article",
     key: "games.article",
     emoji: "😩",
-    color: "bg-brand text-foreground",
+    color: "bg-mint text-foreground",
   },
   {
     to: "/games/writing",
@@ -31,7 +31,7 @@ const GAMES = [
     to: "/games/flashcards",
     key: "games.flashcards",
     emoji: "🃏",
-    color: "bg-sun text-foreground",
+    color: "bg-brand text-foreground",
   },
   {
     to: "/games/memory",
