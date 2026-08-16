@@ -278,5 +278,61 @@
       "ja": "基本",
       "ja-romaji": "kihon"
     }
+  },
+  {
+    "id": "numbers",
+    "emoji": "🔢",
+    "labels": {
+      "fr": "Nombres",
+      "en": "Numbers",
+      "it": "Numeri",
+      "es": "Números",
+      "de": "Zahlen",
+      "pt": "Números",
+      "ja": "数字",
+      "ja-romaji": "suuji"
+    }
+  },
+  {
+    "id": "sports",
+    "emoji": "⚽",
+    "labels": {
+      "fr": "Sports",
+      "en": "Sports",
+      "it": "Sport",
+      "es": "Deportes",
+      "de": "Sport",
+      "pt": "Esportes",
+      "ja": "スポーツ",
+      "ja-romaji": "supootsu"
+    }
+  },
+  {
+    "id": "countries",
+    "emoji": "🌍",
+    "labels": {
+      "fr": "Pays",
+      "en": "Countries",
+      "it": "Paesi",
+      "es": "Países",
+      "de": "Länder",
+      "pt": "Países",
+      "ja": "国",
+      "ja-romaji": "kuni"
+    }
+  },
+  {
+    "id": "new",
+    "emoji": "🆕",
+    "labels": {
+      "fr": "Nouveaux",
+      "en": "New",
+      "it": "Nuovi",
+      "es": "Nuevos",
+      "de": "Neu",
+      "pt": "Novos",
+      "ja": "新しい",
+      "ja-romaji": "atarashii"
+    }
   }
 ]

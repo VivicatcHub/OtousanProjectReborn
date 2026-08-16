@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useData } from "@/hooks/useData";
 import { useSettings } from "@/context/SettingsContext";
+import { dataProvider } from "@/services/dataProvider";
 import { LanguagePicker } from "@/components/LanguagePicker";
 import { Button } from "@/components/ui/button";
 import { speak } from "@/lib/speech";
@@ -16,13 +17,20 @@ export default function SettingsPage() {
     sound,
     voice,
     articles,
+    hiddenCategories,
     setKnown,
     setLearn,
     setSound,
     setVoice,
     setArticles,
+    toggleCategory,
   } = useSettings();
   const [asking, setAsking] = useState(false);
+  const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    dataProvider.getCategories(learn).then(setCategories);
+  }, [learn]);
 
   if (loading) return <p>{translate("common.loading")}</p>;
 
@@ -69,6 +77,37 @@ export default function SettingsPage() {
         checked={articles}
         onChange={() => setArticles(!articles)}
       />
+
+      <div className="space-y-3 rounded-2xl border-2 border-border bg-card p-4">
+        <span className="block text-lg font-black">
+          {translate("settings.categories")}
+        </span>
+        <span className="block text-sm font-semibold text-muted-foreground">
+          {translate("settings.categoriesHint")}
+        </span>
+        <div className="flex flex-wrap gap-2">
+          {categories.map((c) => {
+            const on = !hiddenCategories.includes(c.id);
+            return (
+              <button
+                key={c.id}
+                type="button"
+                role="switch"
+                aria-checked={on}
+                onClick={() => toggleCategory(c.id)}
+                className={cn(
+                  "rounded-full border-2 px-3 py-1.5 text-sm font-bold transition-transform active:scale-95",
+                  on
+                    ? "border-grass bg-grass text-white"
+                    : "border-border bg-muted text-muted-foreground line-through",
+                )}
+              >
+                {c.emoji} {c.label}
+              </button>
+            );
+          })}
+        </div>
+      </div>
 
       <div className="space-y-3 rounded-2xl border-2 border-border bg-card p-4">
         <Toggle

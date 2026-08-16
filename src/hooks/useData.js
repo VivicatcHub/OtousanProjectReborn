@@ -8,6 +8,17 @@ export function setArticlesEnabled(on) {
   articlesEnabled = on;
 }
 
+let hiddenCategories = new Set();
+
+export function setHiddenCategories(ids) {
+  hiddenCategories = new Set(ids ?? []);
+}
+
+export function isHidden(word) {
+  if (hiddenCategories.size === 0) return false;
+  return (word.categories ?? []).some((c) => hiddenCategories.has(c));
+}
+
 export function articlesOf(tr) {
   if (!tr?.article) return [];
   return Array.isArray(tr.article) ? tr.article.filter(Boolean) : [tr.article];
@@ -136,6 +147,7 @@ export function wordsFor(
     (w) =>
       getTranslation(w, known) &&
       getTranslation(w, learn) &&
+      !isHidden(w) && // categories switched off in the settings (dictionary keeps them)
       hasCategory(w, categoryId) &&
       matchesPictures(w, pictures) &&
       matchesGame(w, game),

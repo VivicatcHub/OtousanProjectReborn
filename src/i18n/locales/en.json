@@ -81,6 +81,8 @@
     "soundHint": "Play a little chime when you earn a badge.",
     "articles": "Articles 🏷️",
     "articlesHint": "Learn words with their article (a cat, a car). Japanese stays the same.",
+    "categories": "Categories 🗂️",
+    "categoriesHint": "Turn a category off to drop its words from the games. They stay in the dictionary.",
     "voice": "Robot voice 🤖",
     "voiceHint": "The text-to-speech system does not work on every device; we recommend turning it off if it does not work on yours.",
     "voiceTest": "Test the voice",

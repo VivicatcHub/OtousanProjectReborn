@@ -81,6 +81,8 @@
     "soundHint": "Joue un petit son quand tu gagnes un badge.",
     "articles": "Articles 🏷️",
     "articlesHint": "Apprends les mots avec leur article (un chat, une voiture). En japonais, rien ne change.",
+    "categories": "Catégories 🗂️",
+    "categoriesHint": "Éteins une catégorie pour retirer ses mots des jeux. Ils restent dans le dictionnaire.",
     "voice": "Voix du robot 🤖",
     "voiceHint": "Le système de text-to-speech ne fonctionne pas sur tous les appareils, nous vous conseillons de le désactiver s'il ne fonctionne pas sur le vôtre.",
     "voiceTest": "Tester la voix",

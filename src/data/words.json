@@ -15150,7 +15150,7 @@
         "romaji": "hyaku"
       }
     },
-    "categories": ["others"]
+    "categories": ["numbers"]
   },
   {
     "id": "collision",
@@ -16216,5 +16216,4717 @@
       "ja": { "text": "家族", "kana": "かぞく", "romaji": "kazoku" }
     },
     "categories": ["people", "family"]
+  },
+  {
+    "id": "warning",
+    "emoji": "⚠️",
+    "translations": {
+      "en": { "text": "danger" },
+      "fr": { "article": "un", "text": "danger" },
+      "it": { "text": "pericolo" },
+      "de": { "text": "Gefahr" },
+      "es": { "text": "peligro" },
+      "pt": { "text": "perigo" },
+      "ja": { "text": "危険", "kana": "きけん", "romaji": "kiken" }
+    },
+    "categories": ["new", "basics"]
+  },
+  {
+    "id": "red-question-mark",
+    "emoji": "❓",
+    "translations": {
+      "en": { "text": "question" },
+      "fr": { "article": "une", "text": "question" },
+      "it": { "text": "domanda" },
+      "de": { "text": "Frage" },
+      "es": { "text": "pregunta" },
+      "pt": { "text": "pergunta" },
+      "ja": { "text": "質問", "kana": "しつもん", "romaji": "shitsumon" }
+    },
+    "categories": ["new", "school", "basics"]
+  },
+  {
+    "id": "keycap:-0",
+    "emoji": "0️⃣",
+    "translations": {
+      "en": { "text": "zero" },
+      "fr": { "text": "zéro" },
+      "it": { "text": "zero" },
+      "de": { "text": "null" },
+      "es": { "text": "cero" },
+      "pt": { "text": "zero" },
+      "ja": { "text": "ゼロ", "kana": "ゼロ", "romaji": "zero" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "keycap:-1",
+    "emoji": "1️⃣",
+    "translations": {
+      "en": { "text": "one" },
+      "fr": { "text": "un" },
+      "it": { "text": "uno" },
+      "de": { "text": "eins" },
+      "es": { "text": "uno" },
+      "pt": { "text": "um" },
+      "ja": { "text": "一", "kana": "いち", "romaji": "ichi" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "keycap:-2",
+    "emoji": "2️⃣",
+    "translations": {
+      "en": { "text": "two" },
+      "fr": { "text": "deux" },
+      "it": { "text": "due" },
+      "de": { "text": "zwei" },
+      "es": { "text": "dos" },
+      "pt": { "text": "dois" },
+      "ja": { "text": "二", "kana": "に", "romaji": "ni" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "keycap:-3",
+    "emoji": "3️⃣",
+    "translations": {
+      "en": { "text": "three" },
+      "fr": { "text": "trois" },
+      "it": { "text": "tre" },
+      "de": { "text": "drei" },
+      "es": { "text": "tres" },
+      "pt": { "text": "três" },
+      "ja": { "text": "三", "kana": "さん", "romaji": "san" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "keycap:-4",
+    "emoji": "4️⃣",
+    "translations": {
+      "en": { "text": "four" },
+      "fr": { "text": "quatre" },
+      "it": { "text": "quattro" },
+      "de": { "text": "vier" },
+      "es": { "text": "cuatro" },
+      "pt": { "text": "quatro" },
+      "ja": { "text": "四", "kana": "よん", "romaji": "yon" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "keycap:-5",
+    "emoji": "5️⃣",
+    "translations": {
+      "en": { "text": "five" },
+      "fr": { "text": "cinq" },
+      "it": { "text": "cinque" },
+      "de": { "text": "fünf" },
+      "es": { "text": "cinco" },
+      "pt": { "text": "cinco" },
+      "ja": { "text": "五", "kana": "ご", "romaji": "go" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "keycap:-6",
+    "emoji": "6️⃣",
+    "translations": {
+      "en": { "text": "six" },
+      "fr": { "text": "six" },
+      "it": { "text": "sei" },
+      "de": { "text": "sechs" },
+      "es": { "text": "seis" },
+      "pt": { "text": "seis" },
+      "ja": { "text": "六", "kana": "ろく", "romaji": "roku" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "keycap:-7",
+    "emoji": "7️⃣",
+    "translations": {
+      "en": { "text": "seven" },
+      "fr": { "text": "sept" },
+      "it": { "text": "sette" },
+      "de": { "text": "sieben" },
+      "es": { "text": "siete" },
+      "pt": { "text": "sete" },
+      "ja": { "text": "七", "kana": "なな", "romaji": "nana" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "keycap:-8",
+    "emoji": "8️⃣",
+    "translations": {
+      "en": { "text": "eight" },
+      "fr": { "text": "huit" },
+      "it": { "text": "otto" },
+      "de": { "text": "acht" },
+      "es": { "text": "ocho" },
+      "pt": { "text": "oito" },
+      "ja": { "text": "八", "kana": "はち", "romaji": "hachi" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "keycap:-9",
+    "emoji": "9️⃣",
+    "translations": {
+      "en": { "text": "nine" },
+      "fr": { "text": "neuf" },
+      "it": { "text": "nove" },
+      "de": { "text": "neun" },
+      "es": { "text": "nueve" },
+      "pt": { "text": "nove" },
+      "ja": { "text": "九", "kana": "きゅう", "romaji": "kyuu" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "keycap:-10",
+    "emoji": "🔟",
+    "translations": {
+      "en": { "text": "ten" },
+      "fr": { "text": "dix" },
+      "it": { "text": "dieci" },
+      "de": { "text": "zehn" },
+      "es": { "text": "diez" },
+      "pt": { "text": "dez" },
+      "ja": { "text": "十", "kana": "じゅう", "romaji": "juu" }
+    },
+    "categories": ["new", "numbers"]
+  },
+  {
+    "id": "red-circle",
+    "emoji": "🔴",
+    "translations": {
+      "en": { "text": "red" },
+      "fr": { "text": "rouge" },
+      "it": { "text": "rosso" },
+      "de": { "text": "rot" },
+      "es": { "text": "rojo" },
+      "pt": { "text": "vermelho" },
+      "ja": { "text": "赤", "kana": "あか", "romaji": "aka" }
+    },
+    "categories": ["new", "colors"]
+  },
+  {
+    "id": "white-flag",
+    "emoji": "🏳️",
+    "translations": {
+      "en": { "text": "flag" },
+      "fr": { "article": "un", "text": "drapeau" },
+      "it": { "text": "bandiera" },
+      "de": { "text": "Flagge" },
+      "es": { "text": "bandera" },
+      "pt": { "text": "bandeira" },
+      "ja": { "text": "旗", "kana": "はた", "romaji": "hata" }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "ascension-island",
+    "emoji": "🇦🇨",
+    "translations": {
+      "en": { "text": "Ascension Island" },
+      "fr": { "text": "Île de l’Ascension" },
+      "it": { "text": "Isola di Ascensione" },
+      "de": { "text": "Ascension" },
+      "es": { "text": "Isla de Ascensión" },
+      "pt": { "text": "Ilha de Ascensão" },
+      "ja": {
+        "text": "アセンション島",
+        "kana": "アセンションとう",
+        "romaji": "asenshontou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "andorra",
+    "emoji": "🇦🇩",
+    "translations": {
+      "en": { "text": "Andorra" },
+      "fr": { "text": "Andorre" },
+      "it": { "text": "Andorra" },
+      "de": { "text": "Andorra" },
+      "es": { "text": "Andorra" },
+      "pt": { "text": "Andorra" },
+      "ja": { "text": "アンドラ", "kana": "アンドラ", "romaji": "andora" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "united-arab-emirates",
+    "emoji": "🇦🇪",
+    "translations": {
+      "en": { "text": "United Arab Emirates" },
+      "fr": { "text": "Émirats arabes unis" },
+      "it": { "text": "Emirati Arabi Uniti" },
+      "de": { "text": "Vereinigte Arabische Emirate" },
+      "es": { "text": "Emiratos Árabes Unidos" },
+      "pt": { "text": "Emirados Árabes Unidos" },
+      "ja": {
+        "text": "アラブ首長国連邦",
+        "kana": "アラブしゅちょうこくれんぽう",
+        "romaji": "arabushuchoukokurenpou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "afghanistan",
+    "emoji": "🇦🇫",
+    "translations": {
+      "en": { "text": "Afghanistan" },
+      "fr": { "text": "Afghanistan" },
+      "it": { "text": "Afghanistan" },
+      "de": { "text": "Afghanistan" },
+      "es": { "text": "Afganistán" },
+      "pt": { "text": "Afeganistão" },
+      "ja": {
+        "text": "アフガニスタン",
+        "kana": "アフガニスタン",
+        "romaji": "afuganisutan"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "antigua-barbuda",
+    "emoji": "🇦🇬",
+    "translations": {
+      "en": { "text": "Antigua & Barbuda" },
+      "fr": { "text": "Antigua-et-Barbuda" },
+      "it": { "text": "Antigua e Barbuda" },
+      "de": { "text": "Antigua und Barbuda" },
+      "es": { "text": "Antigua y Barbuda" },
+      "pt": { "text": "Antígua e Barbuda" },
+      "ja": {
+        "text": "アンティグア・バーブーダ",
+        "kana": "アンティグア・バーブーダ",
+        "romaji": "antigua baabuuda"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "anguilla",
+    "emoji": "🇦🇮",
+    "translations": {
+      "en": { "text": "Anguilla" },
+      "fr": { "text": "Anguilla" },
+      "it": { "text": "Anguilla" },
+      "de": { "text": "Anguilla" },
+      "es": { "text": "Anguila" },
+      "pt": { "text": "Anguila" },
+      "ja": { "text": "アンギラ", "kana": "アンギラ", "romaji": "angira" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "albania",
+    "emoji": "🇦🇱",
+    "translations": {
+      "en": { "text": "Albania" },
+      "fr": { "text": "Albanie" },
+      "it": { "text": "Albania" },
+      "de": { "text": "Albanien" },
+      "es": { "text": "Albania" },
+      "pt": { "text": "Albânia" },
+      "ja": { "text": "アルバニア", "kana": "アルバニア", "romaji": "arubania" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "armenia",
+    "emoji": "🇦🇲",
+    "translations": {
+      "en": { "text": "Armenia" },
+      "fr": { "text": "Arménie" },
+      "it": { "text": "Armenia" },
+      "de": { "text": "Armenien" },
+      "es": { "text": "Armenia" },
+      "pt": { "text": "Armênia" },
+      "ja": { "text": "アルメニア", "kana": "アルメニア", "romaji": "arumenia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "angola",
+    "emoji": "🇦🇴",
+    "translations": {
+      "en": { "text": "Angola" },
+      "fr": { "text": "Angola" },
+      "it": { "text": "Angola" },
+      "de": { "text": "Angola" },
+      "es": { "text": "Angola" },
+      "pt": { "text": "Angola" },
+      "ja": { "text": "アンゴラ", "kana": "アンゴラ", "romaji": "angora" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "antarctica",
+    "emoji": "🇦🇶",
+    "translations": {
+      "en": { "text": "Antarctica" },
+      "fr": { "text": "Antarctique" },
+      "it": { "text": "Antartide" },
+      "de": { "text": "Antarktis" },
+      "es": { "text": "Antártida" },
+      "pt": { "text": "Antártida" },
+      "ja": { "text": "南極", "kana": "なんきょく", "romaji": "nankyoku" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "argentina",
+    "emoji": "🇦🇷",
+    "translations": {
+      "en": { "text": "Argentina" },
+      "fr": { "text": "Argentine" },
+      "it": { "text": "Argentina" },
+      "de": { "text": "Argentinien" },
+      "es": { "text": "Argentina" },
+      "pt": { "text": "Argentina" },
+      "ja": {
+        "text": "アルゼンチン",
+        "kana": "アルゼンチン",
+        "romaji": "aruzenchin"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "american-samoa",
+    "emoji": "🇦🇸",
+    "translations": {
+      "en": { "text": "American Samoa" },
+      "fr": { "text": "Samoa américaines" },
+      "it": { "text": "Samoa Americane" },
+      "de": { "text": "Amerikanisch-Samoa" },
+      "es": { "text": "Samoa Americana" },
+      "pt": { "text": "Samoa Americana" },
+      "ja": {
+        "text": "アメリカ領サモア",
+        "kana": "アメリカりょうサモア",
+        "romaji": "amerikaryousamoa"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "austria",
+    "emoji": "🇦🇹",
+    "translations": {
+      "en": { "text": "Austria" },
+      "fr": { "text": "Autriche" },
+      "it": { "text": "Austria" },
+      "de": { "text": "Österreich" },
+      "es": { "text": "Austria" },
+      "pt": { "text": "Áustria" },
+      "ja": {
+        "text": "オーストリア",
+        "kana": "オーストリア",
+        "romaji": "oosutoria"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "australia",
+    "emoji": "🇦🇺",
+    "translations": {
+      "en": { "text": "Australia" },
+      "fr": { "text": "Australie" },
+      "it": { "text": "Australia" },
+      "de": { "text": "Australien" },
+      "es": { "text": "Australia" },
+      "pt": { "text": "Austrália" },
+      "ja": {
+        "text": "オーストラリア",
+        "kana": "オーストラリア",
+        "romaji": "oosutoraria"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "aruba",
+    "emoji": "🇦🇼",
+    "translations": {
+      "en": { "text": "Aruba" },
+      "fr": { "text": "Aruba" },
+      "it": { "text": "Aruba" },
+      "de": { "text": "Aruba" },
+      "es": { "text": "Aruba" },
+      "pt": { "text": "Aruba" },
+      "ja": { "text": "アルバ", "kana": "アルバ", "romaji": "aruba" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "aland-islands",
+    "emoji": "🇦🇽",
+    "translations": {
+      "en": { "text": "Åland Islands" },
+      "fr": { "text": "Îles Åland" },
+      "it": { "text": "Isole Åland" },
+      "de": { "text": "Ålandinseln" },
+      "es": { "text": "Islas Åland" },
+      "pt": { "text": "Ilhas Åland" },
+      "ja": {
+        "text": "オーランド諸島",
+        "kana": "オーランドしょとう",
+        "romaji": "oorandoshotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "azerbaijan",
+    "emoji": "🇦🇿",
+    "translations": {
+      "en": { "text": "Azerbaijan" },
+      "fr": { "text": "Azerbaïdjan" },
+      "it": { "text": "Azerbaigian" },
+      "de": { "text": "Aserbaidschan" },
+      "es": { "text": "Azerbaiyán" },
+      "pt": { "text": "Azerbaijão" },
+      "ja": {
+        "text": "アゼルバイジャン",
+        "kana": "アゼルバイジャン",
+        "romaji": "azerubaijan"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "bosnia-herzegovina",
+    "emoji": "🇧🇦",
+    "translations": {
+      "en": { "text": "Bosnia & Herzegovina" },
+      "fr": { "text": "Bosnie-Herzégovine" },
+      "it": { "text": "Bosnia ed Erzegovina" },
+      "de": { "text": "Bosnien und Herzegowina" },
+      "es": { "text": "Bosnia y Herzegovina" },
+      "pt": { "text": "Bósnia e Herzegovina" },
+      "ja": {
+        "text": "ボスニア・ヘルツェゴビナ",
+        "kana": "ボスニア・ヘルツェゴビナ",
+        "romaji": "bosunia herutsegobina"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "barbados",
+    "emoji": "🇧🇧",
+    "translations": {
+      "en": { "text": "Barbados" },
+      "fr": { "text": "Barbade" },
+      "it": { "text": "Barbados" },
+      "de": { "text": "Barbados" },
+      "es": { "text": "Barbados" },
+      "pt": { "text": "Barbados" },
+      "ja": {
+        "text": "バルバドス",
+        "kana": "バルバドス",
+        "romaji": "barubadosu"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "bangladesh",
+    "emoji": "🇧🇩",
+    "translations": {
+      "en": { "text": "Bangladesh" },
+      "fr": { "text": "Bangladesh" },
+      "it": { "text": "Bangladesh" },
+      "de": { "text": "Bangladesch" },
+      "es": { "text": "Bangladés" },
+      "pt": { "text": "Bangladesh" },
+      "ja": {
+        "text": "バングラデシュ",
+        "kana": "バングラデシュ",
+        "romaji": "banguradeshu"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "belgium",
+    "emoji": "🇧🇪",
+    "translations": {
+      "en": { "text": "Belgium" },
+      "fr": { "text": "Belgique" },
+      "it": { "text": "Belgio" },
+      "de": { "text": "Belgien" },
+      "es": { "text": "Bélgica" },
+      "pt": { "text": "Bélgica" },
+      "ja": { "text": "ベルギー", "kana": "ベルギー", "romaji": "berugii" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "burkina-faso",
+    "emoji": "🇧🇫",
+    "translations": {
+      "en": { "text": "Burkina Faso" },
+      "fr": { "text": "Burkina Faso" },
+      "it": { "text": "Burkina Faso" },
+      "de": { "text": "Burkina Faso" },
+      "es": { "text": "Burkina Faso" },
+      "pt": { "text": "Burquina Faso" },
+      "ja": {
+        "text": "ブルキナファソ",
+        "kana": "ブルキナファソ",
+        "romaji": "burukinafaso"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "bulgaria",
+    "emoji": "🇧🇬",
+    "translations": {
+      "en": { "text": "Bulgaria" },
+      "fr": { "text": "Bulgarie" },
+      "it": { "text": "Bulgaria" },
+      "de": { "text": "Bulgarien" },
+      "es": { "text": "Bulgaria" },
+      "pt": { "text": "Bulgária" },
+      "ja": {
+        "text": "ブルガリア",
+        "kana": "ブルガリア",
+        "romaji": "burugaria"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "bahrain",
+    "emoji": "🇧🇭",
+    "translations": {
+      "en": { "text": "Bahrain" },
+      "fr": { "text": "Bahreïn" },
+      "it": { "text": "Bahrein" },
+      "de": { "text": "Bahrain" },
+      "es": { "text": "Baréin" },
+      "pt": { "text": "Bahrein" },
+      "ja": { "text": "バーレーン", "kana": "バーレーン", "romaji": "baareen" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "burundi",
+    "emoji": "🇧🇮",
+    "translations": {
+      "en": { "text": "Burundi" },
+      "fr": { "text": "Burundi" },
+      "it": { "text": "Burundi" },
+      "de": { "text": "Burundi" },
+      "es": { "text": "Burundi" },
+      "pt": { "text": "Burundi" },
+      "ja": { "text": "ブルンジ", "kana": "ブルンジ", "romaji": "burunji" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "benin",
+    "emoji": "🇧🇯",
+    "translations": {
+      "en": { "text": "Benin" },
+      "fr": { "text": "Bénin" },
+      "it": { "text": "Benin" },
+      "de": { "text": "Benin" },
+      "es": { "text": "Benín" },
+      "pt": { "text": "Benin" },
+      "ja": { "text": "ベナン", "kana": "ベナン", "romaji": "benan" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "st-barthelemy",
+    "emoji": "🇧🇱",
+    "translations": {
+      "en": { "text": "St. Barthélemy" },
+      "fr": { "text": "Saint-Barthélemy" },
+      "it": { "text": "Saint-Barthélemy" },
+      "de": { "text": "St. Barthélemy" },
+      "es": { "text": "San Bartolomé" },
+      "pt": { "text": "São Bartolomeu" },
+      "ja": {
+        "text": "サン・バルテルミー島",
+        "kana": "サン・バルテルミーとう",
+        "romaji": "san baruterumiitou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "bermuda",
+    "emoji": "🇧🇲",
+    "translations": {
+      "en": { "text": "Bermuda" },
+      "fr": { "text": "Bermudes" },
+      "it": { "text": "Bermuda" },
+      "de": { "text": "Bermuda" },
+      "es": { "text": "Bermudas" },
+      "pt": { "text": "Bermudas" },
+      "ja": { "text": "バミューダ", "kana": "バミューダ", "romaji": "bamyuuda" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "brunei",
+    "emoji": "🇧🇳",
+    "translations": {
+      "en": { "text": "Brunei" },
+      "fr": { "text": "Brunei" },
+      "it": { "text": "Brunei" },
+      "de": { "text": "Brunei" },
+      "es": { "text": "Brunéi" },
+      "pt": { "text": "Brunei" },
+      "ja": { "text": "ブルネイ", "kana": "ブルネイ", "romaji": "burunei" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "bolivia",
+    "emoji": "🇧🇴",
+    "translations": {
+      "en": { "text": "Bolivia" },
+      "fr": { "text": "Bolivie" },
+      "it": { "text": "Bolivia" },
+      "de": { "text": "Bolivien" },
+      "es": { "text": "Bolivia" },
+      "pt": { "text": "Bolívia" },
+      "ja": { "text": "ボリビア", "kana": "ボリビア", "romaji": "boribia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "caribbean-netherlands",
+    "emoji": "🇧🇶",
+    "translations": {
+      "en": { "text": "Caribbean Netherlands" },
+      "fr": { "text": "Pays-Bas caribéens" },
+      "it": { "text": "Paesi Bassi caraibici" },
+      "de": { "text": "Karibische Niederlande" },
+      "es": { "text": "Caribe Neerlandés" },
+      "pt": { "text": "Países Baixos Caribenhos" },
+      "ja": {
+        "text": "カリブ・オランダ",
+        "kana": "カリブ・オランダ",
+        "romaji": "karibu oranda"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "brazil",
+    "emoji": "🇧🇷",
+    "translations": {
+      "en": { "text": "Brazil" },
+      "fr": { "text": "Brésil" },
+      "it": { "text": "Brasile" },
+      "de": { "text": "Brasilien" },
+      "es": { "text": "Brasil" },
+      "pt": { "text": "Brasil" },
+      "ja": { "text": "ブラジル", "kana": "ブラジル", "romaji": "burajiru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "bahamas",
+    "emoji": "🇧🇸",
+    "translations": {
+      "en": { "text": "Bahamas" },
+      "fr": { "text": "Bahamas" },
+      "it": { "text": "Bahamas" },
+      "de": { "text": "Bahamas" },
+      "es": { "text": "Bahamas" },
+      "pt": { "text": "Bahamas" },
+      "ja": { "text": "バハマ", "kana": "バハマ", "romaji": "bahama" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "bhutan",
+    "emoji": "🇧🇹",
+    "translations": {
+      "en": { "text": "Bhutan" },
+      "fr": { "text": "Bhoutan" },
+      "it": { "text": "Bhutan" },
+      "de": { "text": "Bhutan" },
+      "es": { "text": "Bután" },
+      "pt": { "text": "Butão" },
+      "ja": { "text": "ブータン", "kana": "ブータン", "romaji": "buutan" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "bouvet-island",
+    "emoji": "🇧🇻",
+    "translations": {
+      "en": { "text": "Bouvet Island" },
+      "fr": { "text": "Île Bouvet" },
+      "it": { "text": "Isola Bouvet" },
+      "de": { "text": "Bouvetinsel" },
+      "es": { "text": "Isla Bouvet" },
+      "pt": { "text": "Ilha Bouvet" },
+      "ja": { "text": "ブーベ島", "kana": "ブーベとう", "romaji": "buubetou" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "botswana",
+    "emoji": "🇧🇼",
+    "translations": {
+      "en": { "text": "Botswana" },
+      "fr": { "text": "Botswana" },
+      "it": { "text": "Botswana" },
+      "de": { "text": "Botsuana" },
+      "es": { "text": "Botsuana" },
+      "pt": { "text": "Botsuana" },
+      "ja": { "text": "ボツワナ", "kana": "ボツワナ", "romaji": "botsuwana" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "belarus",
+    "emoji": "🇧🇾",
+    "translations": {
+      "en": { "text": "Belarus" },
+      "fr": { "text": "Biélorussie" },
+      "it": { "text": "Bielorussia" },
+      "de": { "text": "Belarus" },
+      "es": { "text": "Bielorrusia" },
+      "pt": { "text": "Bielorrússia" },
+      "ja": {
+        "text": "ベラルーシ",
+        "kana": "ベラルーシ",
+        "romaji": "beraruushi"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "belize",
+    "emoji": "🇧🇿",
+    "translations": {
+      "en": { "text": "Belize" },
+      "fr": { "text": "Belize" },
+      "it": { "text": "Belize" },
+      "de": { "text": "Belize" },
+      "es": { "text": "Belice" },
+      "pt": { "text": "Belize" },
+      "ja": { "text": "ベリーズ", "kana": "ベリーズ", "romaji": "beriizu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "canada",
+    "emoji": "🇨🇦",
+    "translations": {
+      "en": { "text": "Canada" },
+      "fr": { "text": "Canada" },
+      "it": { "text": "Canada" },
+      "de": { "text": "Kanada" },
+      "es": { "text": "Canadá" },
+      "pt": { "text": "Canadá" },
+      "ja": { "text": "カナダ", "kana": "カナダ", "romaji": "kanada" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "cocos-keeling-islands",
+    "emoji": "🇨🇨",
+    "translations": {
+      "en": { "text": "Cocos (Keeling) Islands" },
+      "fr": { "text": "Îles Cocos" },
+      "it": { "text": "Isole Cocos" },
+      "de": { "text": "Kokosinseln" },
+      "es": { "text": "Islas Cocos" },
+      "pt": { "text": "Ilhas Cocos" },
+      "ja": {
+        "text": "ココス諸島",
+        "kana": "ココスしょとう",
+        "romaji": "kokosushotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "congo-kinshasa",
+    "emoji": "🇨🇩",
+    "translations": {
+      "en": { "text": "Congo - Kinshasa" },
+      "fr": { "text": "Congo-Kinshasa" },
+      "it": { "text": "Congo-Kinshasa" },
+      "de": { "text": "Kongo-Kinshasa" },
+      "es": { "text": "Congo-Kinshasa" },
+      "pt": { "text": "Congo-Kinshasa" },
+      "ja": {
+        "text": "コンゴ民主共和国",
+        "kana": "コンゴみんしゅきょうわこく",
+        "romaji": "kongominshukyouwakoku"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "central-african-republic",
+    "emoji": "🇨🇫",
+    "translations": {
+      "en": { "text": "Central African Republic" },
+      "fr": { "text": "République centrafricaine" },
+      "it": { "text": "Repubblica Centrafricana" },
+      "de": { "text": "Zentralafrikanische Republik" },
+      "es": { "text": "República Centroafricana" },
+      "pt": { "text": "República Centro-Africana" },
+      "ja": {
+        "text": "中央アフリカ共和国",
+        "kana": "ちゅうおうアフリカきょうわこく",
+        "romaji": "chuuouafurikakyouwakoku"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "congo-brazzaville",
+    "emoji": "🇨🇬",
+    "translations": {
+      "en": { "text": "Congo - Brazzaville" },
+      "fr": { "text": "Congo-Brazzaville" },
+      "it": { "text": "Congo-Brazzaville" },
+      "de": { "text": "Kongo-Brazzaville" },
+      "es": { "text": "Congo-Brazzaville" },
+      "pt": { "text": "Congo-Brazzaville" },
+      "ja": {
+        "text": "コンゴ共和国",
+        "kana": "コンゴきょうわこく",
+        "romaji": "kongokyouwakoku"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "switzerland",
+    "emoji": "🇨🇭",
+    "translations": {
+      "en": { "text": "Switzerland" },
+      "fr": { "text": "Suisse" },
+      "it": { "text": "Svizzera" },
+      "de": { "text": "Schweiz" },
+      "es": { "text": "Suiza" },
+      "pt": { "text": "Suíça" },
+      "ja": { "text": "スイス", "kana": "スイス", "romaji": "suisu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "cote-divoire",
+    "emoji": "🇨🇮",
+    "translations": {
+      "en": { "text": "Côte d’Ivoire" },
+      "fr": { "text": "Côte d’Ivoire" },
+      "it": { "text": "Costa d’Avorio" },
+      "de": { "text": "Côte d’Ivoire" },
+      "es": { "text": "Costa de Marfil" },
+      "pt": { "text": "Costa do Marfim" },
+      "ja": {
+        "text": "コートジボワール",
+        "kana": "コートジボワール",
+        "romaji": "kootojibowaaru"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "cook-islands",
+    "emoji": "🇨🇰",
+    "translations": {
+      "en": { "text": "Cook Islands" },
+      "fr": { "text": "Îles Cook" },
+      "it": { "text": "Isole Cook" },
+      "de": { "text": "Cookinseln" },
+      "es": { "text": "Islas Cook" },
+      "pt": { "text": "Ilhas Cook" },
+      "ja": {
+        "text": "クック諸島",
+        "kana": "クックしょとう",
+        "romaji": "kukkushotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "chile",
+    "emoji": "🇨🇱",
+    "translations": {
+      "en": { "text": "Chile" },
+      "fr": { "text": "Chili" },
+      "it": { "text": "Cile" },
+      "de": { "text": "Chile" },
+      "es": { "text": "Chile" },
+      "pt": { "text": "Chile" },
+      "ja": { "text": "チリ", "kana": "チリ", "romaji": "chiri" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "cameroon",
+    "emoji": "🇨🇲",
+    "translations": {
+      "en": { "text": "Cameroon" },
+      "fr": { "text": "Cameroun" },
+      "it": { "text": "Camerun" },
+      "de": { "text": "Kamerun" },
+      "es": { "text": "Camerún" },
+      "pt": { "text": "Camarões" },
+      "ja": { "text": "カメルーン", "kana": "カメルーン", "romaji": "kameruun" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "china",
+    "emoji": "🇨🇳",
+    "translations": {
+      "en": { "text": "China" },
+      "fr": { "text": "Chine" },
+      "it": { "text": "Cina" },
+      "de": { "text": "China" },
+      "es": { "text": "China" },
+      "pt": { "text": "China" },
+      "ja": { "text": "中国", "kana": "ちゅうごく", "romaji": "chuugoku" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "colombia",
+    "emoji": "🇨🇴",
+    "translations": {
+      "en": { "text": "Colombia" },
+      "fr": { "text": "Colombie" },
+      "it": { "text": "Colombia" },
+      "de": { "text": "Kolumbien" },
+      "es": { "text": "Colombia" },
+      "pt": { "text": "Colômbia" },
+      "ja": { "text": "コロンビア", "kana": "コロンビア", "romaji": "koronbia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "clipperton-island",
+    "emoji": "🇨🇵",
+    "translations": {
+      "en": { "text": "Clipperton Island" },
+      "fr": { "text": "Île Clipperton" },
+      "it": { "text": "Isola di Clipperton" },
+      "de": { "text": "Clipperton" },
+      "es": { "text": "Isla Clipperton" },
+      "pt": { "text": "Ilha Clipperton" },
+      "ja": {
+        "text": "クリッパートン島",
+        "kana": "クリッパートンとう",
+        "romaji": "kurippaatontou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "sark",
+    "emoji": "🇨🇶",
+    "translations": {
+      "en": { "text": "Sark" },
+      "fr": { "text": "Sercq" },
+      "it": { "text": "Sark" },
+      "de": { "text": "Sark" },
+      "es": { "text": "Sark" },
+      "pt": { "text": "Sark" },
+      "ja": { "text": "サーク島", "kana": "サークとう", "romaji": "saakutou" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "costa-rica",
+    "emoji": "🇨🇷",
+    "translations": {
+      "en": { "text": "Costa Rica" },
+      "fr": { "text": "Costa Rica" },
+      "it": { "text": "Costa Rica" },
+      "de": { "text": "Costa Rica" },
+      "es": { "text": "Costa Rica" },
+      "pt": { "text": "Costa Rica" },
+      "ja": {
+        "text": "コスタリカ",
+        "kana": "コスタリカ",
+        "romaji": "kosutarika"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "cuba",
+    "emoji": "🇨🇺",
+    "translations": {
+      "en": { "text": "Cuba" },
+      "fr": { "text": "Cuba" },
+      "it": { "text": "Cuba" },
+      "de": { "text": "Kuba" },
+      "es": { "text": "Cuba" },
+      "pt": { "text": "Cuba" },
+      "ja": { "text": "キューバ", "kana": "キューバ", "romaji": "kyuuba" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "cape-verde",
+    "emoji": "🇨🇻",
+    "translations": {
+      "en": { "text": "Cape Verde" },
+      "fr": { "text": "Cap-Vert" },
+      "it": { "text": "Capo Verde" },
+      "de": { "text": "Cabo Verde" },
+      "es": { "text": "Cabo Verde" },
+      "pt": { "text": "Cabo Verde" },
+      "ja": {
+        "text": "カーボベルデ",
+        "kana": "カーボベルデ",
+        "romaji": "kaaboberude"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "curacao",
+    "emoji": "🇨🇼",
+    "translations": {
+      "en": { "text": "Curaçao" },
+      "fr": { "text": "Curaçao" },
+      "it": { "text": "Curaçao" },
+      "de": { "text": "Curaçao" },
+      "es": { "text": "Curazao" },
+      "pt": { "text": "Curaçao" },
+      "ja": { "text": "キュラソー", "kana": "キュラソー", "romaji": "kyurasoo" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "christmas-island",
+    "emoji": "🇨🇽",
+    "translations": {
+      "en": { "text": "Christmas Island" },
+      "fr": { "text": "Île Christmas" },
+      "it": { "text": "Isola Christmas" },
+      "de": { "text": "Weihnachtsinsel" },
+      "es": { "text": "Isla de Navidad" },
+      "pt": { "text": "Ilha Christmas" },
+      "ja": {
+        "text": "クリスマス島",
+        "kana": "クリスマスとう",
+        "romaji": "kurisumasutou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "cyprus",
+    "emoji": "🇨🇾",
+    "translations": {
+      "en": { "text": "Cyprus" },
+      "fr": { "text": "Chypre" },
+      "it": { "text": "Cipro" },
+      "de": { "text": "Zypern" },
+      "es": { "text": "Chipre" },
+      "pt": { "text": "Chipre" },
+      "ja": { "text": "キプロス", "kana": "キプロス", "romaji": "kipurosu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "czechia",
+    "emoji": "🇨🇿",
+    "translations": {
+      "en": { "text": "Czechia" },
+      "fr": { "text": "Tchéquie" },
+      "it": { "text": "Cechia" },
+      "de": { "text": "Tschechien" },
+      "es": { "text": "Chequia" },
+      "pt": { "text": "Tchéquia" },
+      "ja": { "text": "チェコ", "kana": "チェコ", "romaji": "cheko" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "germany",
+    "emoji": "🇩🇪",
+    "translations": {
+      "en": { "text": "Germany" },
+      "fr": { "text": "Allemagne" },
+      "it": { "text": "Germania" },
+      "de": { "text": "Deutschland" },
+      "es": { "text": "Alemania" },
+      "pt": { "text": "Alemanha" },
+      "ja": { "text": "ドイツ", "kana": "ドイツ", "romaji": "doitsu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "diego-garcia",
+    "emoji": "🇩🇬",
+    "translations": {
+      "en": { "text": "Diego Garcia" },
+      "fr": { "text": "Diego Garcia" },
+      "it": { "text": "Diego Garcia" },
+      "de": { "text": "Diego Garcia" },
+      "es": { "text": "Diego García" },
+      "pt": { "text": "Diego Garcia" },
+      "ja": {
+        "text": "ディエゴガルシア島",
+        "kana": "ディエゴガルシアとう",
+        "romaji": "diegogarushiatou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "djibouti",
+    "emoji": "🇩🇯",
+    "translations": {
+      "en": { "text": "Djibouti" },
+      "fr": { "text": "Djibouti" },
+      "it": { "text": "Gibuti" },
+      "de": { "text": "Dschibuti" },
+      "es": { "text": "Yibuti" },
+      "pt": { "text": "Djibuti" },
+      "ja": { "text": "ジブチ", "kana": "ジブチ", "romaji": "jibuchi" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "denmark",
+    "emoji": "🇩🇰",
+    "translations": {
+      "en": { "text": "Denmark" },
+      "fr": { "text": "Danemark" },
+      "it": { "text": "Danimarca" },
+      "de": { "text": "Dänemark" },
+      "es": { "text": "Dinamarca" },
+      "pt": { "text": "Dinamarca" },
+      "ja": { "text": "デンマーク", "kana": "デンマーク", "romaji": "denmaaku" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "dominica",
+    "emoji": "🇩🇲",
+    "translations": {
+      "en": { "text": "Dominica" },
+      "fr": { "text": "Dominique" },
+      "it": { "text": "Dominica" },
+      "de": { "text": "Dominica" },
+      "es": { "text": "Dominica" },
+      "pt": { "text": "Dominica" },
+      "ja": {
+        "text": "ドミニカ国",
+        "kana": "ドミニカこく",
+        "romaji": "dominikakoku"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "dominican-republic",
+    "emoji": "🇩🇴",
+    "translations": {
+      "en": { "text": "Dominican Republic" },
+      "fr": { "text": "République dominicaine" },
+      "it": { "text": "Repubblica Dominicana" },
+      "de": { "text": "Dominikanische Republik" },
+      "es": { "text": "República Dominicana" },
+      "pt": { "text": "República Dominicana" },
+      "ja": {
+        "text": "ドミニカ共和国",
+        "kana": "ドミニカきょうわこく",
+        "romaji": "dominikakyouwakoku"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "algeria",
+    "emoji": "🇩🇿",
+    "translations": {
+      "en": { "text": "Algeria" },
+      "fr": { "text": "Algérie" },
+      "it": { "text": "Algeria" },
+      "de": { "text": "Algerien" },
+      "es": { "text": "Argelia" },
+      "pt": { "text": "Argélia" },
+      "ja": {
+        "text": "アルジェリア",
+        "kana": "アルジェリア",
+        "romaji": "arujeria"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "ceuta-melilla",
+    "emoji": "🇪🇦",
+    "translations": {
+      "en": { "text": "Ceuta & Melilla" },
+      "fr": { "text": "Ceuta et Melilla" },
+      "it": { "text": "Ceuta e Melilla" },
+      "de": { "text": "Ceuta und Melilla" },
+      "es": { "text": "Ceuta y Melilla" },
+      "pt": { "text": "Ceuta e Melilha" },
+      "ja": {
+        "text": "セウタ・メリリャ",
+        "kana": "セウタ・メリリャ",
+        "romaji": "seuta merirya"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "ecuador",
+    "emoji": "🇪🇨",
+    "translations": {
+      "en": { "text": "Ecuador" },
+      "fr": { "text": "Équateur" },
+      "it": { "text": "Ecuador" },
+      "de": { "text": "Ecuador" },
+      "es": { "text": "Ecuador" },
+      "pt": { "text": "Equador" },
+      "ja": { "text": "エクアドル", "kana": "エクアドル", "romaji": "ekuadoru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "estonia",
+    "emoji": "🇪🇪",
+    "translations": {
+      "en": { "text": "Estonia" },
+      "fr": { "text": "Estonie" },
+      "it": { "text": "Estonia" },
+      "de": { "text": "Estland" },
+      "es": { "text": "Estonia" },
+      "pt": { "text": "Estônia" },
+      "ja": { "text": "エストニア", "kana": "エストニア", "romaji": "esutonia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "egypt",
+    "emoji": "🇪🇬",
+    "translations": {
+      "en": { "text": "Egypt" },
+      "fr": { "text": "Égypte" },
+      "it": { "text": "Egitto" },
+      "de": { "text": "Ägypten" },
+      "es": { "text": "Egipto" },
+      "pt": { "text": "Egito" },
+      "ja": { "text": "エジプト", "kana": "エジプト", "romaji": "ejiputo" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "western-sahara",
+    "emoji": "🇪🇭",
+    "translations": {
+      "en": { "text": "Western Sahara" },
+      "fr": { "text": "Sahara occidental" },
+      "it": { "text": "Sahara occidentale" },
+      "de": { "text": "Westsahara" },
+      "es": { "text": "Sáhara Occidental" },
+      "pt": { "text": "Saara Ocidental" },
+      "ja": {
+        "text": "西サハラ",
+        "kana": "にしサハラ",
+        "romaji": "nishisahara"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "eritrea",
+    "emoji": "🇪🇷",
+    "translations": {
+      "en": { "text": "Eritrea" },
+      "fr": { "text": "Érythrée" },
+      "it": { "text": "Eritrea" },
+      "de": { "text": "Eritrea" },
+      "es": { "text": "Eritrea" },
+      "pt": { "text": "Eritreia" },
+      "ja": { "text": "エリトリア", "kana": "エリトリア", "romaji": "eritoria" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "spain",
+    "emoji": "🇪🇸",
+    "translations": {
+      "en": { "text": "Spain" },
+      "fr": { "text": "Espagne" },
+      "it": { "text": "Spagna" },
+      "de": { "text": "Spanien" },
+      "es": { "text": "España" },
+      "pt": { "text": "Espanha" },
+      "ja": { "text": "スペイン", "kana": "スペイン", "romaji": "supein" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "ethiopia",
+    "emoji": "🇪🇹",
+    "translations": {
+      "en": { "text": "Ethiopia" },
+      "fr": { "text": "Éthiopie" },
+      "it": { "text": "Etiopia" },
+      "de": { "text": "Äthiopien" },
+      "es": { "text": "Etiopía" },
+      "pt": { "text": "Etiópia" },
+      "ja": { "text": "エチオピア", "kana": "エチオピア", "romaji": "echiopia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "european-union",
+    "emoji": "🇪🇺",
+    "translations": {
+      "en": { "text": "European Union" },
+      "fr": { "text": "Union européenne" },
+      "it": { "text": "Unione Europea" },
+      "de": { "text": "Europäische Union" },
+      "es": { "text": "Unión Europea" },
+      "pt": { "text": "União Europeia" },
+      "ja": {
+        "text": "欧州連合",
+        "kana": "おうしゅうれんごう",
+        "romaji": "oushuurengou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "finland",
+    "emoji": "🇫🇮",
+    "translations": {
+      "en": { "text": "Finland" },
+      "fr": { "text": "Finlande" },
+      "it": { "text": "Finlandia" },
+      "de": { "text": "Finnland" },
+      "es": { "text": "Finlandia" },
+      "pt": { "text": "Finlândia" },
+      "ja": {
+        "text": "フィンランド",
+        "kana": "フィンランド",
+        "romaji": "finrando"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "fiji",
+    "emoji": "🇫🇯",
+    "translations": {
+      "en": { "text": "Fiji" },
+      "fr": { "text": "Fidji" },
+      "it": { "text": "Figi" },
+      "de": { "text": "Fidschi" },
+      "es": { "text": "Fiyi" },
+      "pt": { "text": "Fiji" },
+      "ja": { "text": "フィジー", "kana": "フィジー", "romaji": "fijii" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "falkland-islands",
+    "emoji": "🇫🇰",
+    "translations": {
+      "en": { "text": "Falkland Islands" },
+      "fr": { "text": "Îles Malouines" },
+      "it": { "text": "Isole Falkland" },
+      "de": { "text": "Falklandinseln" },
+      "es": { "text": "Islas Malvinas" },
+      "pt": { "text": "Ilhas Malvinas" },
+      "ja": {
+        "text": "フォークランド諸島",
+        "kana": "フォークランドしょとう",
+        "romaji": "fookurandoshotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "micronesia",
+    "emoji": "🇫🇲",
+    "translations": {
+      "en": { "text": "Micronesia" },
+      "fr": { "text": "Micronésie" },
+      "it": { "text": "Micronesia" },
+      "de": { "text": "Mikronesien" },
+      "es": { "text": "Micronesia" },
+      "pt": { "text": "Micronésia" },
+      "ja": {
+        "text": "ミクロネシア",
+        "kana": "ミクロネシア",
+        "romaji": "mikuroneshia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "faroe-islands",
+    "emoji": "🇫🇴",
+    "translations": {
+      "en": { "text": "Faroe Islands" },
+      "fr": { "text": "Îles Féroé" },
+      "it": { "text": "Isole Fær Øer" },
+      "de": { "text": "Färöer" },
+      "es": { "text": "Islas Feroe" },
+      "pt": { "text": "Ilhas Faroé" },
+      "ja": {
+        "text": "フェロー諸島",
+        "kana": "フェローしょとう",
+        "romaji": "ferooshotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "france",
+    "emoji": "🇫🇷",
+    "translations": {
+      "en": { "text": "France" },
+      "fr": { "text": "France" },
+      "it": { "text": "Francia" },
+      "de": { "text": "Frankreich" },
+      "es": { "text": "Francia" },
+      "pt": { "text": "França" },
+      "ja": { "text": "フランス", "kana": "フランス", "romaji": "furansu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "gabon",
+    "emoji": "🇬🇦",
+    "translations": {
+      "en": { "text": "Gabon" },
+      "fr": { "text": "Gabon" },
+      "it": { "text": "Gabon" },
+      "de": { "text": "Gabun" },
+      "es": { "text": "Gabón" },
+      "pt": { "text": "Gabão" },
+      "ja": { "text": "ガボン", "kana": "ガボン", "romaji": "gabon" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "united-kingdom",
+    "emoji": "🇬🇧",
+    "translations": {
+      "en": { "text": "United Kingdom" },
+      "fr": { "text": "Royaume-Uni" },
+      "it": { "text": "Regno Unito" },
+      "de": { "text": "Vereinigtes Königreich" },
+      "es": { "text": "Reino Unido" },
+      "pt": { "text": "Reino Unido" },
+      "ja": { "text": "イギリス", "kana": "イギリス", "romaji": "igirisu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "grenada",
+    "emoji": "🇬🇩",
+    "translations": {
+      "en": { "text": "Grenada" },
+      "fr": { "text": "Grenade" },
+      "it": { "text": "Grenada" },
+      "de": { "text": "Grenada" },
+      "es": { "text": "Granada" },
+      "pt": { "text": "Granada" },
+      "ja": { "text": "グレナダ", "kana": "グレナダ", "romaji": "gurenada" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "georgia",
+    "emoji": "🇬🇪",
+    "translations": {
+      "en": { "text": "Georgia" },
+      "fr": { "text": "Géorgie" },
+      "it": { "text": "Georgia" },
+      "de": { "text": "Georgien" },
+      "es": { "text": "Georgia" },
+      "pt": { "text": "Geórgia" },
+      "ja": { "text": "ジョージア", "kana": "ジョージア", "romaji": "joojia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "french-guiana",
+    "emoji": "🇬🇫",
+    "translations": {
+      "en": { "text": "French Guiana" },
+      "fr": { "text": "Guyane française" },
+      "it": { "text": "Guyana francese" },
+      "de": { "text": "Französisch-Guayana" },
+      "es": { "text": "Guayana Francesa" },
+      "pt": { "text": "Guiana Francesa" },
+      "ja": {
+        "text": "フランス領ギアナ",
+        "kana": "フランスりょうギアナ",
+        "romaji": "furansuryougiana"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "guernsey",
+    "emoji": "🇬🇬",
+    "translations": {
+      "en": { "text": "Guernsey" },
+      "fr": { "text": "Guernesey" },
+      "it": { "text": "Guernsey" },
+      "de": { "text": "Guernsey" },
+      "es": { "text": "Guernsey" },
+      "pt": { "text": "Guernsey" },
+      "ja": {
+        "text": "ガーンジー島",
+        "kana": "ガーンジーとう",
+        "romaji": "gaanjiitou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "ghana",
+    "emoji": "🇬🇭",
+    "translations": {
+      "en": { "text": "Ghana" },
+      "fr": { "text": "Ghana" },
+      "it": { "text": "Ghana" },
+      "de": { "text": "Ghana" },
+      "es": { "text": "Ghana" },
+      "pt": { "text": "Gana" },
+      "ja": { "text": "ガーナ", "kana": "ガーナ", "romaji": "gaana" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "gibraltar",
+    "emoji": "🇬🇮",
+    "translations": {
+      "en": { "text": "Gibraltar" },
+      "fr": { "text": "Gibraltar" },
+      "it": { "text": "Gibilterra" },
+      "de": { "text": "Gibraltar" },
+      "es": { "text": "Gibraltar" },
+      "pt": { "text": "Gibraltar" },
+      "ja": {
+        "text": "ジブラルタル",
+        "kana": "ジブラルタル",
+        "romaji": "jiburarutaru"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "greenland",
+    "emoji": "🇬🇱",
+    "translations": {
+      "en": { "text": "Greenland" },
+      "fr": { "text": "Groenland" },
+      "it": { "text": "Groenlandia" },
+      "de": { "text": "Grönland" },
+      "es": { "text": "Groenlandia" },
+      "pt": { "text": "Groenlândia" },
+      "ja": {
+        "text": "グリーンランド",
+        "kana": "グリーンランド",
+        "romaji": "guriinrando"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "gambia",
+    "emoji": "🇬🇲",
+    "translations": {
+      "en": { "text": "Gambia" },
+      "fr": { "text": "Gambie" },
+      "it": { "text": "Gambia" },
+      "de": { "text": "Gambia" },
+      "es": { "text": "Gambia" },
+      "pt": { "text": "Gâmbia" },
+      "ja": { "text": "ガンビア", "kana": "ガンビア", "romaji": "ganbia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "guinea",
+    "emoji": "🇬🇳",
+    "translations": {
+      "en": { "text": "Guinea" },
+      "fr": { "text": "Guinée" },
+      "it": { "text": "Guinea" },
+      "de": { "text": "Guinea" },
+      "es": { "text": "Guinea" },
+      "pt": { "text": "Guiné" },
+      "ja": { "text": "ギニア", "kana": "ギニア", "romaji": "ginia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "guadeloupe",
+    "emoji": "🇬🇵",
+    "translations": {
+      "en": { "text": "Guadeloupe" },
+      "fr": { "text": "Guadeloupe" },
+      "it": { "text": "Guadalupa" },
+      "de": { "text": "Guadeloupe" },
+      "es": { "text": "Guadalupe" },
+      "pt": { "text": "Guadalupe" },
+      "ja": {
+        "text": "グアドループ",
+        "kana": "グアドループ",
+        "romaji": "guadoruupu"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "equatorial-guinea",
+    "emoji": "🇬🇶",
+    "translations": {
+      "en": { "text": "Equatorial Guinea" },
+      "fr": { "text": "Guinée équatoriale" },
+      "it": { "text": "Guinea Equatoriale" },
+      "de": { "text": "Äquatorialguinea" },
+      "es": { "text": "Guinea Ecuatorial" },
+      "pt": { "text": "Guiné Equatorial" },
+      "ja": {
+        "text": "赤道ギニア",
+        "kana": "せきどうギニア",
+        "romaji": "sekidouginia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "greece",
+    "emoji": "🇬🇷",
+    "translations": {
+      "en": { "text": "Greece" },
+      "fr": { "text": "Grèce" },
+      "it": { "text": "Grecia" },
+      "de": { "text": "Griechenland" },
+      "es": { "text": "Grecia" },
+      "pt": { "text": "Grécia" },
+      "ja": { "text": "ギリシャ", "kana": "ギリシャ", "romaji": "girisha" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "south-georgia-south-sandwich-islands",
+    "emoji": "🇬🇸",
+    "translations": {
+      "en": { "text": "South Georgia & South Sandwich Islands" },
+      "fr": { "text": "Géorgie du Sud-et-les Îles Sandwich du Sud" },
+      "it": { "text": "Georgia del Sud e Sandwich Australi" },
+      "de": { "text": "Südgeorgien und die Südlichen Sandwichinseln" },
+      "es": { "text": "Islas Georgia del Sur y Sandwich del Sur" },
+      "pt": { "text": "Ilhas Geórgia do Sul e Sandwich do Sul" },
+      "ja": {
+        "text": "サウスジョージア・サウスサンドウィッチ諸島",
+        "kana": "サウスジョージア・サウスサンドウィッチしょとう",
+        "romaji": "sausujoojia saususandowicchishotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "guatemala",
+    "emoji": "🇬🇹",
+    "translations": {
+      "en": { "text": "Guatemala" },
+      "fr": { "text": "Guatemala" },
+      "it": { "text": "Guatemala" },
+      "de": { "text": "Guatemala" },
+      "es": { "text": "Guatemala" },
+      "pt": { "text": "Guatemala" },
+      "ja": {
+        "text": "グアテマラ",
+        "kana": "グアテマラ",
+        "romaji": "guatemara"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "guam",
+    "emoji": "🇬🇺",
+    "translations": {
+      "en": { "text": "Guam" },
+      "fr": { "text": "Guam" },
+      "it": { "text": "Guam" },
+      "de": { "text": "Guam" },
+      "es": { "text": "Guam" },
+      "pt": { "text": "Guam" },
+      "ja": { "text": "グアム", "kana": "グアム", "romaji": "guamu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "guinea-bissau",
+    "emoji": "🇬🇼",
+    "translations": {
+      "en": { "text": "Guinea-Bissau" },
+      "fr": { "text": "Guinée-Bissau" },
+      "it": { "text": "Guinea-Bissau" },
+      "de": { "text": "Guinea-Bissau" },
+      "es": { "text": "Guinea-Bisáu" },
+      "pt": { "text": "Guiné-Bissau" },
+      "ja": {
+        "text": "ギニアビサウ",
+        "kana": "ギニアビサウ",
+        "romaji": "giniabisau"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "guyana",
+    "emoji": "🇬🇾",
+    "translations": {
+      "en": { "text": "Guyana" },
+      "fr": { "text": "Guyana" },
+      "it": { "text": "Guyana" },
+      "de": { "text": "Guyana" },
+      "es": { "text": "Guyana" },
+      "pt": { "text": "Guiana" },
+      "ja": { "text": "ガイアナ", "kana": "ガイアナ", "romaji": "gaiana" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "hong-kong",
+    "emoji": "🇭🇰",
+    "translations": {
+      "en": { "text": "Hong Kong" },
+      "fr": { "text": "R.A.S. chinoise de Hong Kong" },
+      "it": { "text": "Hong Kong" },
+      "de": { "text": "Hongkong" },
+      "es": { "text": "Hong Kong" },
+      "pt": { "text": "Hong Kong" },
+      "ja": { "text": "香港", "kana": "ホンコン", "romaji": "honkon" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "heard-mcdonald-islands",
+    "emoji": "🇭🇲",
+    "translations": {
+      "en": { "text": "Heard & McDonald Islands" },
+      "fr": { "text": "Îles Heard-et-MacDonald" },
+      "it": { "text": "Isole Heard e McDonald" },
+      "de": { "text": "Heard und McDonaldinseln" },
+      "es": { "text": "Islas Heard y McDonald" },
+      "pt": { "text": "Ilhas Heard e McDonald" },
+      "ja": {
+        "text": "ハード島とマクドナルド諸島",
+        "kana": "ハードとうとマクドナルドしょとう",
+        "romaji": "haadotoutomakudonarudoshotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "honduras",
+    "emoji": "🇭🇳",
+    "translations": {
+      "en": { "text": "Honduras" },
+      "fr": { "text": "Honduras" },
+      "it": { "text": "Honduras" },
+      "de": { "text": "Honduras" },
+      "es": { "text": "Honduras" },
+      "pt": { "text": "Honduras" },
+      "ja": {
+        "text": "ホンジュラス",
+        "kana": "ホンジュラス",
+        "romaji": "honjurasu"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "croatia",
+    "emoji": "🇭🇷",
+    "translations": {
+      "en": { "text": "Croatia" },
+      "fr": { "text": "Croatie" },
+      "it": { "text": "Croazia" },
+      "de": { "text": "Kroatien" },
+      "es": { "text": "Croacia" },
+      "pt": { "text": "Croácia" },
+      "ja": {
+        "text": "クロアチア",
+        "kana": "クロアチア",
+        "romaji": "kuroachia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "haiti",
+    "emoji": "🇭🇹",
+    "translations": {
+      "en": { "text": "Haiti" },
+      "fr": { "text": "Haïti" },
+      "it": { "text": "Haiti" },
+      "de": { "text": "Haiti" },
+      "es": { "text": "Haití" },
+      "pt": { "text": "Haiti" },
+      "ja": { "text": "ハイチ", "kana": "ハイチ", "romaji": "haichi" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "hungary",
+    "emoji": "🇭🇺",
+    "translations": {
+      "en": { "text": "Hungary" },
+      "fr": { "text": "Hongrie" },
+      "it": { "text": "Ungheria" },
+      "de": { "text": "Ungarn" },
+      "es": { "text": "Hungría" },
+      "pt": { "text": "Hungria" },
+      "ja": { "text": "ハンガリー", "kana": "ハンガリー", "romaji": "hangarii" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "canary-islands",
+    "emoji": "🇮🇨",
+    "translations": {
+      "en": { "text": "Canary Islands" },
+      "fr": { "text": "Îles Canaries" },
+      "it": { "text": "Isole Canarie" },
+      "de": { "text": "Kanarische Inseln" },
+      "es": { "text": "Islas Canarias" },
+      "pt": { "text": "Ilhas Canárias" },
+      "ja": {
+        "text": "カナリア諸島",
+        "kana": "カナリアしょとう",
+        "romaji": "kanariashotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "indonesia",
+    "emoji": "🇮🇩",
+    "translations": {
+      "en": { "text": "Indonesia" },
+      "fr": { "text": "Indonésie" },
+      "it": { "text": "Indonesia" },
+      "de": { "text": "Indonesien" },
+      "es": { "text": "Indonesia" },
+      "pt": { "text": "Indonésia" },
+      "ja": {
+        "text": "インドネシア",
+        "kana": "インドネシア",
+        "romaji": "indoneshia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "ireland",
+    "emoji": "🇮🇪",
+    "translations": {
+      "en": { "text": "Ireland" },
+      "fr": { "text": "Irlande" },
+      "it": { "text": "Irlanda" },
+      "de": { "text": "Irland" },
+      "es": { "text": "Irlanda" },
+      "pt": { "text": "Irlanda" },
+      "ja": {
+        "text": "アイルランド",
+        "kana": "アイルランド",
+        "romaji": "airurando"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "israel",
+    "emoji": "🇮🇱",
+    "translations": {
+      "en": { "text": "Israel" },
+      "fr": { "text": "Israël" },
+      "it": { "text": "Israele" },
+      "de": { "text": "Israel" },
+      "es": { "text": "Israel" },
+      "pt": { "text": "Israel" },
+      "ja": { "text": "イスラエル", "kana": "イスラエル", "romaji": "isuraeru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "isle-of-man",
+    "emoji": "🇮🇲",
+    "translations": {
+      "en": { "text": "Isle of Man" },
+      "fr": { "text": "Île de Man" },
+      "it": { "text": "Isola di Man" },
+      "de": { "text": "Isle of Man" },
+      "es": { "text": "Isla de Man" },
+      "pt": { "text": "Ilha de Man" },
+      "ja": { "text": "マン島", "kana": "マンとう", "romaji": "mantou" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "india",
+    "emoji": "🇮🇳",
+    "translations": {
+      "en": { "text": "India" },
+      "fr": { "text": "Inde" },
+      "it": { "text": "India" },
+      "de": { "text": "Indien" },
+      "es": { "text": "India" },
+      "pt": { "text": "Índia" },
+      "ja": { "text": "インド", "kana": "インド", "romaji": "indo" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "british-indian-ocean-territory",
+    "emoji": "🇮🇴",
+    "translations": {
+      "en": { "text": "British Indian Ocean Territory" },
+      "fr": { "text": "Territoire britannique de l’océan Indien" },
+      "it": { "text": "Territorio britannico dell’Oceano Indiano" },
+      "de": { "text": "Britisches Territorium im Indischen Ozean" },
+      "es": { "text": "Territorio Británico del Océano Índico" },
+      "pt": { "text": "Território Britânico do Oceano Índico" },
+      "ja": {
+        "text": "イギリス領インド洋地域",
+        "kana": "イギリスりょうインドようちいき",
+        "romaji": "igirisuryouindoyouchiiki"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "iraq",
+    "emoji": "🇮🇶",
+    "translations": {
+      "en": { "text": "Iraq" },
+      "fr": { "text": "Irak" },
+      "it": { "text": "Iraq" },
+      "de": { "text": "Irak" },
+      "es": { "text": "Irak" },
+      "pt": { "text": "Iraque" },
+      "ja": { "text": "イラク", "kana": "イラク", "romaji": "iraku" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "iran",
+    "emoji": "🇮🇷",
+    "translations": {
+      "en": { "text": "Iran" },
+      "fr": { "text": "Iran" },
+      "it": { "text": "Iran" },
+      "de": { "text": "Iran" },
+      "es": { "text": "Irán" },
+      "pt": { "text": "Irã" },
+      "ja": { "text": "イラン", "kana": "イラン", "romaji": "iran" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "iceland",
+    "emoji": "🇮🇸",
+    "translations": {
+      "en": { "text": "Iceland" },
+      "fr": { "text": "Islande" },
+      "it": { "text": "Islanda" },
+      "de": { "text": "Island" },
+      "es": { "text": "Islandia" },
+      "pt": { "text": "Islândia" },
+      "ja": {
+        "text": "アイスランド",
+        "kana": "アイスランド",
+        "romaji": "aisurando"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "italy",
+    "emoji": "🇮🇹",
+    "translations": {
+      "en": { "text": "Italy" },
+      "fr": { "text": "Italie" },
+      "it": { "text": "Italia" },
+      "de": { "text": "Italien" },
+      "es": { "text": "Italia" },
+      "pt": { "text": "Itália" },
+      "ja": { "text": "イタリア", "kana": "イタリア", "romaji": "itaria" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "jersey",
+    "emoji": "🇯🇪",
+    "translations": {
+      "en": { "text": "Jersey" },
+      "fr": { "text": "Jersey" },
+      "it": { "text": "Jersey" },
+      "de": { "text": "Jersey" },
+      "es": { "text": "Jersey" },
+      "pt": { "text": "Jersey" },
+      "ja": {
+        "text": "ジャージー島",
+        "kana": "ジャージーとう",
+        "romaji": "jaajiitou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "jamaica",
+    "emoji": "🇯🇲",
+    "translations": {
+      "en": { "text": "Jamaica" },
+      "fr": { "text": "Jamaïque" },
+      "it": { "text": "Giamaica" },
+      "de": { "text": "Jamaika" },
+      "es": { "text": "Jamaica" },
+      "pt": { "text": "Jamaica" },
+      "ja": { "text": "ジャマイカ", "kana": "ジャマイカ", "romaji": "jamaika" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "jordan",
+    "emoji": "🇯🇴",
+    "translations": {
+      "en": { "text": "Jordan" },
+      "fr": { "text": "Jordanie" },
+      "it": { "text": "Giordania" },
+      "de": { "text": "Jordanien" },
+      "es": { "text": "Jordania" },
+      "pt": { "text": "Jordânia" },
+      "ja": { "text": "ヨルダン", "kana": "ヨルダン", "romaji": "yorudan" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "japan",
+    "emoji": "🇯🇵",
+    "translations": {
+      "en": { "text": "Japan" },
+      "fr": { "text": "Japon" },
+      "it": { "text": "Giappone" },
+      "de": { "text": "Japan" },
+      "es": { "text": "Japón" },
+      "pt": { "text": "Japão" },
+      "ja": { "text": "日本", "kana": "にほん", "romaji": "nihon" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "kenya",
+    "emoji": "🇰🇪",
+    "translations": {
+      "en": { "text": "Kenya" },
+      "fr": { "text": "Kenya" },
+      "it": { "text": "Kenya" },
+      "de": { "text": "Kenia" },
+      "es": { "text": "Kenia" },
+      "pt": { "text": "Quênia" },
+      "ja": { "text": "ケニア", "kana": "ケニア", "romaji": "kenia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "kyrgyzstan",
+    "emoji": "🇰🇬",
+    "translations": {
+      "en": { "text": "Kyrgyzstan" },
+      "fr": { "text": "Kirghizstan" },
+      "it": { "text": "Kirghizistan" },
+      "de": { "text": "Kirgisistan" },
+      "es": { "text": "Kirguistán" },
+      "pt": { "text": "Quirguistão" },
+      "ja": { "text": "キルギス", "kana": "キルギス", "romaji": "kirugisu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "cambodia",
+    "emoji": "🇰🇭",
+    "translations": {
+      "en": { "text": "Cambodia" },
+      "fr": { "text": "Cambodge" },
+      "it": { "text": "Cambogia" },
+      "de": { "text": "Kambodscha" },
+      "es": { "text": "Camboya" },
+      "pt": { "text": "Camboja" },
+      "ja": { "text": "カンボジア", "kana": "カンボジア", "romaji": "kanbojia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "kiribati",
+    "emoji": "🇰🇮",
+    "translations": {
+      "en": { "text": "Kiribati" },
+      "fr": { "text": "Kiribati" },
+      "it": { "text": "Kiribati" },
+      "de": { "text": "Kiribati" },
+      "es": { "text": "Kiribati" },
+      "pt": { "text": "Kiribati" },
+      "ja": { "text": "キリバス", "kana": "キリバス", "romaji": "kiribasu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "comoros",
+    "emoji": "🇰🇲",
+    "translations": {
+      "en": { "text": "Comoros" },
+      "fr": { "text": "Comores" },
+      "it": { "text": "Comore" },
+      "de": { "text": "Komoren" },
+      "es": { "text": "Comoras" },
+      "pt": { "text": "Comores" },
+      "ja": { "text": "コモロ", "kana": "コモロ", "romaji": "komoro" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "st-kitts-nevis",
+    "emoji": "🇰🇳",
+    "translations": {
+      "en": { "text": "St. Kitts & Nevis" },
+      "fr": { "text": "Saint-Christophe-et-Niévès" },
+      "it": { "text": "Saint Kitts e Nevis" },
+      "de": { "text": "St. Kitts und Nevis" },
+      "es": { "text": "San Cristóbal y Nieves" },
+      "pt": { "text": "São Cristóvão e Nevis" },
+      "ja": {
+        "text": "セントクリストファー・ネイビス",
+        "kana": "セントクリストファー・ネイビス",
+        "romaji": "sentokurisutofaa neibisu"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "north-korea",
+    "emoji": "🇰🇵",
+    "translations": {
+      "en": { "text": "North Korea" },
+      "fr": { "text": "Corée du Nord" },
+      "it": { "text": "Corea del Nord" },
+      "de": { "text": "Nordkorea" },
+      "es": { "text": "Corea del Norte" },
+      "pt": { "text": "Coreia do Norte" },
+      "ja": {
+        "text": "北朝鮮",
+        "kana": "きたちょうせん",
+        "romaji": "kitachousen"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "south-korea",
+    "emoji": "🇰🇷",
+    "translations": {
+      "en": { "text": "South Korea" },
+      "fr": { "text": "Corée du Sud" },
+      "it": { "text": "Corea del Sud" },
+      "de": { "text": "Südkorea" },
+      "es": { "text": "Corea del Sur" },
+      "pt": { "text": "Coreia do Sul" },
+      "ja": { "text": "韓国", "kana": "かんこく", "romaji": "kankoku" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "kuwait",
+    "emoji": "🇰🇼",
+    "translations": {
+      "en": { "text": "Kuwait" },
+      "fr": { "text": "Koweït" },
+      "it": { "text": "Kuwait" },
+      "de": { "text": "Kuwait" },
+      "es": { "text": "Kuwait" },
+      "pt": { "text": "Kuwait" },
+      "ja": { "text": "クウェート", "kana": "クウェート", "romaji": "kuweeto" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "cayman-islands",
+    "emoji": "🇰🇾",
+    "translations": {
+      "en": { "text": "Cayman Islands" },
+      "fr": { "text": "Îles Caïmans" },
+      "it": { "text": "Isole Cayman" },
+      "de": { "text": "Kaimaninseln" },
+      "es": { "text": "Islas Caimán" },
+      "pt": { "text": "Ilhas Cayman" },
+      "ja": {
+        "text": "ケイマン諸島",
+        "kana": "ケイマンしょとう",
+        "romaji": "keimanshotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "kazakhstan",
+    "emoji": "🇰🇿",
+    "translations": {
+      "en": { "text": "Kazakhstan" },
+      "fr": { "text": "Kazakhstan" },
+      "it": { "text": "Kazakistan" },
+      "de": { "text": "Kasachstan" },
+      "es": { "text": "Kazajistán" },
+      "pt": { "text": "Cazaquistão" },
+      "ja": {
+        "text": "カザフスタン",
+        "kana": "カザフスタン",
+        "romaji": "kazafusutan"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "laos",
+    "emoji": "🇱🇦",
+    "translations": {
+      "en": { "text": "Laos" },
+      "fr": { "text": "Laos" },
+      "it": { "text": "Laos" },
+      "de": { "text": "Laos" },
+      "es": { "text": "Laos" },
+      "pt": { "text": "Laos" },
+      "ja": { "text": "ラオス", "kana": "ラオス", "romaji": "raosu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "lebanon",
+    "emoji": "🇱🇧",
+    "translations": {
+      "en": { "text": "Lebanon" },
+      "fr": { "text": "Liban" },
+      "it": { "text": "Libano" },
+      "de": { "text": "Libanon" },
+      "es": { "text": "Líbano" },
+      "pt": { "text": "Líbano" },
+      "ja": { "text": "レバノン", "kana": "レバノン", "romaji": "rebanon" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "st-lucia",
+    "emoji": "🇱🇨",
+    "translations": {
+      "en": { "text": "St. Lucia" },
+      "fr": { "text": "Sainte-Lucie" },
+      "it": { "text": "Saint Lucia" },
+      "de": { "text": "St. Lucia" },
+      "es": { "text": "Santa Lucía" },
+      "pt": { "text": "Santa Lúcia" },
+      "ja": {
+        "text": "セントルシア",
+        "kana": "セントルシア",
+        "romaji": "sentorushia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "liechtenstein",
+    "emoji": "🇱🇮",
+    "translations": {
+      "en": { "text": "Liechtenstein" },
+      "fr": { "text": "Liechtenstein" },
+      "it": { "text": "Liechtenstein" },
+      "de": { "text": "Liechtenstein" },
+      "es": { "text": "Liechtenstein" },
+      "pt": { "text": "Liechtenstein" },
+      "ja": {
+        "text": "リヒテンシュタイン",
+        "kana": "リヒテンシュタイン",
+        "romaji": "rihitenshutain"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "sri-lanka",
+    "emoji": "🇱🇰",
+    "translations": {
+      "en": { "text": "Sri Lanka" },
+      "fr": { "text": "Sri Lanka" },
+      "it": { "text": "Sri Lanka" },
+      "de": { "text": "Sri Lanka" },
+      "es": { "text": "Sri Lanka" },
+      "pt": { "text": "Sri Lanka" },
+      "ja": {
+        "text": "スリランカ",
+        "kana": "スリランカ",
+        "romaji": "suriranka"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "liberia",
+    "emoji": "🇱🇷",
+    "translations": {
+      "en": { "text": "Liberia" },
+      "fr": { "text": "Liberia" },
+      "it": { "text": "Liberia" },
+      "de": { "text": "Liberia" },
+      "es": { "text": "Liberia" },
+      "pt": { "text": "Libéria" },
+      "ja": { "text": "リベリア", "kana": "リベリア", "romaji": "riberia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "lesotho",
+    "emoji": "🇱🇸",
+    "translations": {
+      "en": { "text": "Lesotho" },
+      "fr": { "text": "Lesotho" },
+      "it": { "text": "Lesotho" },
+      "de": { "text": "Lesotho" },
+      "es": { "text": "Lesoto" },
+      "pt": { "text": "Lesoto" },
+      "ja": { "text": "レソト", "kana": "レソト", "romaji": "resoto" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "lithuania",
+    "emoji": "🇱🇹",
+    "translations": {
+      "en": { "text": "Lithuania" },
+      "fr": { "text": "Lituanie" },
+      "it": { "text": "Lituania" },
+      "de": { "text": "Litauen" },
+      "es": { "text": "Lituania" },
+      "pt": { "text": "Lituânia" },
+      "ja": { "text": "リトアニア", "kana": "リトアニア", "romaji": "ritoania" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "luxembourg",
+    "emoji": "🇱🇺",
+    "translations": {
+      "en": { "text": "Luxembourg" },
+      "fr": { "text": "Luxembourg" },
+      "it": { "text": "Lussemburgo" },
+      "de": { "text": "Luxemburg" },
+      "es": { "text": "Luxemburgo" },
+      "pt": { "text": "Luxemburgo" },
+      "ja": {
+        "text": "ルクセンブルク",
+        "kana": "ルクセンブルク",
+        "romaji": "rukusenburuku"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "latvia",
+    "emoji": "🇱🇻",
+    "translations": {
+      "en": { "text": "Latvia" },
+      "fr": { "text": "Lettonie" },
+      "it": { "text": "Lettonia" },
+      "de": { "text": "Lettland" },
+      "es": { "text": "Letonia" },
+      "pt": { "text": "Letônia" },
+      "ja": { "text": "ラトビア", "kana": "ラトビア", "romaji": "ratobia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "libya",
+    "emoji": "🇱🇾",
+    "translations": {
+      "en": { "text": "Libya" },
+      "fr": { "text": "Libye" },
+      "it": { "text": "Libia" },
+      "de": { "text": "Libyen" },
+      "es": { "text": "Libia" },
+      "pt": { "text": "Líbia" },
+      "ja": { "text": "リビア", "kana": "リビア", "romaji": "ribia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "morocco",
+    "emoji": "🇲🇦",
+    "translations": {
+      "en": { "text": "Morocco" },
+      "fr": { "text": "Maroc" },
+      "it": { "text": "Marocco" },
+      "de": { "text": "Marokko" },
+      "es": { "text": "Marruecos" },
+      "pt": { "text": "Marrocos" },
+      "ja": { "text": "モロッコ", "kana": "モロッコ", "romaji": "morokko" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "monaco",
+    "emoji": "🇲🇨",
+    "translations": {
+      "en": { "text": "Monaco" },
+      "fr": { "text": "Monaco" },
+      "it": { "text": "Monaco" },
+      "de": { "text": "Monaco" },
+      "es": { "text": "Mónaco" },
+      "pt": { "text": "Mônaco" },
+      "ja": { "text": "モナコ", "kana": "モナコ", "romaji": "monako" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "moldova",
+    "emoji": "🇲🇩",
+    "translations": {
+      "en": { "text": "Moldova" },
+      "fr": { "text": "Moldavie" },
+      "it": { "text": "Moldavia" },
+      "de": { "text": "Moldau" },
+      "es": { "text": "Moldavia" },
+      "pt": { "text": "Moldávia" },
+      "ja": { "text": "モルドバ", "kana": "モルドバ", "romaji": "morudoba" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "montenegro",
+    "emoji": "🇲🇪",
+    "translations": {
+      "en": { "text": "Montenegro" },
+      "fr": { "text": "Monténégro" },
+      "it": { "text": "Montenegro" },
+      "de": { "text": "Montenegro" },
+      "es": { "text": "Montenegro" },
+      "pt": { "text": "Montenegro" },
+      "ja": {
+        "text": "モンテネグロ",
+        "kana": "モンテネグロ",
+        "romaji": "monteneguro"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "st-martin",
+    "emoji": "🇲🇫",
+    "translations": {
+      "en": { "text": "St. Martin" },
+      "fr": { "text": "Saint-Martin" },
+      "it": { "text": "Saint-Martin" },
+      "de": { "text": "St. Martin" },
+      "es": { "text": "San Martín" },
+      "pt": { "text": "São Martinho" },
+      "ja": {
+        "text": "サン・マルタン",
+        "kana": "サン・マルタン",
+        "romaji": "san marutan"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "madagascar",
+    "emoji": "🇲🇬",
+    "translations": {
+      "en": { "text": "Madagascar" },
+      "fr": { "text": "Madagascar" },
+      "it": { "text": "Madagascar" },
+      "de": { "text": "Madagaskar" },
+      "es": { "text": "Madagascar" },
+      "pt": { "text": "Madagascar" },
+      "ja": {
+        "text": "マダガスカル",
+        "kana": "マダガスカル",
+        "romaji": "madagasukaru"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "marshall-islands",
+    "emoji": "🇲🇭",
+    "translations": {
+      "en": { "text": "Marshall Islands" },
+      "fr": { "text": "Îles Marshall" },
+      "it": { "text": "Isole Marshall" },
+      "de": { "text": "Marshallinseln" },
+      "es": { "text": "Islas Marshall" },
+      "pt": { "text": "Ilhas Marshall" },
+      "ja": {
+        "text": "マーシャル諸島",
+        "kana": "マーシャルしょとう",
+        "romaji": "maasharushotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "north-macedonia",
+    "emoji": "🇲🇰",
+    "translations": {
+      "en": { "text": "North Macedonia" },
+      "fr": { "text": "Macédoine du Nord" },
+      "it": { "text": "Macedonia del Nord" },
+      "de": { "text": "Nordmazedonien" },
+      "es": { "text": "Macedonia del Norte" },
+      "pt": { "text": "Macedônia do Norte" },
+      "ja": {
+        "text": "北マケドニア",
+        "kana": "きたマケドニア",
+        "romaji": "kitamakedonia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "mali",
+    "emoji": "🇲🇱",
+    "translations": {
+      "en": { "text": "Mali" },
+      "fr": { "text": "Mali" },
+      "it": { "text": "Mali" },
+      "de": { "text": "Mali" },
+      "es": { "text": "Mali" },
+      "pt": { "text": "Mali" },
+      "ja": { "text": "マリ", "kana": "マリ", "romaji": "mari" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "myanmar-burma",
+    "emoji": "🇲🇲",
+    "translations": {
+      "en": { "text": "Myanmar (Burma)" },
+      "fr": { "text": "Myanmar (Birmanie)" },
+      "it": { "text": "Myanmar (Birmania)" },
+      "de": { "text": "Myanmar" },
+      "es": { "text": "Myanmar (Birmania)" },
+      "pt": { "text": "Mianmar (Birmânia)" },
+      "ja": { "text": "ミャンマー", "kana": "ミャンマー", "romaji": "myanmaa" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "mongolia",
+    "emoji": "🇲🇳",
+    "translations": {
+      "en": { "text": "Mongolia" },
+      "fr": { "text": "Mongolie" },
+      "it": { "text": "Mongolia" },
+      "de": { "text": "Mongolei" },
+      "es": { "text": "Mongolia" },
+      "pt": { "text": "Mongólia" },
+      "ja": { "text": "モンゴル", "kana": "モンゴル", "romaji": "mongoru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "macao",
+    "emoji": "🇲🇴",
+    "translations": {
+      "en": { "text": "Macao" },
+      "fr": { "text": "R.A.S. chinoise de Macao" },
+      "it": { "text": "Macao" },
+      "de": { "text": "Macau" },
+      "es": { "text": "Macao" },
+      "pt": { "text": "Macau" },
+      "ja": { "text": "マカオ", "kana": "マカオ", "romaji": "makao" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "northern-mariana-islands",
+    "emoji": "🇲🇵",
+    "translations": {
+      "en": { "text": "Northern Mariana Islands" },
+      "fr": { "text": "Îles Mariannes du Nord" },
+      "it": { "text": "Isole Marianne Settentrionali" },
+      "de": { "text": "Nördliche Marianen" },
+      "es": { "text": "Islas Marianas del Norte" },
+      "pt": { "text": "Ilhas Marianas do Norte" },
+      "ja": {
+        "text": "北マリアナ諸島",
+        "kana": "きたマリアナしょとう",
+        "romaji": "kitamarianashotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "martinique",
+    "emoji": "🇲🇶",
+    "translations": {
+      "en": { "text": "Martinique" },
+      "fr": { "text": "Martinique" },
+      "it": { "text": "Martinica" },
+      "de": { "text": "Martinique" },
+      "es": { "text": "Martinica" },
+      "pt": { "text": "Martinica" },
+      "ja": {
+        "text": "マルティニーク",
+        "kana": "マルティニーク",
+        "romaji": "marutiniiku"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "mauritania",
+    "emoji": "🇲🇷",
+    "translations": {
+      "en": { "text": "Mauritania" },
+      "fr": { "text": "Mauritanie" },
+      "it": { "text": "Mauritania" },
+      "de": { "text": "Mauretanien" },
+      "es": { "text": "Mauritania" },
+      "pt": { "text": "Mauritânia" },
+      "ja": {
+        "text": "モーリタニア",
+        "kana": "モーリタニア",
+        "romaji": "mooritania"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "montserrat",
+    "emoji": "🇲🇸",
+    "translations": {
+      "en": { "text": "Montserrat" },
+      "fr": { "text": "Montserrat" },
+      "it": { "text": "Montserrat" },
+      "de": { "text": "Montserrat" },
+      "es": { "text": "Montserrat" },
+      "pt": { "text": "Montserrat" },
+      "ja": {
+        "text": "モントセラト",
+        "kana": "モントセラト",
+        "romaji": "montoserato"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "malta",
+    "emoji": "🇲🇹",
+    "translations": {
+      "en": { "text": "Malta" },
+      "fr": { "text": "Malte" },
+      "it": { "text": "Malta" },
+      "de": { "text": "Malta" },
+      "es": { "text": "Malta" },
+      "pt": { "text": "Malta" },
+      "ja": { "text": "マルタ", "kana": "マルタ", "romaji": "maruta" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "mauritius",
+    "emoji": "🇲🇺",
+    "translations": {
+      "en": { "text": "Mauritius" },
+      "fr": { "text": "Maurice" },
+      "it": { "text": "Mauritius" },
+      "de": { "text": "Mauritius" },
+      "es": { "text": "Mauricio" },
+      "pt": { "text": "Maurício" },
+      "ja": {
+        "text": "モーリシャス",
+        "kana": "モーリシャス",
+        "romaji": "moorishasu"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "maldives",
+    "emoji": "🇲🇻",
+    "translations": {
+      "en": { "text": "Maldives" },
+      "fr": { "text": "Maldives" },
+      "it": { "text": "Maldive" },
+      "de": { "text": "Malediven" },
+      "es": { "text": "Maldivas" },
+      "pt": { "text": "Maldivas" },
+      "ja": { "text": "モルディブ", "kana": "モルディブ", "romaji": "morudibu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "malawi",
+    "emoji": "🇲🇼",
+    "translations": {
+      "en": { "text": "Malawi" },
+      "fr": { "text": "Malawi" },
+      "it": { "text": "Malawi" },
+      "de": { "text": "Malawi" },
+      "es": { "text": "Malaui" },
+      "pt": { "text": "Malaui" },
+      "ja": { "text": "マラウイ", "kana": "マラウイ", "romaji": "maraui" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "mexico",
+    "emoji": "🇲🇽",
+    "translations": {
+      "en": { "text": "Mexico" },
+      "fr": { "text": "Mexique" },
+      "it": { "text": "Messico" },
+      "de": { "text": "Mexiko" },
+      "es": { "text": "México" },
+      "pt": { "text": "México" },
+      "ja": { "text": "メキシコ", "kana": "メキシコ", "romaji": "mekishiko" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "malaysia",
+    "emoji": "🇲🇾",
+    "translations": {
+      "en": { "text": "Malaysia" },
+      "fr": { "text": "Malaisie" },
+      "it": { "text": "Malaysia" },
+      "de": { "text": "Malaysia" },
+      "es": { "text": "Malasia" },
+      "pt": { "text": "Malásia" },
+      "ja": {
+        "text": "マレーシア",
+        "kana": "マレーシア",
+        "romaji": "mareeshia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "mozambique",
+    "emoji": "🇲🇿",
+    "translations": {
+      "en": { "text": "Mozambique" },
+      "fr": { "text": "Mozambique" },
+      "it": { "text": "Mozambico" },
+      "de": { "text": "Mosambik" },
+      "es": { "text": "Mozambique" },
+      "pt": { "text": "Moçambique" },
+      "ja": {
+        "text": "モザンビーク",
+        "kana": "モザンビーク",
+        "romaji": "mozanbiiku"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "namibia",
+    "emoji": "🇳🇦",
+    "translations": {
+      "en": { "text": "Namibia" },
+      "fr": { "text": "Namibie" },
+      "it": { "text": "Namibia" },
+      "de": { "text": "Namibia" },
+      "es": { "text": "Namibia" },
+      "pt": { "text": "Namíbia" },
+      "ja": { "text": "ナミビア", "kana": "ナミビア", "romaji": "namibia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "new-caledonia",
+    "emoji": "🇳🇨",
+    "translations": {
+      "en": { "text": "New Caledonia" },
+      "fr": { "text": "Nouvelle-Calédonie" },
+      "it": { "text": "Nuova Caledonia" },
+      "de": { "text": "Neukaledonien" },
+      "es": { "text": "Nueva Caledonia" },
+      "pt": { "text": "Nova Caledônia" },
+      "ja": {
+        "text": "ニューカレドニア",
+        "kana": "ニューカレドニア",
+        "romaji": "nyuukaredonia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "niger",
+    "emoji": "🇳🇪",
+    "translations": {
+      "en": { "text": "Niger" },
+      "fr": { "text": "Niger" },
+      "it": { "text": "Niger" },
+      "de": { "text": "Niger" },
+      "es": { "text": "Níger" },
+      "pt": { "text": "Níger" },
+      "ja": { "text": "ニジェール", "kana": "ニジェール", "romaji": "nijeeru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "norfolk-island",
+    "emoji": "🇳🇫",
+    "translations": {
+      "en": { "text": "Norfolk Island" },
+      "fr": { "text": "Île Norfolk" },
+      "it": { "text": "Isola Norfolk" },
+      "de": { "text": "Norfolkinsel" },
+      "es": { "text": "Isla Norfolk" },
+      "pt": { "text": "Ilha Norfolk" },
+      "ja": {
+        "text": "ノーフォーク島",
+        "kana": "ノーフォークとう",
+        "romaji": "noofookutou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "nigeria",
+    "emoji": "🇳🇬",
+    "translations": {
+      "en": { "text": "Nigeria" },
+      "fr": { "text": "Nigeria" },
+      "it": { "text": "Nigeria" },
+      "de": { "text": "Nigeria" },
+      "es": { "text": "Nigeria" },
+      "pt": { "text": "Nigéria" },
+      "ja": {
+        "text": "ナイジェリア",
+        "kana": "ナイジェリア",
+        "romaji": "naijeria"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "nicaragua",
+    "emoji": "🇳🇮",
+    "translations": {
+      "en": { "text": "Nicaragua" },
+      "fr": { "text": "Nicaragua" },
+      "it": { "text": "Nicaragua" },
+      "de": { "text": "Nicaragua" },
+      "es": { "text": "Nicaragua" },
+      "pt": { "text": "Nicarágua" },
+      "ja": {
+        "text": "ニカラグア",
+        "kana": "ニカラグア",
+        "romaji": "nikaragua"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "netherlands",
+    "emoji": "🇳🇱",
+    "translations": {
+      "en": { "text": "Netherlands" },
+      "fr": { "text": "Pays-Bas" },
+      "it": { "text": "Paesi Bassi" },
+      "de": { "text": "Niederlande" },
+      "es": { "text": "Países Bajos" },
+      "pt": { "text": "Países Baixos" },
+      "ja": { "text": "オランダ", "kana": "オランダ", "romaji": "oranda" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "norway",
+    "emoji": "🇳🇴",
+    "translations": {
+      "en": { "text": "Norway" },
+      "fr": { "text": "Norvège" },
+      "it": { "text": "Norvegia" },
+      "de": { "text": "Norwegen" },
+      "es": { "text": "Noruega" },
+      "pt": { "text": "Noruega" },
+      "ja": { "text": "ノルウェー", "kana": "ノルウェー", "romaji": "noruwee" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "nepal",
+    "emoji": "🇳🇵",
+    "translations": {
+      "en": { "text": "Nepal" },
+      "fr": { "text": "Népal" },
+      "it": { "text": "Nepal" },
+      "de": { "text": "Nepal" },
+      "es": { "text": "Nepal" },
+      "pt": { "text": "Nepal" },
+      "ja": { "text": "ネパール", "kana": "ネパール", "romaji": "nepaaru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "nauru",
+    "emoji": "🇳🇷",
+    "translations": {
+      "en": { "text": "Nauru" },
+      "fr": { "text": "Nauru" },
+      "it": { "text": "Nauru" },
+      "de": { "text": "Nauru" },
+      "es": { "text": "Nauru" },
+      "pt": { "text": "Nauru" },
+      "ja": { "text": "ナウル", "kana": "ナウル", "romaji": "nauru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "niue",
+    "emoji": "🇳🇺",
+    "translations": {
+      "en": { "text": "Niue" },
+      "fr": { "text": "Niue" },
+      "it": { "text": "Niue" },
+      "de": { "text": "Niue" },
+      "es": { "text": "Niue" },
+      "pt": { "text": "Niue" },
+      "ja": { "text": "ニウエ", "kana": "ニウエ", "romaji": "niue" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "new-zealand",
+    "emoji": "🇳🇿",
+    "translations": {
+      "en": { "text": "New Zealand" },
+      "fr": { "text": "Nouvelle-Zélande" },
+      "it": { "text": "Nuova Zelanda" },
+      "de": { "text": "Neuseeland" },
+      "es": { "text": "Nueva Zelanda" },
+      "pt": { "text": "Nova Zelândia" },
+      "ja": {
+        "text": "ニュージーランド",
+        "kana": "ニュージーランド",
+        "romaji": "nyuujiirando"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "oman",
+    "emoji": "🇴🇲",
+    "translations": {
+      "en": { "text": "Oman" },
+      "fr": { "text": "Oman" },
+      "it": { "text": "Oman" },
+      "de": { "text": "Oman" },
+      "es": { "text": "Omán" },
+      "pt": { "text": "Omã" },
+      "ja": { "text": "オマーン", "kana": "オマーン", "romaji": "omaan" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "panama",
+    "emoji": "🇵🇦",
+    "translations": {
+      "en": { "text": "Panama" },
+      "fr": { "text": "Panama" },
+      "it": { "text": "Panama" },
+      "de": { "text": "Panama" },
+      "es": { "text": "Panamá" },
+      "pt": { "text": "Panamá" },
+      "ja": { "text": "パナマ", "kana": "パナマ", "romaji": "panama" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "peru",
+    "emoji": "🇵🇪",
+    "translations": {
+      "en": { "text": "Peru" },
+      "fr": { "text": "Pérou" },
+      "it": { "text": "Perù" },
+      "de": { "text": "Peru" },
+      "es": { "text": "Perú" },
+      "pt": { "text": "Peru" },
+      "ja": { "text": "ペルー", "kana": "ペルー", "romaji": "peruu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "french-polynesia",
+    "emoji": "🇵🇫",
+    "translations": {
+      "en": { "text": "French Polynesia" },
+      "fr": { "text": "Polynésie française" },
+      "it": { "text": "Polinesia francese" },
+      "de": { "text": "Französisch-Polynesien" },
+      "es": { "text": "Polinesia Francesa" },
+      "pt": { "text": "Polinésia Francesa" },
+      "ja": {
+        "text": "フランス領ポリネシア",
+        "kana": "フランスりょうポリネシア",
+        "romaji": "furansuryouporineshia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "papua-new-guinea",
+    "emoji": "🇵🇬",
+    "translations": {
+      "en": { "text": "Papua New Guinea" },
+      "fr": { "text": "Papouasie-Nouvelle-Guinée" },
+      "it": { "text": "Papua Nuova Guinea" },
+      "de": { "text": "Papua-Neuguinea" },
+      "es": { "text": "Papúa Nueva Guinea" },
+      "pt": { "text": "Papua-Nova Guiné" },
+      "ja": {
+        "text": "パプアニューギニア",
+        "kana": "パプアニューギニア",
+        "romaji": "papuanyuuginia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "philippines",
+    "emoji": "🇵🇭",
+    "translations": {
+      "en": { "text": "Philippines" },
+      "fr": { "text": "Philippines" },
+      "it": { "text": "Filippine" },
+      "de": { "text": "Philippinen" },
+      "es": { "text": "Filipinas" },
+      "pt": { "text": "Filipinas" },
+      "ja": { "text": "フィリピン", "kana": "フィリピン", "romaji": "firipin" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "pakistan",
+    "emoji": "🇵🇰",
+    "translations": {
+      "en": { "text": "Pakistan" },
+      "fr": { "text": "Pakistan" },
+      "it": { "text": "Pakistan" },
+      "de": { "text": "Pakistan" },
+      "es": { "text": "Pakistán" },
+      "pt": { "text": "Paquistão" },
+      "ja": {
+        "text": "パキスタン",
+        "kana": "パキスタン",
+        "romaji": "pakisutan"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "poland",
+    "emoji": "🇵🇱",
+    "translations": {
+      "en": { "text": "Poland" },
+      "fr": { "text": "Pologne" },
+      "it": { "text": "Polonia" },
+      "de": { "text": "Polen" },
+      "es": { "text": "Polonia" },
+      "pt": { "text": "Polônia" },
+      "ja": { "text": "ポーランド", "kana": "ポーランド", "romaji": "poorando" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "st-pierre-miquelon",
+    "emoji": "🇵🇲",
+    "translations": {
+      "en": { "text": "St. Pierre & Miquelon" },
+      "fr": { "text": "Saint-Pierre-et-Miquelon" },
+      "it": { "text": "Saint-Pierre e Miquelon" },
+      "de": { "text": "St. Pierre und Miquelon" },
+      "es": { "text": "San Pedro y Miquelón" },
+      "pt": { "text": "São Pedro e Miquelão" },
+      "ja": {
+        "text": "サンピエール島・ミクロン島",
+        "kana": "サンピエールとう・ミクロンとう",
+        "romaji": "sanpieerutou mikurontou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "pitcairn-islands",
+    "emoji": "🇵🇳",
+    "translations": {
+      "en": { "text": "Pitcairn Islands" },
+      "fr": { "text": "Îles Pitcairn" },
+      "it": { "text": "Isole Pitcairn" },
+      "de": { "text": "Pitcairninseln" },
+      "es": { "text": "Islas Pitcairn" },
+      "pt": { "text": "Ilhas Pitcairn" },
+      "ja": {
+        "text": "ピトケアン諸島",
+        "kana": "ピトケアンしょとう",
+        "romaji": "pitokeanshotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "puerto-rico",
+    "emoji": "🇵🇷",
+    "translations": {
+      "en": { "text": "Puerto Rico" },
+      "fr": { "text": "Porto Rico" },
+      "it": { "text": "Portorico" },
+      "de": { "text": "Puerto Rico" },
+      "es": { "text": "Puerto Rico" },
+      "pt": { "text": "Porto Rico" },
+      "ja": {
+        "text": "プエルトリコ",
+        "kana": "プエルトリコ",
+        "romaji": "puerutoriko"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "palestinian-territories",
+    "emoji": "🇵🇸",
+    "translations": {
+      "en": { "text": "Palestinian Territories" },
+      "fr": { "text": "Territoires palestiniens" },
+      "it": { "text": "Territori palestinesi" },
+      "de": { "text": "Palästinensische Gebiete" },
+      "es": { "text": "Territorios Palestinos" },
+      "pt": { "text": "Territórios Palestinos" },
+      "ja": {
+        "text": "パレスチナ",
+        "kana": "パレスチナ",
+        "romaji": "paresuchina"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "portugal",
+    "emoji": "🇵🇹",
+    "translations": {
+      "en": { "text": "Portugal" },
+      "fr": { "text": "Portugal" },
+      "it": { "text": "Portogallo" },
+      "de": { "text": "Portugal" },
+      "es": { "text": "Portugal" },
+      "pt": { "text": "Portugal" },
+      "ja": {
+        "text": "ポルトガル",
+        "kana": "ポルトガル",
+        "romaji": "porutogaru"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "palau",
+    "emoji": "🇵🇼",
+    "translations": {
+      "en": { "text": "Palau" },
+      "fr": { "text": "Palaos" },
+      "it": { "text": "Palau" },
+      "de": { "text": "Palau" },
+      "es": { "text": "Palaos" },
+      "pt": { "text": "Palau" },
+      "ja": { "text": "パラオ", "kana": "パラオ", "romaji": "parao" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "paraguay",
+    "emoji": "🇵🇾",
+    "translations": {
+      "en": { "text": "Paraguay" },
+      "fr": { "text": "Paraguay" },
+      "it": { "text": "Paraguay" },
+      "de": { "text": "Paraguay" },
+      "es": { "text": "Paraguay" },
+      "pt": { "text": "Paraguai" },
+      "ja": { "text": "パラグアイ", "kana": "パラグアイ", "romaji": "paraguai" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "qatar",
+    "emoji": "🇶🇦",
+    "translations": {
+      "en": { "text": "Qatar" },
+      "fr": { "text": "Qatar" },
+      "it": { "text": "Qatar" },
+      "de": { "text": "Katar" },
+      "es": { "text": "Catar" },
+      "pt": { "text": "Catar" },
+      "ja": { "text": "カタール", "kana": "カタール", "romaji": "kataaru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "reunion",
+    "emoji": "🇷🇪",
+    "translations": {
+      "en": { "text": "Réunion" },
+      "fr": { "text": "La Réunion" },
+      "it": { "text": "Riunione" },
+      "de": { "text": "Réunion" },
+      "es": { "text": "Reunión" },
+      "pt": { "text": "Reunião" },
+      "ja": { "text": "レユニオン", "kana": "レユニオン", "romaji": "reyunion" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "romania",
+    "emoji": "🇷🇴",
+    "translations": {
+      "en": { "text": "Romania" },
+      "fr": { "text": "Roumanie" },
+      "it": { "text": "Romania" },
+      "de": { "text": "Rumänien" },
+      "es": { "text": "Rumania" },
+      "pt": { "text": "Romênia" },
+      "ja": { "text": "ルーマニア", "kana": "ルーマニア", "romaji": "ruumania" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "serbia",
+    "emoji": "🇷🇸",
+    "translations": {
+      "en": { "text": "Serbia" },
+      "fr": { "text": "Serbie" },
+      "it": { "text": "Serbia" },
+      "de": { "text": "Serbien" },
+      "es": { "text": "Serbia" },
+      "pt": { "text": "Sérvia" },
+      "ja": { "text": "セルビア", "kana": "セルビア", "romaji": "serubia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "russia",
+    "emoji": "🇷🇺",
+    "translations": {
+      "en": { "text": "Russia" },
+      "fr": { "text": "Russie" },
+      "it": { "text": "Russia" },
+      "de": { "text": "Russland" },
+      "es": { "text": "Rusia" },
+      "pt": { "text": "Rússia" },
+      "ja": { "text": "ロシア", "kana": "ロシア", "romaji": "roshia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "rwanda",
+    "emoji": "🇷🇼",
+    "translations": {
+      "en": { "text": "Rwanda" },
+      "fr": { "text": "Rwanda" },
+      "it": { "text": "Ruanda" },
+      "de": { "text": "Ruanda" },
+      "es": { "text": "Ruanda" },
+      "pt": { "text": "Ruanda" },
+      "ja": { "text": "ルワンダ", "kana": "ルワンダ", "romaji": "ruwanda" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "saudi-arabia",
+    "emoji": "🇸🇦",
+    "translations": {
+      "en": { "text": "Saudi Arabia" },
+      "fr": { "text": "Arabie saoudite" },
+      "it": { "text": "Arabia Saudita" },
+      "de": { "text": "Saudi-Arabien" },
+      "es": { "text": "Arabia Saudí" },
+      "pt": { "text": "Arábia Saudita" },
+      "ja": {
+        "text": "サウジアラビア",
+        "kana": "サウジアラビア",
+        "romaji": "saujiarabia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "solomon-islands",
+    "emoji": "🇸🇧",
+    "translations": {
+      "en": { "text": "Solomon Islands" },
+      "fr": { "text": "Îles Salomon" },
+      "it": { "text": "Isole Salomone" },
+      "de": { "text": "Salomonen" },
+      "es": { "text": "Islas Salomón" },
+      "pt": { "text": "Ilhas Salomão" },
+      "ja": {
+        "text": "ソロモン諸島",
+        "kana": "ソロモンしょとう",
+        "romaji": "soromonshotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "seychelles",
+    "emoji": "🇸🇨",
+    "translations": {
+      "en": { "text": "Seychelles" },
+      "fr": { "text": "Seychelles" },
+      "it": { "text": "Seychelles" },
+      "de": { "text": "Seychellen" },
+      "es": { "text": "Seychelles" },
+      "pt": { "text": "Seicheles" },
+      "ja": { "text": "セーシェル", "kana": "セーシェル", "romaji": "seesheru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "sudan",
+    "emoji": "🇸🇩",
+    "translations": {
+      "en": { "text": "Sudan" },
+      "fr": { "text": "Soudan" },
+      "it": { "text": "Sudan" },
+      "de": { "text": "Sudan" },
+      "es": { "text": "Sudán" },
+      "pt": { "text": "Sudão" },
+      "ja": { "text": "スーダン", "kana": "スーダン", "romaji": "suudan" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "sweden",
+    "emoji": "🇸🇪",
+    "translations": {
+      "en": { "text": "Sweden" },
+      "fr": { "text": "Suède" },
+      "it": { "text": "Svezia" },
+      "de": { "text": "Schweden" },
+      "es": { "text": "Suecia" },
+      "pt": { "text": "Suécia" },
+      "ja": {
+        "text": "スウェーデン",
+        "kana": "スウェーデン",
+        "romaji": "suweeden"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "singapore",
+    "emoji": "🇸🇬",
+    "translations": {
+      "en": { "text": "Singapore" },
+      "fr": { "text": "Singapour" },
+      "it": { "text": "Singapore" },
+      "de": { "text": "Singapur" },
+      "es": { "text": "Singapur" },
+      "pt": { "text": "Singapura" },
+      "ja": {
+        "text": "シンガポール",
+        "kana": "シンガポール",
+        "romaji": "shingapooru"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "st-helena",
+    "emoji": "🇸🇭",
+    "translations": {
+      "en": { "text": "St. Helena" },
+      "fr": { "text": "Sainte-Hélène" },
+      "it": { "text": "Sant’Elena" },
+      "de": { "text": "St. Helena" },
+      "es": { "text": "Santa Elena" },
+      "pt": { "text": "Santa Helena" },
+      "ja": {
+        "text": "セントヘレナ",
+        "kana": "セントヘレナ",
+        "romaji": "sentoherena"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "slovenia",
+    "emoji": "🇸🇮",
+    "translations": {
+      "en": { "text": "Slovenia" },
+      "fr": { "text": "Slovénie" },
+      "it": { "text": "Slovenia" },
+      "de": { "text": "Slowenien" },
+      "es": { "text": "Eslovenia" },
+      "pt": { "text": "Eslovênia" },
+      "ja": {
+        "text": "スロベニア",
+        "kana": "スロベニア",
+        "romaji": "surobenia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "svalbard-jan-mayen",
+    "emoji": "🇸🇯",
+    "translations": {
+      "en": { "text": "Svalbard & Jan Mayen" },
+      "fr": { "text": "Svalbard et Jan Mayen" },
+      "it": { "text": "Svalbard e Jan Mayen" },
+      "de": { "text": "Spitzbergen und Jan Mayen" },
+      "es": { "text": "Svalbard y Jan Mayen" },
+      "pt": { "text": "Svalbard e Jan Mayen" },
+      "ja": {
+        "text": "スバールバル諸島・ヤンマイエン島",
+        "kana": "スバールバルしょとう・ヤンマイエンとう",
+        "romaji": "subaarubarushotou yanmaientou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "slovakia",
+    "emoji": "🇸🇰",
+    "translations": {
+      "en": { "text": "Slovakia" },
+      "fr": { "text": "Slovaquie" },
+      "it": { "text": "Slovacchia" },
+      "de": { "text": "Slowakei" },
+      "es": { "text": "Eslovaquia" },
+      "pt": { "text": "Eslováquia" },
+      "ja": {
+        "text": "スロバキア",
+        "kana": "スロバキア",
+        "romaji": "surobakia"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "sierra-leone",
+    "emoji": "🇸🇱",
+    "translations": {
+      "en": { "text": "Sierra Leone" },
+      "fr": { "text": "Sierra Leone" },
+      "it": { "text": "Sierra Leone" },
+      "de": { "text": "Sierra Leone" },
+      "es": { "text": "Sierra Leona" },
+      "pt": { "text": "Serra Leoa" },
+      "ja": {
+        "text": "シエラレオネ",
+        "kana": "シエラレオネ",
+        "romaji": "shierareone"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "san-marino",
+    "emoji": "🇸🇲",
+    "translations": {
+      "en": { "text": "San Marino" },
+      "fr": { "text": "Saint-Marin" },
+      "it": { "text": "San Marino" },
+      "de": { "text": "San Marino" },
+      "es": { "text": "San Marino" },
+      "pt": { "text": "San Marino" },
+      "ja": {
+        "text": "サンマリノ",
+        "kana": "サンマリノ",
+        "romaji": "sanmarino"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "senegal",
+    "emoji": "🇸🇳",
+    "translations": {
+      "en": { "text": "Senegal" },
+      "fr": { "text": "Sénégal" },
+      "it": { "text": "Senegal" },
+      "de": { "text": "Senegal" },
+      "es": { "text": "Senegal" },
+      "pt": { "text": "Senegal" },
+      "ja": { "text": "セネガル", "kana": "セネガル", "romaji": "senegaru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "somalia",
+    "emoji": "🇸🇴",
+    "translations": {
+      "en": { "text": "Somalia" },
+      "fr": { "text": "Somalie" },
+      "it": { "text": "Somalia" },
+      "de": { "text": "Somalia" },
+      "es": { "text": "Somalia" },
+      "pt": { "text": "Somália" },
+      "ja": { "text": "ソマリア", "kana": "ソマリア", "romaji": "somaria" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "suriname",
+    "emoji": "🇸🇷",
+    "translations": {
+      "en": { "text": "Suriname" },
+      "fr": { "text": "Suriname" },
+      "it": { "text": "Suriname" },
+      "de": { "text": "Suriname" },
+      "es": { "text": "Surinam" },
+      "pt": { "text": "Suriname" },
+      "ja": { "text": "スリナム", "kana": "スリナム", "romaji": "surinamu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "south-sudan",
+    "emoji": "🇸🇸",
+    "translations": {
+      "en": { "text": "South Sudan" },
+      "fr": { "text": "Soudan du Sud" },
+      "it": { "text": "Sud Sudan" },
+      "de": { "text": "Südsudan" },
+      "es": { "text": "Sudán del Sur" },
+      "pt": { "text": "Sudão do Sul" },
+      "ja": {
+        "text": "南スーダン",
+        "kana": "みなみスーダン",
+        "romaji": "minamisuudan"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "sao-tome-principe",
+    "emoji": "🇸🇹",
+    "translations": {
+      "en": { "text": "São Tomé & Príncipe" },
+      "fr": { "text": "Sao Tomé-et-Principe" },
+      "it": { "text": "São Tomé e Príncipe" },
+      "de": { "text": "São Tomé und Príncipe" },
+      "es": { "text": "Santo Tomé y Príncipe" },
+      "pt": { "text": "São Tomé e Príncipe" },
+      "ja": {
+        "text": "サントメ・プリンシペ",
+        "kana": "サントメ・プリンシペ",
+        "romaji": "santome purinshipe"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "el-salvador",
+    "emoji": "🇸🇻",
+    "translations": {
+      "en": { "text": "El Salvador" },
+      "fr": { "text": "Salvador" },
+      "it": { "text": "El Salvador" },
+      "de": { "text": "El Salvador" },
+      "es": { "text": "El Salvador" },
+      "pt": { "text": "El Salvador" },
+      "ja": {
+        "text": "エルサルバドル",
+        "kana": "エルサルバドル",
+        "romaji": "erusarubadoru"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "sint-maarten",
+    "emoji": "🇸🇽",
+    "translations": {
+      "en": { "text": "Sint Maarten" },
+      "fr": { "text": "Saint-Martin (partie néerlandaise)" },
+      "it": { "text": "Sint Maarten" },
+      "de": { "text": "Sint Maarten" },
+      "es": { "text": "Sint Maarten" },
+      "pt": { "text": "Sint Maarten" },
+      "ja": {
+        "text": "シント・マールテン",
+        "kana": "シント・マールテン",
+        "romaji": "shinto maaruten"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "syria",
+    "emoji": "🇸🇾",
+    "translations": {
+      "en": { "text": "Syria" },
+      "fr": { "text": "Syrie" },
+      "it": { "text": "Siria" },
+      "de": { "text": "Syrien" },
+      "es": { "text": "Siria" },
+      "pt": { "text": "Síria" },
+      "ja": { "text": "シリア", "kana": "シリア", "romaji": "shiria" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "eswatini",
+    "emoji": "🇸🇿",
+    "translations": {
+      "en": { "text": "Eswatini" },
+      "fr": { "text": "Eswatini" },
+      "it": { "text": "Eswatini" },
+      "de": { "text": "Eswatini" },
+      "es": { "text": "Esuatini" },
+      "pt": { "text": "Essuatíni" },
+      "ja": {
+        "text": "エスワティニ",
+        "kana": "エスワティニ",
+        "romaji": "esuwatini"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "tristan-da-cunha",
+    "emoji": "🇹🇦",
+    "translations": {
+      "en": { "text": "Tristan da Cunha" },
+      "fr": { "text": "Tristan da Cunha" },
+      "it": { "text": "Tristan da Cunha" },
+      "de": { "text": "Tristan da Cunha" },
+      "es": { "text": "Tristán de Acuña" },
+      "pt": { "text": "Tristão da Cunha" },
+      "ja": {
+        "text": "トリスタン・ダ・クーニャ",
+        "kana": "トリスタン・ダ・クーニャ",
+        "romaji": "torisutan da kuunya"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "turks-caicos-islands",
+    "emoji": "🇹🇨",
+    "translations": {
+      "en": { "text": "Turks & Caicos Islands" },
+      "fr": { "text": "Îles Turques-et-Caïques" },
+      "it": { "text": "Isole Turks e Caicos" },
+      "de": { "text": "Turks- und Caicosinseln" },
+      "es": { "text": "Islas Turcas y Caicos" },
+      "pt": { "text": "Ilhas Turcas e Caicos" },
+      "ja": {
+        "text": "タークス・カイコス諸島",
+        "kana": "タークス・カイコスしょとう",
+        "romaji": "taakusu kaikosushotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "chad",
+    "emoji": "🇹🇩",
+    "translations": {
+      "en": { "text": "Chad" },
+      "fr": { "text": "Tchad" },
+      "it": { "text": "Ciad" },
+      "de": { "text": "Tschad" },
+      "es": { "text": "Chad" },
+      "pt": { "text": "Chade" },
+      "ja": { "text": "チャド", "kana": "チャド", "romaji": "chado" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "french-southern-territories",
+    "emoji": "🇹🇫",
+    "translations": {
+      "en": { "text": "French Southern Territories" },
+      "fr": { "text": "Terres australes françaises" },
+      "it": { "text": "Terre australi francesi" },
+      "de": { "text": "Französische Süd- und Antarktisgebiete" },
+      "es": { "text": "Territorios Australes Franceses" },
+      "pt": { "text": "Territórios Franceses do Sul" },
+      "ja": {
+        "text": "フランス領南方地域",
+        "kana": "フランスりょうなんぽうちいき",
+        "romaji": "furansuryounanpouchiiki"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "togo",
+    "emoji": "🇹🇬",
+    "translations": {
+      "en": { "text": "Togo" },
+      "fr": { "text": "Togo" },
+      "it": { "text": "Togo" },
+      "de": { "text": "Togo" },
+      "es": { "text": "Togo" },
+      "pt": { "text": "Togo" },
+      "ja": { "text": "トーゴ", "kana": "トーゴ", "romaji": "toogo" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "thailand",
+    "emoji": "🇹🇭",
+    "translations": {
+      "en": { "text": "Thailand" },
+      "fr": { "text": "Thaïlande" },
+      "it": { "text": "Thailandia" },
+      "de": { "text": "Thailand" },
+      "es": { "text": "Tailandia" },
+      "pt": { "text": "Tailândia" },
+      "ja": { "text": "タイ", "kana": "タイ", "romaji": "tai" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "tajikistan",
+    "emoji": "🇹🇯",
+    "translations": {
+      "en": { "text": "Tajikistan" },
+      "fr": { "text": "Tadjikistan" },
+      "it": { "text": "Tagikistan" },
+      "de": { "text": "Tadschikistan" },
+      "es": { "text": "Tayikistán" },
+      "pt": { "text": "Tajiquistão" },
+      "ja": {
+        "text": "タジキスタン",
+        "kana": "タジキスタン",
+        "romaji": "tajikisutan"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "tokelau",
+    "emoji": "🇹🇰",
+    "translations": {
+      "en": { "text": "Tokelau" },
+      "fr": { "text": "Tokelau" },
+      "it": { "text": "Tokelau" },
+      "de": { "text": "Tokelau" },
+      "es": { "text": "Tokelau" },
+      "pt": { "text": "Tokelau" },
+      "ja": { "text": "トケラウ", "kana": "トケラウ", "romaji": "tokerau" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "timor-leste",
+    "emoji": "🇹🇱",
+    "translations": {
+      "en": { "text": "Timor-Leste" },
+      "fr": { "text": "Timor oriental" },
+      "it": { "text": "Timor Est" },
+      "de": { "text": "Timor-Leste" },
+      "es": { "text": "Timor-Leste" },
+      "pt": { "text": "Timor-Leste" },
+      "ja": {
+        "text": "東ティモール",
+        "kana": "ひがしティモール",
+        "romaji": "higashitimooru"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "turkmenistan",
+    "emoji": "🇹🇲",
+    "translations": {
+      "en": { "text": "Turkmenistan" },
+      "fr": { "text": "Turkménistan" },
+      "it": { "text": "Turkmenistan" },
+      "de": { "text": "Turkmenistan" },
+      "es": { "text": "Turkmenistán" },
+      "pt": { "text": "Turcomenistão" },
+      "ja": {
+        "text": "トルクメニスタン",
+        "kana": "トルクメニスタン",
+        "romaji": "torukumenisutan"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "tunisia",
+    "emoji": "🇹🇳",
+    "translations": {
+      "en": { "text": "Tunisia" },
+      "fr": { "text": "Tunisie" },
+      "it": { "text": "Tunisia" },
+      "de": { "text": "Tunesien" },
+      "es": { "text": "Túnez" },
+      "pt": { "text": "Tunísia" },
+      "ja": { "text": "チュニジア", "kana": "チュニジア", "romaji": "chunijia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "tonga",
+    "emoji": "🇹🇴",
+    "translations": {
+      "en": { "text": "Tonga" },
+      "fr": { "text": "Tonga" },
+      "it": { "text": "Tonga" },
+      "de": { "text": "Tonga" },
+      "es": { "text": "Tonga" },
+      "pt": { "text": "Tonga" },
+      "ja": { "text": "トンガ", "kana": "トンガ", "romaji": "tonga" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "turkiye",
+    "emoji": "🇹🇷",
+    "translations": {
+      "en": { "text": "Türkiye" },
+      "fr": { "text": "Turquie" },
+      "it": { "text": "Turchia" },
+      "de": { "text": "Türkei" },
+      "es": { "text": "Turquía" },
+      "pt": { "text": "Turquia" },
+      "ja": { "text": "トルコ", "kana": "トルコ", "romaji": "toruko" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "trinidad-tobago",
+    "emoji": "🇹🇹",
+    "translations": {
+      "en": { "text": "Trinidad & Tobago" },
+      "fr": { "text": "Trinité-et-Tobago" },
+      "it": { "text": "Trinidad e Tobago" },
+      "de": { "text": "Trinidad und Tobago" },
+      "es": { "text": "Trinidad y Tobago" },
+      "pt": { "text": "Trinidad e Tobago" },
+      "ja": {
+        "text": "トリニダード・トバゴ",
+        "kana": "トリニダード・トバゴ",
+        "romaji": "torinidaado tobago"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "tuvalu",
+    "emoji": "🇹🇻",
+    "translations": {
+      "en": { "text": "Tuvalu" },
+      "fr": { "text": "Tuvalu" },
+      "it": { "text": "Tuvalu" },
+      "de": { "text": "Tuvalu" },
+      "es": { "text": "Tuvalu" },
+      "pt": { "text": "Tuvalu" },
+      "ja": { "text": "ツバル", "kana": "ツバル", "romaji": "tsubaru" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "taiwan",
+    "emoji": "🇹🇼",
+    "translations": {
+      "en": { "text": "Taiwan" },
+      "fr": { "text": "Taïwan" },
+      "it": { "text": "Taiwan" },
+      "de": { "text": "Taiwan" },
+      "es": { "text": "Taiwán" },
+      "pt": { "text": "Taiwan" },
+      "ja": { "text": "台湾", "kana": "たいわん", "romaji": "taiwan" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "tanzania",
+    "emoji": "🇹🇿",
+    "translations": {
+      "en": { "text": "Tanzania" },
+      "fr": { "text": "Tanzanie" },
+      "it": { "text": "Tanzania" },
+      "de": { "text": "Tansania" },
+      "es": { "text": "Tanzania" },
+      "pt": { "text": "Tanzânia" },
+      "ja": { "text": "タンザニア", "kana": "タンザニア", "romaji": "tanzania" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "ukraine",
+    "emoji": "🇺🇦",
+    "translations": {
+      "en": { "text": "Ukraine" },
+      "fr": { "text": "Ukraine" },
+      "it": { "text": "Ucraina" },
+      "de": { "text": "Ukraine" },
+      "es": { "text": "Ucrania" },
+      "pt": { "text": "Ucrânia" },
+      "ja": { "text": "ウクライナ", "kana": "ウクライナ", "romaji": "ukuraina" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "uganda",
+    "emoji": "🇺🇬",
+    "translations": {
+      "en": { "text": "Uganda" },
+      "fr": { "text": "Ouganda" },
+      "it": { "text": "Uganda" },
+      "de": { "text": "Uganda" },
+      "es": { "text": "Uganda" },
+      "pt": { "text": "Uganda" },
+      "ja": { "text": "ウガンダ", "kana": "ウガンダ", "romaji": "uganda" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "u-s-outlying-islands",
+    "emoji": "🇺🇲",
+    "translations": {
+      "en": { "text": "U.S. Outlying Islands" },
+      "fr": { "text": "Îles mineures éloignées des États-Unis" },
+      "it": { "text": "Isole minori esterne degli Stati Uniti" },
+      "de": { "text": "Amerikanische Überseeinseln" },
+      "es": { "text": "Islas menores alejadas de EE. UU." },
+      "pt": { "text": "Ilhas Menores Distantes dos EUA" },
+      "ja": {
+        "text": "合衆国領有小離島",
+        "kana": "がっしゅうこくりょうゆうしょうりとう",
+        "romaji": "gasshuukokuryouyuushouritou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "united-nations",
+    "emoji": "🇺🇳",
+    "translations": {
+      "en": { "text": "United Nations" },
+      "fr": { "text": "Nations Unies" },
+      "it": { "text": "Nazioni Unite" },
+      "de": { "text": "Vereinte Nationen" },
+      "es": { "text": "Naciones Unidas" },
+      "pt": { "text": "Nações Unidas" },
+      "ja": {
+        "text": "国際連合",
+        "kana": "こくさいれんごう",
+        "romaji": "kokusairengou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "united-states",
+    "emoji": "🇺🇸",
+    "translations": {
+      "en": { "text": "United States" },
+      "fr": { "text": "États-Unis" },
+      "it": { "text": "Stati Uniti" },
+      "de": { "text": "Vereinigte Staaten" },
+      "es": { "text": "Estados Unidos" },
+      "pt": { "text": "Estados Unidos" },
+      "ja": { "text": "アメリカ", "kana": "アメリカ", "romaji": "amerika" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "uruguay",
+    "emoji": "🇺🇾",
+    "translations": {
+      "en": { "text": "Uruguay" },
+      "fr": { "text": "Uruguay" },
+      "it": { "text": "Uruguay" },
+      "de": { "text": "Uruguay" },
+      "es": { "text": "Uruguay" },
+      "pt": { "text": "Uruguai" },
+      "ja": { "text": "ウルグアイ", "kana": "ウルグアイ", "romaji": "uruguai" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "uzbekistan",
+    "emoji": "🇺🇿",
+    "translations": {
+      "en": { "text": "Uzbekistan" },
+      "fr": { "text": "Ouzbékistan" },
+      "it": { "text": "Uzbekistan" },
+      "de": { "text": "Usbekistan" },
+      "es": { "text": "Uzbekistán" },
+      "pt": { "text": "Uzbequistão" },
+      "ja": {
+        "text": "ウズベキスタン",
+        "kana": "ウズベキスタン",
+        "romaji": "uzubekisutan"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "vatican-city",
+    "emoji": "🇻🇦",
+    "translations": {
+      "en": { "text": "Vatican City" },
+      "fr": { "text": "État de la Cité du Vatican" },
+      "it": { "text": "Città del Vaticano" },
+      "de": { "text": "Vatikanstadt" },
+      "es": { "text": "Ciudad del Vaticano" },
+      "pt": { "text": "Cidade do Vaticano" },
+      "ja": {
+        "text": "バチカン市国",
+        "kana": "バチカンしこく",
+        "romaji": "bachikanshikoku"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "st-vincent-grenadines",
+    "emoji": "🇻🇨",
+    "translations": {
+      "en": { "text": "St. Vincent & Grenadines" },
+      "fr": { "text": "Saint-Vincent-et-les Grenadines" },
+      "it": { "text": "Saint Vincent e Grenadine" },
+      "de": { "text": "St. Vincent und die Grenadinen" },
+      "es": { "text": "San Vicente y las Granadinas" },
+      "pt": { "text": "São Vicente e Granadinas" },
+      "ja": {
+        "text": "セントビンセント・グレナディーン",
+        "kana": "セントビンセント・グレナディーン",
+        "romaji": "sentobinsento gurenadiin"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "venezuela",
+    "emoji": "🇻🇪",
+    "translations": {
+      "en": { "text": "Venezuela" },
+      "fr": { "text": "Venezuela" },
+      "it": { "text": "Venezuela" },
+      "de": { "text": "Venezuela" },
+      "es": { "text": "Venezuela" },
+      "pt": { "text": "Venezuela" },
+      "ja": {
+        "text": "ベネズエラ",
+        "kana": "ベネズエラ",
+        "romaji": "benezuera"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "british-virgin-islands",
+    "emoji": "🇻🇬",
+    "translations": {
+      "en": { "text": "British Virgin Islands" },
+      "fr": { "text": "Îles Vierges britanniques" },
+      "it": { "text": "Isole Vergini Britanniche" },
+      "de": { "text": "Britische Jungferninseln" },
+      "es": { "text": "Islas Vírgenes Británicas" },
+      "pt": { "text": "Ilhas Virgens Britânicas" },
+      "ja": {
+        "text": "イギリス領ヴァージン諸島",
+        "kana": "イギリスりょうヴァージンしょとう",
+        "romaji": "igirisuryouvaajinshotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "u-s-virgin-islands",
+    "emoji": "🇻🇮",
+    "translations": {
+      "en": { "text": "U.S. Virgin Islands" },
+      "fr": { "text": "Îles Vierges des États-Unis" },
+      "it": { "text": "Isole Vergini Americane" },
+      "de": { "text": "Amerikanische Jungferninseln" },
+      "es": { "text": "Islas Vírgenes de EE. UU." },
+      "pt": { "text": "Ilhas Virgens Americanas" },
+      "ja": {
+        "text": "アメリカ領ヴァージン諸島",
+        "kana": "アメリカりょうヴァージンしょとう",
+        "romaji": "amerikaryouvaajinshotou"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "vietnam",
+    "emoji": "🇻🇳",
+    "translations": {
+      "en": { "text": "Vietnam" },
+      "fr": { "text": "Viêt Nam" },
+      "it": { "text": "Vietnam" },
+      "de": { "text": "Vietnam" },
+      "es": { "text": "Vietnam" },
+      "pt": { "text": "Vietnã" },
+      "ja": { "text": "ベトナム", "kana": "ベトナム", "romaji": "betonamu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "vanuatu",
+    "emoji": "🇻🇺",
+    "translations": {
+      "en": { "text": "Vanuatu" },
+      "fr": { "text": "Vanuatu" },
+      "it": { "text": "Vanuatu" },
+      "de": { "text": "Vanuatu" },
+      "es": { "text": "Vanuatu" },
+      "pt": { "text": "Vanuatu" },
+      "ja": { "text": "バヌアツ", "kana": "バヌアツ", "romaji": "banuatsu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "wallis-futuna",
+    "emoji": "🇼🇫",
+    "translations": {
+      "en": { "text": "Wallis & Futuna" },
+      "fr": { "text": "Wallis-et-Futuna" },
+      "it": { "text": "Wallis e Futuna" },
+      "de": { "text": "Wallis und Futuna" },
+      "es": { "text": "Wallis y Futuna" },
+      "pt": { "text": "Wallis e Futuna" },
+      "ja": {
+        "text": "ウォリス・フツナ",
+        "kana": "ウォリス・フツナ",
+        "romaji": "worisu futsuna"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "samoa",
+    "emoji": "🇼🇸",
+    "translations": {
+      "en": { "text": "Samoa" },
+      "fr": { "text": "Samoa" },
+      "it": { "text": "Samoa" },
+      "de": { "text": "Samoa" },
+      "es": { "text": "Samoa" },
+      "pt": { "text": "Samoa" },
+      "ja": { "text": "サモア", "kana": "サモア", "romaji": "samoa" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "kosovo",
+    "emoji": "🇽🇰",
+    "translations": {
+      "en": { "text": "Kosovo" },
+      "fr": { "text": "Kosovo" },
+      "it": { "text": "Kosovo" },
+      "de": { "text": "Kosovo" },
+      "es": { "text": "Kosovo" },
+      "pt": { "text": "Kosovo" },
+      "ja": { "text": "コソボ", "kana": "コソボ", "romaji": "kosobo" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "yemen",
+    "emoji": "🇾🇪",
+    "translations": {
+      "en": { "text": "Yemen" },
+      "fr": { "text": "Yémen" },
+      "it": { "text": "Yemen" },
+      "de": { "text": "Jemen" },
+      "es": { "text": "Yemen" },
+      "pt": { "text": "Iêmen" },
+      "ja": { "text": "イエメン", "kana": "イエメン", "romaji": "iemen" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "mayotte",
+    "emoji": "🇾🇹",
+    "translations": {
+      "en": { "text": "Mayotte" },
+      "fr": { "text": "Mayotte" },
+      "it": { "text": "Mayotte" },
+      "de": { "text": "Mayotte" },
+      "es": { "text": "Mayotte" },
+      "pt": { "text": "Mayotte" },
+      "ja": { "text": "マヨット", "kana": "マヨット", "romaji": "mayotto" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "south-africa",
+    "emoji": "🇿🇦",
+    "translations": {
+      "en": { "text": "South Africa" },
+      "fr": { "text": "Afrique du Sud" },
+      "it": { "text": "Sudafrica" },
+      "de": { "text": "Südafrika" },
+      "es": { "text": "Sudáfrica" },
+      "pt": { "text": "África do Sul" },
+      "ja": {
+        "text": "南アフリカ",
+        "kana": "みなみアフリカ",
+        "romaji": "minamiafurika"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "zambia",
+    "emoji": "🇿🇲",
+    "translations": {
+      "en": { "text": "Zambia" },
+      "fr": { "text": "Zambie" },
+      "it": { "text": "Zambia" },
+      "de": { "text": "Sambia" },
+      "es": { "text": "Zambia" },
+      "pt": { "text": "Zâmbia" },
+      "ja": { "text": "ザンビア", "kana": "ザンビア", "romaji": "zanbia" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "zimbabwe",
+    "emoji": "🇿🇼",
+    "translations": {
+      "en": { "text": "Zimbabwe" },
+      "fr": { "text": "Zimbabwe" },
+      "it": { "text": "Zimbabwe" },
+      "de": { "text": "Simbabwe" },
+      "es": { "text": "Zimbabue" },
+      "pt": { "text": "Zimbábue" },
+      "ja": { "text": "ジンバブエ", "kana": "ジンバブエ", "romaji": "jinbabue" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "england",
+    "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "translations": {
+      "en": { "text": "England" },
+      "fr": { "text": "Angleterre" },
+      "it": { "text": "Inghilterra" },
+      "de": { "text": "England" },
+      "es": { "text": "Inglaterra" },
+      "pt": { "text": "Inglaterra" },
+      "ja": {
+        "text": "イングランド",
+        "kana": "イングランド",
+        "romaji": "ingurando"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "scotland",
+    "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "translations": {
+      "en": { "text": "Scotland" },
+      "fr": { "text": "Écosse" },
+      "it": { "text": "Scozia" },
+      "de": { "text": "Schottland" },
+      "es": { "text": "Escocia" },
+      "pt": { "text": "Escócia" },
+      "ja": {
+        "text": "スコットランド",
+        "kana": "スコットランド",
+        "romaji": "sukottorando"
+      }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "wales",
+    "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "translations": {
+      "en": { "text": "Wales" },
+      "fr": { "text": "Pays de Galles" },
+      "it": { "text": "Galles" },
+      "de": { "text": "Wales" },
+      "es": { "text": "Gales" },
+      "pt": { "text": "País de Gales" },
+      "ja": { "text": "ウェールズ", "kana": "ウェールズ", "romaji": "weeruzu" }
+    },
+    "categories": ["countries"]
+  },
+  {
+    "id": "balloon",
+    "emoji": "🎈",
+    "translations": {
+      "en": { "text": "balloon" },
+      "fr": { "article": "un", "text": "ballon" },
+      "it": { "text": "palloncino" },
+      "de": { "text": "Luftballon" },
+      "es": { "text": "globo" },
+      "pt": { "text": "balão" },
+      "ja": { "text": "風船", "kana": "ふうせん", "romaji": "fuusen" }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "ribbon",
+    "emoji": "🎀",
+    "translations": {
+      "en": { "text": "ribbon" },
+      "fr": { "article": "un", "text": "ruban" },
+      "it": { "text": "fiocco" },
+      "de": { "text": "Schleife" },
+      "es": { "text": "lazo" },
+      "pt": { "text": "laço" },
+      "ja": { "text": "リボン", "kana": "リボン", "romaji": "ribon" }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "wrapped-gift",
+    "emoji": "🎁",
+    "translations": {
+      "en": { "text": "gift" },
+      "fr": { "article": "un", "text": "cadeau" },
+      "it": { "text": "regalo" },
+      "de": { "text": "Geschenk" },
+      "es": { "text": "regalo" },
+      "pt": { "text": "presente" },
+      "ja": {
+        "text": "プレゼント",
+        "kana": "プレゼント",
+        "romaji": "purezento"
+      }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "ticket",
+    "emoji": "🎫",
+    "translations": {
+      "en": { "text": "ticket" },
+      "fr": { "article": "un", "text": "ticket" },
+      "it": { "text": "biglietto" },
+      "de": { "text": "Ticket" },
+      "es": { "text": "entrada" },
+      "pt": { "text": "ingresso" },
+      "ja": { "text": "チケット", "kana": "チケット", "romaji": "chiketto" }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "trophy",
+    "emoji": "🏆",
+    "translations": {
+      "en": { "text": "trophy" },
+      "fr": { "article": "un", "text": "trophée" },
+      "it": { "text": "trofeo" },
+      "de": { "text": "Pokal" },
+      "es": { "text": "trofeo" },
+      "pt": { "text": "troféu" },
+      "ja": { "text": "トロフィー", "kana": "トロフィー", "romaji": "torofii" }
+    },
+    "categories": ["new", "sports", "objects"]
+  },
+  {
+    "id": "1st-place-medal",
+    "emoji": "🥇",
+    "translations": {
+      "en": { "text": "medal" },
+      "fr": { "article": "une", "text": "médaille" },
+      "it": { "text": "medaglia" },
+      "de": { "text": "Medaille" },
+      "es": { "text": "medalla" },
+      "pt": { "text": "medalha" },
+      "ja": { "text": "メダル", "kana": "メダル", "romaji": "medaru" }
+    },
+    "categories": ["new", "sports", "objects"]
+  },
+  {
+    "id": "soccer-ball",
+    "emoji": "⚽",
+    "translations": {
+      "en": { "text": "football" },
+      "fr": { "text": "football" },
+      "it": { "text": "calcio" },
+      "de": { "text": "Fußball" },
+      "es": { "text": "fútbol" },
+      "pt": { "text": "futebol" },
+      "ja": { "text": "サッカー", "kana": "サッカー", "romaji": "sakkaa" }
+    },
+    "categories": ["new", "sports"]
+  },
+  {
+    "id": "baseball",
+    "emoji": "⚾",
+    "translations": {
+      "en": { "text": "baseball" },
+      "fr": { "text": "baseball" },
+      "it": { "text": "baseball" },
+      "de": { "text": "Baseball" },
+      "es": { "text": "béisbol" },
+      "pt": { "text": "beisebol" },
+      "ja": { "text": "野球", "kana": "やきゅう", "romaji": "yakyuu" }
+    },
+    "categories": ["new", "sports"]
+  },
+  {
+    "id": "basketball",
+    "emoji": "🏀",
+    "translations": {
+      "en": { "text": "basketball" },
+      "fr": { "text": "basket" },
+      "it": { "text": "pallacanestro" },
+      "de": { "text": "Basketball" },
+      "es": { "text": "baloncesto" },
+      "pt": { "text": "basquete" },
+      "ja": {
+        "text": "バスケットボール",
+        "kana": "バスケットボール",
+        "romaji": "basukettobooru"
+      }
+    },
+    "categories": ["new", "sports"]
+  },
+  {
+    "id": "tennis",
+    "emoji": "🎾",
+    "translations": {
+      "en": { "text": "tennis" },
+      "fr": { "text": "tennis" },
+      "it": { "text": "tennis" },
+      "de": { "text": "Tennis" },
+      "es": { "text": "tenis" },
+      "pt": { "text": "tênis" },
+      "ja": { "text": "テニス", "kana": "テニス", "romaji": "tenisu" }
+    },
+    "categories": ["new", "sports"]
+  },
+  {
+    "id": "ping-pong",
+    "emoji": "🏓",
+    "translations": {
+      "en": { "text": "ping pong" },
+      "fr": { "text": "ping-pong" },
+      "it": { "text": "ping pong" },
+      "de": { "text": "Tischtennis" },
+      "es": { "text": "tenis de mesa" },
+      "pt": { "text": "pingue-pongue" },
+      "ja": { "text": "卓球", "kana": "たっきゅう", "romaji": "takkyuu" }
+    },
+    "categories": ["new", "sports"]
+  },
+  {
+    "id": "flag-in-hole",
+    "emoji": "⛳",
+    "translations": {
+      "en": { "text": "golf" },
+      "fr": { "text": "golf" },
+      "it": { "text": "golf" },
+      "de": { "text": "Golf" },
+      "es": { "text": "golf" },
+      "pt": { "text": "golfe" },
+      "ja": { "text": "ゴルフ", "kana": "ゴルフ", "romaji": "gorufu" }
+    },
+    "categories": ["new", "sports"]
+  },
+  {
+    "id": "fishing-pole",
+    "emoji": "🎣",
+    "translations": {
+      "en": { "text": "fishing" },
+      "fr": { "text": "pêche" },
+      "it": { "text": "pesca" },
+      "de": { "text": "Angeln" },
+      "es": { "text": "pesca" },
+      "pt": { "text": "pesca" },
+      "ja": { "text": "釣り", "kana": "つり", "romaji": "tsuri" }
+    },
+    "categories": ["new", "sports"]
+  },
+  {
+    "id": "skis",
+    "emoji": "🎿",
+    "translations": {
+      "en": { "text": "ski" },
+      "fr": { "text": "ski" },
+      "it": { "text": "sci" },
+      "de": { "text": "Ski" },
+      "es": { "text": "esquí" },
+      "pt": { "text": "esqui" },
+      "ja": { "text": "スキー", "kana": "スキー", "romaji": "sukii" }
+    },
+    "categories": ["new", "sports"]
+  },
+  {
+    "id": "kite",
+    "emoji": "🪁",
+    "translations": {
+      "en": { "text": "kite" },
+      "fr": { "article": "un", "text": "cerf-volant" },
+      "it": { "text": "aquilone" },
+      "de": { "text": "Drachen" },
+      "es": { "text": "cometa" },
+      "pt": { "text": "pipa" },
+      "ja": { "text": "凧", "kana": "たこ", "romaji": "tako" }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "magic-wand",
+    "emoji": "🪄",
+    "translations": {
+      "en": { "text": "magic wand" },
+      "fr": { "article": "une", "text": "baguette magique" },
+      "it": { "text": "bacchetta magica" },
+      "de": { "text": "Zauberstab" },
+      "es": { "text": "varita mágica" },
+      "pt": { "text": "varinha mágica" },
+      "ja": {
+        "text": "魔法の杖",
+        "kana": "まほうのつえ",
+        "romaji": "mahounotsue"
+      }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "video-game",
+    "emoji": "🎮",
+    "translations": {
+      "en": { "text": "video game" },
+      "fr": { "article": "un", "text": "jeu vidéo" },
+      "it": { "text": "videogioco" },
+      "de": { "text": "Videospiel" },
+      "es": { "text": "videojuego" },
+      "pt": { "text": "videogame" },
+      "ja": { "text": "ゲーム", "kana": "ゲーム", "romaji": "geemu" }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "game-die",
+    "emoji": "🎲",
+    "translations": {
+      "en": { "text": "dice" },
+      "fr": { "article": "un", "text": "dé" },
+      "it": { "text": "dado" },
+      "de": { "text": "Würfel" },
+      "es": { "text": "dado" },
+      "pt": { "text": "dado" },
+      "ja": { "text": "サイコロ", "kana": "サイコロ", "romaji": "saikoro" }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "puzzle-piece",
+    "emoji": "🧩",
+    "translations": {
+      "en": { "text": "puzzle" },
+      "fr": { "article": "un", "text": "puzzle" },
+      "it": { "text": "puzzle" },
+      "de": { "text": "Puzzle" },
+      "es": { "text": "puzle" },
+      "pt": { "text": "quebra-cabeça" },
+      "ja": { "text": "パズル", "kana": "パズル", "romaji": "pazuru" }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "teddy-bear",
+    "emoji": "🧸",
+    "translations": {
+      "en": { "text": "teddy bear" },
+      "fr": { "article": "un", "text": "ours en peluche" },
+      "it": { "text": "orsetto" },
+      "de": { "text": "Teddybär" },
+      "es": { "text": "osito de peluche" },
+      "pt": { "text": "ursinho de pelúcia" },
+      "ja": {
+        "text": "ぬいぐるみ",
+        "kana": "ぬいぐるみ",
+        "romaji": "nuigurumi"
+      }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "framed-picture",
+    "emoji": "🖼️",
+    "translations": {
+      "en": { "text": "picture" },
+      "fr": { "article": "une", "text": "image" },
+      "it": { "text": "immagine" },
+      "de": { "text": "Bild" },
+      "es": { "text": "imagen" },
+      "pt": { "text": "imagem" },
+      "ja": { "text": "絵", "kana": "え", "romaji": "e" }
+    },
+    "categories": ["new", "objects", "school"]
+  },
+  {
+    "id": "thread",
+    "emoji": "🧵",
+    "translations": {
+      "en": { "text": "thread" },
+      "fr": { "article": "un", "text": "fil" },
+      "it": { "text": "filo" },
+      "de": { "text": "Faden" },
+      "es": { "text": "hilo" },
+      "pt": { "text": "linha" },
+      "ja": { "text": "糸", "kana": "いと", "romaji": "ito" }
+    },
+    "categories": ["new", "objects"]
+  },
+  {
+    "id": "sewing-needle",
+    "emoji": "🪡",
+    "translations": {
+      "en": { "text": "needle" },
+      "fr": { "article": "une", "text": "aiguille" },
+      "it": { "text": "ago" },
+      "de": { "text": "Nadel" },
+      "es": { "text": "aguja" },
+      "pt": { "text": "agulha" },
+      "ja": { "text": "針", "kana": "はり", "romaji": "hari" }
+    },
+    "categories": ["new", "objects"]
   }
 ]

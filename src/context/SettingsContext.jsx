@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import { syncUiLanguage } from "@/i18n";
 import { setVoiceEnabled } from "@/lib/audio";
-import { setArticlesEnabled } from "@/hooks/useData";
+import { setArticlesEnabled, setHiddenCategories } from "@/hooks/useData";
 
 const STORAGE_KEY = "otousan.settings";
 const DEFAULTS = {
@@ -11,6 +11,7 @@ const DEFAULTS = {
   sound: true,
   voice: true,
   articles: false,
+  hiddenCategories: [], // category ids hidden from the games (never from the dictionary)
 };
 
 const SettingsContext = createContext(null);
@@ -21,6 +22,7 @@ function loadSettings() {
     const s = { ...DEFAULTS, ...saved };
     if (s.known === "ja-kana") s.known = "ja";
     if (s.learn === "ja-kana") s.learn = "ja";
+    if (!Array.isArray(s.hiddenCategories)) s.hiddenCategories = [];
     return s;
   } catch {
     return DEFAULTS;
@@ -31,6 +33,7 @@ export function SettingsProvider({ children }) {
   const [settings, setSettings] = useState(loadSettings);
 
   setArticlesEnabled(settings.articles);
+  setHiddenCategories(settings.hiddenCategories);
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
@@ -52,11 +55,19 @@ export function SettingsProvider({ children }) {
       sound: settings.sound,
       voice: settings.voice,
       articles: settings.articles,
+      hiddenCategories: settings.hiddenCategories,
       setKnown: (code) => setSettings((s) => ({ ...s, known: code })),
       setLearn: (code) => setSettings((s) => ({ ...s, learn: code })),
       setSound: (on) => setSettings((s) => ({ ...s, sound: on })),
       setVoice: (on) => setSettings((s) => ({ ...s, voice: on })),
       setArticles: (on) => setSettings((s) => ({ ...s, articles: on })),
+      toggleCategory: (id) =>
+        setSettings((s) => ({
+          ...s,
+          hiddenCategories: s.hiddenCategories.includes(id)
+            ? s.hiddenCategories.filter((c) => c !== id)
+            : [...s.hiddenCategories, id],
+        })),
       confirmSettings: () => setSettings((s) => ({ ...s, configured: true })),
     }),
     [settings],
